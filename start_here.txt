@@ -1,0 +1,79 @@
+ _________________________________________________
+/ the Unix command "head" allows to see the       \
+| first lines of a file.                          |
+|                                                 |
+| You can use the -n option to specify how many   |
+| lines to show. For example, try printing        |
+| the first 40 lines of this file.                |
+\                                                 /
+ -------------------------------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+
+ _________________________________________________
+/                                                 \
+| Well Done!                                      |
+|                                                 |
+| Another way to see the contents of a file is    |
+| using the less command. Try typing:             |
+|                                                 |
+|        less start_here.txt                      |
+|                                                 |
+| and scroll down with the arrow keys.            |
+\                                                 /
+ -------------------------------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+
+
+
+
+
+
+
+++++++++++++++++++++++++++
+Basic navigation in less
+++++++++++++++++++++++++++
+
+Once you typed "less start_here.txt", you will enter a new mode, 
+where you can browse the contents of the file.
+
+Press the arrow keys to scroll up/down.
+
++++++++++++++++++++++++++
+Searching for keywords
++++++++++++++++++++++++++
+
+You can also search for specific keywords, by pressing the / key and type  your search.
+
+For example, /key<Enter> will move the cursor to the next occurrence of the word "key".
+
+Press the keys n and p to move to the next (n) or previous (p) occurrence of your word.
+
+++++++++++++++++++++++++++
+Existing the less mode
+++++++++++++++++++++++++++
+
+To exit the visualization mode and go back to the normal terminal, press the "q" key.
+
+
+
+
+
+ _________________________________________
+/ These are the last lines of file. You   \
+\ can see them with "tail start_here.txt" /
+ -----------------------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
