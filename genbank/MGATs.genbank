@@ -1,0 +1,1357 @@
+LOCUS       NM_002410               8163 bp    mRNA    linear   PRI 23-JAN-2012
+DEFINITION  Homo sapiens mannosyl (alpha-1,6-)-glycoprotein
+            beta-1,6-N-acetyl-glucosaminyltransferase (MGAT5), mRNA.
+ACCESSION   NM_002410 NR_024275
+VERSION     NM_002410.4  GI:349732214
+KEYWORDS    .
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (bases 1 to 8163)
+  AUTHORS   Wei,T., Li,Y., Zhuo,E., Zhu,W., Meng,H. and Zhang,J.
+  TITLE     Down-regulation of GnT-V inhibits nasopharyngeal carcinoma cell
+            CNE-2 malignancy in vitro and in vivo
+  JOURNAL   Cancer Lett. 309 (2), 151-161 (2011)
+   PUBMED   21676538
+  REMARK    GeneRIF: GnT-V expression is positively correlated with malignancy
+            in nasopharyngeal carcinoma cells
+REFERENCE   2  (bases 1 to 8163)
+  AUTHORS   Esposito,F., Wojcik,J., Rodegher,M., Radaelli,M., Moiola,L.,
+            Ghezzi,A., Capra,R., Brambilla,P., Sorosina,M., Giacalone,G.,
+            Martinelli,V., Comi,G., Abderrahim,H. and Boneschi,F.M.
+  TITLE     MGAT5 and disease severity in progressive multiple sclerosis
+  JOURNAL   J. Neuroimmunol. 230 (1-2), 143-147 (2011)
+   PUBMED   21115203
+  REMARK    GeneRIF: The rs1257169(G) allele of MGAT5 is associated with lower
+            disease severity in multiple sclerosis
+REFERENCE   3  (bases 1 to 8163)
+  AUTHORS   Zhou,X., Chen,H., Wang,Q., Zhang,L. and Zhao,J.
+  TITLE     Knockdown of Mgat5 inhibits CD133+ human pulmonary adenocarcinoma
+            cell growth in vitro and in vivo
+  JOURNAL   Clin Invest Med 34 (3), E155-E162 (2011)
+   PUBMED   21631992
+  REMARK    GeneRIF: Findings suggest Mgat5 may play an important role during
+            oncogenesis, identifying a potential therapeutic target for
+            pulmonary adenocarcinoma.
+            Publication Status: Online-Only
+REFERENCE   4  (bases 1 to 8163)
+  AUTHORS   Dick,D.M., Meyers,J., Aliev,F., Nurnberger,J. Jr., Kramer,J.,
+            Kuperman,S., Porjesz,B., Tischfield,J., Edenberg,H.J., Foroud,T.,
+            Schuckit,M., Goate,A., Hesselbrock,V. and Bierut,L.
+  TITLE     Evidence for genes on chromosome 2 contributing to alcohol
+            dependence with conduct disorder and suicide attempts
+  JOURNAL   Am. J. Med. Genet. B Neuropsychiatr. Genet. 153B (6), 1179-1188
+            (2010)
+   PUBMED   20468071
+  REMARK    GeneRIF: Observational study of gene-disease association. (HuGE
+            Navigator)
+REFERENCE   5  (bases 1 to 8163)
+  AUTHORS   Yao,Y.H., Wei,T., Li,Y.H. and Zhang,J.
+  TITLE     [Short hairpin RNA targeting N-acetylglucosaminyltransferase V
+            inhibits the proliferation of prostate cancer PC-3 cell line]
+  JOURNAL   Nan Fang Yi Ke Da Xue Xue Bao 30 (6), 1253-1255 (2010)
+   PUBMED   20584650
+  REMARK    GeneRIF: Inhibiting expression of N-acetylglucosaminyltransferase V
+            inhibits the proliferation of PC-3 cells.
+REFERENCE   6  (bases 1 to 8163)
+  AUTHORS   Granovsky,M., Fata,J., Pawling,J., Muller,W.J., Khokha,R. and
+            Dennis,J.W.
+  TITLE     Suppression of tumor growth and metastasis in Mgat5-deficient mice
+  JOURNAL   Nat. Med. 6 (3), 306-312 (2000)
+   PUBMED   10700233
+REFERENCE   7  (bases 1 to 8163)
+  AUTHORS   Dennis,J.W., Granovsky,M. and Warren,C.E.
+  TITLE     Glycoprotein glycosylation and cancer progression
+  JOURNAL   Biochim. Biophys. Acta 1473 (1), 21-34 (1999)
+   PUBMED   10580127
+  REMARK    Review article
+REFERENCE   8  (bases 1 to 8163)
+  AUTHORS   Park,C., Jin,U.H., Lee,Y.C., Cho,T.J. and Kim,C.H.
+  TITLE     Characterization of UDP-N-acetylglucosamine:alpha-6-d-mannoside
+            beta-1,6-N-acetylglucosaminyltransferase V from a human hepatoma
+            cell line Hep3B
+  JOURNAL   Arch. Biochem. Biophys. 367 (2), 281-288 (1999)
+   PUBMED   10395745
+REFERENCE   9  (bases 1 to 8163)
+  AUTHORS   Buckhaults,P., Chen,L., Fregien,N. and Pierce,M.
+  TITLE     Transcriptional regulation of N-acetylglucosaminyltransferase V by
+            the src oncogene
+  JOURNAL   J. Biol. Chem. 272 (31), 19575-19581 (1997)
+   PUBMED   9235963
+REFERENCE   10 (bases 1 to 8163)
+  AUTHORS   Saito,H., Nishikawa,A., Gu,J., Ihara,Y., Soejima,H., Wada,Y.,
+            Sekiya,C., Niikawa,N. and Taniguchi,N.
+  TITLE     cDNA cloning and chromosomal mapping of human
+            N-acetylglucosaminyltransferase V+
+  JOURNAL   Biochem. Biophys. Res. Commun. 198 (1), 318-327 (1994)
+   PUBMED   8292036
+COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff. The
+            reference sequence was derived from AC016906.7, D17716.1,
+            AC013718.6, BU191961.1, BX647087.1, DB237089.1, DB223638.1 and
+            AK056461.1.
+            This sequence is a reference standard in the RefSeqGene project.
+            On or before Oct 7, 2011 this sequence version replaced
+            gi:210033072, gi:126352678.
+            
+            Publication Note:  This RefSeq record includes a subset of the
+            publications that are available for this gene. Please see the Gene
+            record to access additional publications.
+            
+            Summary: The protein encoded by this gene belongs to the
+            glycosyltransferase family. It catalyzes the addition of
+            beta-1,6-N-acetylglucosamine to the alpha-linked mannose of
+            biantennary N-linked oligosaccharides present on the newly
+            synthesized glycoproteins. It is one of the most important enzymes
+            involved in the regulation of the biosynthesis of glycoprotein
+            oligosaccharides. Alterations of the oligosaccharides on cell
+            surface glycoproteins cause significant changes in the adhesive or
+            migratory behavior of a cell. Increase in the activity of this
+            enzyme has been correlated with the progression of invasive
+            malignancies. [provided by RefSeq, Oct 2011].
+            
+            Sequence Note: This RefSeq record was created from transcript and
+            genomic sequence data to make the sequence consistent with the
+            reference genome assembly. The genomic coordinates used for the
+            transcript record were based on transcript alignments.
+            COMPLETENESS: complete on the 3' end.
+PRIMARY     REFSEQ_SPAN         PRIMARY_IDENTIFIER PRIMARY_SPAN        COMP
+            1-3                 AC016906.7         73991-73993
+            4-2421              D17716.1           4-2421
+            2422-2817           AC013718.6         36191-36586
+            2818-3455           BU191961.1         1-638
+            3456-3978           BX647087.1         614-1136
+            3979-4322           DB237089.1         152-495
+            4323-4819           DB223638.1         10-506
+            4820-6220           BX647087.1         1976-3376
+            6221-8144           AK056461.1         834-2757
+            8145-8163           BX647087.1         5301-5319
+FEATURES             Location/Qualifiers
+     source          1..8163
+                     /organism="Homo sapiens"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9606"
+                     /chromosome="2"
+                     /map="2q21.3"
+     gene            1..8163
+                     /gene="MGAT5"
+                     /gene_synonym="GNT-V; GNT-VA"
+                     /note="mannosyl (alpha-1,6-)-glycoprotein
+                     beta-1,6-N-acetyl-glucosaminyltransferase"
+                     /db_xref="GeneID:4249"
+                     /db_xref="HGNC:7049"
+                     /db_xref="HPRD:03467"
+                     /db_xref="MIM:601774"
+     misc_feature    128..130
+                     /gene="MGAT5"
+                     /gene_synonym="GNT-V; GNT-VA"
+                     /note="upstream in-frame stop codon"
+     CDS             146..2371
+                     /gene="MGAT5"
+                     /gene_synonym="GNT-V; GNT-VA"
+                     /EC_number="2.4.1.155"
+                     /note="alpha-mannoside
+                     beta-1,6-N-acetylglucosaminyltransferase; glcNAc-T V;
+                     N-acetylglucosaminyl-transferase V; mannoside
+                     acetylglucosaminyltransferase 5"
+                     /codon_start=1
+                     /product="alpha-1,6-mannosylglycoprotein
+                     6-beta-N-acetylglucosaminyltransferase A"
+                     /protein_id="NP_002401.1"
+                     /db_xref="GI:4505167"
+                     /db_xref="CCDS:CCDS2171.1"
+                     /db_xref="GeneID:4249"
+                     /db_xref="HGNC:7049"
+                     /db_xref="HPRD:03467"
+                     /db_xref="MIM:601774"
+                     /translation="MALFTPWKLSSQKLGFFLVTFGFIWGMMLLHFTIQQRTQPESSS
+                     MLREQILDLSKRYIKALAEENRNVVDGPYAGVMTAYDLKKTLAVLLDNILQRIGKLES
+                     KVDNLVVNGTGTNSTNSTTAVPSLVALEKINVADIINGAQEKCVLPPMDGYPHCEGKI
+                     KWMKDMWRSDPCYADYGVDGSTCSFFIYLSEVENWCPHLPWRAKNPYEEADHNSLAEI
+                     RTDFNILYSMMKKHEEFRWMRLRIRRMADAWIQAIKSLAEKQNLEKRKRKKVLVHLGL
+                     LTKESGFKIAETAFSGGPLGELVQWSDLITSLYLLGHDIRISASLAELKEIMKKVVGN
+                     RSGCPTVGDRIVELIYIDIVGLAQFKKTLGPSWVHYQCMLRVLDSFGTEPEFNHANYA
+                     QSKGHKTPWGKWNLNPQQFYTMFPHTPDNSFLGFVVEQHLNSSDIHHINEIKRQNQSL
+                     VYGKVDSFWKNKKIYLDIIHTYMEVHATVYGSSTKNIPSYVKNHGILSGRDLQFLLRE
+                     TKLFVGLGFPYEGPAPLEAIANGCAFLNPKFNPPKSSKNTDFFIGKPTLRELTSQHPY
+                     AEVFIGRPHVWTVDLNNQEEVEDAVKAILNQKIEPYMPYEFTCEGMLQRINAFIEKQD
+                     FCHGQVMWPPLSALQVKLAEPGQSCKQVCQESQLICEPSFFQHLNKDKDMLKYKVTCQ
+                     SSELAKDILVPSFDPKNKHCVFQGDLLLFSCAGAHPRHQRVCPCRDFIKGQVALCKDC
+                     L"
+     misc_feature    185..235
+                     /gene="MGAT5"
+                     /gene_synonym="GNT-V; GNT-VA"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (Q09328.1);
+                     transmembrane region"
+     polyA_signal    8126..8131
+                     /gene="MGAT5"
+                     /gene_synonym="GNT-V; GNT-VA"
+     polyA_site      8145
+                     /gene="MGAT5"
+                     /gene_synonym="GNT-V; GNT-VA"
+ORIGIN      
+        1 cagcagaatg gaagtgagga aaggcaacca gctgacacag gagccagagt gagaccagca
+       61 gactctcaca ctcaacctac accatgaatt tgtgtctatc ttctacgcgt taagagccaa
+      121 ggacaggtga agttgccaga gagcaatggc tctcttcact ccgtggaagt tgtcctctca
+      181 gaagctgggc tttttcctgg tgacttttgg cttcatttgg ggtatgatgc ttctgcactt
+      241 taccatccag cagcgaactc agcctgaaag cagctccatg ctgcgcgagc agatcctgga
+      301 cctcagcaaa aggtacatca aggcactggc agaagaaaac aggaatgtgg tggatgggcc
+      361 atacgctgga gtcatgacag cttatgatct gaagaaaacc cttgctgtgt tattagataa
+      421 cattttgcag cgcattggca agttggagtc gaaggtggac aatcttgttg tcaatggcac
+      481 cggaacaaac tcaaccaact ccactacagc tgttcccagc ttggttgcac ttgagaaaat
+      541 taatgtggca gatatcatta acggagctca agaaaaatgt gtattgcctc ctatggacgg
+      601 ctaccctcac tgtgagggaa agatcaagtg gatgaaagac atgtggcgtt cagatccctg
+      661 ctacgcagac tatggagtgg atggatccac ctgctctttt tttatttacc tcagtgaggt
+      721 tgaaaattgg tgtcctcatt taccttggag agcaaaaaat ccctacgaag aagctgatca
+      781 taattcattg gcggaaattc gtacagattt taatattctc tacagtatga tgaaaaagca
+      841 tgaagaattc cggtggatga gactacggat ccggcgaatg gctgacgcat ggatccaagc
+      901 aatcaagtcc ctggcagaaa agcagaacct tgaaaagaga aagcggaaga aagtcctcgt
+      961 tcacctggga ctcctgacca aggaatctgg atttaagatt gcagagacag ctttcagtgg
+     1021 tggccctctt ggtgaattag ttcaatggag tgatttaatt acatctctgt acttactggg
+     1081 ccatgacatt aggatttcag cttcactggc tgagctcaag gaaatcatga agaaggttgt
+     1141 aggaaaccga tctggctgcc caactgtagg agacagaatt gttgagctca tttacattga
+     1201 tattgtagga cttgctcaat tcaagaaaac tcttggacca tcctgggttc attaccagtg
+     1261 catgctccga gtccttgatt catttggtac tgaacccgaa tttaatcatg caaattatgc
+     1321 ccaatcgaaa ggccacaaga ccccttgggg aaaatggaat ctgaaccctc agcagtttta
+     1381 taccatgttc cctcataccc cagacaacag ctttctgggg tttgtggttg agcagcacct
+     1441 gaactccagt gatatccacc acattaatga aatcaaaagg cagaaccagt cccttgtgta
+     1501 tggcaaagtg gatagcttct ggaagaataa gaagatctac ttggacatta ttcacacata
+     1561 catggaagtg catgcaactg tttatggctc cagcacaaag aatattccca gttacgtgaa
+     1621 aaaccatggt atcctcagtg gacgggacct gcagttcctt cttcgagaaa ccaagttgtt
+     1681 tgttggactt gggttccctt acgagggccc agctcccctg gaagctatcg caaatggatg
+     1741 tgcttttctg aatcccaagt tcaacccacc caaaagcagc aaaaacacag actttttcat
+     1801 tggcaagcca actctgagag agctgacatc ccagcatcct tacgctgaag ttttcatcgg
+     1861 gcggccacat gtgtggactg ttgacctcaa caatcaggag gaagtagagg atgcagtgaa
+     1921 agcaatttta aatcagaaga ttgagccata catgccatat gaatttacgt gcgaggggat
+     1981 gctacagaga atcaatgctt tcattgaaaa acaggacttc tgccatgggc aagtgatgtg
+     2041 gccacccctc agcgccctac aggtcaagct tgctgagccc gggcagtcct gcaagcaggt
+     2101 gtgccaggag agccagctca tctgcgagcc ttctttcttc cagcacctca acaaggacaa
+     2161 ggacatgctg aagtacaagg tgacctgcca aagctcagag ctggccaagg acatcctggt
+     2221 gccctccttt gaccctaaga ataagcactg tgtgtttcaa ggtgacctcc tgctcttcag
+     2281 ctgtgcaggc gcccacccca ggcaccagag ggtctgcccc tgccgggact tcatcaaggg
+     2341 ccaggtggct ctctgcaaag actgcctata gcagctacct gctcagccct gcaccatgct
+     2401 gctggggaag acagtggccc cagccccgtc aggcagggcc agggacagaa gtcatgcagg
+     2461 gactctggca agagcctgaa ctttttcgta gaaggttctg aattggcatt gcccttgctg
+     2521 cactccgagc aacccagtgg agtcttcacc aaaacaaaac aagagcgtat gtcaggccag
+     2581 gagcctggct tgtccctggc acaacatcat ttctgtttct caaggagcaa ctgtgggaag
+     2641 actgtcactg cagctgctcc agggcaaaag aaagtctcaa gagtccttta aaacaaaaca
+     2701 ggaggaattg agctgatggg aaagaactct gaatgggaat attcctaaac ccattaactt
+     2761 atttattcgg gtgggaggga ggggaccgcg ggagggagag gagggattga tcacaggctt
+     2821 cttttatttc cactgttaat catccacctt cactatactg ttgttctgtc tgctttgggc
+     2881 agggtgcagg agagagaccg tgtgccgtgg ggctggtggc ctgctcaggg acagccatgg
+     2941 ggacctggca gctcaaaaca gatggcagca gaacaaaaga aacttttgct ttggaagcac
+     3001 agccaaactc cccagggcat cgtcatagat ggcacctaga gcatgggctg cctcagtcag
+     3061 ggggacgtgc ctgtgttgtc cagagagccc agccagggac gaaaaaggag atgaggcccc
+     3121 tttcctccat gtccccatgc ccagacacat accttggccg taatttcttt tagaatccct
+     3181 ttgggaagga aatacaggat tgagggattt tggagtttct ggtaaactca ccctccctcc
+     3241 agccccgcta tgaggaggaa agtagagatg aaagactcac gctgttcatg gacttggaga
+     3301 ggattatctt tgagccaaga tttggacagg agtgaagtcg gtccttaaga atttgtggcg
+     3361 cgaccggagc tgggctcctg acaggtgggc ttgtgttgtg tcccctctga tggcaccaaa
+     3421 gtccagggaa gggggctctt gatgtctgct gggggagtgg gggcagctca ggatgaatgc
+     3481 agtgccctgt cctggctact cacctgaggg tgtagctcgc aaaggtggga atctggtgct
+     3541 ggcttttcct tcaggcagga tcactctgac ttgttgagta atcagtcatc aggttggcct
+     3601 ggtcagacac actggacccc accttccaaa ccctggaccc ccccatgctc tgcctttgta
+     3661 taagttccca ccccactgaa tcattgctgc catgctctgt acaagtttgt aagtttctga
+     3721 aaagcccctg acatctccat gctgatgcaa gtgagacccc ttctgcctaa tgtgagcggt
+     3781 tggcgtcctc cacttggcct ctgctgggcg cctcagtcgc tcaatgatgt gctctgtgcc
+     3841 ggggcttcca agcacccttc ctgctaacag agggcggccc agtggagcct ccgctgggca
+     3901 gaactgatgg gcaaggcgta atggctggta gctttcagaa tgtgagggaa aggaagaatt
+     3961 ccgcttcatg gggactagag ttagtgtggg gcctttaagt ctgggaagtt acattctgct
+     4021 tctttctcaa ttgctacaca aatgtgcagc cagccttttt tcttaggccc actgagatcc
+     4081 ctgctcagtg cgtctcaatt gtatctccag tctaagagga gggtgggggg cacccggggc
+     4141 ctcctccact ccttaggtgg cccccaagca catctgccag gtagagtacc atggggaggc
+     4201 ctctgccctg agcatcatca caggggcgcc tccagacctg gctgagaata gcctctgctt
+     4261 gggcctagga agaagggcag aagtccaaag gaaaccttgg tgagtgagtg tgtgtgtgtg
+     4321 tgtgtgtgtg tgtgtgtgtg tgtgtgtgtg tgtgtatgag cctgtgcatt tcttttaagc
+     4381 aagggcagtt tcctgcagta ggagggcaga tgactggcat ccttgctgta aggaagagct
+     4441 ttttccttgt gaatgggcct cttggctgta ccctagggtg tgggaatttg ctagagttcc
+     4501 ctgacctgca atccctgggc cagtgccgcc ctctcctggg ctcttccagg agcattgaac
+     4561 actgaggatg tcaatgcaag tatctgacca acagggggag cctgcaggcc gagcaaagtt
+     4621 taacccactt agccactgct acttaagcaa ggaagctgaa aggtaacctt agccctgcct
+     4681 tgtgttccaa aagctgcaag gatcatttgc tggctgtccc taagttcaag gcctccctac
+     4741 cttccccttc ttttccaagt cacaacccgc cctgcccggg ccagacagcc cagaagaaca
+     4801 cttttctgcc atttaaaaat ccctctttca tcccccccag tccagtattg agtggaagtg
+     4861 cgccggagtt ccactgacag ggcagctgct cttggagcaa acaagcccac actccagttg
+     4921 tttagggcat tatctgaaga gtcagtgacc cctgaatgtg tactggctcc caggcctcct
+     4981 cagacttggc ccaggtctag tcagtgatcc tggagaggaa actggggagg gggcttccaa
+     5041 ctgccctgca tggaagagga gaggaaggtg cccctgtgtg ggctggaagc ctgcggaggt
+     5101 tttgccattg ctgatcttga tagaatccta aaccgattta tagctgataa cagttccatg
+     5161 gggagagaaa tcctaagtta tgattaatgt ttttccccgc tataatatct tgcctgtttt
+     5221 tttggattat tttccccatt gtgatcctaa gctcttaaaa aacttgaggg aaaacattca
+     5281 tctaatttac taaaagagaa agctttccat tgaaaggtag atactttgag gagtaaaaag
+     5341 acttctttga atgctggtaa acaccgcatt tattttgtgt atgcagtttg atttgcacat
+     5401 gtataaatgg agatgctttt catttttgtt tggactgggt ttgtgtcact gctcattaca
+     5461 gtttgctttt ttgtgtgttt gctgtgcgtt tggagatatt agtcagtttc tttagtgata
+     5521 tttgtttcct tgatgtgcct tttcgttttt ctttggggtt tttggaatcc ggatgctgtt
+     5581 gaagggcaat agcagactcc tccagctaag agacaggaca tgttcttgag ccactgtagc
+     5641 tgttgaagct ggacaccaga cgctccctat aacccccccg ccaggccata gcgtgtatgc
+     5701 atgtgcactt ccacccacag aggagggtgt gaagccttga gaacctcaag aaagggctgg
+     5761 attctgccat acctttgggt ctaccttggg actgctggtt gccaacgtgt caaccagcct
+     5821 gtgttccctg ccacccacgc acttgctgag gtgtggctga ggcagaatca tgtgaatggg
+     5881 tgcatccaag gagttcaggg ccctgcttgg agaagaaata ctttagcatc atgaaaggga
+     5941 aagaacgtgc accccttttt tgtttcttta gtgaatgcaa gatttaataa aagtgaataa
+     6001 tgagcttccc ctttgggagt ggagcccagt gcagctcact gacagggttg acatcagtat
+     6061 gatgtgttgg actgaaactg tatgtctgta ggtaggtgtg tgccttttag ggcagaccac
+     6121 ggtggccacc ccatttctcc aaggtggttt acctagcttg tgtatattag acattgccac
+     6181 cctcacctct ggccaaaaat tcttgattta aaaagaaaag tctattttgt taacgacagg
+     6241 ctctgttgta tgtgttacta tcccaagcct ggattatttt atttatttaa aagtatttta
+     6301 atttccatat tggctttatt ctaatcccat ccatccctgt ggagctgcag agcatcttca
+     6361 tgtgagtaga cggatggaca taaatagatt catgctcatt taggaagctg ggagtttcgt
+     6421 gaagctgagg gtgagttcct gtgattcttg ttcgcttcaa caaaaagtgg gagaccaagt
+     6481 ttttatagca aaagaccaaa ttagctgtag agtcttgaat gcagaaaaaa attaccctag
+     6541 ctttcttagc acttagggtt ttgtgaggat tcagtgttta gcacagtgct tggcacatag
+     6601 taagccctag taaatgttaa atattgttat tagtgtttcg taaaacttga gaaatagagc
+     6661 tgagctcatt cccttcctgt tgattcaaaa ataataccta catgaaaaca tgattccaag
+     6721 ttgattgaat gttgtaggaa ttactggttt agagtagccc agttctcggc ctaccctgct
+     6781 ggttgggatc ttactgtatt cttgaatgca ctggtttgaa aatatgccag acttcagccc
+     6841 ccaaggaaac aaggctgcaa gaatttatga actccagctg gaaaaggtaa aggtgacctt
+     6901 tggctagcca catactggac cttaccccac tgacgtcttt cagaacattc caagggtttt
+     6961 cctcaaggaa catttttgag ctagaaatta aaatgggttc tctggcagac tgcacccctt
+     7021 gagtcaaagt taacagtatt cctttgaatg caataataga ggcttttctg cgttaaggga
+     7081 gaaggaatga ccaattgaac ttacacattc cccaggcagg tccctttgcc ggcccctaca
+     7141 ggctggggtg gcccctcctg tcctcaggga tcagactccc agactggtta gttctgcatg
+     7201 tttccatcaa attaaaggtt attccctggc cgcctcctgg agaaaaccaa ccccaccctg
+     7261 ccagctgggg gcaatggggc agggattttg gcctctcaga acagctccta gaggctgctc
+     7321 atgactgaat gttttcccaa atcacctaaa tatcggtttg ctttttgttt tgggggagag
+     7381 gatttagcct cttacttccc tgatggattc aaagttttat ctatctcctt atctcctgcc
+     7441 ctgtcttggc acaactctgg atagattgca ggtgtggaat ttgctggagt ttggtgactt
+     7501 cgtcaaattc ctttggattc tgttccgcca aatcagcagt ctcgtcctgt ggatgcagtg
+     7561 actggaattt cccatctgca aagcatctct gtagcccaga ttttgtggag ccttaagaca
+     7621 ctccctcaat gccaccctga ccccacggct ggagaaccct gtgcttatgt ggtgggcagg
+     7681 gccactgttg atggaggatg gcggggacgg ggtggtgctc aaaggatctg tggtgctgga
+     7741 ggtctacacg cctctcagga cagcgtgtca ggaacctcag agcagcttca catctgccaa
+     7801 agctgagagg gagcgaactt gggaagcatt ttgctcattg tcctacccaa gtattaatag
+     7861 cataatagtt gatgccaaag gagatggtga cgtcccttcc actgtagttg ctgtcacaac
+     7921 cttgacgtct ttaagctaat ggccgtttgc atctgtgtct tcaaacagat cctggttaca
+     7981 gccattttgt gtgattcact tcgggggtta agtaatgcag gattctgcaa acaaggtgtc
+     8041 gccgtccaaa tgtactgtcc tggcatagag agcactgctt tgttttccac tgttgtagag
+     8101 aaaactaggg agaactttat ttttcaataa acttttcttg tgtgaaaaaa aaaaaaaaaa
+     8161 aaa
+//
+
+LOCUS       NM_002409               5102 bp    mRNA    linear   PRI 23-JAN-2012
+DEFINITION  Homo sapiens mannosyl (beta-1,4-)-glycoprotein
+            beta-1,4-N-acetylglucosaminyltransferase (MGAT3), transcript
+            variant 1, mRNA.
+ACCESSION   NM_002409
+VERSION     NM_002409.4  GI:148539887
+KEYWORDS    .
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (bases 1 to 5102)
+  AUTHORS   Benson,V., Grobarova,V., Richter,J. and Fiserova,A.
+  TITLE     Glycosylation regulates NK cell-mediated effector function through
+            PI3K pathway
+  JOURNAL   Int. Immunol. 22 (3), 167-177 (2010)
+   PUBMED   20089585
+  REMARK    GeneRIF: the modulation of glycosyltransferases MGAT3 and MGAT5 by
+            synthetic N-acetyl-D-glucosamine-calix[4]arene correlated with the
+            improvement of NK cell effector functions and the augmentation of
+            tumor cells sensitivity to NK cell-mediated cytotoxicity.
+REFERENCE   2  (bases 1 to 5102)
+  AUTHORS   Akasaka-Manya,K., Manya,H., Sakurai,Y., Wojczyk,B.S., Kozutsumi,Y.,
+            Saito,Y., Taniguchi,N., Murayama,S., Spitalnik,S.L. and Endo,T.
+  TITLE     Protective effect of N-glycan bisecting GlcNAc residues on
+            beta-amyloid production in Alzheimer's disease
+  JOURNAL   Glycobiology 20 (1), 99-106 (2010)
+   PUBMED   19776078
+  REMARK    GeneRIF: upregulation of GnT-III in AD brains may represent an
+            adaptive response to protect them from additional beta-amyloid
+            production
+REFERENCE   3  (bases 1 to 5102)
+  AUTHORS   Pinho,S.S., Reis,C.A., Paredes,J., Magalhaes,A.M., Ferreira,A.C.,
+            Figueiredo,J., Xiaogang,W., Carneiro,F., Gartner,F. and Seruca,R.
+  TITLE     The role of N-acetylglucosaminyltransferase III and V in the
+            post-transcriptional modifications of E-cadherin
+  JOURNAL   Hum. Mol. Genet. 18 (14), 2599-2608 (2009)
+   PUBMED   19403558
+  REMARK    GeneRIF: MGAT3 and MGAT5 competitively modified E-cadherin
+            N-glycans.
+REFERENCE   4  (bases 1 to 5102)
+  AUTHORS   Sato,Y., Isaji,T., Tajiri,M., Yoshida-Yamamoto,S., Yoshinaka,T.,
+            Somehara,T., Fukuda,T., Wada,Y. and Gu,J.
+  TITLE     An N-glycosylation site on the beta-propeller domain of the
+            integrin alpha5 subunit plays key roles in both its function and
+            site-specific modification by
+            beta1,4-N-acetylglucosaminyltransferase III
+  JOURNAL   J. Biol. Chem. 284 (18), 11873-11881 (2009)
+   PUBMED   19276077
+  REMARK    GeneRIF: An N-glycosylation site on the beta-propeller domain of
+            the integrin alpha5 subunit plays key roles in both its function
+            and site-specific modification by
+            beta1,4-N-acetylglucosaminyltransferase III.
+REFERENCE   5  (bases 1 to 5102)
+  AUTHORS   Fiala,M., Liu,P.T., Espinosa-Jeffrey,A., Rosenthal,M.J.,
+            Bernard,G., Ringman,J.M., Sayre,J., Zhang,L., Zaghi,J.,
+            Dejbakhsh,S., Chiang,B., Hui,J., Mahanian,M., Baghaee,A., Hong,P.
+            and Cashman,J.
+  TITLE     Innate immunity and transcription of MGAT-III and Toll-like
+            receptors in Alzheimer's disease patients are improved by
+            bisdemethoxycurcumin
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 104 (31), 12849-12854 (2007)
+   PUBMED   17652175
+REFERENCE   6  (bases 1 to 5102)
+  AUTHORS   Song,E.Y., Kang,S.K., Lee,Y.C., Park,Y.G., Chung,T.H., Kwon,D.H.,
+            Byun,S.M. and Kim,C.H.
+  TITLE     Expression of bisecting N-acetylglucosaminyltransferase-III in
+            human hepatocarcinoma tissues, fetal liver tissues, and hepatoma
+            cell lines of Hep3B and HepG2
+  JOURNAL   Cancer Invest. 19 (8), 799-807 (2001)
+   PUBMED   11768033
+REFERENCE   7  (bases 1 to 5102)
+  AUTHORS   Ikeda,Y., Koyota,S., Ihara,H., Yamaguchi,Y., Korekane,H., Tsuda,T.,
+            Sasai,K. and Taniguchi,N.
+  TITLE     Kinetic basis for the donor nucleotide-sugar specificity of beta1,
+            4-N-acetylglucosaminyltransferase III
+  JOURNAL   J. Biochem. 128 (4), 609-619 (2000)
+   PUBMED   11011143
+REFERENCE   8  (bases 1 to 5102)
+  AUTHORS   Koyama,N., Miyoshi,E., Ihara,Y., Kang,R., Nishikawa,A. and
+            Taniguchi,N.
+  TITLE     Human N-acetylglucosaminyltransferase III gene is transcribed from
+            multiple promoters
+  JOURNAL   Eur. J. Biochem. 238 (3), 853-861 (1996)
+   PUBMED   8706690
+REFERENCE   9  (bases 1 to 5102)
+  AUTHORS   Kim,Y.J., Park,J.H., Kim,K.S., Chang,J.E., Ko,J.H., Kim,M.H.,
+            Chung,D.H., Chung,T.W., Choe,I.S., Lee,Y.C. and Kim,C.H.
+  TITLE     Sequence analysis of the 5'-flanking region of the gene encoding
+            human N-acetylglucosaminyltransferase III
+  JOURNAL   Gene 170 (2), 281-283 (1996)
+   PUBMED   8666260
+REFERENCE   10 (bases 1 to 5102)
+  AUTHORS   Ihara,Y., Nishikawa,A., Tohma,T., Soejima,H., Niikawa,N. and
+            Taniguchi,N.
+  TITLE     cDNA cloning, expression, and chromosomal localization of human
+            N-acetylglucosaminyltransferase III (GnT-III)
+  JOURNAL   J. Biochem. 113 (6), 692-698 (1993)
+   PUBMED   8370666
+COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff. The
+            reference sequence was derived from Z83845.14, BC113383.1,
+            DA519457.1, DA370485.1, DA261678.1, BG683192.1, AK125361.1 and
+            BM675328.1.
+            On Jun 2, 2007 this sequence version replaced gi:19924166.
+            
+            Publication Note:  This RefSeq record includes a subset of the
+            publications that are available for this gene. Please see the Gene
+            record to access additional publications.
+            
+            Summary: There are believed to be over 100 different
+            glycosyltransferases involved in the synthesis of protein-bound and
+            lipid-bound oligosaccharides. The enzyme encoded by this gene
+            transfers a GlcNAc residue to the beta-linked mannose of the
+            trimannosyl core of N-linked oligosaccharides and produces a
+            bisecting GlcNAc. Multiple alternatively spliced variants, encoding
+            the same protein, have been identified. [provided by RefSeq, Jul
+            2008].
+            
+            Transcript Variant: This variant (1) represents the longer
+            transcript, and is transcribed from the H20 promoter. Both variants
+            1 and 2 encode the same protein.
+            COMPLETENESS: full length.
+PRIMARY     REFSEQ_SPAN         PRIMARY_IDENTIFIER PRIMARY_SPAN        COMP
+            1-213               Z83845.14          67569-67781
+            214-2100            BC113383.1         1-1887
+            2101-2636           DA519457.1         26-561
+            2637-3139           DA370485.1         32-534
+            3140-3695           DA261678.1         2-557
+            3696-3867           BG683192.1         309-480
+            3868-5084           AK125361.1         1177-2393
+            5085-5102           BM675328.1         1-18                c
+FEATURES             Location/Qualifiers
+     source          1..5102
+                     /organism="Homo sapiens"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9606"
+                     /chromosome="22"
+                     /map="22q13.1"
+     gene            1..5102
+                     /gene="MGAT3"
+                     /gene_synonym="GNT-III; GNT3"
+                     /note="mannosyl (beta-1,4-)-glycoprotein
+                     beta-1,4-N-acetylglucosaminyltransferase"
+                     /db_xref="GeneID:4248"
+                     /db_xref="HGNC:7046"
+                     /db_xref="HPRD:07058"
+                     /db_xref="MIM:604621"
+     misc_feature    219..221
+                     /gene="MGAT3"
+                     /gene_synonym="GNT-III; GNT3"
+                     /note="upstream in-frame stop codon"
+     CDS             240..1841
+                     /gene="MGAT3"
+                     /gene_synonym="GNT-III; GNT3"
+                     /EC_number="2.4.1.144"
+                     /note="N-acetylglucosaminyltransferase III;
+                     N-glycosyl-oligosaccharide-glycoprotein
+                     N-acetylglucosaminyltransferase III; GlcNAc-T III"
+                     /codon_start=1
+                     /product="beta-1,4-mannosyl-glycoprotein
+                     4-beta-N-acetylglucosaminyltransferase"
+                     /protein_id="NP_002400.3"
+                     /db_xref="GI:148539888"
+                     /db_xref="CCDS:CCDS13994.2"
+                     /db_xref="GeneID:4248"
+                     /db_xref="HGNC:7046"
+                     /db_xref="HPRD:07058"
+                     /db_xref="MIM:604621"
+                     /translation="MKMRRYKLFLMFCMAGLCLISFLHFFKTLSYVTFPRELASLSPN
+                     LVSSFFWNNAPVTPQASPEPGGPDLLRTPLYSHSPLLQPLPPSKAAEELHRVDLVLPE
+                     DTTEYFVRTKAGGVCFKPGTKMLERPPPGRPEEKPEGANGSSARRPPRYLLSARERTG
+                     GRGARRKWVECVCLPGWHGPSCGVPTVVQYSNLPTKERLVPREVPRRVINAINVNHEF
+                     DLLDVRFHELGDVVDAFVVCESNFTAYGEPRPLKFREMLTNGTFEYIRHKVLYVFLDH
+                     FPPGGRQDGWIADDYLRTFLTQDGVSRLRNLRPDDVFIIDDADEIPARDGVLFLKLYD
+                     GWTEPFAFHMRKSLYGFFWKQPGTLEVVSGCTVDMLQAVYGLDGIRLRRRQYYTMPNF
+                     RQYENRTGHILVQWSLGSPLHFAGWHCSWCFTPEGIYFKLVSAQNGDFPRWGDYEDKR
+                     DLNYIRGLIRTGGWFDGTQQEYPPADPSEHMYAPKYLLKNYDRFHYLLDNPYQEPRST
+                     AAGGWRHRGPEGRPPARGKLDEAEV"
+     misc_feature    261..308
+                     /gene="MGAT3"
+                     /gene_synonym="GNT-III; GNT3"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (Q09327.3);
+                     transmembrane region"
+     polyA_signal    5062..5067
+                     /gene="MGAT3"
+                     /gene_synonym="GNT-III; GNT3"
+     polyA_site      5086
+                     /gene="MGAT3"
+                     /gene_synonym="GNT-III; GNT3"
+ORIGIN      
+        1 gagcggccgc gccgggtccc cgggacgggg tggaagtggg ggtgggggga ggggatcggg
+       61 gccgggccgg ggccgcgctg cctgcgatgc cgggcgcccg ccgcagccgc tgccgccgga
+      121 gcccgggatg gggcgagagg ctgcggcgga cgccagcatc tccccgccgg ggaccccggg
+      181 ggccgcggag ccgccgccgc cgctgctgcc gccgttgctg agacccagcg ggcgatggga
+      241 tgaagatgag acgctacaag ctctttctca tgttctgtat ggccggcctg tgcctcatct
+      301 ccttcctgca cttcttcaag accctgtcct atgtcacctt cccccgagaa ctggcctccc
+      361 tcagccctaa cctggtgtcc agctttttct ggaacaatgc cccggtcacg ccccaggcca
+      421 gccccgagcc aggaggccct gacctgctgc gtaccccact ctactcccac tcgcccctgc
+      481 tgcagccgct gccgcccagc aaggcggccg aggagctcca ccgggtggac ttggtgctgc
+      541 ccgaggacac caccgagtat ttcgtgcgca ccaaggccgg cggcgtctgc ttcaaacccg
+      601 gcaccaagat gctggagagg ccgcccccgg gacggccgga ggagaagcct gagggggcca
+      661 acggctcctc ggcccggcgg ccaccccggt acctcctgag cgcccgggag cgcacggggg
+      721 gccgaggcgc ccggcgcaag tgggtggagt gcgtgtgcct gcccggctgg cacggaccca
+      781 gctgcggcgt gcccactgtg gtgcagtact ccaacctgcc caccaaggag cggctggtgc
+      841 ccagggaggt gccgcgccgc gtcatcaacg ccatcaacgt caaccacgag ttcgacctgc
+      901 tggacgtgcg cttccacgag ctgggcgacg tggtggacgc ctttgtggtg tgcgagtcca
+      961 acttcacggc ttatggggag ccgcggccgc tcaagttccg ggagatgctg accaatggca
+     1021 ccttcgagta catccgccac aaggtgctct atgtcttcct ggaccacttc ccgcccggcg
+     1081 gccggcagga cggctggatc gccgacgact acctgcgcac cttcctcacc caggacggcg
+     1141 tctcgcggct gcgcaacctg cggcccgacg acgtcttcat cattgacgat gcggacgaga
+     1201 tcccggcccg tgacggcgtc cttttcctca agctctacga tggctggacc gagcccttcg
+     1261 ccttccacat gcgcaagtcg ctctacggct tcttctggaa gcagccgggc accctggagg
+     1321 tggtgtcagg ctgcacggtg gacatgctgc aggcagtgta tgggctggac ggcatccgcc
+     1381 tgcgccgccg ccagtactac accatgccca acttcagaca gtatgagaac cgcaccggcc
+     1441 acatcctggt gcagtggtcg ctgggcagcc ccctgcactt cgccggctgg cactgctcct
+     1501 ggtgcttcac gcccgagggc atctacttca agctcgtgtc cgcccagaat ggcgacttcc
+     1561 cacgctgggg tgactacgag gacaagcggg acctgaacta catccgcggc ctgatccgca
+     1621 ccgggggctg gttcgacggc acgcagcagg agtacccgcc tgcagacccc agcgagcaca
+     1681 tgtatgcgcc caagtacctg ctgaagaact acgaccggtt ccactacctg ctggacaacc
+     1741 cctaccagga gcccaggagc acggcggcgg gcgggtggcg ccacaggggt cccgagggaa
+     1801 ggccgcccgc ccggggcaaa ctggacgagg cggaagtcta gagctgcatg atctgatagg
+     1861 gtttgtgaca gggcgggggt ggcggcggcc cctagcgcta tctccctgcc tcctgccggc
+     1921 tccttggttc ttgaggggac caggagtggg tggggagtgg gggtgggggt agggtttccc
+     1981 tactgaagcc cttgtgaatc aagggtcagg cctttgagct cagaaaatat ccctcctgtt
+     2041 gggagagggc gcaggccgtg acgtctgggt ggcccttatg actgccaaga ctgctgtggc
+     2101 caggaggtgc cactggagtg tgcgtggtgg tccctgggta gcgggggagg gtaggcagga
+     2161 ttggggaaga gagcctgcag gatctcacca ggcagcctct ggggggtggc caggccggga
+     2221 aaaagcccac catttggcat ccctgggcct tgggctccgt gtgggagacc ggcctgccag
+     2281 gaggacccag ggctctgtaa gtagatgcat ttgggtccag gaggaagcgt ggacacctcg
+     2341 tagggaagag atgaaaaagc cacatcctac caagaggagg tgctgaggga tgctttgcag
+     2401 tgtagtcaga agtgctgggc cagatggaga cagaactcca ccccctgccg caaaggacag
+     2461 gacctggctg ccctgggatg ctggtgcctg agtctgtctc tgtgcacccc tcaggctgtc
+     2521 gtgagccaac acaggggcct ggagaaccct gaggagcttt ccttttggtt ctaaacccgg
+     2581 cgttgacgtt ccttctccct ttcacattgc tgtcttgtgg actgtgcact cagtccttgc
+     2641 aaggccaaga gtccagttgt aggtgtggcc ttgaggggga agtggggagg agaagactga
+     2701 catgagtcct ctgcacggat ccgtctctcc ctccccatca ccccttcctt ctgacaccca
+     2761 gtcccagctg tccactgtcc caggtgcagt cactgttgtg cccttccttg gggcaggctg
+     2821 gctgggggcc agaaaggggc catgaggctg tcttgggccc aaaaagggac aataaggcca
+     2881 gttgtatgct tcctgttcct catagcttgc cttggtgggg atgtctttgt tggagttgat
+     2941 tctgagctgc tgtgattagg agaccctgaa atacagtggt ttaagcaaga tggaagcttg
+     3001 tttctaatta gtctagattg agatggccca gagctggtag ggcagctctg cgtttcttca
+     3061 tacgcacctt ccaattctgg gtacacagcg gctgctccag cgcccaccct cctgtgtgca
+     3121 tccaagcctg ggggaagcag aaatagacaa gagggcacac ccactttttg ctaaaggcat
+     3181 gagccagaat tggcaggctc acctctgctg gcctctcatt ggctgggact cagtcacatg
+     3241 gccacaagca gctgctaggg aacctgggaa gtgtagtctt cagcggggcc gccatgtgcc
+     3301 tggcctcacc ttgggagtta tcttattgat ggaggagaag agaatggata tgggggacca
+     3361 gtagcatctc tgggagaggg ggagggagca gcaataactc agtcgtcgga tccagctctc
+     3421 attgtcagag tttccggaac agcttgctcc tgtttccctc actgtgcagc ccagggctgg
+     3481 gggcagtgag gagcttgcag ctctgtggga aggggaaaca ccccctcccc tcggcccctc
+     3541 agacgctacc caatgatgcc ggtttgcaga gttggcctgt ggaatggctc atgtttgtgc
+     3601 gtgtgtgtgt gtatatttat gggcatgggt gcatgcttgg tgtgtatttg tacatgtctg
+     3661 tattgctgtg tccctgtaaa tacatgcttg tgtatggatg gaagaggcca ggcccaggcc
+     3721 tggcctcttc ctcgggcctg tggccacacc tcctgcagct ccccaaaatg actgaggcag
+     3781 aaagcccttg gggagcctag aaagcaaagc taaaggggat gcagggtctg tctgtctgtc
+     3841 tgtctttcag tctgaggaat gagaatcctg acctgagggc tgtgcagctg agagcccact
+     3901 acctccccag cccctctcgg ccccagccgc atcatcccac ctgtcccctc ccccccacct
+     3961 ccagtggggc tttctccaga tgtcttatgg ttgggggttt cctgatgggc caggagagga
+     4021 gggcatcttc ttgcgacagc actgtctggg ttaagtgccc agtgagggca tggtgtgggg
+     4081 agctggcctc agaggagccg ctggtgggca agcgtgaagt gggctgaggg gctctgagcc
+     4141 actttgctcc catctagggg actgcccccc atggaactcc tttgaagtca cagcagcctt
+     4201 cctttctgtt tgctcttggg gctgagaggt ggctcaaaca ctcggggtcc ctatggctct
+     4261 gggtcaatct aggccaggct gcaccccatg gacagggagt ctcagggctc ctgatcatgc
+     4321 ccaggccctg gcctggggcc tccctccttg gcagctttcc cacccccacg cccctggcat
+     4381 cctcagttgc tatgggatgc ccctccaggg caccagctca gggctaagcg aaggaagata
+     4441 ggagcagctc agagctgcca ggctctgcct tcctcacaga cctggtgggg caggtcctgt
+     4501 tcacagcagc aggagtgaag gcctggccat cggtggagag ggcagctgtc agagggctgg
+     4561 gggccagggc acaggattga agagtttcac atatcatcac agcatacact gggaatttgg
+     4621 tgggggcaga agaacccagg gccactccct caatatgaag ggaaaccaag ctgaatgtga
+     4681 ccaccggcac actgctgcca tgtcccatgt ccacctttct ccccgggaat aactggccct
+     4741 gagaccccta gacccaagga ggcctgtcca tgccaagcat ccgggaagca tggctggcct
+     4801 tatccaccca tgggtcacgt cggttcccag gggcagcatg ggagatcttt gggggcaaca
+     4861 gggagagtct gggtggggag acgggacttg tccaagcaga aggcaggacc ctgggaaatg
+     4921 cataatgtaa ggacatcaat aatagtatta ttttttttgt aagggaaaat caatatgtac
+     4981 attctgaaat cattttctct gtaaatggtt ggatttcatt tcacccttaa agggatgctt
+     5041 aaaggagaag ataatattaa taataaaaac agctacaaag tctgaaaaaa aaaaaaaaaa
+     5101 aa
+//
+
+LOCUS       NM_002408               2728 bp    mRNA    linear   PRI 23-JAN-2012
+DEFINITION  Homo sapiens mannosyl (alpha-1,6-)-glycoprotein
+            beta-1,2-N-acetylglucosaminyltransferase (MGAT2), mRNA.
+ACCESSION   NM_002408
+VERSION     NM_002408.3  GI:62750355
+KEYWORDS    .
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (bases 1 to 2728)
+  AUTHORS   Hassinen,A., Rivinoja,A., Kauppila,A. and Kellokumpu,S.
+  TITLE     Golgi N-glycosyltransferases form both homo- and heterodimeric
+            enzyme complexes in live cells
+  JOURNAL   J. Biol. Chem. 285 (23), 17771-17777 (2010)
+   PUBMED   20378551
+  REMARK    GeneRIF: Golgi N-glycosyltransferases
+            beta-1,2-N-acetylglucosaminyltransferase I,
+            beta-1,2-N-acetylglucosaminyltransferase II,
+            1,4-galactosyltransferase I, and alpha-2,6-sialyltransferase I form
+            both homo- and heterodimeric enzyme complexes in live cells
+REFERENCE   2  (bases 1 to 2728)
+  AUTHORS   Yen,C.L. and Farese,R.V. Jr.
+  TITLE     MGAT2, a monoacylglycerol acyltransferase expressed in the small
+            intestine
+  JOURNAL   J. Biol. Chem. 278 (20), 18532-18537 (2003)
+   PUBMED   12621063
+  REMARK    GeneRIF: MGAT2 is a monoacylglycerol acyltransferase expressed in
+            the small intestine
+REFERENCE   3  (bases 1 to 2728)
+  AUTHORS   Wang,Y., Tan,J., Sutton-Smith,M., Ditto,D., Panico,M.,
+            Campbell,R.M., Varki,N.M., Long,J.M., Jaeken,J., Levinson,S.R.,
+            Wynshaw-Boris,A., Morris,H.R., Le,D., Dell,A., Schachter,H. and
+            Marth,J.D.
+  TITLE     Modeling human congenital disorder of glycosylation type IIa in the
+            mouse: conservation of asparagine-linked glycan-dependent functions
+            in mammalian physiology and insights into disease pathogenesis
+  JOURNAL   Glycobiology 11 (12), 1051-1070 (2001)
+   PUBMED   11805078
+REFERENCE   4  (bases 1 to 2728)
+  AUTHORS   Cormier-Daire,V., Amiel,J., Vuillaumier-Barrot,S., Tan,J.,
+            Durand,G., Munnich,A., Le Merrer,M. and Seta,N.
+  TITLE     Congenital disorders of glycosylation IIa cause growth retardation,
+            mental retardation, and facial dysmorphism
+  JOURNAL   J. Med. Genet. 37 (11), 875-877 (2000)
+   PUBMED   11228641
+  REMARK    Review article
+REFERENCE   5  (bases 1 to 2728)
+  AUTHORS   Chen,S.H., Zhou,S., Tan,J. and Schachter,H.
+  TITLE     Transcriptional regulation of the human
+            UDP-GlcNAc:alpha-6-D-mannoside
+            beta-1-2-N-acetylglucosaminyltransferase II gene (MGAT2) which
+            controls complex N-glycan synthesis
+  JOURNAL   Glycoconj. J. 15 (3), 301-308 (1998)
+   PUBMED   9579808
+REFERENCE   6  (bases 1 to 2728)
+  AUTHORS   Tan,J., Dunn,J., Jaeken,J. and Schachter,H.
+  TITLE     Mutations in the MGAT2 gene controlling complex N-glycan synthesis
+            cause carbohydrate-deficient glycoprotein syndrome type II, an
+            autosomal recessive disease with defective brain development
+  JOURNAL   Am. J. Hum. Genet. 59 (4), 810-817 (1996)
+   PUBMED   8808595
+REFERENCE   7  (bases 1 to 2728)
+  AUTHORS   Tan,J., D'Agostaro,A.F., Bendiak,B., Reck,F., Sarkar,M.,
+            Squire,J.A., Leong,P. and Schachter,H.
+  TITLE     The human UDP-N-acetylglucosamine: alpha-6-D-mannoside-beta-1,2-
+            N-acetylglucosaminyltransferase II gene (MGAT2). Cloning of genomic
+            DNA, localization to chromosome 14q21, expression in insect cells
+            and purification of the recombinant protein
+  JOURNAL   Eur. J. Biochem. 231 (2), 317-328 (1995)
+   PUBMED   7635144
+COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff. The
+            reference sequence was derived from BI764270.1, BC006390.2,
+            AK056167.1 and BQ023756.1.
+            This sequence is a reference standard in the RefSeqGene project.
+            On Apr 19, 2005 this sequence version replaced gi:6031183.
+            
+            Summary: The product of this gene is a Golgi enzyme catalyzing an
+            essential step in the conversion of oligomannose to complex
+            N-glycans. The enzyme has the typical glycosyltransferase domains:
+            a short N-terminal cytoplasmic domain, a hydrophobic non-cleavable
+            signal-anchor domain, and a C-terminal catalytic domain. Mutations
+            in this gene may lead to carbohydrate-deficient glycoprotein
+            syndrome, type II. The coding region of this gene is intronless.
+            Transcript variants with a spliced 5' UTR may exist, but their
+            biological validity has not been determined. [provided by RefSeq,
+            Jul 2008].
+            COMPLETENESS: full length.
+PRIMARY     REFSEQ_SPAN         PRIMARY_IDENTIFIER PRIMARY_SPAN        COMP
+            1-649               BI764270.1         1-649
+            650-1929            BC006390.2         626-1905
+            1930-2705           AK056167.1         1689-2464
+            2706-2728           BQ023756.1         1-23                c
+FEATURES             Location/Qualifiers
+     source          1..2728
+                     /organism="Homo sapiens"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9606"
+                     /chromosome="14"
+                     /map="14q21"
+     gene            1..2728
+                     /gene="MGAT2"
+                     /gene_synonym="CDG2A; CDGS2; GLCNACTII; GNT-II; GNT2"
+                     /note="mannosyl (alpha-1,6-)-glycoprotein
+                     beta-1,2-N-acetylglucosaminyltransferase"
+                     /db_xref="GeneID:4247"
+                     /db_xref="HGNC:7045"
+                     /db_xref="HPRD:04013"
+                     /db_xref="MIM:602616"
+     misc_feature    322..324
+                     /gene="MGAT2"
+                     /gene_synonym="CDG2A; CDGS2; GLCNACTII; GNT-II; GNT2"
+                     /note="upstream in-frame stop codon"
+     CDS             499..1842
+                     /gene="MGAT2"
+                     /gene_synonym="CDG2A; CDGS2; GLCNACTII; GNT-II; GNT2"
+                     /EC_number="2.4.1.143"
+                     /note="N-glycosyl-oligosaccharide-glycoprotein
+                     N-acetylglucosaminyltransferase II;
+                     Beta-1,2-N-acetylglucosaminyltransferase II;
+                     UDP-N-acetylglucosamine:alpha-6-D-mannoside
+                     beta-1,2-N-acetylglucosaminyltransferase II; glcNAc-T II;
+                     mannoside acetylglucosaminyltransferase 2"
+                     /codon_start=1
+                     /product="alpha-1,6-mannosyl-glycoprotein
+                     2-beta-N-acetylglucosaminyltransferase"
+                     /protein_id="NP_002399.1"
+                     /db_xref="GI:4505163"
+                     /db_xref="CCDS:CCDS9690.1"
+                     /db_xref="GeneID:4247"
+                     /db_xref="HGNC:7045"
+                     /db_xref="HPRD:04013"
+                     /db_xref="MIM:602616"
+                     /translation="MRFRIYKRKVLILTLVVAACGFVLWSSNGRQRKNEALAPPLLDA
+                     EPARGAGGRGGDHPSVAVGIRRVSNVSAASLVPAVPQPEADNLTLRYRSLVYQLNFDQ
+                     TLRNVDKAGTWAPRELVLVVQVHNRPEYLRLLLDSLRKAQGIDNVLVIFSHDFWSTEI
+                     NQLIAGVNFCPVLQVFFPFSIQLYPNEFPGSDPRDCPRDLPKNAALKLGCINAEYPDS
+                     FGHYREAKFSQTKHHWWWKLHFVWERVKILRDYAGLILFLEEDHYLAPDFYHVFKKMW
+                     KLKQQECPECDVLSLGTYSASRSFYGMADKVDVKTWKSTEHNMGLALTRNAYQKLIEC
+                     TDTFCTYDDYNWDWTLQYLTVSCLPKFWKVLVPQIPRIFHAGDCGMHHKKTCRPSTQS
+                     AQIESLLNNNKQYMFPETLTISEKFTVVAISPPRKNGGWGDIRDHELCKSYRRLQ"
+     misc_feature    526..585
+                     /gene="MGAT2"
+                     /gene_synonym="CDG2A; CDGS2; GLCNACTII; GNT-II; GNT2"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (Q10469.1);
+                     transmembrane region"
+     polyA_signal    1908..1913
+                     /gene="MGAT2"
+                     /gene_synonym="CDG2A; CDGS2; GLCNACTII; GNT-II; GNT2"
+     polyA_site      1929
+                     /gene="MGAT2"
+                     /gene_synonym="CDG2A; CDGS2; GLCNACTII; GNT-II; GNT2"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+     polyA_signal    2528..2533
+                     /gene="MGAT2"
+                     /gene_synonym="CDG2A; CDGS2; GLCNACTII; GNT-II; GNT2"
+     polyA_site      2554
+                     /gene="MGAT2"
+                     /gene_synonym="CDG2A; CDGS2; GLCNACTII; GNT-II; GNT2"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+     polyA_signal    2686..2691
+                     /gene="MGAT2"
+                     /gene_synonym="CDG2A; CDGS2; GLCNACTII; GNT-II; GNT2"
+     polyA_site      2711
+                     /gene="MGAT2"
+                     /gene_synonym="CDG2A; CDGS2; GLCNACTII; GNT-II; GNT2"
+ORIGIN      
+        1 gggccggagg gccgcggtgt gccgcggggc agttgcgggt tgtcataacg gtccccgccg
+       61 gagtgaggcg aggccgcgtc gctcagttct ggccgtctag ggcccctgta aggatgagag
+      121 cgcagaggac gcagggccgc tggaggcgca ggtaacgaag ctagggtgcg gttgggaccg
+      181 cggctgagct ttttccggga cccgtggtgc tgaatggaga ggacggagac gaagccgagc
+      241 cgcggctcct agcggcggcg ccgatgctcg agctgtagct gccaggcgag gatgtgtgga
+      301 gcgcaggcgg cgcggggtaa atgagaggtc tcgggcccca ggacccccgg ggcccgggat
+      361 gagttagcga gggcagccgc gggggccagt tccgaccgtg acaggccaag gcgacggccg
+      421 ccgcccgccc gccccttccg tgcagaagca gctgctcctt tccgcgcccg cccgcctgcg
+      481 ctcccggccc tggagaccat gaggttccgc atctacaaac ggaaggtgct aatcctgacg
+      541 ctcgtggtgg ccgcctgcgg cttcgtcctc tggagcagca atgggcgaca aaggaagaac
+      601 gaggccctcg ccccaccgtt gctggacgcc gaacccgcgc ggggtgccgg cggccgcggt
+      661 ggggaccacc cctctgtggc tgtgggcatc cgcagggtct ccaacgtgtc ggcggcttcc
+      721 ctggtcccgg cggtccccca gcccgaggcg gacaacctga cgctgcggta ccggtccctg
+      781 gtgtaccagc tgaactttga tcagaccctg aggaatgtag ataaggctgg cacctgggcc
+      841 ccccgggagc tggtgctggt ggtccaggtg cataaccggc ccgaatacct cagactgctg
+      901 ctggactcac ttcgaaaagc ccagggaatt gacaacgtcc tcgtcatctt tagccatgac
+      961 ttctggtcga ccgagatcaa tcagctgatc gccggggtga atttctgtcc ggttctgcag
+     1021 gtgttctttc ctttcagcat tcagttgtac cctaacgagt ttccaggtag tgaccctaga
+     1081 gattgtccca gagacctgcc gaagaatgcc gctttgaaat tggggtgcat caatgctgag
+     1141 tatcccgact ccttcggcca ttatagagag gccaaattct cccagaccaa acatcactgg
+     1201 tggtggaagc tgcattttgt gtgggaaaga gtgaaaattc ttcgagatta tgctggcctt
+     1261 atacttttcc tagaagagga tcactactta gccccagact tttaccatgt cttcaaaaag
+     1321 atgtggaaac tgaagcagca agagtgccct gaatgtgatg ttctctccct ggggacctat
+     1381 agtgccagtc gcagtttcta tggcatggct gacaaggtag atgtgaaaac ttggaaatcc
+     1441 acagagcaca atatgggtct agccttgacc cggaatgcct atcagaagct gatcgagtgc
+     1501 acagacactt tctgtactta tgatgattat aactgggact ggactcttca atacttgact
+     1561 gtatcttgtc ttccaaaatt ctggaaagtg ctggttcctc aaattcctag gatctttcat
+     1621 gctggagact gtggtatgca tcacaagaaa acctgtagac catccactca gagtgcccaa
+     1681 attgagtcac tcttaaataa taacaaacaa tacatgtttc cagaaactct aactatcagt
+     1741 gaaaagttta ctgtggtagc catttcccca cctagaaaaa atggagggtg gggagatatt
+     1801 agggaccatg aactctgtaa aagttataga agactgcagt gaaaatcaca gttacaaaag
+     1861 cgacagtctt ctatttttga tatttgtcca aacaggacat acaattgaat aaaagagttt
+     1921 aggaactggt ttctgcttta atacaaaaac aaaatcttgt aaaaggtgtc caaatacata
+     1981 gtaatctttt ccagttatgt ctgattaaga tttaaaactg aaggtttcat tttgggagta
+     2041 gggttttaaa gctcaatctg ttatctgcta aaattgatta ttgttgatat gagagaagag
+     2101 gggaaatttt atttaaattg catttattaa tctttttatc tgaaactttg tacacttttc
+     2161 cactttcaaa acctatttta agtacagcaa aatttattta aaactgtcat agcagtaaaa
+     2221 agtattacga tgaaattgtt agggtattaa tggaacaaac ccagtttcac tctcttgaca
+     2281 cacttattag gaagggattg cttcactggt ttaataattt aaaagttatg tttgttaaac
+     2341 accctgtcag aacagtcatt ttcagtatta gattcctgta ctattgtgtt ttgagtgtgt
+     2401 tttggaacct tcatagaaca cactttcttt tggaatgtat ttgattgata agaaagttta
+     2461 aacattgttt tcacctcaat gtagaaatac agtggttttg tttttttttt tcttttagtg
+     2521 ctgacaaaat aaaatactca tttttgcata aaaaggttcc taatcctttt gcagaataag
+     2581 ttttgtttac tctttatacc aaaattcagt gaaggcattc tacaagtttt gagttagcat
+     2641 tacattttaa tatttactat tgctacattg tataattgag tttgaaataa aacccagctt
+     2701 atgacaatgc aaaaaaaaaa aaaaaaaa
+//
+
+LOCUS       NM_001114618            3181 bp    mRNA    linear   PRI 23-JAN-2012
+DEFINITION  Homo sapiens mannosyl (alpha-1,3-)-glycoprotein
+            beta-1,2-N-acetylglucosaminyltransferase (MGAT1), transcript
+            variant 1, mRNA.
+ACCESSION   NM_001114618
+VERSION     NM_001114618.1  GI:167857781
+KEYWORDS    .
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (bases 1 to 3181)
+  AUTHORS   Henquet,M., Heinhuis,B., Borst,J.W., Eigenhuijsen,J., Schreuder,M.,
+            Bosch,D. and van der Krol,A.
+  TITLE     Differential effects of human and plant
+            N-acetylglucosaminyltransferase I (GnTI) in plants
+  JOURNAL   Transgenic Res. 19 (4), 535-547 (2010)
+   PUBMED   19826906
+  REMARK    GeneRIF: Activity of HuGnTI in plants is limited by a combination
+            of reduced protein stability, alternative protein targeting and
+            possibly to some extend to lower enzymatic performance of the
+            catalytic domain in the plant biochemical environment.
+REFERENCE   2  (bases 1 to 3181)
+  AUTHORS   Johansson,A., Marroni,F., Hayward,C., Franklin,C.S.,
+            Kirichenko,A.V., Jonasson,I., Hicks,A.A., Vitart,V., Isaacs,A.,
+            Axenovich,T., Campbell,S., Floyd,J., Hastie,N., Knott,S., Lauc,G.,
+            Pichler,I., Rotim,K., Wild,S.H., Zorkoltseva,I.V., Wilson,J.F.,
+            Rudan,I., Campbell,H., Pattaro,C., Pramstaller,P., Oostra,B.A.,
+            Wright,A.F., van Duijn,C.M., Aulchenko,Y.S. and Gyllensten,U.
+  CONSRTM   EUROSPAN Consortium
+  TITLE     Linkage and genome-wide association analysis of obesity-related
+            phenotypes: association of weight with the MGAT1 gene
+  JOURNAL   Obesity (Silver Spring) 18 (4), 803-808 (2010)
+   PUBMED   19851299
+  REMARK    GeneRIF: The analysis enabled us to identify a new candidate gene,
+            MGAT1, associated with weight in women.
+            GeneRIF: Observational study and genome-wide association study of
+            gene-disease association. (HuGE Navigator)
+            Erratum:[Obesity (Silver Spring). 2010 Jun;18(6):1276]
+REFERENCE   3  (bases 1 to 3181)
+  AUTHORS   Bousman,C.A., Glatt,S.J., Everall,I.P. and Tsuang,M.T.
+  TITLE     Genetic association studies of methamphetamine use disorders: A
+            systematic review and synthesis
+  JOURNAL   Am. J. Med. Genet. B Neuropsychiatr. Genet. 150B (8), 1025-1049
+            (2009)
+   PUBMED   19219857
+  REMARK    GeneRIF: Observational study of gene-disease association. (HuGE
+            Navigator)
+            Review article
+REFERENCE   4  (bases 1 to 3181)
+  AUTHORS   Lowe,J.K., Maller,J.B., Pe'er,I., Neale,B.M., Salit,J., Kenny,E.E.,
+            Shea,J.L., Burkhardt,R., Smith,J.G., Ji,W., Noel,M., Foo,J.N.,
+            Blundell,M.L., Skilling,V., Garcia,L., Sullivan,M.L., Lee,H.E.,
+            Labek,A., Ferdowsian,H., Auerbach,S.B., Lifton,R.P.,
+            Newton-Cheh,C., Breslow,J.L., Stoffel,M., Daly,M.J., Altshuler,D.M.
+            and Friedman,J.M.
+  TITLE     Genome-wide association studies in an isolated founder population
+            from the Pacific Island of Kosrae
+  JOURNAL   PLoS Genet. 5 (2), E1000365 (2009)
+   PUBMED   19197348
+REFERENCE   5  (bases 1 to 3181)
+  AUTHORS   Saribas,A.S., Johnson,K., Liu,L., Bezila,D. and Hakes,D.
+  TITLE     Refolding of human beta-1-2 GlcNAc transferase (GnT1) and the role
+            of its unpaired Cys 121
+  JOURNAL   Biochem. Biophys. Res. Commun. 362 (2), 381-386 (2007)
+   PUBMED   17716624
+  REMARK    GeneRIF: Findings indicated that cysteine 121 has a structural role
+            in maintaining active site geometry of hGnT1, rather than a
+            catalytic role, and illustrates for the first time the potential
+            utility of E. coli as an expression system for hGnT1.
+REFERENCE   6  (bases 1 to 3181)
+  AUTHORS   Yip,B., Chen,S.H., Mulder,H., Hoppener,J.W. and Schachter,H.
+  TITLE     Organization of the human beta-1,2-N-acetylglucosaminyltransferase
+            I gene (MGAT1), which controls complex and hybrid N-glycan
+            synthesis
+  JOURNAL   Biochem. J. 321 (PT 2), 465-474 (1997)
+   PUBMED   9020882
+REFERENCE   7  (bases 1 to 3181)
+  AUTHORS   Tan,J., D'Agostaro,A.F., Bendiak,B., Reck,F., Sarkar,M.,
+            Squire,J.A., Leong,P. and Schachter,H.
+  TITLE     The human UDP-N-acetylglucosamine: alpha-6-D-mannoside-beta-1,2-
+            N-acetylglucosaminyltransferase II gene (MGAT2). Cloning of genomic
+            DNA, localization to chromosome 14q21, expression in insect cells
+            and purification of the recombinant protein
+  JOURNAL   Eur. J. Biochem. 231 (2), 317-328 (1995)
+   PUBMED   7635144
+REFERENCE   8  (bases 1 to 3181)
+  AUTHORS   Kumar,R., Yang,J., Eddy,R.L., Byers,M.G., Shows,T.B. and Stanley,P.
+  TITLE     Cloning and expression of the murine gene and chromosomal location
+            of the human gene encoding N-acetylglucosaminyltransferase I
+  JOURNAL   Glycobiology 2 (4), 383-393 (1992)
+   PUBMED   1421759
+  REMARK    Erratum:[Glycobiology 1999 Aug;9(8):ix]
+REFERENCE   9  (bases 1 to 3181)
+  AUTHORS   Hull,E., Sarkar,M., Spruijt,M.P., Hoppener,J.W., Dunn,R. and
+            Schachter,H.
+  TITLE     Organization and localization to chromosome 5 of the human
+            UDP-N-acetylglucosamine:alpha-3-D-mannoside
+            beta-1,2-N-acetylglucosaminyltransferase I gene
+  JOURNAL   Biochem. Biophys. Res. Commun. 176 (2), 608-615 (1991)
+   PUBMED   1827260
+REFERENCE   10 (bases 1 to 3181)
+  AUTHORS   Kumar,R., Yang,J., Larsen,R.D. and Stanley,P.
+  TITLE     Cloning and expression of N-acetylglucosaminyltransferase I, the
+            medial Golgi transferase that initiates complex N-linked
+            carbohydrate formation
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 87 (24), 9948-9952 (1990)
+   PUBMED   1702225
+COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff. The
+            reference sequence was derived from BG337235.1, AK094130.1,
+            M55621.1 and CA426780.1.
+            
+            Publication Note:  This RefSeq record includes a subset of the
+            publications that are available for this gene. Please see the Gene
+            record to access additional publications.
+            
+            Summary: There are believed to be over 100 different
+            glycosyltransferases involved in the synthesis of protein-bound and
+            lipid-bound oligosaccharides.
+            UDP-N-acetylglucosamine:alpha-3-D-mannoside
+            beta-1,2-N-acetylglucosaminyltransferase I is a medial-Golgi enzyme
+            essential for the synthesis of hybrid and complex N-glycans. The
+            protein, encoded by a single exon, shows typical features of a type
+            II transmembrane protein. The protein is believed to be essential
+            for normal embryogenesis. Several variants encoding the same
+            protein have been found for this gene. [provided by RefSeq, Jul
+            2008].
+            
+            Transcript Variant: This variant (1) represents the longest
+            transcript. All five variants encode the same protein.
+            COMPLETENESS: complete on the 3' end.
+PRIMARY     REFSEQ_SPAN         PRIMARY_IDENTIFIER PRIMARY_SPAN        COMP
+            1-194               BG337235.1         2-195
+            195-431             BG337235.1         197-433
+            432-613             AK094130.1         444-625
+            614-3168            M55621.1           36-2590
+            3169-3181           CA426780.1         1-13                c
+FEATURES             Location/Qualifiers
+     source          1..3181
+                     /organism="Homo sapiens"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9606"
+                     /chromosome="5"
+                     /map="5q35"
+     gene            1..3181
+                     /gene="MGAT1"
+                     /gene_synonym="GLCNAC-TI; GLCT1; GLYT1; GNT-1; GNT-I;
+                     MGAT"
+                     /note="mannosyl (alpha-1,3-)-glycoprotein
+                     beta-1,2-N-acetylglucosaminyltransferase"
+                     /db_xref="GeneID:4245"
+                     /db_xref="HGNC:7044"
+                     /db_xref="MIM:160995"
+     misc_feature    638..640
+                     /gene="MGAT1"
+                     /gene_synonym="GLCNAC-TI; GLCT1; GLYT1; GNT-1; GNT-I;
+                     MGAT"
+                     /note="upstream in-frame stop codon"
+     CDS             740..2077
+                     /gene="MGAT1"
+                     /gene_synonym="GLCNAC-TI; GLCT1; GLYT1; GNT-1; GNT-I;
+                     MGAT"
+                     /EC_number="2.4.1.101"
+                     /note="glcNAc-T I; N-glycosyl-oligosaccharide-glycoprotein
+                     N-acetylglucosaminyltransferase I"
+                     /codon_start=1
+                     /product="alpha-1,3-mannosyl-glycoprotein
+                     2-beta-N-acetylglucosaminyltransferase"
+                     /protein_id="NP_001108090.1"
+                     /db_xref="GI:167857782"
+                     /db_xref="CCDS:CCDS4458.1"
+                     /db_xref="GeneID:4245"
+                     /db_xref="HGNC:7044"
+                     /db_xref="MIM:160995"
+                     /translation="MLKKQSAGLVLWGAILFVAWNALLLLFFWTRPAPGRPPSVSALD
+                     GDPASLTREVIRLAQDAEVELERQRGLLQQIGDALSSQRGRVPTAAPPAQPRVPVTPA
+                     PAVIPILVIACDRSTVRRCLDKLLHYRPSAELFPIIVSQDCGHEETAQAIASYGSAVT
+                     HIRQPDLSSIAVPPDHRKFQGYYKIARHYRWALGQVFRQFRFPAAVVVEDDLEVAPDF
+                     FEYFRATYPLLKADPSLWCVSAWNDNGKEQMVDASRPELLYRTDFFPGLGWLLLAELW
+                     AELEPKWPKAFWDDWMRRPEQRQGRACIRPEISRTMTFGRKGVSHGQFFDQHLKFIKL
+                     NQQFVHFTQLDLSYLQREAYDRDFLARVYGAPQLQVEKVRTNDRKELGEVRVQYTGRD
+                     SFKAFAKALGVMDDLKSGVPRAGYRGIVTFQFRGRRVHLAPPLTWEGYDPSWN"
+     misc_feature    758..826
+                     /gene="MGAT1"
+                     /gene_synonym="GLCNAC-TI; GLCT1; GLYT1; GNT-1; GNT-I;
+                     MGAT"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (P26572.2);
+                     transmembrane region"
+     polyA_signal    3144..3149
+                     /gene="MGAT1"
+                     /gene_synonym="GLCNAC-TI; GLCT1; GLYT1; GNT-1; GNT-I;
+                     MGAT"
+     polyA_site      3170
+                     /gene="MGAT1"
+                     /gene_synonym="GLCNAC-TI; GLCT1; GLYT1; GNT-1; GNT-I;
+                     MGAT"
+ORIGIN      
+        1 gtgtgttgag agagagaatg gatgtgtgtg tgtttacgaa taaacttgga ggggaggggg
+       61 caacaggggt gggttttcgg gctgagaaat gggaacactg tggggctgct gcaagcagga
+      121 cttgggcctt aaacattcca ggagagtgtt ctcgggagta gccccgggaa ggactttaac
+      181 agaggttaac acagaaatct gcctcctggg ccatgccgct tctaaggcct gtttcttctc
+      241 atgagcccca gcacaagaca gatgggccag ttctcacagt ggataacttc ccctgcctga
+      301 gcaagagatg ggatagtatc tgggatctgt ccatcaccag actctgagct taataaggca
+      361 gctgaatgaa gggaggtaac ggacccctga gaggggcact gaagtctgca gtgggggggg
+      421 aggggcctgg acacacccct tcccccccag actcctcccc gtcagggtca gctcagccat
+      481 ggactttgga cctggataag aagagagaag ctgcactttg gtggatctga tttgggattc
+      541 tcagttttga aaatggagtg ctgaatgggg atttgatgat ctcctggaga gcaactgaga
+      601 caagagaaga aaggtgcatg gctgcctcct aatcccatag tccagaggag gcatccctag
+      661 gactgcgggc aagggagccg ggcaagccca gggcagcctt gaaccgtccc ctggcctgcc
+      721 ctccccggtg ggggccagga tgctgaagaa gcagtctgca gggcttgtgc tgtggggcgc
+      781 tatcctcttt gtggcctgga atgccctgct gctcctcttc ttctggacgc gcccagcacc
+      841 tggcaggcca ccctcagtca gcgctctcga tggcgacccc gccagcctca cccgggaagt
+      901 gattcgcctg gcccaagacg ccgaggtgga gctggagcgg cagcgtgggc tgctgcagca
+      961 gatcggggat gccctgtcga gccagcgggg gagggtgccc accgcggccc ctcccgccca
+     1021 gccgcgtgtg cctgtgaccc ccgcgccggc ggtgattccc atcctggtca tcgcctgtga
+     1081 ccgcagcact gttcggcgct gcctggacaa gctgctgcat tatcggccct cggctgagct
+     1141 cttccccatc atcgttagcc aggactgcgg gcacgaggag acggcccagg ccatcgcctc
+     1201 ctacggcagc gcggtcacgc acatccggca gcccgacctg agcagcattg cggtgccgcc
+     1261 ggaccaccgc aagttccagg gctactacaa gatcgcgcgc cactaccgct gggcgctggg
+     1321 ccaggtcttc cggcagtttc gcttccccgc ggccgtggtg gtggaggatg acctggaggt
+     1381 ggccccggac ttcttcgagt actttcgggc cacctatccg ctgctgaagg ccgacccctc
+     1441 cctgtggtgc gtctcggcct ggaatgacaa cggcaaggag cagatggtgg acgccagcag
+     1501 gcctgagctg ctctaccgca ccgacttttt ccctggcctg ggctggctgc tgttggccga
+     1561 gctctgggct gagctggagc ccaagtggcc aaaggccttc tgggacgact ggatgcggcg
+     1621 gccggagcag cggcaggggc gggcctgcat acgccctgag atctcaagaa cgatgacctt
+     1681 tggccgcaag ggtgtgagcc acgggcagtt ctttgaccag cacctcaagt ttatcaagct
+     1741 gaaccagcag tttgtgcact tcacccagct ggacctgtct tacctgcagc gggaggccta
+     1801 tgaccgagat ttcctcgccc gcgtctacgg tgctccccag ctgcaggtgg agaaagtgag
+     1861 gaccaatgac cggaaggagc tgggggaggt gcgggtgcag tatacgggca gggacagctt
+     1921 caaggctttc gccaaggctc tgggtgtcat ggatgacctt aagtcggggg ttccgagagc
+     1981 tggctaccgg ggtattgtca ccttccagtt ccggggccgc cgtgtccacc tggcgccccc
+     2041 actgacgtgg gagggctatg atcctagctg gaattagcac ctgcctgtcc ttcctgggcc
+     2101 cctccttgcc acatcatgag ctgaggtggg accacagtcc ccaggctgca tcggcctgcc
+     2161 tgtgtttccc tcttaggtgc atttatcttt ttgatttttc cgagtggcat ttaagtgcac
+     2221 aaatgataac aagaggatta ttctcccgtt ctcaagggag tcagatcagg ggaactattc
+     2281 tagggtatgt tgcggggtat taagcaggaa accactgtgt ggtggggggc actgggcttg
+     2341 ttggggccag aaatgtccac gtcctgagct ttctcctgga gcatgtgcag agagtttggc
+     2401 aacgttcgct ctcttgacca gaccccttct ccctgacctg gctcttccag ccagggcacg
+     2461 agccctcctt ctatacctgc tccccttccc ccagtgggga ctgagttatg ggagaagggg
+     2521 acatatttgt ggccaaaatg atactaacca aaggggcttc cttgtcaggg cctggtggag
+     2581 ttggtgggtc atcggggctc actgcctcct gcccttctct cctgtctgac ccccacttag
+     2641 cccttctctc cttgcagcct agcagtttat agttctgaga tggaaagttg aagggggcaa
+     2701 gcaagacctc tcctcagccc atgcccagct gtcaggagag aggtgcaggg aggaaggcct
+     2761 tgtgctggga caacctctct cttgccttac ctcagagagg gactatgccc tgacccctcc
+     2821 tttctgaaaa tcagtgccct ccctgttgct ctaggaggct cctgctggct tggtagaaga
+     2881 cagaattcga tctgcctgtc cctttttccc ctggggtttg acacacaggc tcctctcagc
+     2941 atgaggtgga gcagtgacca ggtggagcag tgaccaggac gcctctggcc cagtgctgcc
+     3001 cagcctcccc gcccgctccc aggcgcccca tgtcctcaca ggccaggacg ccatggcagg
+     3061 atggagagga cttggtggat ttttgtttct tgcctgacct cagtttcatg aaagaaagtg
+     3121 gaagctacag aattattttc taaaataaag gctgaattgt ctgaaaaata aaaaaaaaaa
+     3181 a
+//
+
+LOCUS       NM_001160154            3726 bp    mRNA    linear   PRI 23-JAN-2012
+DEFINITION  Homo sapiens mannosyl (alpha-1,3-)-glycoprotein
+            beta-1,4-N-acetylglucosaminyltransferase, isozyme A (MGAT4A),
+            transcript variant 2, mRNA.
+ACCESSION   NM_001160154
+VERSION     NM_001160154.1  GI:237512958
+KEYWORDS    .
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (bases 1 to 3726)
+  AUTHORS   Smith,E.N., Koller,D.L., Panganiban,C., Szelinger,S., Zhang,P.,
+            Badner,J.A., Barrett,T.B., Berrettini,W.H., Bloss,C.S., Byerley,W.,
+            Coryell,W., Edenberg,H.J., Foroud,T., Gershon,E.S., Greenwood,T.A.,
+            Guo,Y., Hipolito,M., Keating,B.J., Lawson,W.B., Liu,C., Mahon,P.B.,
+            McInnis,M.G., McMahon,F.J., McKinney,R., Murray,S.S.,
+            Nievergelt,C.M., Nurnberger,J.I. Jr., Nwulia,E.A., Potash,J.B.,
+            Rice,J., Schulze,T.G., Scheftner,W.A., Shilling,P.D., Zandi,P.P.,
+            Zollner,S., Craig,D.W., Schork,N.J. and Kelsoe,J.R.
+  TITLE     Genome-wide association of bipolar disorder suggests an enrichment
+            of replicable associations in regions near genes
+  JOURNAL   PLoS Genet. 7 (6), E1002134 (2011)
+   PUBMED   21738484
+REFERENCE   2  (bases 1 to 3726)
+  AUTHORS   Zheng,Z., Jia,Y., Hou,L., Persson,C., Yeager,M., Lissowska,J.,
+            Chanock,S.J., Blaser,M., Chow,W.H. and Ye,W.
+  TITLE     Genetic variation in a4GnT in relation to Helicobacter pylori
+            serology and gastric cancer risk
+  JOURNAL   Helicobacter 14 (5), 120-125 (2009)
+   PUBMED   19751437
+  REMARK    GeneRIF: GNT-IV genetic variation is not associated with gastric
+            cancer.
+REFERENCE   3  (bases 1 to 3726)
+  AUTHORS   Lopez-Orduna,E., Cruz,M. and Garcia-Mena,J.
+  TITLE     The transcription of MGAT4A glycosyl transferase is increased in
+            white cells of peripheral blood of type 2 diabetes patients
+  JOURNAL   BMC Genet. 8, 73 (2007)
+   PUBMED   17953760
+  REMARK    GeneRIF: The results of this work suggest that in T2D subjects,
+            high levels of glucose and triglycerides are accompanied by an
+            increase on MGAT4A mRNA levels and WBC count; condition that
+            suggests a pro-inflammatory state due to a chronic metabolic
+            stress.
+            Publication Status: Online-Only
+REFERENCE   4  (bases 1 to 3726)
+  AUTHORS   Kudo,T., Nakagawa,H., Takahashi,M., Hamaguchi,J., Kamiyama,N.,
+            Yokoo,H., Nakanishi,K., Nakagawa,T., Kamiyama,T., Deguchi,K.,
+            Nishimura,S. and Todo,S.
+  TITLE     N-glycan alterations are associated with drug resistance in human
+            hepatocellular carcinoma
+  JOURNAL   Mol. Cancer 6, 32 (2007)
+   PUBMED   17488527
+  REMARK    GeneRIF: We investigated mRNA levels of glycosyltransferases,
+            namely, N-acetylglucosaminyltransferase a (GnT)-IVa, and found that
+            (GnT)-IVa expression was decreased in HLE-cells Epirubicin
+            resistant.
+            Publication Status: Online-Only
+REFERENCE   5  (bases 1 to 3726)
+  AUTHORS   Oguri,S., Yoshida,A., Minowa,M.T. and Takeuchi,M.
+  TITLE     Kinetic properties and substrate specificities of two recombinant
+            human N-acetylglucosaminyltransferase-IV isozymes
+  JOURNAL   Glycoconj. J. 23 (7-8), 473-480 (2006)
+   PUBMED   17006639
+  REMARK    GeneRIF: GnT-IVa is more active than GnT-IVb under physiological
+            conditions and it primarily contributes to the biosynthesis of
+            N-glycans.
+REFERENCE   6  (bases 1 to 3726)
+  AUTHORS   Ide,Y., Miyoshi,E., Nakagawa,T., Gu,J., Tanemura,M., Nishida,T.,
+            Ito,T., Yamamoto,H., Kozutsumi,Y. and Taniguchi,N.
+  TITLE     Aberrant expression of N-acetylglucosaminyltransferase-IVa and IVb
+            (GnT-IVa and b) in pancreatic cancer
+  JOURNAL   Biochem. Biophys. Res. Commun. 341 (2), 478-482 (2006)
+   PUBMED   16434023
+  REMARK    GeneRIF: analysis of expression of
+            N-acetylglucosaminyltransferase-IVa and IVb (GnT-IVa and b) in
+            pancreatic cancer
+REFERENCE   7  (bases 1 to 3726)
+  AUTHORS   D'Arrigo,A., Belluco,C., Ambrosi,A., Digito,M., Esposito,G.,
+            Bertola,A., Fabris,M., Nofrate,V., Mammano,E., Leon,A., Nitti,D.
+            and Lise,M.
+  TITLE     Metastatic transcriptional pattern revealed by gene expression
+            profiling in primary colorectal carcinoma
+  JOURNAL   Int. J. Cancer 115 (2), 256-262 (2005)
+   PUBMED   15688387
+  REMARK    GeneRIF: upregulation of mannosyl (alpha-1,3-)-glycoprotein
+            beta-1,4-N-acetyl-glucosaminyl-transferase is associated with
+            metastatic colorectal carcinoma
+REFERENCE   8  (bases 1 to 3726)
+  AUTHORS   Yoshida,A., Minowa,M.T., Takamatsu,S., Hara,T., Oguri,S.,
+            Ikenaga,H. and Takeuchi,M.
+  TITLE     Tissue specific expression and chromosomal mapping of a human
+            UDP-N-acetylglucosamine: alpha1,3-d-mannoside beta1,
+            4-N-acetylglucosaminyltransferase
+  JOURNAL   Glycobiology 9 (3), 303-310 (1999)
+   PUBMED   10024668
+COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff. The
+            reference sequence was derived from AK304393.1, BC127108.1,
+            AK092952.1 and AW138839.1.
+            
+            Summary: This gene encodes a key glycosyltransferase that regulates
+            the formation of tri- and multiantennary branching structures in
+            the Golgi apparatus. The encoded protein, in addition to the
+            related isoenzyme B, catalyzes the transfer of N-acetylglucosamine
+            (GlcNAc) from UDP-GlcNAc in a beta-1,4 linkage to the
+            Man-alpha-1,3-Man-beta-1,4-GlcNAc arm of
+            R-Man-alpha-1,6(GlcNAc-beta-1,2-Man-alpha-1,3)Man-beta-1,
+            4-GlcNAc-beta-1,4-GlcNAc-beta-1-Asn. The encoded protein may play a
+            role in regulating the availability of serum glycoproteins,
+            oncogenesis, and differentiation. [provided by RefSeq, Jul 2008].
+            
+            Transcript Variant: This variant (2) represents use of an alternate
+            promoter and 5' UTR, and lacks an alternate segment in the 3'
+            coding region, compared to variant 1. The resulting isoform (2) has
+            a shorter and distinct N-terminus, and a longer and distinct
+            C-terminus, compared to isoform 1.
+            COMPLETENESS: complete on the 3' end.
+PRIMARY     REFSEQ_SPAN         PRIMARY_IDENTIFIER PRIMARY_SPAN        COMP
+            1-567               AK304393.1         1-567
+            568-568             BC127108.1         1050-1050
+            569-1568            AK304393.1         569-1568
+            1569-2918           AK092952.1         606-1955
+            2919-3666           AK092952.1         1957-2704
+            3667-3726           AW138839.1         1-60                c
+FEATURES             Location/Qualifiers
+     source          1..3726
+                     /organism="Homo sapiens"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9606"
+                     /chromosome="2"
+                     /map="2q12"
+     gene            1..3726
+                     /gene="MGAT4A"
+                     /gene_synonym="GnT-4a; GNT-IV; GNT-IVA"
+                     /note="mannosyl (alpha-1,3-)-glycoprotein
+                     beta-1,4-N-acetylglucosaminyltransferase, isozyme A"
+                     /db_xref="GeneID:11320"
+                     /db_xref="HGNC:7047"
+                     /db_xref="MIM:604623"
+     misc_feature    61..63
+                     /gene="MGAT4A"
+                     /gene_synonym="GnT-4a; GNT-IV; GNT-IVA"
+                     /note="upstream in-frame stop codon"
+     CDS             115..1386
+                     /gene="MGAT4A"
+                     /gene_synonym="GnT-4a; GNT-IV; GNT-IVA"
+                     /EC_number="2.4.1.145"
+                     /note="isoform 2 is encoded by transcript variant 2;
+                     UDP-N-acetylglucosamine:alpha1,3-d-mannoside
+                     beta1,4-N-acetylglucosaminyltransferase;
+                     alpha-1,3-mannosyl-glycoprotein
+                     beta-1,4-N-acetylglucosaminyltransferase; mannosyl
+                     (alpha-1,3-)-glycoprotein
+                     beta-1,4-N-acetylglucosaminyltransferase, isoenzyme A;
+                     UDP-GlcNAc:a-1,3-D-mannoside
+                     b-1,4-acetylglucosaminyltransferase IV;
+                     alpha-1,3-mannosyl-glycoprotein
+                     4-beta-N-acetylglucosaminyltransferase A;
+                     N-acetylglucosaminyltransferase IVa;
+                     N-glycosyl-oligosaccharide-glycoprotein
+                     N-acetylglucosaminyltransferase IVa;
+                     UDP-N-acetylglucosamine: alpha-1,3-D-mannoside
+                     beta-1,4-N-acetylglucosaminyltransferase IVa; glcNAc-T
+                     IVa"
+                     /codon_start=1
+                     /product="alpha-1,3-mannosyl-glycoprotein
+                     4-beta-N-acetylglucosaminyltransferase A isoform 2"
+                     /protein_id="NP_001153626.1"
+                     /db_xref="GI:237512959"
+                     /db_xref="CCDS:CCDS54380.1"
+                     /db_xref="GeneID:11320"
+                     /db_xref="HGNC:7047"
+                     /db_xref="MIM:604623"
+                     /translation="MNYSITVSIVMGIPTVKREVKSYLIETLHSLIDNLYPEEKLDCV
+                     IVVFIGETDIDYVHGVVANLEKEFSKEISSGLVEVISPPESYYPDLTNLKETFGDSKE
+                     RVRWRTKQNLDYCFLMMYAQEKGIYYIQLEDDIIVKQNYFNTIKNFALQLSSEEWMIL
+                     EFSQLGFIGKMFQAPDLTLIVEFIFMFYKEKPIDWLLDHILWVKVCNPEKDAKHCDRQ
+                     KANLRIRFRPSLFQHVGLHSSLSGKIQKLTDKDYMKPLLLKIHVNPPAEVSTSLKVYQ
+                     GHTLEKTYMGEDFFWAITPIAGDYILFKFDKPVNVESYLFHSGNQEHPGDILLNTTVE
+                     VLPFKSEGLEISKETKDKRLEDGYFRIGKFENGVAEGMVDPSLNPISAFRLSVIQNSA
+                     VWAILNEQRVFSGWWQKSRDKAEGPQAPLLF"
+     polyA_signal    1804..1809
+                     /gene="MGAT4A"
+                     /gene_synonym="GnT-4a; GNT-IV; GNT-IVA"
+     polyA_site      1827
+                     /gene="MGAT4A"
+                     /gene_synonym="GnT-4a; GNT-IV; GNT-IVA"
+     polyA_signal    3646..3651
+                     /gene="MGAT4A"
+                     /gene_synonym="GnT-4a; GNT-IV; GNT-IVA"
+     polyA_site      3667
+                     /gene="MGAT4A"
+                     /gene_synonym="GnT-4a; GNT-IV; GNT-IVA"
+     polyA_signal    3690..3695
+                     /gene="MGAT4A"
+                     /gene_synonym="GnT-4a; GNT-IV; GNT-IVA"
+     polyA_site      3711
+                     /gene="MGAT4A"
+                     /gene_synonym="GnT-4a; GNT-IV; GNT-IVA"
+ORIGIN      
+        1 agttgtaaaa tacagtttgc tgtttatact tcgcagccat tcatttttta gtgtgaagtt
+       61 taatgtcttt catttttatc agttcttttt ttcttatggt taagccatgt gaaaatgaat
+      121 tacagtatta cagtttcaat agtcatgggc attcccacag tgaagagaga agttaaatct
+      181 tacctcatag aaactcttca ttcccttatt gataacctgt atcctgaaga gaagttggac
+      241 tgtgttatag tagtcttcat aggagagaca gatattgatt atgtacatgg tgttgtagcc
+      301 aacctggaga aagaattttc taaagaaatc agttctggct tggtggaagt catatcaccc
+      361 cctgaaagct attatcctga cttgacaaac ctaaaggaga catttggaga ctccaaagaa
+      421 agagtaagat ggagaacaaa gcaaaaccta gattactgtt ttctaatgat gtatgctcaa
+      481 gaaaagggca tatattacat tcagcttgaa gatgatatta ttgtcaaaca aaattatttt
+      541 aataccataa aaaattttgc acttcaactt tcttctgagg aatggatgat tctagagttt
+      601 tcccagctgg gcttcattgg taaaatgttt caagcgccgg atcttactct gattgtagaa
+      661 ttcatattca tgttttacaa ggagaaaccc attgattggc tcctggacca tattctctgg
+      721 gtgaaagtct gcaaccctga aaaagatgca aaacattgtg atagacagaa agcaaatctg
+      781 cgaattcgct tcagaccttc ccttttccaa catgttggtc tgcactcatc actatcagga
+      841 aaaatccaaa aactcacgga taaagattat atgaaaccat tacttcttaa aatccatgta
+      901 aacccacctg cggaggtatc tacttccttg aaggtctacc aagggcatac gctggagaaa
+      961 acttacatgg gagaggattt cttctgggct atcacaccga tagctggaga ctacatcttg
+     1021 tttaaatttg ataaaccagt caatgtagaa agttatttgt tccatagcgg caaccaagaa
+     1081 catcctggag atattctgct aaacacaact gtggaagttt tgccttttaa gagtgaaggt
+     1141 ttggaaataa gcaaagaaac caaagacaaa cgattagaag atggctattt cagaatagga
+     1201 aaatttgaga atggtgttgc agaaggaatg gtggatccaa gtctcaatcc catttcagcc
+     1261 tttcgacttt cagttattca gaattctgct gtttgggcca ttcttaatga gcagagagtt
+     1321 ttctcgggct ggtggcagaa gtcaagagac aaagcagaag gacctcaggc accattgctg
+     1381 ttttaaggta gagggggctg catgagaagg aatgcacatg gctttgagga gctgagagag
+     1441 gccttggcta acagcaaagg agctgggaac tgcagtccta cagccacggg aactgaattc
+     1501 agcccataag ctcattcata ggcttggaaa ggcattcatc tccagtctcc agataagacc
+     1561 cagcctggcc aacactttga atccagcctt gtgagaccct aagccgagaa ctcacttaag
+     1621 cctgcttgga cttctgacct acagaactat gagataataa atcagtggtg ttttaagctg
+     1681 ctaaatttgt ggcaatttgt tatgtaggaa taggaaatga atacagtatt ttaaaagagg
+     1741 taaagaggaa atcttcatac ttgattccct gtagtatgct ggatatttct tggtaaatgc
+     1801 atgaataaag tctttagtag caagtcatgt acctggacct tgttggggat gttctcgcca
+     1861 gagatctcaa ttagtcttca ttggacgttt gttggcaaag ttgcagcatc ttactgagta
+     1921 gcgtttggta aaggaactgc tagaatgaga ctataggaat aggactgaaa cagtgtgtaa
+     1981 gggatctttt ttatttctag aagaggtgtt actttatact gatttagact gctctgagcc
+     2041 tgtcagaagt aaattcaaga atgattaaca gtggtatttt agatacatta agagcaaaaa
+     2101 taacctttgc cttgtagaga tcagataatc tgtgtatcga gggatttaat tttttttaac
+     2161 caaaacttag tttctctttt tatcatctag cacagatcaa atcctgtatg ggccagccaa
+     2221 atgtttgtag tttgagaatg ttttgcaaat acctctctgc ttccaagcca ttaatagcta
+     2281 atgaagtttt attttggttt gtccattaat ttttctgctt atttttactg tattgccatg
+     2341 tccttgatac gagacaagta gaactaaaag agagaaaatg agaggttaag actgtcagaa
+     2401 gatgagaaat gtgagtcata accatacctt agtgttttaa gggaacttta tccagtccaa
+     2461 tccctttata gaaaaggaac ttttccaagt tatgttgcag tatttatagt gtgtaaaatt
+     2521 ttgtttgact ttggtagttg tgcattttaa attatgaatc ttatatgcta cgataactag
+     2581 tatgcttact ttctttaatg catgtgatca tacaatgcta aaaaggtatt ttttaaagac
+     2641 ccaaccaaac tgaggatttt gttatacata tctgtatcaa cacctatata taaactcttc
+     2701 ttcttacctg aaacactcct tcacccggtt tgggcactaa ctagatcatt ttcaaaggaa
+     2761 caaacaggaa ggagcaagct ggcactccag ggtgcatctg agctgagaat ttagaagacc
+     2821 tcattcaaga aagtaaactg agcattgatg ggaaagcact ttgcgcgaag taacattccc
+     2881 actgttaatg ttgcagtcaa aattgtggaa aaaaaaaagt ggtgctaaaa ttgttctgaa
+     2941 atgaagattg tttgttgtgg ggaatatttt aatactcttg gactttaggg aggctatttt
+     3001 atgtgtcact tgctcctagt tgtttcattg tattagtaat tagcaaactg tcctggaacc
+     3061 aagggtttgg tacttttgcc tgattagcat tccattattt atttgaaatg ctcagtgttt
+     3121 gctcaaattt ggtgaaaata tcttttgaag acatattctc tgagccttaa aaatggctgc
+     3181 tatcgacagt actgtaagat gcactgccag tagatttgat acttttcatt tcagtgtagg
+     3241 cagtaatgtt ttctaagaaa gatttagaaa tcagcaaagt gtaacaattg tgtttcattt
+     3301 atggaatgga aaaactgaag tgtcccattc agaacacttt ggaaaggttg tctgcattag
+     3361 gggatgtttc tggaagcatc ccttagagaa gctgcctgag gaatctcctt gccaggttgt
+     3421 accagatttt tttttttctt aaatgtattg tatatatttt ccttaaaatg tcttcattgg
+     3481 ctgaatgatt cctatccgta gtaatatttt aggtacttgt tggattttta aaggaagatt
+     3541 atttattttc agatttgctg ctataattga aaacctagta actggtcctg ttgattgtgc
+     3601 cttcatcact gtttctctgt gccacgaccg ttcatgtgta tttgaaataa agaagtttaa
+     3661 aaagccatgt tgaattcaag attccttcta ataaaaatag gtgaaactta aaaaaaaaaa
+     3721 aaaaaa
+//
+

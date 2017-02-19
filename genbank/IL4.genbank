@@ -1,0 +1,663 @@
+LOCUS       NM_000589                921 bp    mRNA    linear   PRI 26-FEB-2012
+DEFINITION  Homo sapiens interleukin 4 (IL4), transcript variant 1, mRNA.
+ACCESSION   NM_000589
+VERSION     NM_000589.2  GI:27477090
+KEYWORDS    .
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (bases 1 to 921)
+  AUTHORS   Panzer,M., Sitte,S., Wirth,S., Drexler,I., Sparwasser,T. and
+            Voehringer,D.
+  TITLE     Rapid in vivo conversion of effector T cells into Th2 cells during
+            helminth infection
+  JOURNAL   J. Immunol. 188 (2), 615-623 (2012)
+   PUBMED   22156341
+  REMARK    GeneRIF: Th1 and Th17 cells can be repolarized to acquire
+            expression of IL-4 and lose the expression of their characteristic
+            cytokines IFN-gamma and IL-17A, respectively; however, regulatory T
+            cells are largely resistant to repolarization.
+REFERENCE   2  (bases 1 to 921)
+  AUTHORS   Liu,X., Wang,G., Hong,X., Wang,D., Tsai,H.J., Zhang,S.,
+            Arguelles,L., Kumar,R., Wang,H., Liu,R., Zhou,Y., Pearson,C.,
+            Ortiz,K., Schleimer,R., Holt,P.G., Pongracic,J., Price,H.E.,
+            Langman,C. and Wang,X.
+  TITLE     Gene-vitamin D interactions on food sensitization: a prospective
+            birth cohort study
+  JOURNAL   Allergy 66 (11), 1442-1448 (2011)
+   PUBMED   21819409
+  REMARK    GeneRIF: When examined jointly with SNPs, a significant interaction
+            between IL4 gene polymorphism (rs2243250) and Vitamin D
+            deficiency(VDD)was found: VDD increased the risk of Food
+            Sensitization among children carrying CC/CT genotypes.
+REFERENCE   3  (bases 1 to 921)
+  AUTHORS   Yang,X.X., Li,F.X., Wu,Y.S., Wu,D., Tan,J.Y. and Li,M.
+  TITLE     Association of TGF-beta1, IL-4 and IL-13 gene polymerphisms with
+            asthma in a Chinese population
+  JOURNAL   Asian Pac. J. Allergy Immunol. 29 (3), 273-277 (2011)
+   PUBMED   22053598
+  REMARK    GeneRIF: Five SNPs (rs1800469, rs2241712, rs2070874, rs20541 and
+            rs1800925) in TGF-beta1, IL-4 and IL-13 were genotyped using the
+            MassArray SNP genotyping system.
+REFERENCE   4  (bases 1 to 921)
+  AUTHORS   Wang,M., Wang,S., Song,Z., Ji,X., Zhang,Z., Zhou,J. and Ni,C.
+  TITLE     Associations of IL-4, IL-4R, and IL-13 gene polymorphisms in coal
+            workers' pneumoconiosis in China: a case-control study
+  JOURNAL   PLoS ONE 6 (8), E22624 (2011)
+   PUBMED   21857939
+  REMARK    GeneRIF: Results suggest that the IL-4 C-590T polymorphism is
+            involved in the etiology of CWP and susceptibility to this disease.
+REFERENCE   5  (bases 1 to 921)
+  AUTHORS   Son,J.S., Chae,C.S., Hwang,J.S., Park,Z.Y. and Im,S.H.
+  TITLE     Enhanced chromatin accessibility and recruitment of JUNB mediate
+            the sustained IL-4 expression in NFAT1 deficient T helper 2 cells
+  JOURNAL   PLoS ONE 6 (7), E22042 (2011)
+   PUBMED   21799768
+  REMARK    GeneRIF: the prolonged IL-4 expression in NFAT1 deficient Th2 cells
+            is mediated by preferential binding of JUNB/SATB1 to the IL-4
+            promoter with permissive chromatin architecture
+REFERENCE   6  (bases 1 to 921)
+  AUTHORS   Walter,M.R., Cook,W.J., Zhao,B.G., Cameron,R.P. Jr., Ealick,S.E.,
+            Walter,R.L. Jr., Reichert,P., Nagabhushan,T.L., Trotta,P.P. and
+            Bugg,C.E.
+  TITLE     Crystal structure of recombinant human interleukin-4
+  JOURNAL   J. Biol. Chem. 267 (28), 20371-20376 (1992)
+   PUBMED   1400355
+REFERENCE   7  (bases 1 to 921)
+  AUTHORS   Wlodawer,A., Pavlovsky,A. and Gustchina,A.
+  TITLE     Crystal structure of human recombinant interleukin-4 at 2.25 A
+            resolution
+  JOURNAL   FEBS Lett. 309 (1), 59-64 (1992)
+   PUBMED   1511746
+  REMARK    Erratum:[FEBS Lett. 2006 May 29;580(13):3340. Wlodaver, A
+            [corrected to Wlodawer, A]]
+REFERENCE   8  (bases 1 to 921)
+  AUTHORS   Garrett,D.S., Powers,R., March,C.J., Frieden,E.A., Clore,G.M. and
+            Gronenborn,A.M.
+  TITLE     Determination of the secondary structure and folding topology of
+            human interleukin-4 using three-dimensional heteronuclear magnetic
+            resonance spectroscopy
+  JOURNAL   Biochemistry 31 (17), 4347-4353 (1992)
+   PUBMED   1567881
+REFERENCE   9  (bases 1 to 921)
+  AUTHORS   Powers,R., Garrett,D.S., March,C.J., Frieden,E.A., Gronenborn,A.M.
+            and Clore,G.M.
+  TITLE     1H, 15N, 13C, and 13CO assignments of human interleukin-4 using
+            three-dimensional double- and triple-resonance heteronuclear
+            magnetic resonance spectroscopy
+  JOURNAL   Biochemistry 31 (17), 4334-4346 (1992)
+   PUBMED   1567880
+REFERENCE   10 (bases 1 to 921)
+  AUTHORS   Milne,L.J. and Crompton,G.K.
+  TITLE     Oropharyngeal thrush and beclomethasone dipropionate
+  JOURNAL   Postgrad Med J 51 SUPPL 4, 53 (1975)
+   PUBMED   1197194
+COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff. The
+            reference sequence was derived from M13982.1 and X06750.1.
+            This sequence is a reference standard in the RefSeqGene project.
+            On Jan 3, 2003 this sequence version replaced gi:4504668.
+            
+            Publication Note:  This RefSeq record includes a subset of the
+            publications that are available for this gene. Please see the Gene
+            record to access additional publications.
+            
+            Summary: The protein encoded by this gene is a pleiotropic cytokine
+            produced by activated T cells. This cytokine is a ligand for
+            interleukin 4 receptor. The interleukin 4 receptor also binds to
+            IL13, which may contribute to many overlapping functions of this
+            cytokine and IL13. STAT6, a signal transducer and activator of
+            transcription, has been shown to play a central role in mediating
+            the immune regulatory signal of this cytokine. This gene, IL3, IL5,
+            IL13, and CSF2 form a cytokine gene cluster on chromosome 5q, with
+            this gene particularly close to IL13. This gene, IL13 and IL5 are
+            found to be regulated coordinately by several long-range regulatory
+            elements in an over 120 kilobase range on the chromosome. Two
+            alternatively spliced transcript variants of this gene encoding
+            distinct isoforms have been reported. [provided by RefSeq, Jul
+            2008].
+            
+            Transcript Variant: This variant (1) encodes a longer isoform (1).
+FEATURES             Location/Qualifiers
+     source          1..921
+                     /organism="Homo sapiens"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9606"
+                     /chromosome="5"
+                     /map="5q31.1"
+     gene            1..921
+                     /gene="IL4"
+                     /gene_synonym="BCGF-1; BCGF1; BSF-1; BSF1; IL-4"
+                     /note="interleukin 4"
+                     /db_xref="GeneID:3565"
+                     /db_xref="HGNC:6014"
+                     /db_xref="HPRD:00989"
+                     /db_xref="MIM:147780"
+     misc_feature    332..334
+                     /gene="IL4"
+                     /gene_synonym="BCGF-1; BCGF1; BSF-1; BSF1; IL-4"
+                     /note="upstream in-frame stop codon"
+     CDS             371..832
+                     /gene="IL4"
+                     /gene_synonym="BCGF-1; BCGF1; BSF-1; BSF1; IL-4"
+                     /note="isoform 1 precursor is encoded by transcript
+                     variant 1; B cell growth factor 1; B_cell stimulatory
+                     factor 1; lymphocyte stimulatory factor 1; binetrakin;
+                     pitrakinra"
+                     /codon_start=1
+                     /product="interleukin-4 isoform 1 precursor"
+                     /protein_id="NP_000580.1"
+                     /db_xref="GI:4504669"
+                     /db_xref="CCDS:CCDS4158.1"
+                     /db_xref="GeneID:3565"
+                     /db_xref="HGNC:6014"
+                     /db_xref="HPRD:00989"
+                     /db_xref="MIM:147780"
+                     /translation="MGLTSQLLPPLFFLLACAGNFVHGHKCDITLQEIIKTLNSLTEQ
+                     KTLCTELTVTDIFAASKNTTEKETFCRAATVLRQFYSHHEKDTRCLGATAQQFHRHKQ
+                     LIRFLKRLDRNLWGLAGLNSCPVKEANQSTLENFLERLKTIMREKYSKCSS"
+     sig_peptide     371..442
+                     /gene="IL4"
+                     /gene_synonym="BCGF-1; BCGF1; BSF-1; BSF1; IL-4"
+                     /inference="COORDINATES: ab initio prediction:SignalP:4.0"
+     mat_peptide     443..829
+                     /gene="IL4"
+                     /gene_synonym="BCGF-1; BCGF1; BSF-1; BSF1; IL-4"
+                     /product="interleukin-4 isoform 1"
+ORIGIN      
+        1 ttctatgcaa agcaaaaagc cagcagcagc cccaagctga taagattaat ctaaagagca
+       61 aattatggtg taatttccta tgctgaaact ttgtagttaa ttttttaaaa aggtttcatt
+      121 ttcctattgg tctgatttca caggaacatt ttacctgttt gtgaggcatt ttttctcctg
+      181 gaagagaggt gctgattggc cccaagtgac tgacaatctg gtgtaacgaa aatttccaat
+      241 gtaaactcat tttccctcgg tttcagcaat tttaaatcta tatatagaga tatctttgtc
+      301 agcattgcat cgttagcttc tcctgataaa ctaattgcct cacattgtca ctgcaaatcg
+      361 acacctatta atgggtctca cctcccaact gcttccccct ctgttcttcc tgctagcatg
+      421 tgccggcaac tttgtccacg gacacaagtg cgatatcacc ttacaggaga tcatcaaaac
+      481 tttgaacagc ctcacagagc agaagactct gtgcaccgag ttgaccgtaa cagacatctt
+      541 tgctgcctcc aagaacacaa ctgagaagga aaccttctgc agggctgcga ctgtgctccg
+      601 gcagttctac agccaccatg agaaggacac tcgctgcctg ggtgcgactg cacagcagtt
+      661 ccacaggcac aagcagctga tccgattcct gaaacggctc gacaggaacc tctggggcct
+      721 ggcgggcttg aattcctgtc ctgtgaagga agccaaccag agtacgttgg aaaacttctt
+      781 ggaaaggcta aagacgatca tgagagagaa atattcaaag tgttcgagct gaatatttta
+      841 atttatgagt ttttgatagc tttatttttt aagtatttat atatttataa ctcatcataa
+      901 aataaagtat atatagaatc t
+//
+
+LOCUS       NM_172348                873 bp    mRNA    linear   PRI 26-FEB-2012
+DEFINITION  Homo sapiens interleukin 4 (IL4), transcript variant 2, mRNA.
+ACCESSION   NM_172348
+VERSION     NM_172348.1  GI:27477091
+KEYWORDS    .
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (bases 1 to 873)
+  AUTHORS   Panzer,M., Sitte,S., Wirth,S., Drexler,I., Sparwasser,T. and
+            Voehringer,D.
+  TITLE     Rapid in vivo conversion of effector T cells into Th2 cells during
+            helminth infection
+  JOURNAL   J. Immunol. 188 (2), 615-623 (2012)
+   PUBMED   22156341
+  REMARK    GeneRIF: Th1 and Th17 cells can be repolarized to acquire
+            expression of IL-4 and lose the expression of their characteristic
+            cytokines IFN-gamma and IL-17A, respectively; however, regulatory T
+            cells are largely resistant to repolarization.
+REFERENCE   2  (bases 1 to 873)
+  AUTHORS   Liu,X., Wang,G., Hong,X., Wang,D., Tsai,H.J., Zhang,S.,
+            Arguelles,L., Kumar,R., Wang,H., Liu,R., Zhou,Y., Pearson,C.,
+            Ortiz,K., Schleimer,R., Holt,P.G., Pongracic,J., Price,H.E.,
+            Langman,C. and Wang,X.
+  TITLE     Gene-vitamin D interactions on food sensitization: a prospective
+            birth cohort study
+  JOURNAL   Allergy 66 (11), 1442-1448 (2011)
+   PUBMED   21819409
+  REMARK    GeneRIF: When examined jointly with SNPs, a significant interaction
+            between IL4 gene polymorphism (rs2243250) and Vitamin D
+            deficiency(VDD)was found: VDD increased the risk of Food
+            Sensitization among children carrying CC/CT genotypes.
+REFERENCE   3  (bases 1 to 873)
+  AUTHORS   Yang,X.X., Li,F.X., Wu,Y.S., Wu,D., Tan,J.Y. and Li,M.
+  TITLE     Association of TGF-beta1, IL-4 and IL-13 gene polymerphisms with
+            asthma in a Chinese population
+  JOURNAL   Asian Pac. J. Allergy Immunol. 29 (3), 273-277 (2011)
+   PUBMED   22053598
+  REMARK    GeneRIF: Five SNPs (rs1800469, rs2241712, rs2070874, rs20541 and
+            rs1800925) in TGF-beta1, IL-4 and IL-13 were genotyped using the
+            MassArray SNP genotyping system.
+REFERENCE   4  (bases 1 to 873)
+  AUTHORS   Wang,M., Wang,S., Song,Z., Ji,X., Zhang,Z., Zhou,J. and Ni,C.
+  TITLE     Associations of IL-4, IL-4R, and IL-13 gene polymorphisms in coal
+            workers' pneumoconiosis in China: a case-control study
+  JOURNAL   PLoS ONE 6 (8), E22624 (2011)
+   PUBMED   21857939
+  REMARK    GeneRIF: Results suggest that the IL-4 C-590T polymorphism is
+            involved in the etiology of CWP and susceptibility to this disease.
+REFERENCE   5  (bases 1 to 873)
+  AUTHORS   Son,J.S., Chae,C.S., Hwang,J.S., Park,Z.Y. and Im,S.H.
+  TITLE     Enhanced chromatin accessibility and recruitment of JUNB mediate
+            the sustained IL-4 expression in NFAT1 deficient T helper 2 cells
+  JOURNAL   PLoS ONE 6 (7), E22042 (2011)
+   PUBMED   21799768
+  REMARK    GeneRIF: the prolonged IL-4 expression in NFAT1 deficient Th2 cells
+            is mediated by preferential binding of JUNB/SATB1 to the IL-4
+            promoter with permissive chromatin architecture
+REFERENCE   6  (bases 1 to 873)
+  AUTHORS   Walter,M.R., Cook,W.J., Zhao,B.G., Cameron,R.P. Jr., Ealick,S.E.,
+            Walter,R.L. Jr., Reichert,P., Nagabhushan,T.L., Trotta,P.P. and
+            Bugg,C.E.
+  TITLE     Crystal structure of recombinant human interleukin-4
+  JOURNAL   J. Biol. Chem. 267 (28), 20371-20376 (1992)
+   PUBMED   1400355
+REFERENCE   7  (bases 1 to 873)
+  AUTHORS   Wlodawer,A., Pavlovsky,A. and Gustchina,A.
+  TITLE     Crystal structure of human recombinant interleukin-4 at 2.25 A
+            resolution
+  JOURNAL   FEBS Lett. 309 (1), 59-64 (1992)
+   PUBMED   1511746
+  REMARK    Erratum:[FEBS Lett. 2006 May 29;580(13):3340. Wlodaver, A
+            [corrected to Wlodawer, A]]
+REFERENCE   8  (bases 1 to 873)
+  AUTHORS   Garrett,D.S., Powers,R., March,C.J., Frieden,E.A., Clore,G.M. and
+            Gronenborn,A.M.
+  TITLE     Determination of the secondary structure and folding topology of
+            human interleukin-4 using three-dimensional heteronuclear magnetic
+            resonance spectroscopy
+  JOURNAL   Biochemistry 31 (17), 4347-4353 (1992)
+   PUBMED   1567881
+REFERENCE   9  (bases 1 to 873)
+  AUTHORS   Powers,R., Garrett,D.S., March,C.J., Frieden,E.A., Gronenborn,A.M.
+            and Clore,G.M.
+  TITLE     1H, 15N, 13C, and 13CO assignments of human interleukin-4 using
+            three-dimensional double- and triple-resonance heteronuclear
+            magnetic resonance spectroscopy
+  JOURNAL   Biochemistry 31 (17), 4334-4346 (1992)
+   PUBMED   1567880
+REFERENCE   10 (bases 1 to 873)
+  AUTHORS   Milne,L.J. and Crompton,G.K.
+  TITLE     Oropharyngeal thrush and beclomethasone dipropionate
+  JOURNAL   Postgrad Med J 51 SUPPL 4, 53 (1975)
+   PUBMED   1197194
+COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff. The
+            reference sequence was derived from X81851.1.
+            
+            Publication Note:  This RefSeq record includes a subset of the
+            publications that are available for this gene. Please see the Gene
+            record to access additional publications.
+            
+            Summary: The protein encoded by this gene is a pleiotropic cytokine
+            produced by activated T cells. This cytokine is a ligand for
+            interleukin 4 receptor. The interleukin 4 receptor also binds to
+            IL13, which may contribute to many overlapping functions of this
+            cytokine and IL13. STAT6, a signal transducer and activator of
+            transcription, has been shown to play a central role in mediating
+            the immune regulatory signal of this cytokine. This gene, IL3, IL5,
+            IL13, and CSF2 form a cytokine gene cluster on chromosome 5q, with
+            this gene particularly close to IL13. This gene, IL13 and IL5 are
+            found to be regulated coordinately by several long-range regulatory
+            elements in an over 120 kilobase range on the chromosome. Two
+            alternatively spliced transcript variants of this gene encoding
+            distinct isoforms have been reported. [provided by RefSeq, Jul
+            2008].
+            
+            Transcript Variant: This variant (2) lacks an in-frame coding
+            segment compared to variant 1, resulting an isoform (2) that lacks
+            an internal region, as compared to isoform 1.
+FEATURES             Location/Qualifiers
+     source          1..873
+                     /organism="Homo sapiens"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9606"
+                     /chromosome="5"
+                     /map="5q31.1"
+     gene            1..873
+                     /gene="IL4"
+                     /gene_synonym="BCGF-1; BCGF1; BSF-1; BSF1; IL-4"
+                     /note="interleukin 4"
+                     /db_xref="GeneID:3565"
+                     /db_xref="HGNC:6014"
+                     /db_xref="HPRD:00989"
+                     /db_xref="MIM:147780"
+     misc_feature    332..334
+                     /gene="IL4"
+                     /gene_synonym="BCGF-1; BCGF1; BSF-1; BSF1; IL-4"
+                     /note="upstream in-frame stop codon"
+     CDS             371..784
+                     /gene="IL4"
+                     /gene_synonym="BCGF-1; BCGF1; BSF-1; BSF1; IL-4"
+                     /note="isoform 2 precursor is encoded by transcript
+                     variant 2; B cell growth factor 1; B_cell stimulatory
+                     factor 1; lymphocyte stimulatory factor 1; binetrakin;
+                     pitrakinra"
+                     /codon_start=1
+                     /product="interleukin-4 isoform 2 precursor"
+                     /protein_id="NP_758858.1"
+                     /db_xref="GI:27477092"
+                     /db_xref="CCDS:CCDS4159.1"
+                     /db_xref="GeneID:3565"
+                     /db_xref="HGNC:6014"
+                     /db_xref="HPRD:00989"
+                     /db_xref="MIM:147780"
+                     /translation="MGLTSQLLPPLFFLLACAGNFVHGHKCDITLQEIIKTLNSLTEQ
+                     KNTTEKETFCRAATVLRQFYSHHEKDTRCLGATAQQFHRHKQLIRFLKRLDRNLWGLA
+                     GLNSCPVKEANQSTLENFLERLKTIMREKYSKCSS"
+     sig_peptide     371..442
+                     /gene="IL4"
+                     /gene_synonym="BCGF-1; BCGF1; BSF-1; BSF1; IL-4"
+                     /inference="COORDINATES: ab initio prediction:SignalP:4.0"
+     mat_peptide     443..781
+                     /gene="IL4"
+                     /gene_synonym="BCGF-1; BCGF1; BSF-1; BSF1; IL-4"
+                     /product="interleukin-4 isoform 2"
+     misc_feature    506^507
+                     /gene="IL4"
+                     /gene_synonym="BCGF-1; BCGF1; BSF-1; BSF1; IL-4"
+                     /note="Region: location of the region present in variant
+                     1"
+ORIGIN      
+        1 ttctatgcaa agcaaaaagc cagcagcagc cccaagctga taagattaat ctaaagagca
+       61 aattatggtg taatttccta tgctgaaact ttgtagttaa ttttttaaaa aggtttcatt
+      121 ttcctattgg tctgatttca caggaacatt ttacctgttt gtgaggcatt ttttctcctg
+      181 gaagagaggt gctgattggc cccaagtgac tgacaatctg gtgtaacgaa aatttccaat
+      241 gtaaactcat tttccctcgg tttcagcaat tttaaatcta tatatagaga tatctttgtc
+      301 agcattgcat cgttagcttc tcctgataaa ctaattgcct cacattgtca ctgcaaatcg
+      361 acacctatta atgggtctca cctcccaact gcttccccct ctgttcttcc tgctagcatg
+      421 tgccggcaac tttgtccacg gacacaagtg cgatatcacc ttacaggaga tcatcaaaac
+      481 tttgaacagc ctcacagagc agaagaacac aactgagaag gaaaccttct gcagggctgc
+      541 gactgtgctc cggcagttct acagccacca tgagaaggac actcgctgcc tgggtgcgac
+      601 tgcacagcag ttccacaggc acaagcagct gatccgattc ctgaaacggc tcgacaggaa
+      661 cctctggggc ctggcgggct tgaattcctg tcctgtgaag gaagccaacc agagtacgtt
+      721 ggaaaacttc ttggaaaggc taaagacgat catgagagag aaatattcaa agtgttcgag
+      781 ctgaatattt taatttatga gtttttgata gctttatttt ttaagtattt atatatttat
+      841 aactcatcat aaaataaagt atatatagaa tct
+//
+
+LOCUS       NM_001003159             580 bp    mRNA    linear   MAM 26-FEB-2012
+DEFINITION  Canis lupus familiaris interleukin 4 (IL4), mRNA.
+ACCESSION   NM_001003159
+VERSION     NM_001003159.1  GI:50978885
+KEYWORDS    .
+SOURCE      Canis lupus familiaris (dog)
+  ORGANISM  Canis lupus familiaris
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Carnivora; Caniformia; Canidae;
+            Canis.
+REFERENCE   1  (bases 1 to 580)
+  AUTHORS   Barbosa,M.A., Alexandre-Pires,G., Soares-Clemente,M., Marques,C.,
+            Rodrigues,O.R., De Brito,T.V., Da Fonseca,I.P., Alves,L.C. and
+            Santos-Gomes,G.M.
+  TITLE     Cytokine gene expression in the tissues of dogs infected by
+            Leishmania infantum
+  JOURNAL   J. Comp. Pathol. 145 (4), 336-344 (2011)
+   PUBMED   21511273
+  REMARK    GeneRIF: In dogs with leishmaniasis, there was high expression of
+            genes encoding IL-4 in blood leucocytes.  The predominance of IL-4
+            gene expression in the blood of asymptomatic dogs may favour
+            parasite replication.
+REFERENCE   2  (bases 1 to 580)
+  AUTHORS   Rai,M.F., Graeve,T., Twardziok,S. and Schmidt,M.F.
+  TITLE     Evidence for regulated interleukin-4 expression in
+            chondrocyte-scaffolds under in vitro inflammatory conditions
+  JOURNAL   PLoS ONE 6 (10), E25749 (2011)
+   PUBMED   21991344
+  REMARK    GeneRIF: The anti-inflammatory and anabolic effects of regulated
+            expression of IL-4 in chondrocyte-scaffolds under in vitro
+            inflammatory conditions, were investigated.
+REFERENCE   3  (bases 1 to 580)
+  AUTHORS   Manning,K., Rachakonda,P.S., Rai,M.F. and Schmidt,M.F.
+  TITLE     Co-expression of insulin-like growth factor-1 and interleukin-4 in
+            an in vitro inflammatory model
+  JOURNAL   Cytokine 50 (3), 297-305 (2010)
+   PUBMED   20188584
+  REMARK    GeneRIF: This study focuses on the co-expression of interleukin-4
+            (IL-4) and insulin-like-growth factor-1 (IGF-1), which specifically
+            target inflammation and cartilage repair, respectively.
+REFERENCE   4  (bases 1 to 580)
+  AUTHORS   Stehle,M.E., Hanczaruk,M., Schwarz,S.C., Gobel,T.W. and
+            Mueller,R.S.
+  TITLE     Effects of polyunsaturated fatty acids on isolated canine
+            peripheral blood mononuclear cells and cytokine expression (IL-4,
+            IFN-gamma, TGF-beta) in healthy and atopic dogs
+  JOURNAL   Vet. Dermatol. 21 (1), 112-117 (2010)
+   PUBMED   20187917
+  REMARK    GeneRIF: These findings suggest that polyunsaturated fatty acids
+            are able to influence proliferation of peripheral blood mononuclear
+            cells in healthy and atopic dogs but do not seem to influence
+            cytokine transcription.
+REFERENCE   5  (bases 1 to 580)
+  AUTHORS   Rachakonda,P.S., Rai,M.F., Manning,K. and Schmidt,M.F.
+  TITLE     Expression of canine interleukin-4 in canine chondrocytes inhibits
+            inflammatory cascade through STAT6
+  JOURNAL   Cytokine 44 (1), 179-184 (2008)
+   PUBMED   18789870
+  REMARK    GeneRIF: IL-4 expressed in canine articular chondrocytes is
+            biologically active and suppresses inflammatory mediators in vitro.
+REFERENCE   6  (bases 1 to 580)
+  AUTHORS   Chamizo,C., Rubio,J.M., Moreno,J. and Alvar,J.
+  TITLE     Semi-quantitative analysis of multiple cytokines in canine
+            peripheral blood mononuclear cells by [correction of zby] a single
+            tube RT-PCR
+  JOURNAL   Vet. Immunol. Immunopathol. 83 (3-4), 191-202 (2001)
+   PUBMED   11730929
+REFERENCE   7  (bases 1 to 580)
+  AUTHORS   Wondimu,A., Veit,M., Kohn,B., Kaul,S., Hoffmann,A., Brunnberg,L.
+            and Schmidt,M.F.
+  TITLE     Molecular cloning, expression and characterization of the Canis
+            familiaris interleukin-4
+  JOURNAL   Cytokine 16 (3), 88-92 (2001)
+   PUBMED   11741347
+REFERENCE   8  (bases 1 to 580)
+  AUTHORS   Khatlani,T.S., Ohno,K., Ma,Z., Inokuma,H. and Onishi,T.
+  TITLE     Cloning of a full length cDNA encoding canine Interleukin-4
+  JOURNAL   J. Vet. Med. Sci. 61 (8), 967-969 (1999)
+   PUBMED   10487243
+REFERENCE   9  (bases 1 to 580)
+  AUTHORS   van der Kaaij,S.Y., Pinelli,E., Broeren,C.P., Schetters,T.P.,
+            Haghparast,A., Ruitenberg,E.J. and Rutten,V.P.
+  TITLE     Molecular cloning and sequencing of the cDNA for dog interleukin-4
+  JOURNAL   Immunogenetics 49 (2), 142-143 (1999)
+   PUBMED   9887351
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from AF239917.1.
+FEATURES             Location/Qualifiers
+     source          1..580
+                     /organism="Canis lupus familiaris"
+                     /mol_type="mRNA"
+                     /sub_species="familiaris"
+                     /db_xref="taxon:9615"
+                     /chromosome="11"
+                     /map="11"
+     gene            1..580
+                     /gene="IL4"
+                     /gene_synonym="IL-4"
+                     /note="interleukin 4"
+                     /db_xref="GeneID:403785"
+     misc_feature    19..21
+                     /gene="IL4"
+                     /gene_synonym="IL-4"
+                     /note="upstream in-frame stop codon"
+     CDS             64..462
+                     /gene="IL4"
+                     /gene_synonym="IL-4"
+                     /note="interleukin-4; BSF-1; B-cell stimulatory factor 1;
+                     lymphocyte stimulatory factor 1"
+                     /codon_start=1
+                     /product="interleukin-4 precursor"
+                     /protein_id="NP_001003159.1"
+                     /db_xref="GI:50978886"
+                     /db_xref="GeneID:403785"
+                     /translation="MGLTSQLIPTLVCLLALTSTFVHGHNFNITIKEIIKMLNILTAR
+                     NDSCMELTVKDVFTAPKNTSDKEIFCRAATVLRQIYTHNCSNRYLRGLYRNLSSMANK
+                     TCSMNEIKKSTLKDFLERLKVIMQKKYYRH"
+     sig_peptide     64..135
+                     /gene="IL4"
+                     /gene_synonym="IL-4"
+                     /inference="COORDINATES: ab initio prediction:SignalP:4.0"
+     mat_peptide     136..459
+                     /gene="IL4"
+                     /gene_synonym="IL-4"
+                     /product="Interleukin-4"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (O77762.1)"
+ORIGIN      
+        1 attgtgagcc tctcctagta aactgatttg tctgctattg tcactgcaaa tagagatcta
+       61 ttaatgggtc tcacctccca actgattcca actctggtct gcttactagc actcaccagc
+      121 acctttgtcc acggacataa cttcaatatt actattaaag agatcatcaa aatgttgaac
+      181 atcctcacag cgagaaacga ctcgtgcatg gagctgactg tcaaggacgt cttcactgct
+      241 ccaaagaaca caagcgataa ggaaatcttc tgcagagctg ctactgtact gcggcagatc
+      301 tatacacaca actgctccaa cagatatctc agaggactct acaggaacct cagcagcatg
+      361 gcaaacaaga cctgttctat gaatgaaatc aagaagagta cactgaaaga cttcttggaa
+      421 aggctaaaag tgatcatgca gaagaaatac tacaggcatt gaagctgaat attttaattt
+      481 atgagttttt aaatagcttt attttaaaaa tatttatata tttataacat aataaaataa
+      541 aatatatata gactctaaaa aaaaaaaaaa aaaaaaaaaa
+//
+
+LOCUS       NM_201270                475 bp    mRNA    linear   ROD 25-FEB-2012
+DEFINITION  Rattus norvegicus interleukin 4 (Il4), mRNA.
+ACCESSION   NM_201270 XM_213302
+VERSION     NM_201270.1  GI:42627876
+KEYWORDS    .
+SOURCE      Rattus norvegicus (Norway rat)
+  ORGANISM  Rattus norvegicus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia;
+            Sciurognathi; Muroidea; Muridae; Murinae; Rattus.
+REFERENCE   1  (bases 1 to 475)
+  AUTHORS   Bao,Z.S., Hong,L., Guan,Y., Dong,X.W., Zheng,H.S., Tan,G.L. and
+            Xie,Q.M.
+  TITLE     Inhibition of airway inflammation, hyperresponsiveness and
+            remodeling by soy isoflavone in a murine model of allergic asthma
+  JOURNAL   Int. Immunopharmacol. 11 (8), 899-906 (2011)
+   PUBMED   21354484
+REFERENCE   2  (bases 1 to 475)
+  AUTHORS   Lee,C.C., Huang,H.Y. and Chiang,B.L.
+  TITLE     Lentiviral-mediated interleukin-4 and interleukin-13 RNA
+            interference decrease airway inflammation and hyperresponsiveness
+  JOURNAL   Hum. Gene Ther. 22 (5), 577-586 (2011)
+   PUBMED   21375458
+REFERENCE   3  (bases 1 to 475)
+  AUTHORS   Swain,S.D., Meissner,N., Han,S. and Harmsen,A.
+  TITLE     Pneumocystis infection in an immunocompetent host can promote
+            collateral sensitization to respiratory antigens
+  JOURNAL   Infect. Immun. 79 (5), 1905-1914 (2011)
+   PUBMED   21343358
+REFERENCE   4  (bases 1 to 475)
+  AUTHORS   Rosa Neto,J.C., Lira,F.S., Zanchi,N.E., Oyama,L.M., Pimentel,G.D.,
+            Santos,R.V., Seelaender,M. and Oller do Nascimento,C.M.
+  TITLE     Acute exhaustive exercise regulates IL-2, IL-4 and MyoD in skeletal
+            muscle but not adipose tissue in rats
+  JOURNAL   Lipids Health Dis 10, 97 (2011)
+   PUBMED   21668966
+  REMARK    GeneRIF: The purpose of this study was to evaluate the effect of
+            exhaustive exercise on proteins associated with muscle damage and
+            regeneration, including IL-2, IL-4 and MyoD in muscle and adipose
+            tissue.
+            Publication Status: Online-Only
+REFERENCE   5  (bases 1 to 475)
+  AUTHORS   Meng,L., He,X., Zhu,W., Yang,X., Jiang,C., Sun,Q., M,B., Zhang,S.,
+            Xue,Q., Xie,X. and Lu,S.
+  TITLE     TLR3 and TLR7 modulate IgE production in antigen induced pulmonary
+            inflammation via influencing IL-4 expression in immune organs
+  JOURNAL   PLoS ONE 6 (2), E17252 (2011)
+   PUBMED   21364926
+  REMARK    Publication Status: Online-Only
+REFERENCE   6  (bases 1 to 475)
+  AUTHORS   Prigent,P., Saoudi,A., Pannetier,C., Graber,P., Bonnefoy,J.Y.,
+            Druet,P. and Hirsch,F.
+  TITLE     Mercuric chloride, a chemical responsible for T helper cell
+            (Th)2-mediated autoimmunity in brown Norway rats, directly triggers
+            T cells to produce interleukin-4
+  JOURNAL   J. Clin. Invest. 96 (3), 1484-1489 (1995)
+   PUBMED   7657819
+REFERENCE   7  (bases 1 to 475)
+  AUTHORS   Katoh,T., Lakkis,F.G., Makita,N. and Badr,K.F.
+  TITLE     Co-regulated expression of glomerular 12/15-lipoxygenase and
+            interleukin-4 mRNAs in rat nephrotoxic nephritis
+  JOURNAL   Kidney Int. 46 (2), 341-349 (1994)
+   PUBMED   7967345
+REFERENCE   8  (bases 1 to 475)
+  AUTHORS   McKnight,A.J., Barclay,A.N. and Mason,D.W.
+  TITLE     Molecular cloning of rat interleukin 4 cDNA and analysis of the
+            cytokine repertoire of subsets of CD4+ T cells
+  JOURNAL   Eur. J. Immunol. 21 (5), 1187-1194 (1991)
+   PUBMED   1903705
+REFERENCE   9  (bases 1 to 475)
+  AUTHORS   Richter,G., Blankenstein,T. and Diamantstein,T.
+  TITLE     Evolutionary aspects, structure, and expression of the rat
+            interleukin 4 gene
+  JOURNAL   Cytokine 2 (3), 221-228 (1990)
+   PUBMED   1983334
+REFERENCE   10 (bases 1 to 475)
+  AUTHORS   Brown,M.A., Pierce,J.H., Watson,C.J., Falco,J., Ihle,J.N. and
+            Paul,W.E.
+  TITLE     B cell stimulatory factor-1/interleukin-4 mRNA is expressed by
+            normal and transformed mast cells
+  JOURNAL   Cell 50 (5), 809-818 (1987)
+   PUBMED   3497723
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from X16058.2.
+            On Mar 22, 2004 this sequence version replaced gi:27670671.
+            
+            Publication Note:  This RefSeq record includes a subset of the
+            publications that are available for this gene. Please see the Gene
+            record to access additional publications.
+            
+            Summary: Th2-type cytokine; may be involved in inflammatory
+            response in eosinophils [RGD, Feb 2006].
+FEATURES             Location/Qualifiers
+     source          1..475
+                     /organism="Rattus norvegicus"
+                     /mol_type="mRNA"
+                     /strain="PVG-RT7B"
+                     /db_xref="taxon:10116"
+                     /chromosome="10"
+                     /map="10q22"
+     gene            1..475
+                     /gene="Il4"
+                     /gene_synonym="Il4e12"
+                     /note="interleukin 4"
+                     /db_xref="GeneID:287287"
+                     /db_xref="RGD:2898"
+     CDS             31..474
+                     /gene="Il4"
+                     /gene_synonym="Il4e12"
+                     /note="interleukin-4; IL-4; BSF-1; B-cell growth factor 1;
+                     B-cell stimulatory factor 1; lymphocyte stimulatory factor
+                     1; B-cell IGG differentiation factor"
+                     /codon_start=1
+                     /product="interleukin-4 precursor"
+                     /protein_id="NP_958427.1"
+                     /db_xref="GI:42627877"
+                     /db_xref="GeneID:287287"
+                     /db_xref="RGD:2898"
+                     /translation="MGLSPHLAVTLFCFLICTGNGIHGCNDSPLREIINTLNQVTEKG
+                     TPCTEMFVPDVLTATRNTTENELICRASRVLRKFYFPRDVPPCLKNKSGVLGELRKLC
+                     RGVSGLNSLRSCTVNESTLTTLKDFLESLKSILRGKYLQSCTSMS"
+     sig_peptide     31..102
+                     /gene="Il4"
+                     /gene_synonym="Il4e12"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /note="Potential; propagated from UniProtKB/Swiss-Prot
+                     (P20096.2)"
+     mat_peptide     103..471
+                     /gene="Il4"
+                     /gene_synonym="Il4e12"
+                     /product="Interleukin-4"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (P20096.2)"
+ORIGIN      
+        1 tctcacgtca ctgactgtag agagctattg atgggtctca gcccccacct tgctgtcacc
+       61 ctgttctgct ttctcatatg taccgggaac ggtatccacg gatgtaacga cagccctctg
+      121 agagagatca tcaacacttt gaaccaggtc acagaaaaag ggactccatg caccgagatg
+      181 tttgtaccag acgtccttac ggcaacaagg aacaccacgg agaacgagct catctgcagg
+      241 gcttccaggg tgcttcgcaa attttacttc ccacgtgatg tacctccgtg cttgaagaac
+      301 aagtctgggg ttctcggtga actgaggaaa ctctgtagag gtgtcagcgg tctgaactca
+      361 ctgagaagct gcaccgtgaa tgagtccacg ctcacaacac tgaaagactt cctggaaagc
+      421 ctaaaaagca tcctacgagg gaaatacttg cagtcctgca cttccatgtc ctaac
+//
+
