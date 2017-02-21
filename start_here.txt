@@ -46,7 +46,11 @@ Basic navigation in less
 Once you typed "less start_here.txt", you will enter a new mode, 
 where you can browse the contents of the file.
 
-Press the arrow keys to scroll up/down.
+This mode is generally used only to visualize the contents,
+without editing or modifying the files. We will see how to edit files later.
+
+For now, press the arrow keys to scroll up/down and see the contents of this
+document.
 
 +++++++++++++++++++++++++
 Searching for keywords
