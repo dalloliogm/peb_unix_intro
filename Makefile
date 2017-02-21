@@ -15,28 +15,28 @@ generate_awk:
 	Rscript src/generate_awk_exercise.R
 
 start:
-	grep start data/exercise1_grep.txt
+	grep start exercises/2_searching_patterns.txt
 
 help:
-	grep help data/exercise1_grep.txt
+	grep help exercises/2_searching_patterns.txt
 
 ignorecase:
-	grep -i -c ignorecase data/exercise1_grep.txt
-	grep 21 data/exercise1_grep.txt
+	grep -i -c ignorecase exercises/2_searching_patterns.txt
+	grep 21 exercises/2_searching_patterns.txt
 
 multiplefiles:
-	grep 'regex' data/multiplefiles/*
+	grep 'regex' exercises/multiplefiles/*
 
 piping:
-	grep ORGANISM data/genes/mgat_genes.gb | grep 'Homo sapiens'
-	grep ORGANISM data/genes/mgat_genes.gb | grep taurus
+	grep ORGANISM exercises/genes/mgat_genes.gb | grep 'Homo sapiens'
+	grep ORGANISM exercises/genes/mgat_genes.gb | grep taurus
 
 regex:
-	grep 'AAA..TTT' data/genes/sequences.fasta
+	grep 'AAA..TTT' exercises/genes/sequences.fasta
 
 
 awk1:
-	awk '$$1=="chr8" && $$4>100000 && $$5<200000 ' data/genes/chr8.gff
+	awk '$$1=="chr8" && $$4>100000 && $$5<200000 ' exercises/genes/chr8.gff
 
 publish: slides commit
 	git push
