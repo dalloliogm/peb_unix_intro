@@ -1,7 +1,7 @@
 # This is a Makefile, which will be explained later in the course.
 # Please don't look at it yet :-)
 
-publish: slides commit
+publish: slides_bash commit
 	echo "convert the slides to pdf, commit, and push to github"
 	git push
 
@@ -52,7 +52,7 @@ commit:
 slides_bash:
 	jupyter nbconvert --to slides  slides/*.ipynb
 
-cow:
+goodbye:
 	@cowsay -W 12 'I hope you have enjoyed the workshop :-)'
 	@cowthink -W 12 "Now let's go for dinner"
 	@cowsay -W 22 "Note: real genomes do not contain hidden cows"
