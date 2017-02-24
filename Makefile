@@ -1,3 +1,11 @@
+# This is a Makefile, which will be explained later in the course.
+# Please don't look at it yet :-)
+
+publish: slides commit
+	echo "convert the slides to pdf, commit, and push to github"
+	git push
+
+
 test_exercises: start help ignorecase multiplefiles
 generate_exercises: generate_grep generate_awk
 
@@ -38,16 +46,11 @@ regex:
 awk1:
 	awk '$$1=="chr8" && $$4>100000 && $$5<200000 ' exercises/genes/chr8.gff
 
-publish: slides commit
-	git push
-
 commit:
 	-git commit -a
 
-slides: slides_bash slides_bioc
-
 slides_bash:
-	jupyter nbconvert --to slides  PEB\ Bash\ Workshop.ipynb
+	jupyter nbconvert --to slides  slides/*.ipynb
 
 cow:
 	@cowsay -W 12 'I hope you have enjoyed the workshop :-)'
