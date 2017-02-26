@@ -11830,7 +11830,7 @@ a.anchor-link {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Table-of-Contents">Table of Contents<a class="anchor-link" href="#Table-of-Contents">&#182;</a></h1><p><p><div class="lev1 toc-item"><a href="#Introduction-to-Unix---grep-and-regular-expressions" data-toc-modified-id="Introduction-to-Unix---grep-and-regular-expressions-1"><span class="toc-item-num">1&nbsp;&nbsp;</span>Introduction to Unix - grep and regular expressions</a></div><div class="lev1 toc-item"><a href="#Searching-patterns-into-file:-grep" data-toc-modified-id="Searching-patterns-into-file:-grep-2"><span class="toc-item-num">2&nbsp;&nbsp;</span>Searching patterns into file: grep</a></div><div class="lev2 toc-item"><a href="#Accessing-grep-documentation" data-toc-modified-id="Accessing-grep-documentation-2.1"><span class="toc-item-num">2.1&nbsp;&nbsp;</span>Accessing grep documentation</a></div><div class="lev2 toc-item"><a href="#Searching-multiple-files" data-toc-modified-id="Searching-multiple-files-2.2"><span class="toc-item-num">2.2&nbsp;&nbsp;</span>Searching multiple files</a></div><div class="lev2 toc-item"><a href="#Searching-multiple-patterns-and-the-Unix-piping-system" data-toc-modified-id="Searching-multiple-patterns-and-the-Unix-piping-system-2.3"><span class="toc-item-num">2.3&nbsp;&nbsp;</span>Searching multiple patterns and the Unix piping system</a></div><div class="lev2 toc-item"><a href="#Regular-Expressions" data-toc-modified-id="Regular-Expressions-2.4"><span class="toc-item-num">2.4&nbsp;&nbsp;</span>Regular Expressions</a></div><div class="lev2 toc-item"><a href="#Regular-Expression-exercise" data-toc-modified-id="Regular-Expression-exercise-2.5"><span class="toc-item-num">2.5&nbsp;&nbsp;</span>Regular Expression exercise</a></div></p>
+<h1 id="Table-of-Contents">Table of Contents<a class="anchor-link" href="#Table-of-Contents">&#182;</a></h1><p><p><div class="lev1 toc-item"><a href="#Introduction-to-Unix,-Part-3---grep-and-regular-expressions" data-toc-modified-id="Introduction-to-Unix,-Part-3---grep-and-regular-expressions-1"><span class="toc-item-num">1&nbsp;&nbsp;</span>Introduction to Unix, Part 3 - grep and regular expressions</a></div><div class="lev1 toc-item"><a href="#Searching-patterns-into-file:-grep" data-toc-modified-id="Searching-patterns-into-file:-grep-2"><span class="toc-item-num">2&nbsp;&nbsp;</span>Searching patterns into file: grep</a></div><div class="lev2 toc-item"><a href="#Accessing-grep-documentation" data-toc-modified-id="Accessing-grep-documentation-2.1"><span class="toc-item-num">2.1&nbsp;&nbsp;</span>Accessing grep documentation</a></div><div class="lev2 toc-item"><a href="#Searching-multiple-files" data-toc-modified-id="Searching-multiple-files-2.2"><span class="toc-item-num">2.2&nbsp;&nbsp;</span>Searching multiple files</a></div><div class="lev2 toc-item"><a href="#Searching-multiple-patterns-and-the-Unix-piping-system" data-toc-modified-id="Searching-multiple-patterns-and-the-Unix-piping-system-2.3"><span class="toc-item-num">2.3&nbsp;&nbsp;</span>Searching multiple patterns and the Unix piping system</a></div><div class="lev2 toc-item"><a href="#Regular-Expressions" data-toc-modified-id="Regular-Expressions-2.4"><span class="toc-item-num">2.4&nbsp;&nbsp;</span>Regular Expressions</a></div><div class="lev2 toc-item"><a href="#Regular-Expression-exercise" data-toc-modified-id="Regular-Expression-exercise-2.5"><span class="toc-item-num">2.5&nbsp;&nbsp;</span>Regular Expression exercise</a></div><div class="lev1 toc-item"><a href="#Time-for-a-break!" data-toc-modified-id="Time-for-a-break!-3"><span class="toc-item-num">3&nbsp;&nbsp;</span>Time for a break!</a></div></p>
 
 </div>
 </div>
@@ -11840,19 +11840,19 @@ a.anchor-link {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Introduction-to-Unix---grep-and-regular-expressions">Introduction to Unix - grep and regular expressions<a class="anchor-link" href="#Introduction-to-Unix---grep-and-regular-expressions">&#182;</a></h1><p>Giovanni M. Dall'Olio, GlaxoSmithKline, 20/02/2017. All materials available here: <a href="https://dalloliogm.github.io/">https://dalloliogm.github.io/</a></p>
+<h1 id="Introduction-to-Unix,-Part-3---grep-and-regular-expressions">Introduction to Unix, Part 3 - grep and regular expressions<a class="anchor-link" href="#Introduction-to-Unix,-Part-3---grep-and-regular-expressions">&#182;</a></h1><p>Giovanni M. Dall'Olio, 20/02/2017. All materials available here: <a href="https://dalloliogm.github.io/">https://dalloliogm.github.io/</a></p>
 
-<pre><code> _______________
- / Welcome to    \
- \ PEB Leipzig! /
-  ---------------
+<pre><code>  ________________
+ / Part 3         \
+ \ grep and regex /
+  ----------------
          \   ^__^
           \  (oo)\_______
              (__)\       )\/\
                  ||----w |
                  ||     ||</code></pre>
-<p>Welcome to the Programming for Evoluationary Biology workshop!!</p>
-<p>In this workshop we will review some basic Unix command, as well as bash usage.</p>
+<p>Welcome to the Programming for Evolutionary Biology workshop!!</p>
+<p>In this third part we will see the <strong>grep</strong> command to search the contents of files, and some basic regular expressions.</p>
 <p>Press Space or Down do continue.</p>
 
 </div>
@@ -11871,10 +11871,10 @@ a.anchor-link {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[4]:</div>
+<div class="prompt input_prompt">In&nbsp;[7]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-bash"><pre><span></span>head data/exercise1_grep.txt
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">head</span> <span class="mi">2</span><span class="n">_searching_patterns</span><span class="o">.</span><span class="n">txt</span>
 </pre></div>
 
 </div>
@@ -11924,17 +11924,17 @@ qByK4hFg7JQowOAXW60EBXQYSDHFgUWHlJAGYnjO    CoB6YKtvZPaS8H8BRdsuBwdqU3KRz O9oXk
 <p>I've hidden the instructions for the first exercise in the lines containing the word "start" somewhere.</p>
 <p>To find them, type:</p>
 
-<pre><code>$: grep start data/exercise1_grep</code></pre>
+<pre><code>$: grep start 2_searching_patterns.txt</code></pre>
 
 </div>
 </div>
 </div><div class="fragment">
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[5]:</div>
+<div class="prompt input_prompt">In&nbsp;[8]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-bash"><pre><span></span>grep start data/exercise1_grep.txt
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">grep</span> <span class="n">start</span> <span class="mi">2</span><span class="n">_searching_patterns</span><span class="o">.</span><span class="n">txt</span>
 </pre></div>
 
 </div>
@@ -12010,10 +12010,10 @@ g0 g8iyP <span class="ansi-red-intense-fg ansi-bold">start</span>Qqkz7F05ST C S7
 </div></section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[6]:</div>
+<div class="prompt input_prompt">In&nbsp;[9]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-bash"><pre><span></span>grep <span class="nb">help</span> data/exercise1_grep.txt
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">grep</span> <span class="n">help</span> <span class="mi">2</span><span class="n">_searching_patterns</span><span class="o">.</span><span class="n">txt</span>
 </pre></div>
 
 </div>
@@ -12067,12 +12067,12 @@ lwjWEVzMBJSZiRSXvJzQmePQPFKeL4OQdO<span class="ansi-red-intense-fg ansi-bold">he
 </div></section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[7]:</div>
+<div class="prompt input_prompt">In&nbsp;[10]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-bash"><pre><span></span><span class="c1"># If we do a search for &quot;ignorecase&quot; without any option, we only get some of the lines.</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># If we do a search for &quot;ignorecase&quot; without any option, we only get some of the lines.</span>
 <span class="c1"># You can notice that the cow is not properly displayed :-)</span>
-grep ignorecase data/exercise1_grep.txt
+<span class="n">grep</span> <span class="n">ignorecase</span> <span class="mi">2</span><span class="n">_searching_patterns</span><span class="o">.</span><span class="n">txt</span>
 </pre></div>
 
 </div>
@@ -12101,12 +12101,12 @@ w<span class="ansi-red-intense-fg ansi-bold">ignorecase</span>Tt0lDGMb5KCFWEm4t8
 </div><div class="fragment">
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[8]:</div>
+<div class="prompt input_prompt">In&nbsp;[12]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-bash"><pre><span></span><span class="c1"># The -i option allows to do a case-insensitive search.</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># The -i option allows to do a case-insensitive search.</span>
 <span class="c1"># As you can see, some lines contain upper case characters:</span>
-grep -i ignorecase data/exercise1_grep.txt
+<span class="n">grep</span> <span class="o">-</span><span class="n">i</span> <span class="n">ignorecase</span> <span class="mi">2</span><span class="n">_searching_patterns</span><span class="o">.</span><span class="n">txt</span>
 </pre></div>
 
 </div>
@@ -12150,12 +12150,12 @@ zmqy<span class="ansi-red-intense-fg ansi-bold">IgnorEcase</span>qo5w9DIs0DGFlDa
 </div></div><div class="fragment">
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[9]:</div>
+<div class="prompt input_prompt">In&nbsp;[13]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-bash"><pre><span></span><span class="c1"># To solve the exercise, we also have to count the number of output lines.</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># To solve the exercise, we also have to count the number of output lines.</span>
 <span class="c1"># This can be done with the &quot;-c&quot; option:</span>
-grep -i -c ignorecase data/exercise1_grep.txt
+<span class="n">grep</span> <span class="o">-</span><span class="n">i</span> <span class="o">-</span><span class="n">c</span> <span class="n">ignorecase</span> <span class="mi">2</span><span class="n">_searching_patterns</span><span class="o">.</span><span class="n">txt</span>
 </pre></div>
 
 </div>
@@ -12179,11 +12179,11 @@ grep -i -c ignorecase data/exercise1_grep.txt
 </div></div><div class="fragment">
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[10]:</div>
+<div class="prompt input_prompt">In&nbsp;[14]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-bash"><pre><span></span><span class="c1"># solution: how to find the instructions for the next exercise</span>
-grep <span class="m">21</span> data/exercise1_grep.txt
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># solution: how to find the instructions for the next exercise</span>
+<span class="n">grep</span> <span class="mi">21</span> <span class="mi">2</span><span class="n">_searching_patterns</span><span class="o">.</span><span class="n">txt</span>
 </pre></div>
 
 </div>
@@ -12248,11 +12248,11 @@ iekhxfE5LpZ<span class="ansi-red-intense-fg ansi-bold">21</span>qUxwIjXpYtMchz48
 </div></section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[11]:</div>
+<div class="prompt input_prompt">In&nbsp;[15]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-bash"><pre><span></span><span class="c1"># solution: you can use the &quot;*&quot; character to specify multiple files:</span>
-grep <span class="s1">&#39;regex&#39;</span> data/multiplefiles/*
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># solution: you can use the &quot;*&quot; character to specify multiple files:</span>
+<span class="n">grep</span> <span class="s1">&#39;regex&#39;</span> <span class="n">multiplefiles</span><span class="o">/*</span>
 </pre></div>
 
 </div>
@@ -12265,15 +12265,15 @@ grep <span class="s1">&#39;regex&#39;</span> data/multiplefiles/*
 
 <div class="output_area"><div class="prompt"></div>
 <div class="output_subarea output_stream output_stdout output_text">
-<pre><span class="ansi-magenta-fg">data/multiplefiles/file32.txt</span><span class="ansi-cyan-fg">:</span>5gsumFTKbKEJv9dD8W94FhoEQU8qf8RMUc<span class="ansi-red-intense-fg ansi-bold">regex</span>R    
-<span class="ansi-magenta-fg">data/multiplefiles/file32.txt</span><span class="ansi-cyan-fg">:</span>YgDiqkA C1o<span class="ansi-red-intense-fg ansi-bold">regex</span>9giqI66c3sOwfLirOsgPpSuq    
-<span class="ansi-magenta-fg">data/multiplefiles/file32.txt</span><span class="ansi-cyan-fg">:</span>IsXSnp 8U8pKR0LsVuK<span class="ansi-red-intense-fg ansi-bold">regex</span>O5GFegOtV4GW4fNQ    Good! You&#39;ve found the 
-<span class="ansi-magenta-fg">data/multiplefiles/file32.txt</span><span class="ansi-cyan-fg">:</span>l 4px8KhPRmfEJgi5uTuVO1XahG3H1sY<span class="ansi-red-intense-fg ansi-bold">regex</span>4wt    file containing the word &#34;<span class="ansi-red-intense-fg ansi-bold">regex</span>&#34;
-<span class="ansi-magenta-fg">data/multiplefiles/file32.txt</span><span class="ansi-cyan-fg">:</span>yz8P5 HC6N5D XRHPncZjTAeM<span class="ansi-red-intense-fg ansi-bold">regex</span>T9bQUoZdsh    
-<span class="ansi-magenta-fg">data/multiplefiles/file32.txt</span><span class="ansi-cyan-fg">:</span>eWUd18s0MVx5YYrEK KCKeF5hvO<span class="ansi-red-intense-fg ansi-bold">regex</span>IiZbIGUX    To continue, 
-<span class="ansi-magenta-fg">data/multiplefiles/file32.txt</span><span class="ansi-cyan-fg">:</span>MLXiKZJ8KyHMou9lYsz4ZjFYJSfB 14t<span class="ansi-red-intense-fg ansi-bold">regex</span>tpJ    grep file32.txt data/exercise1_grep.txt
-<span class="ansi-magenta-fg">data/multiplefiles/file32.txt</span><span class="ansi-cyan-fg">:</span>veFQU<span class="ansi-red-intense-fg ansi-bold">regex</span>fnQxwQw6POJRNvvAeYwToX6ptvN39m    
-<span class="ansi-magenta-fg">data/multiplefiles/file32.txt</span><span class="ansi-cyan-fg">:</span>cHoNv<span class="ansi-red-intense-fg ansi-bold">regex</span>iGjHkmptPVTjOzvWVGbrGoHoywV4Vy    
+<pre><span class="ansi-magenta-fg">multiplefiles/file32.txt</span><span class="ansi-cyan-fg">:</span>5gsumFTKbKEJv9dD8W94FhoEQU8qf8RMUc<span class="ansi-red-intense-fg ansi-bold">regex</span>R    
+<span class="ansi-magenta-fg">multiplefiles/file32.txt</span><span class="ansi-cyan-fg">:</span>YgDiqkA C1o<span class="ansi-red-intense-fg ansi-bold">regex</span>9giqI66c3sOwfLirOsgPpSuq    
+<span class="ansi-magenta-fg">multiplefiles/file32.txt</span><span class="ansi-cyan-fg">:</span>IsXSnp 8U8pKR0LsVuK<span class="ansi-red-intense-fg ansi-bold">regex</span>O5GFegOtV4GW4fNQ    Good! You&#39;ve found the 
+<span class="ansi-magenta-fg">multiplefiles/file32.txt</span><span class="ansi-cyan-fg">:</span>l 4px8KhPRmfEJgi5uTuVO1XahG3H1sY<span class="ansi-red-intense-fg ansi-bold">regex</span>4wt    file containing the word &#34;<span class="ansi-red-intense-fg ansi-bold">regex</span>&#34;
+<span class="ansi-magenta-fg">multiplefiles/file32.txt</span><span class="ansi-cyan-fg">:</span>yz8P5 HC6N5D XRHPncZjTAeM<span class="ansi-red-intense-fg ansi-bold">regex</span>T9bQUoZdsh    
+<span class="ansi-magenta-fg">multiplefiles/file32.txt</span><span class="ansi-cyan-fg">:</span>eWUd18s0MVx5YYrEK KCKeF5hvO<span class="ansi-red-intense-fg ansi-bold">regex</span>IiZbIGUX    To continue, 
+<span class="ansi-magenta-fg">multiplefiles/file32.txt</span><span class="ansi-cyan-fg">:</span>MLXiKZJ8KyHMou9lYsz4ZjFYJSfB 14t<span class="ansi-red-intense-fg ansi-bold">regex</span>tpJ    grep file32.txt exercises/2_searching_patterns.txt
+<span class="ansi-magenta-fg">multiplefiles/file32.txt</span><span class="ansi-cyan-fg">:</span>veFQU<span class="ansi-red-intense-fg ansi-bold">regex</span>fnQxwQw6POJRNvvAeYwToX6ptvN39m    
+<span class="ansi-magenta-fg">multiplefiles/file32.txt</span><span class="ansi-cyan-fg">:</span>cHoNv<span class="ansi-red-intense-fg ansi-bold">regex</span>iGjHkmptPVTjOzvWVGbrGoHoywV4Vy    
 </pre>
 </div>
 </div>
@@ -12309,10 +12309,10 @@ grep <span class="s1">&#39;regex&#39;</span> data/multiplefiles/*
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[12]:</div>
+<div class="prompt input_prompt">In&nbsp;[16]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-bash"><pre><span></span>head data/genes/mgat_genes.gb
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">head</span> <span class="n">genes</span><span class="o">/</span><span class="n">mgat_genes</span><span class="o">.</span><span class="n">gb</span>
 </pre></div>
 
 </div>
@@ -12351,7 +12351,7 @@ SOURCE      Homo sapiens (human)
 <p>Let's say we want to search all the lines where "ORGANISM" is "Homo sapiens".</p>
 <p>We can do it with two grep commands:</p>
 
-<pre><code>grep ORGANISM data/genes/mgat_genes.gb | grep 'Homo sapiens'</code></pre>
+<pre><code>grep ORGANISM genes/mgat_genes.gb | grep 'Homo sapiens'</code></pre>
 <p>Notice that searching for "Homo sapiens" alone would not be enough, as there are other lines where the word "Homo sapiens" is present.</p>
 
 </div>
@@ -12359,10 +12359,10 @@ SOURCE      Homo sapiens (human)
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[13]:</div>
+<div class="prompt input_prompt">In&nbsp;[17]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-bash"><pre><span></span>grep ORGANISM data/genes/mgat_genes.gb <span class="p">|</span> grep <span class="s1">&#39;Homo sapiens&#39;</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">grep</span> <span class="n">ORGANISM</span> <span class="n">genes</span><span class="o">/</span><span class="n">mgat_genes</span><span class="o">.</span><span class="n">gb</span> <span class="o">|</span> <span class="n">grep</span> <span class="s1">&#39;Homo sapiens&#39;</span>
 </pre></div>
 
 </div>
@@ -12403,11 +12403,11 @@ SOURCE      Homo sapiens (human)
 </div><div class="fragment">
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[14]:</div>
+<div class="prompt input_prompt">In&nbsp;[18]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-bash"><pre><span></span><span class="c1"># Solution: grep for &quot;bos taurus&quot;:</span>
-grep ORGANISM data/genes/mgat_genes.gb <span class="p">|</span> grep taurus
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Solution: grep for &quot;bos taurus&quot;:</span>
+<span class="n">grep</span> <span class="n">ORGANISM</span> <span class="n">genes</span><span class="o">/</span><span class="n">mgat_genes</span><span class="o">.</span><span class="n">gb</span> <span class="o">|</span> <span class="n">grep</span> <span class="n">taurus</span>
 </pre></div>
 
 </div>
@@ -12496,10 +12496,10 @@ grep ORGANISM data/genes/mgat_genes.gb <span class="p">|</span> grep taurus
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[15]:</div>
+<div class="prompt input_prompt">In&nbsp;[19]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-bash"><pre><span></span>head data/genes/sequences.fasta
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">head</span> <span class="n">genes</span><span class="o">/</span><span class="n">sequences</span><span class="o">.</span><span class="n">fasta</span> 
 </pre></div>
 
 </div>
@@ -12542,10 +12542,10 @@ CATNANNAAAccTTTAGGCACTCNACACNG
 </div></section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[16]:</div>
+<div class="prompt input_prompt">In&nbsp;[20]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-bash"><pre><span></span>grep <span class="s1">&#39;AAA..TTT&#39;</span> data/genes/sequences.fasta
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">grep</span> <span class="s1">&#39;AAA..TTT&#39;</span> <span class="n">genes</span><span class="o">/</span><span class="n">sequences</span><span class="o">.</span><span class="n">fasta</span>
 </pre></div>
 
 </div>
@@ -12591,10 +12591,10 @@ CC<span class="ansi-red-intense-fg ansi-bold">AAAaaTTT</span>NTAGNAGCCTGTAGAGCCG
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[17]:</div>
+<div class="prompt input_prompt">In&nbsp;[21]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-bash"><pre><span></span>grep -B1 <span class="s1">&#39;AAA..TTT&#39;</span> data/genes/sequences.fasta
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">grep</span> <span class="o">-</span><span class="n">B1</span> <span class="s1">&#39;AAA..TTT&#39;</span> <span class="n">genes</span><span class="o">/</span><span class="n">sequences</span><span class="o">.</span><span class="n">fasta</span> 
 </pre></div>
 
 </div>
@@ -12650,11 +12650,11 @@ CC<span class="ansi-red-intense-fg ansi-bold">AAAaaTTT</span>NTAGNAGCCTGTAGAGCCG
 </div><div class="fragment">
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[18]:</div>
+<div class="prompt input_prompt">In&nbsp;[22]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-bash"><pre><span></span><span class="c1"># Bonus: pipe an additional grep &#39;&gt;&#39; to see a cow:</span>
-grep -B1 <span class="s1">&#39;AAA..TTT&#39;</span> data/genes/sequences.fasta  <span class="p">|</span> grep <span class="s1">&#39;&gt;&#39;</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Bonus: pipe an additional grep &#39;&gt;&#39; to see a cow:</span>
+<span class="n">grep</span> <span class="o">-</span><span class="n">B1</span> <span class="s1">&#39;AAA..TTT&#39;</span> <span class="n">genes</span><span class="o">/</span><span class="n">sequences</span><span class="o">.</span><span class="n">fasta</span>  <span class="o">|</span> <span class="n">grep</span> <span class="s1">&#39;&gt;&#39;</span>
 </pre></div>
 
 </div>
@@ -12687,7 +12687,16 @@ grep -B1 <span class="s1">&#39;AAA..TTT&#39;</span> data/genes/sequences.fasta  
 </div>
 </div>
 
-</div></div></section></section>
+</div></div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Time-for-a-break!">Time for a break!<a class="anchor-link" href="#Time-for-a-break!">&#182;</a></h1>
+</div>
+</div>
+</div></section></section>
 </div>
 </div>
 

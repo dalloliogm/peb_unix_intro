@@ -1,12 +1,10 @@
- _________________________________________________
-/ the Unix command "head" allows to see the       \
-| first lines of a file.                          |
-|                                                 |
-| You can use the -n option to specify how many   |
-| lines to show. For example, try printing        |
-| the first 40 lines of this file.                |
-\                                                 /
- -------------------------------------------------
+ ________________________________________________________________________________________
+/ the Unix command "head" allows to see the first lines of a file.                       \
+|                                                 					 |	
+| You can use the -n option to specify how many lines to show. For example, try printing |
+| the first 40 lines of this file.              					 |
+\                                                 					 /
+ ----------------------------------------------------------------------------------------
         \   ^__^
          \  (oo)\_______
             (__)\       )\/\

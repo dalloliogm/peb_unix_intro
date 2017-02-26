@@ -11840,11 +11840,11 @@ a.anchor-link {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Introduction-to-Unix---awk-and-Makefiles">Introduction to Unix - awk and Makefiles<a class="anchor-link" href="#Introduction-to-Unix---awk-and-Makefiles">&#182;</a></h1><p>Giovanni M. Dall'Olio, GlaxoSmithKline, 20/02/2017. All materials available here: <a href="https://dalloliogm.github.io/">https://dalloliogm.github.io/</a></p>
+<h1 id="Introduction-to-Unix---awk-and-Makefiles">Introduction to Unix - awk and Makefiles<a class="anchor-link" href="#Introduction-to-Unix---awk-and-Makefiles">&#182;</a></h1><p>Giovanni M. Dall'Olio, 20/02/2017. All materials available here: <a href="https://dalloliogm.github.io/">https://dalloliogm.github.io/</a></p>
 
-<pre><code> _______________
- / Welcome to    \
- \ PEB Leipzig! /
+<pre><code>  _______________
+ / Part 4        \
+ \ awk and make  /
   ---------------
          \   ^__^
           \  (oo)\_______
@@ -11852,8 +11852,7 @@ a.anchor-link {
                  ||----w |
                  ||     ||</code></pre>
 <p>Welcome to the Programming for Evoluationary Biology workshop!!</p>
-<p>In this workshop we will review some basic Unix command, as well as bash usage.</p>
-<p>Press Space or Down do continue.</p>
+<p><strong>How to use these slides</strong>: Press Space to get to the next slide. Use arrows to navigate the subsections.</p>
 
 </div>
 </div>
@@ -11875,17 +11874,17 @@ a.anchor-link {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Example-of-tabular-file:-the-GFF3-format">Example of tabular file: the GFF3 format<a class="anchor-link" href="#Example-of-tabular-file:-the-GFF3-format">&#182;</a></h2><p>The file data/genes/chr8.gff contains an example of file in the GFF3 format:</p>
+<h2 id="Example-of-tabular-file:-the-GFF3-format">Example of tabular file: the GFF3 format<a class="anchor-link" href="#Example-of-tabular-file:-the-GFF3-format">&#182;</a></h2><p>The file genes/chr8.gff contains an example of file in the GFF3 format:</p>
 
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[8]:</div>
+<div class="prompt input_prompt">In&nbsp;[14]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-bash"><pre><span></span>head data/genes/chr8.gff
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">head</span> <span class="n">genes</span><span class="o">/</span><span class="n">chr8</span><span class="o">.</span><span class="n">gff</span>
 </pre></div>
 
 </div>
@@ -11951,10 +11950,10 @@ chr8	refgene	gene	74332309	74353753	.	+	.	gene_id=100128126;symbol=STAU2-AS1;;ID
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[7]:</div>
+<div class="prompt input_prompt">In&nbsp;[15]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-bash"><pre><span></span>awk <span class="s1">&#39;$1==&quot;chr8&quot; &amp;&amp; $4&gt;100000 &amp;&amp; $5&lt;200000 &#39;</span> data/genes/chr8.gff
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">awk</span> <span class="s1">&#39;$1==&quot;chr8&quot; &amp;&amp; $4&gt;100000 &amp;&amp; $5&lt;200000 &#39;</span> <span class="n">genes</span><span class="o">/</span><span class="n">chr8</span><span class="o">.</span><span class="n">gff</span>
 </pre></div>
 
 </div>
@@ -11990,10 +11989,10 @@ chr8	refgene	gene	158345	182318	.	-	.	gene_id=644128;symbol=RPL23AP53;;ID=644128
 </div><div class="fragment">
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[6]:</div>
+<div class="prompt input_prompt">In&nbsp;[16]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-bash"><pre><span></span>awk <span class="s1">&#39;$4 &gt; 5000000 &amp;&amp; $5 &lt; 10000000 &#39;</span> data/genes/chr8.gff
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">awk</span> <span class="s1">&#39;$4 &gt; 5000000 &amp;&amp; $5 &lt; 10000000 &#39;</span> <span class="n">genes</span><span class="o">/</span><span class="n">chr8</span><span class="o">.</span><span class="n">gff</span>
 </pre></div>
 
 </div>
@@ -12075,10 +12074,10 @@ chr8	refgene	gene	8641999	8751131	.	-	.	gene_id=9258;symbol=MFHAS1;ID=9258
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[22]:</div>
+<div class="prompt input_prompt">In&nbsp;[17]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-bash"><pre><span></span>awk <span class="s1">&#39;{print $1, $5-$4}&#39;</span> data/genes/chr8.gff <span class="p">|</span> head
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">awk</span> <span class="s1">&#39;{print $1, $5-$4}&#39;</span> <span class="n">genes</span><span class="o">/</span><span class="n">chr8</span><span class="o">.</span><span class="n">gff</span> <span class="o">|</span> <span class="n">head</span>
 </pre></div>
 
 </div>
@@ -12101,8 +12100,6 @@ chr8 85
 chr8 81
 chr8 26779
 chr8 21444
-awk: write failure (Broken pipe)
-awk: close failed on file /dev/stdout (Broken pipe)
 </pre>
 </div>
 </div>
@@ -12123,10 +12120,10 @@ awk: close failed on file /dev/stdout (Broken pipe)
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[5]:</div>
+<div class="prompt input_prompt">In&nbsp;[18]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-bash"><pre><span></span>awk <span class="s1">&#39;{print $1, $5-$4, $9}&#39;</span> data/genes/chr8.gff <span class="p">|</span> grep -v <span class="s1">&#39;^#&#39;</span> <span class="p">|</span>  head
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">awk</span> <span class="s1">&#39;{print $1, $5-$4, $9}&#39;</span> <span class="n">genes</span><span class="o">/</span><span class="n">chr8</span><span class="o">.</span><span class="n">gff</span> <span class="o">|</span> <span class="n">grep</span> <span class="o">-</span><span class="n">v</span> <span class="s1">&#39;^#&#39;</span> <span class="o">|</span>  <span class="n">head</span>
 </pre></div>
 
 </div>
@@ -12149,6 +12146,7 @@ chr8 12197 gene_id=100128338;symbol=FAM83H-AS1;;ID=100128338
 chr8 1835 gene_id=100128627;symbol=CDC42P3;;ID=100128627
 chr8 3282 gene_id=100128750;symbol=RBPMS-AS1;;ID=100128750
 chr8 69143 gene_id=100128890;symbol=FAM66B;ID=100128890
+grep: write error: Broken pipe
 </pre>
 </div>
 </div>
@@ -12170,10 +12168,10 @@ chr8 69143 gene_id=100128890;symbol=FAM66B;ID=100128890
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[1]:</div>
+<div class="prompt input_prompt">In&nbsp;[19]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-bash"><pre><span></span>awk <span class="s1">&#39;{print $1, $5-$4, $9}&#39;</span> data/genes/chr8.gff <span class="p">|</span> grep -v <span class="s1">&#39;^#&#39;</span> <span class="p">|</span> awk -F<span class="s1">&#39;;&#39;</span> <span class="s1">&#39;{print $1, $2}&#39;</span> <span class="p">|</span> head
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">awk</span> <span class="s1">&#39;{print $1, $5-$4, $9}&#39;</span> <span class="n">genes</span><span class="o">/</span><span class="n">chr8</span><span class="o">.</span><span class="n">gff</span> <span class="o">|</span> <span class="n">grep</span> <span class="o">-</span><span class="n">v</span> <span class="s1">&#39;^#&#39;</span> <span class="o">|</span> <span class="n">awk</span> <span class="o">-</span><span class="n">F</span><span class="s1">&#39;;&#39;</span> <span class="s1">&#39;{print $1, $2}&#39;</span> <span class="o">|</span> <span class="n">head</span>
 </pre></div>
 
 </div>
@@ -12196,9 +12194,6 @@ chr8 12197 gene_id=100128338 symbol=FAM83H-AS1
 chr8 1835 gene_id=100128627 symbol=CDC42P3
 chr8 3282 gene_id=100128750 symbol=RBPMS-AS1
 chr8 69143 gene_id=100128890 symbol=FAM66B
-awk: write failure (Broken pipe)
-awk: close failed on file /dev/stdout (Broken pipe)
-grep: write error
 </pre>
 </div>
 </div>
@@ -12220,10 +12215,10 @@ grep: write error
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[4]:</div>
+<div class="prompt input_prompt">In&nbsp;[20]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-bash"><pre><span></span>awk <span class="s1">&#39;$9 ~ /symbol=MIR/ {print $0}&#39;</span> data/genes/chr8.gff
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">awk</span> <span class="s1">&#39;$9 ~ /symbol=MIR/ {print $0}&#39;</span> <span class="n">genes</span><span class="o">/</span><span class="n">chr8</span><span class="o">.</span><span class="n">gff</span> 
 </pre></div>
 
 </div>
@@ -12306,10 +12301,10 @@ chr8	refgene	gene	145019359	145019447	.	-	.	gene_id=724031;symbol=MIR661;;ID=724
 </div><div class="fragment">
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[26]:</div>
+<div class="prompt input_prompt">In&nbsp;[21]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-bash"><pre><span></span>awk <span class="s1">&#39;$9 ~ /POU5F1B/ {print $5-$4}&#39;</span> data/genes/chr8.gff
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">awk</span> <span class="s1">&#39;$9 ~ /POU5F1B/ {print $5-$4}&#39;</span> <span class="n">genes</span><span class="o">/</span><span class="n">chr8</span><span class="o">.</span><span class="n">gff</span> 
 </pre></div>
 
 </div>
@@ -12333,10 +12328,10 @@ chr8	refgene	gene	145019359	145019447	.	-	.	gene_id=724031;symbol=MIR661;;ID=724
 </div></div><div class="fragment">
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[2]:</div>
+<div class="prompt input_prompt">In&nbsp;[22]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-bash"><pre><span></span>awk <span class="s1">&#39;$9 ~ /gene_id=1584/ {print $0}&#39;</span> data/genes/chr8.gff
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">awk</span> <span class="s1">&#39;$9 ~ /gene_id=1584/ {print $0}&#39;</span> <span class="n">genes</span><span class="o">/</span><span class="n">chr8</span><span class="o">.</span><span class="n">gff</span> 
 </pre></div>
 
 </div>
@@ -12363,17 +12358,18 @@ chr8	refgene	gene	145019359	145019447	.	-	.	gene_id=724031;symbol=MIR661;;ID=724
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Bonus:-Makefiles">Bonus: Makefiles<a class="anchor-link" href="#Bonus:-Makefiles">&#182;</a></h1><p>Let's have a look at the file called Makefile in the exercise directory:</p>
+<h1 id="Bonus:-Makefiles">Bonus: Makefiles<a class="anchor-link" href="#Bonus:-Makefiles">&#182;</a></h1><p>Let's have a look at the file called Makefile in the unix_intro directory:</p>
 
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[28]:</div>
+<div class="prompt input_prompt">In&nbsp;[24]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-bash"><pre><span></span>head Makefile
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">cd</span> <span class="o">..</span>
+<span class="n">head</span> <span class="n">Makefile</span>
 </pre></div>
 
 </div>
@@ -12386,16 +12382,16 @@ chr8	refgene	gene	145019359	145019447	.	-	.	gene_id=724031;symbol=MIR661;;ID=724
 
 <div class="output_area"><div class="prompt"></div>
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>test_exercises: start help ignorecase multiplefiles
+<pre># This is a Makefile, which will be explained later in the course.
+# Please don&#39;t look at it yet :-)
+
+publish: slides_bash commit
+	echo &#34;convert the slides to pdf, commit, and push to github&#34;
+	git push
+
+
+test_exercises: start help ignorecase multiplefiles
 generate_exercises: generate_grep generate_awk
-
-testrule:
-	echo this is a Makefile rule
-	echo You can associate it to as many commands you want
-
-notebook:
-	jupyter nbconvert --to notebook --execute PEB\ Bash\ Workshop.ipynb
-
 </pre>
 </div>
 </div>
@@ -12456,10 +12452,10 @@ notebook:
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[29]:</div>
+<div class="prompt input_prompt">In&nbsp;[25]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-bash"><pre><span></span>make testrule
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">make</span> <span class="n">testrule</span>
 </pre></div>
 
 </div>
@@ -12516,10 +12512,10 @@ You can associate it to as many commands you want
 </div><div class="fragment">
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[3]:</div>
+<div class="prompt input_prompt">In&nbsp;[26]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-bash"><pre><span></span>make cow
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">make</span> <span class="n">goodbye</span>
 </pre></div>
 
 </div>
@@ -12532,25 +12528,35 @@ You can associate it to as many commands you want
 
 <div class="output_area"><div class="prompt"></div>
 <div class="output_subarea output_stream output_stdout output_text">
-<pre> _____________
+<pre> _____________ 
 / I hope you  \
 | have        |
 | enjoyed the |
 | workshop    |
 \ :-)         /
- -------------
+ ------------- 
         \   ^__^
          \  (oo)\_______
             (__)\       )\/\
                 ||----w |
                 ||     ||
- ___________
+ ___________ 
 ( Now let&#39;s )
-( go to the )
-( beach     )
- -----------
+( go for    )
+( dinner    )
+ ----------- 
         o   ^__^
          o  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+ _______________________ 
+/ Note: real genomes do \
+| not contain hidden    |
+\ cows                  /
+ ----------------------- 
+        \   ^__^
+         \  (oo)\_______
             (__)\       )\/\
                 ||----w |
                 ||     ||
