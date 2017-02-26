@@ -11830,7 +11830,7 @@ a.anchor-link {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Table-of-Contents">Table of Contents<a class="anchor-link" href="#Table-of-Contents">&#182;</a></h1><p><p><div class="lev1 toc-item"><a href="#Programming-for-Evolutionary-Biology-Leipzig---Bash-workshop" data-toc-modified-id="Programming-for-Evolutionary-Biology-Leipzig---Bash-workshop-1"><span class="toc-item-num">1&nbsp;&nbsp;</span>Programming for Evolutionary Biology Leipzig - Bash workshop</a></div></p>
+<h1 id="Table-of-Contents">Table of Contents<a class="anchor-link" href="#Table-of-Contents">&#182;</a></h1><p><p><div class="lev1 toc-item"><a href="#Introduction-to-Unix,-Part-2---Connecting-to-a-remote-server" data-toc-modified-id="Introduction-to-Unix,-Part-2---Connecting-to-a-remote-server-1"><span class="toc-item-num">1&nbsp;&nbsp;</span>Introduction to Unix, Part 2 - Connecting to a remote server</a></div><div class="lev1 toc-item"><a href="#How-many-computers-are-we-going-to-use-in-this-course?" data-toc-modified-id="How-many-computers-are-we-going-to-use-in-this-course?-2"><span class="toc-item-num">2&nbsp;&nbsp;</span>How many computers are we going to use in this course?</a></div><div class="lev2 toc-item"><a href="#Our-course---computers-infrastructure" data-toc-modified-id="Our-course---computers-infrastructure-2.1"><span class="toc-item-num">2.1&nbsp;&nbsp;</span>Our course - computers infrastructure</a></div><div class="lev1 toc-item"><a href="#Connecting-to-a-remote-server" data-toc-modified-id="Connecting-to-a-remote-server-3"><span class="toc-item-num">3&nbsp;&nbsp;</span>Connecting to a remote server</a></div><div class="lev2 toc-item"><a href="#Connecting-to-Evopserver---RSA-key-fingerprint" data-toc-modified-id="Connecting-to-Evopserver---RSA-key-fingerprint-3.1"><span class="toc-item-num">3.1&nbsp;&nbsp;</span>Connecting to Evopserver - RSA key fingerprint</a></div><div class="lev2 toc-item"><a href="#Connecting-to-Evopserver---Password" data-toc-modified-id="Connecting-to-Evopserver---Password-3.2"><span class="toc-item-num">3.2&nbsp;&nbsp;</span>Connecting to Evopserver - Password</a></div><div class="lev2 toc-item"><a href="#Are-you-in-evopserver?" data-toc-modified-id="Are-you-in-evopserver?-3.3"><span class="toc-item-num">3.3&nbsp;&nbsp;</span>Are you in evopserver?</a></div><div class="lev2 toc-item"><a href="#Connection-error?" data-toc-modified-id="Connection-error?-3.4"><span class="toc-item-num">3.4&nbsp;&nbsp;</span>Connection error?</a></div><div class="lev2 toc-item"><a href="#If-the-connection-doesn't-work-at-all---downloading-the-materials-on-your-computer" data-toc-modified-id="If-the-connection-doesn't-work-at-all---downloading-the-materials-on-your-computer-3.5"><span class="toc-item-num">3.5&nbsp;&nbsp;</span>If the connection doesn't work at all - downloading the materials on your computer</a></div><div class="lev1 toc-item"><a href="#Executing-graphical-applications-from-a-remote-server" data-toc-modified-id="Executing-graphical-applications-from-a-remote-server-4"><span class="toc-item-num">4&nbsp;&nbsp;</span>Executing graphical applications from a remote server</a></div><div class="lev1 toc-item"><a href="#Accessing-the-contents-of-a-file:-head,-cat,-less" data-toc-modified-id="Accessing-the-contents-of-a-file:-head,-cat,-less-5"><span class="toc-item-num">5&nbsp;&nbsp;</span>Accessing the contents of a file: head, cat, less</a></div><div class="lev1 toc-item"><a href="#Getting-the-workshop-materials" data-toc-modified-id="Getting-the-workshop-materials-6"><span class="toc-item-num">6&nbsp;&nbsp;</span>Getting the workshop materials</a></div><div class="lev3 toc-item"><a href="#Advanced:-using-git-to-get-the-materials" data-toc-modified-id="Advanced:-using-git-to-get-the-materials-6.0.1"><span class="toc-item-num">6.0.1&nbsp;&nbsp;</span>Advanced: using git to get the materials</a></div></p>
 
 </div>
 </div>
@@ -11840,7 +11840,7 @@ a.anchor-link {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Programming-for-Evolutionary-Biology-Leipzig---Bash-workshop">Programming for Evolutionary Biology Leipzig - Bash workshop<a class="anchor-link" href="#Programming-for-Evolutionary-Biology-Leipzig---Bash-workshop">&#182;</a></h1><p>Giovanni M. Dall'Olio, GlaxoSmithKline, 20/02/2017. All materials available here: <a href="https://dalloliogm.github.io/">https://dalloliogm.github.io/</a></p>
+<h1 id="Introduction-to-Unix,-Part-2---Connecting-to-a-remote-server">Introduction to Unix, Part 2 - Connecting to a remote server<a class="anchor-link" href="#Introduction-to-Unix,-Part-2---Connecting-to-a-remote-server">&#182;</a></h1><p>Giovanni M. Dall'Olio, GlaxoSmithKline, 20/02/2017. All materials available here: <a href="https://dalloliogm.github.io/">https://dalloliogm.github.io/</a></p>
 
 <pre><code> _______________
  / Welcome to    \
@@ -11852,8 +11852,198 @@ a.anchor-link {
                  ||----w |
                  ||     ||</code></pre>
 <p>Welcome to the Programming for Evoluationary Biology workshop!!</p>
-<p>In this workshop we will review some basic Unix command, as well as bash usage.</p>
 <p>Press Space or Down do continue.</p>
+
+</div>
+</div>
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="How-many-computers-are-we-going-to-use-in-this-course?">How many computers are we going to use in this course?<a class="anchor-link" href="#How-many-computers-are-we-going-to-use-in-this-course?">&#182;</a></h1><p>The <strong>classroom computers</strong> are in front of you.</p>
+<ul>
+<li>Use them to follow the slides, <del>check facebook</del>, and connect to the compute servers</li>
+</ul>
+<p><strong>evopserver</strong> and <strong>evopcompute</strong> are two remote computer cluster</p>
+<ul>
+<li>They are physically located outside of this room </li>
+<li>They are only accessible through the terminal</li>
+<li>Most exercises will be done in these two servers, as all the software needed is installed there</li>
+</ul>
+<p>Some lectures will use other servers, but the method to connect to a remote computer is the same</p>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Our-course---computers-infrastructure">Our course - computers infrastructure<a class="anchor-link" href="#Our-course---computers-infrastructure">&#182;</a></h2><p><img src="https://raw.githubusercontent.com/dalloliogm/peb_unix_intro/master/slides/images/u2_computer_infrastructure.png" width="600"></p>
+
+</div>
+</div>
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Connecting-to-a-remote-server">Connecting to a remote server<a class="anchor-link" href="#Connecting-to-a-remote-server">&#182;</a></h1><p>Please refer to the cheatsheet <strong>Passwords and Computer Infrastructure</strong> for access credentials</p>
+<p>To connect to a remote server, we will use the <strong>ssh</strong> bash command:</p>
+
+<pre><code>    ssh -C username@evopserver.bioinf.uni-leipzig.de</code></pre>
+<p>Please use the -C flag (use compression), to reduce the network load</p>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Connecting-to-Evopserver---RSA-key-fingerprint">Connecting to Evopserver - RSA key fingerprint<a class="anchor-link" href="#Connecting-to-Evopserver---RSA-key-fingerprint">&#182;</a></h2><p>The first time you connect to a server, you should see a message like the following:</p>
+<p><img src="https://raw.githubusercontent.com/dalloliogm/peb_unix_intro/master/slides/images/u2_ssh2.png" width="600"></p>
+<p>Type "yes<Enter>" to continue. Note that typing "y" will not be enough.</p>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Connecting-to-Evopserver---Password">Connecting to Evopserver - Password<a class="anchor-link" href="#Connecting-to-Evopserver---Password">&#182;</a></h2><p>If the connection is working, you should now get a message asking you for the password.</p>
+<p><img src="https://raw.githubusercontent.com/dalloliogm/peb_unix_intro/master/slides/images/u2_ssh3.png" width="600"></p>
+<p>Type the password and press Enter to continue</p>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Are-you-in-evopserver?">Are you in evopserver?<a class="anchor-link" href="#Are-you-in-evopserver?">&#182;</a></h2><p>If the connection worked correctly, you should see a differently colored prompt:</p>
+<p><img src="https://raw.githubusercontent.com/dalloliogm/peb_unix_intro/master/slides/images/u2_ssh4.png" width="600"></p>
+<p>You can also type <strong>uname -n</strong> to confirm that you are in the correct machine.</p>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Connection-error?">Connection error?<a class="anchor-link" href="#Connection-error?">&#182;</a></h2><p>If you get a connection error, try the following:</p>
+<ul>
+<li>make sure you are using the -C option</li>
+<li>Connection to <strong>evopcompute</strong> instead of <strong>evopserver</strong></li>
+<li>Wait 1-2 minutes and try again</li>
+</ul>
+
+</div>
+</div>
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="If-the-connection-doesn't-work-at-all---downloading-the-materials-on-your-computer">If the connection doesn't work at all - downloading the materials on your computer<a class="anchor-link" href="#If-the-connection-doesn't-work-at-all---downloading-the-materials-on-your-computer">&#182;</a></h2><p>If the connection to the server doesn't work at all, you can download the exercises file to your computer directly:</p>
+<p>```</p>
+
+<pre><code>$: wget  https://github.com/dalloliogm/peb_unix_intro/archive/master.zip
+
+$: unzip master.zip
+
+</code></pre>
+<p>``</p>
+
+</div>
+</div>
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Executing-graphical-applications-from-a-remote-server">Executing graphical applications from a remote server<a class="anchor-link" href="#Executing-graphical-applications-from-a-remote-server">&#182;</a></h1><p>Notice that graphical applications like <strong>firefox</strong> or <strong>kate</strong> will not work from remote:</p>
+
+<pre><code>
+    giovanni@evopserver: firefox
+    Could not parse arguments: Can not open display</code></pre>
+<p>Executing graphical applications remotely is very demanding for the network, so by default we will use only the command line interface.</p>
+<p>To run graphical application remotely, you would need to re-login on the server, using the -X option in ssh.</p>
+
+</div>
+</div>
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Which-folder-am-I?">Which folder am I?<a class="anchor-link" href="#Which-folder-am-I?">&#182;</a></h1>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Accessing-the-contents-of-a-file:-head,-cat,-less">Accessing the contents of a file: head, cat, less<a class="anchor-link" href="#Accessing-the-contents-of-a-file:-head,-cat,-less">&#182;</a></h1><p>The new folder contains a file named start_here.txt, containing the first instructions for the workshop.</p>
+<p>To access the contents of a file, we can use several Unix commands:</p>
+<table>
+<thead><tr>
+<th style="text-align:center">command</th>
+<th style="text-align:left">description</th>
+<th style="text-align:left">example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"><strong>head</strong></td>
+<td style="text-align:left">print the first lines of the file</td>
+<td style="text-align:left">head start_here.txt</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>tail</strong></td>
+<td style="text-align:left">print the last lines of the file</td>
+<td style="text-align:left">tail start_here.txt</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>cat</strong></td>
+<td style="text-align:left">print the contents of the file to the screen</td>
+<td style="text-align:left">cat start_here.txt</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>less</strong></td>
+<td style="text-align:left">allows to navigate contents of the file</td>
+<td style="text-align:left">less start_here.txt</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Advanced:-using-git-to-get-the-materials">Advanced: using git to get the materials<a class="anchor-link" href="#Advanced:-using-git-to-get-the-materials">&#182;</a></h3><p>If the software git is installed, you can get the materials by the following:</p>
+
+<pre><code>git clone git@github.com:dalloliogm/peb_unix_intro.git</code></pre>
 
 </div>
 </div>
