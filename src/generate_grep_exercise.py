@@ -60,7 +60,7 @@ def random_sequences(nseqs=50, message = 'this\nis\na\ntest\nmessage', label='AA
 
 #    print (newlines_index)
 
-    out = SeqIO.write(seqs, open('data/genes/sequences.fasta', 'w'), format='fasta')
+    out = SeqIO.write(seqs, open('exercises/genes/sequences.fasta', 'w'), format='fasta')
     
     return seqs
 
@@ -74,7 +74,7 @@ def generate_basefile(lines=400):
     output = ""
 
     for x in range(lines):
-        output += random_string(40) + '    ' + random_string(35) + '\n'
+        output += random_string(30) + '    ' + random_string(35) + '\n'
 
     return output
 
@@ -114,9 +114,9 @@ def hide_message(inputtext, message = '', label = 'MRK1', minline=0, maxline=Non
             current_label = label
 #        print current_label
 
-        baseline = random_string(40) + '    ' + random_string(35) + '\n'
-        label_index = random.randint(0, 40-len(current_label))
-        newline = baseline[0:label_index] + current_label + baseline[label_index+len(current_label):40] + '    ' + msg_line
+        baseline = random_string(30) + '    ' + random_string(35) + '\n'
+        label_index = random.randint(0, 30-len(current_label))
+        newline = baseline[0:label_index] + current_label + baseline[label_index+len(current_label):30] + '    ' + msg_line
         
         current_newline_index = newlines_index[counter]
         counter += 1
@@ -134,11 +134,11 @@ def generate_multiplefiles():
         if n == 32:
             output = hide_message(output, multiplefiles_message.text,
                     multiplefiles_message.label, 0, 30)
-        f = open("data/multiplefiles/file" + str(n) + '.txt', 'w')
+        f = open("exercises/multiplefiles/file" + str(n) + '.txt', 'w')
         f.write(output)
         f.close()
 
-def generate_tutorial(tutorial_messages, outputfile='data/exercise1_grep.txt'):
+def generate_tutorial(tutorial_messages, outputfile='exercises/2_searching_patterns.txt'):
 #    outputfiles = [generate_basefile() for x in range(2)]
     output = generate_basefile()
 
