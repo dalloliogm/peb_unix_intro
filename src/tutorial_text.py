@@ -129,7 +129,7 @@ Searching in multiple files
 Grep can search the same pattern
 in more than one file at the same time.
 
-The folder data/multiplefiles/ contains hundreds of different files.
+The folder multiplefiles/ contains hundreds of different files.
 
 Can you identify the file containing the word "regex"?
 
@@ -138,18 +138,17 @@ Can you identify the file containing the word "regex"?
 
 Regular Expressions allow to identify complex pattern.
 
-The folder data/fasta/ contains some sequence files.
-You can open one of them with less, or do head data/fasta/* to see their contents.
+The folder genes/ contains a sequence file called sequences.fasta
 
 Can you use grep to identify 
 all the sequence lines containing 
-the nucleotides AAA, followed by any character, and then TTT?
+the nucleotides AAA, followed by any two characters, and then TTT?
 
 ==============
 Next Exercise
 ==============
 
-Use the -B option of grep to identify all the
+Open the grep manual, and identify all the rows one line above the sequences containing AAA, followed by any two characters, then TTT.
     '''),
     TutorialMessage('secrets','''
  _____________
@@ -173,7 +172,7 @@ Good! You've found the
 file containing the word "regex"
 
 To continue, 
-grep file32.txt data/exercise1_grep.txt
+grep file32 2_searching_patterns.txt
 
 ''')
 
