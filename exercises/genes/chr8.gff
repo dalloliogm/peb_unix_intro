@@ -1,6 +1,6 @@
 ##gff-version 3
-##source-version rtracklayer 1.34.1
-##date 2017-02-27
+##source-version rtracklayer 1.34.2
+##date 2017-03-07
 ##genome-build .	hg19
 chr8	rtracklayer	sequence_feature	18248755	18258723	.	+	.	gene_id=10;symbol=NAT2;exerc1=FALSE;ID=10
 chr8	rtracklayer	sequence_feature	100549014	100549089	.	-	.	gene_id=100126309;symbol=MIR875;exerc1=FALSE;ID=100126309

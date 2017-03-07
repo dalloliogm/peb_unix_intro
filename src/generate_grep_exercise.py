@@ -35,6 +35,8 @@ def random_sequences(nseqs=50, message = 'this\nis\na\ntest\nmessage', label='AA
         id='seq{0:03}'.format(i), name='seq{0:03}'.format(i), 
         description = 'sequence description') for i in range(nseqs)]
 
+    for s in seqs:
+        s.letter_annotations['phred_quality'] = [random.randint(40, 80) for i in range(seq_len)]
     message_l = re.split('\n', message)
 
     newlines_index = sorted(random.sample(range(2, len(seqs)), len(message_l)))
@@ -55,12 +57,14 @@ def random_sequences(nseqs=50, message = 'this\nis\na\ntest\nmessage', label='AA
         label_index = random.randint(0, seq_len - len(current_label))
         new_seq = seq[0:label_index] + current_label + seq[label_index+len(current_label):]
 
+        current_seq.letter_annotations = {}
         current_seq.seq = new_seq
         current_seq.description = new_desc
+        current_seq.letter_annotations['phred_quality'] = [random.randint(40, 80) for i in range(seq_len)]
 
 #    print (newlines_index)
 
-    out = SeqIO.write(seqs, open('exercises/genes/sequences.fasta', 'w'), format='fasta')
+    out = SeqIO.write(seqs, open('exercises/genes/sequences.fastq', 'w'), format='fastq')
     
     return seqs
 

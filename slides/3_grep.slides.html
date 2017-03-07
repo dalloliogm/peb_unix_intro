@@ -11830,7 +11830,7 @@ a.anchor-link {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Table-of-Contents">Table of Contents<a class="anchor-link" href="#Table-of-Contents">&#182;</a></h1><p><p><div class="lev1 toc-item"><a href="#Introduction-to-Unix,-Part-3---grep-and-regular-expressions" data-toc-modified-id="Introduction-to-Unix,-Part-3---grep-and-regular-expressions-1"><span class="toc-item-num">1&nbsp;&nbsp;</span>Introduction to Unix, Part 3 - grep and regular expressions</a></div><div class="lev1 toc-item"><a href="#Searching-patterns-into-file:-grep" data-toc-modified-id="Searching-patterns-into-file:-grep-2"><span class="toc-item-num">2&nbsp;&nbsp;</span>Searching patterns into file: grep</a></div><div class="lev2 toc-item"><a href="#Accessing-grep-documentation" data-toc-modified-id="Accessing-grep-documentation-2.1"><span class="toc-item-num">2.1&nbsp;&nbsp;</span>Accessing grep documentation</a></div><div class="lev2 toc-item"><a href="#Searching-multiple-files" data-toc-modified-id="Searching-multiple-files-2.2"><span class="toc-item-num">2.2&nbsp;&nbsp;</span>Searching multiple files</a></div><div class="lev2 toc-item"><a href="#Searching-multiple-patterns-and-the-Unix-piping-system" data-toc-modified-id="Searching-multiple-patterns-and-the-Unix-piping-system-2.3"><span class="toc-item-num">2.3&nbsp;&nbsp;</span>Searching multiple patterns and the Unix piping system</a></div><div class="lev2 toc-item"><a href="#Regular-Expressions" data-toc-modified-id="Regular-Expressions-2.4"><span class="toc-item-num">2.4&nbsp;&nbsp;</span>Regular Expressions</a></div><div class="lev2 toc-item"><a href="#Regular-Expression-exercise" data-toc-modified-id="Regular-Expression-exercise-2.5"><span class="toc-item-num">2.5&nbsp;&nbsp;</span>Regular Expression exercise</a></div><div class="lev1 toc-item"><a href="#Time-for-a-break!" data-toc-modified-id="Time-for-a-break!-3"><span class="toc-item-num">3&nbsp;&nbsp;</span>Time for a break!</a></div></p>
+<h1 id="Table-of-Contents">Table of Contents<a class="anchor-link" href="#Table-of-Contents">&#182;</a></h1><p><p><div class="lev1 toc-item"><a href="#Introduction-to-Unix,-Part-3---grep-and-regular-expressions" data-toc-modified-id="Introduction-to-Unix,-Part-3---grep-and-regular-expressions-1"><span class="toc-item-num">1&nbsp;&nbsp;</span>Introduction to Unix, Part 3 - grep and regular expressions</a></div><div class="lev1 toc-item"><a href="#Searching-patterns-into-file:-grep" data-toc-modified-id="Searching-patterns-into-file:-grep-2"><span class="toc-item-num">2&nbsp;&nbsp;</span>Searching patterns into file: grep</a></div><div class="lev2 toc-item"><a href="#Accessing-grep-documentation" data-toc-modified-id="Accessing-grep-documentation-2.1"><span class="toc-item-num">2.1&nbsp;&nbsp;</span>Accessing grep documentation</a></div><div class="lev2 toc-item"><a href="#Searching-multiple-files" data-toc-modified-id="Searching-multiple-files-2.2"><span class="toc-item-num">2.2&nbsp;&nbsp;</span>Searching multiple files</a></div><div class="lev2 toc-item"><a href="#Searching-multiple-patterns-and-the-Unix-piping-system" data-toc-modified-id="Searching-multiple-patterns-and-the-Unix-piping-system-2.3"><span class="toc-item-num">2.3&nbsp;&nbsp;</span>Searching multiple patterns and the Unix piping system</a></div><div class="lev1 toc-item"><a href="#The-Unix-Philosophy-and-Approach-to-programming" data-toc-modified-id="The-Unix-Philosophy-and-Approach-to-programming-3"><span class="toc-item-num">3&nbsp;&nbsp;</span>The Unix Philosophy and Approach to programming</a></div><div class="lev1 toc-item"><a href="#Applying-the-Unix-Philosophy-to-your-programming" data-toc-modified-id="Applying-the-Unix-Philosophy-to-your-programming-4"><span class="toc-item-num">4&nbsp;&nbsp;</span>Applying the Unix Philosophy to your programming</a></div><div class="lev2 toc-item"><a href="#Example-of-Unix-Approach" data-toc-modified-id="Example-of-Unix-Approach-4.1"><span class="toc-item-num">4.1&nbsp;&nbsp;</span>Example of Unix Approach</a></div><div class="lev1 toc-item"><a href="#Regular-Expressions" data-toc-modified-id="Regular-Expressions-5"><span class="toc-item-num">5&nbsp;&nbsp;</span>Regular Expressions</a></div><div class="lev2 toc-item"><a href="#Regular-Expression-exercise" data-toc-modified-id="Regular-Expression-exercise-5.1"><span class="toc-item-num">5.1&nbsp;&nbsp;</span>Regular Expression exercise</a></div><div class="lev1 toc-item"><a href="#Time-for-a-break!" data-toc-modified-id="Time-for-a-break!-6"><span class="toc-item-num">6&nbsp;&nbsp;</span>Time for a break!</a></div></p>
 
 </div>
 </div>
@@ -11871,10 +11871,10 @@ a.anchor-link {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[7]:</div>
+<div class="prompt input_prompt">In&nbsp;[3]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">head</span> <span class="mi">2</span><span class="n">_searching_patterns</span><span class="o">.</span><span class="n">txt</span>
+<div class=" highlight hl-bash"><pre><span></span>head 2_searching_patterns.txt
 </pre></div>
 
 </div>
@@ -11887,16 +11887,16 @@ a.anchor-link {
 
 <div class="output_area"><div class="prompt"></div>
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>PWapg3ZDqzNWF6v VocznrWXXLTi gIY7Tj0bVx     pmslXrBubMQeoEJXrF0OfHpcpxwTlktHSCm
-spf5840ZpMkpg4tZvgd3z4dxLVLiXnfmtrNaGL9d    BV04Lu18iLMugTwPHRRkLCADC8PKO8jXutZ
-zBTK9i8ya oe4IoxbCZhST4XvDe mrccT7cwYGAD    1SmSareQB5q8wNsAvaA79aqXlIpmBZgmUVR
-4gr mwZcxIg6pQwgddsJa4giM7hzjp8lit49D7kH    upYIZQr8MbyEk4CX Y7k0uMmW9kk1fNJDea
-DMj0BJp wJ8BF3xyd61euAWb4IjOv6paBlKGse3a    buZnpSOJv9PWhQpQnuxmZosVdYFw6TZF3RG
-yxArpyFCKt5637qiASyfadyheMBAp4bccq5furIx    EOgGCEnWGuJwLSmvoehnXBdlbqDS5YN f7k
-T016mr v0mzedsHTFReC3ZjqVuYXpPuTulu8F0Z3    pmr9l96nOUEVXckfdiidZUP6UvFNh4Doaqz
-B0zFnnWEFttxrUjyuHgU9U09wEt7HfHBP1MAstQb    WgxYhtDn3swa5fsmYgtxQKjjbIZzuVszEdl
-qByK4hFg7JQowOAXW60EBXQYSDHFgUWHlJAGYnjO    CoB6YKtvZPaS8H8BRdsuBwdqU3KRz O9oXk
-3Ntf9b6jv7hZsjtfEcaIzMuakpsEjl6i7Mra4M3U    MgWDXcpafKACEA0rUAro9DjHo4VgbBJ6tdj
+<pre>N6jorDR84qO1Wm9oQSwq NFP5fuIUt    dicCiojstp  RVFEDyvlCiQgJludpQz3Dmh
+mfsFAdF6K87GCcFxIuPJU3KV bOqbM    nl1Kliq0kejysuyzQjjHD4uLwCiz9uDfGJ8
+k8KXugdUgQWis6TJj5Bs3r0O zhucJ    Jdrh5eLocvbvx3c1nOECQLPX3Zxoed RdWF
+a55O3BZvOWND7NgRpTGYNvagOPftki    QwYSIr6uFambWWjUyHWSc3ayRD6dovvuBAr
+0LJ4YFDvRbpOz DBcKgo45oRKFFN83    T6fRFSpMzZUbXz lwpT6LC98uiNSdFXRrdV
+YpGM8k5BhVkL FSAlpKaF1aOjKOX9K    Z5ov kGnjbKosQQeRmHt0KlrobawghapA8f
+51WCoVFad 5NUN8cd9MKOkSmqHkEAy    bTKIT3Xl9zZkwXpflOG0Ka0CiS77Q3Nq9Bn
+wIZTwypDgNcFN3JxFrJuOHJxsdIKPD    hnTBOWnngoVfOrNeR6af7mZKCFLHLov7pPF
+ lVzzIoSD03ll3peasKZyaLEsRW1er    GAI9wh7LzYicG647nz1KA9Rv3TuHujuJaDZ
+ocuB5qUMrxMbopSc6IymtjPCVmhhFd    Mdh8d7kTkAqMP0Fqutt6B33Etn93XAcXDnV
 </pre>
 </div>
 </div>
@@ -11931,10 +11931,10 @@ qByK4hFg7JQowOAXW60EBXQYSDHFgUWHlJAGYnjO    CoB6YKtvZPaS8H8BRdsuBwdqU3KRz O9oXk
 </div><div class="fragment">
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[8]:</div>
+<div class="prompt input_prompt">In&nbsp;[4]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">grep</span> <span class="n">start</span> <span class="mi">2</span><span class="n">_searching_patterns</span><span class="o">.</span><span class="n">txt</span>
+<div class=" highlight hl-bash"><pre><span></span>grep start 2_searching_patterns.txt
 </pre></div>
 
 </div>
@@ -11947,44 +11947,44 @@ qByK4hFg7JQowOAXW60EBXQYSDHFgUWHlJAGYnjO    CoB6YKtvZPaS8H8BRdsuBwdqU3KRz O9oXk
 
 <div class="output_area"><div class="prompt"></div>
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>NjIM <span class="ansi-red-intense-fg ansi-bold">start</span>esMsuqZNWhowFxuSFX4IaLymKGYdef    
-McQYo6 umUY816rvtSGjAl <span class="ansi-red-intense-fg ansi-bold">start</span> DdBaWfylxrZ     ______________________________
-Ewu1xLvv7OrXNWu4otWYoF gdV4U3i<span class="ansi-red-intense-fg ansi-bold">start</span>dzYlJ    / Congrats!                    \  
-kDDgWqtLBgY85 PQm8p1ajcAEzbQdb <span class="ansi-red-intense-fg ansi-bold">start</span> rMv    |  You&#39;ve used grep correctly, |
-kCVqk6sGesHvBp6 pNLzStgdhKu <span class="ansi-red-intense-fg ansi-bold">start</span> 9YQQNI    \  and found a cow.            /
-tLMfr <span class="ansi-red-intense-fg ansi-bold">start</span>UY36ToJEfE4uqIAQ3JboyoBOFyL8s     ------------------------------
- bWKJdeuL <span class="ansi-red-intense-fg ansi-bold">start</span>I4xvVOZxwyC7oMKHaoG5ePF4k            \   ^__^
-fThKk5wk <span class="ansi-red-intense-fg ansi-bold">start</span>Ao6IzNddHcxuj93oFRam0mneoF             \  (oo)\_______
-aw<span class="ansi-red-intense-fg ansi-bold">start</span>yw5tH3FzetzVxhw8c VrV7Uyis 5q8Yvj                (__)\       )\/\ 
-QgF4gHcEbAz <span class="ansi-red-intense-fg ansi-bold">start</span> 9ZbzG90fUafm64BIlTEIIr                    ||----w |
-XKWA <span class="ansi-red-intense-fg ansi-bold">start</span>6DpuNhYTXTcmo0UtCGa4SUo4JvnwvD                    ||     ||
-ZA0BrMOyH99y7VY97lkomNXHUJUv8MWg <span class="ansi-red-intense-fg ansi-bold">start</span> R    
-YgOF6ahX0hEhMf <span class="ansi-red-intense-fg ansi-bold">start</span>TZd 1 wDtbgoa86I8Atk    
-vln0CxxjrcgeeQ5EtPdG0Spx7<span class="ansi-red-intense-fg ansi-bold">start</span>IAT35hzj 6    
-xglkzByTDeiIKyoZbCQbO4br<span class="ansi-red-intense-fg ansi-bold">start</span> rb39 ExT9F    The command grep allows to search
-5<span class="ansi-red-intense-fg ansi-bold">start</span>7zPVWugW3vb9 mYBIxsuIVxhHUdIxiTgFZ    for a pattern in a text file.
-CLcSSkWNF0tHLOluZr43qptA <span class="ansi-red-intense-fg ansi-bold">start</span>xojHnAwbmJ    
-Fp <span class="ansi-red-intense-fg ansi-bold">start</span> ZwtvOeMtDld9oahg9rdmBvKtIjPqXFQ    It will print all the matching 
-VOsyrwG4UOEsdfYLOfGFGKZWEvtJse <span class="ansi-red-intense-fg ansi-bold">start</span> 9Ra    lines to the screen.
-Sv81TKcZ8Fx1lb7xPZVMxW4ODNoKg8p7IHZ<span class="ansi-red-intense-fg ansi-bold">start</span>    
-GlbV<span class="ansi-red-intense-fg ansi-bold">start</span>pQQ5eQDweIn0VAGC8bQLbQ0Dzw4Ggvt    =================
-kziTL5jTi<span class="ansi-red-intense-fg ansi-bold">start</span> pijnXXmWRApPCC 19SUNHN8n7    Next Exercise
-v768DQ0dRCix6 <span class="ansi-red-intense-fg ansi-bold">start</span>c0me0SF qIsYfeC704lam    =================
-vebdjvHTd<span class="ansi-red-intense-fg ansi-bold">start</span> RxBxhJayFkmRXqyOvqg5khG4O    
-QorxdcpNP1utzB<span class="ansi-red-intense-fg ansi-bold">start</span>6WpDOX4YzyIFpkZEalKW4    In the next exercise we will see 
-GipBzz4Ul5sj3hVmVkQvPg <span class="ansi-red-intense-fg ansi-bold">start</span>z9v6AF91EirG    how to access grep&#39;s documentation.
-CC09wNO65rwuCqUgi8Skg1NZ0SGR7WDUoVT<span class="ansi-red-intense-fg ansi-bold">start</span>    
-fjT7Ag59 RuhusLFzU <span class="ansi-red-intense-fg ansi-bold">start</span>GHFvKsYSp bnNsLG    Grep the following word to continue:
-Zx6RINR3hk <span class="ansi-red-intense-fg ansi-bold">start</span>667gnhTiLYLiB30MxX7irwVP      _            _        
-T0aoAQpfbNkO8LkSzSLJkLVEaXNxzQ <span class="ansi-red-intense-fg ansi-bold">start</span>VoL3     | |          | |       
-Nv0hZYvh0pHN0AlT BN<span class="ansi-red-intense-fg ansi-bold">start</span> C8pMzkIs7usQUWd     | |__    ___ | | _ __  
-5  <span class="ansi-red-intense-fg ansi-bold">start</span>  9Rq5tBOFDxiExQrRlPgCXoWt43a3US     | &#39;_ \  / _ \| || &#39;_ \ 
-46unsRj3c4ClXQvcoFPyE9cnRHDQOHFNNZ<span class="ansi-red-intense-fg ansi-bold">start</span>c     | | | ||  __/| || |_) |
-40H3 <span class="ansi-red-intense-fg ansi-bold">start</span>j6glBCFXqOhMH3BEdgBsPPQuBbOt6D     |_| |_| \___||_|| .__/ 
-Qam1yoNK3BCpwSyhRX8Wb3rA1U<span class="ansi-red-intense-fg ansi-bold">start</span> djDiAHuT                     | |    
-PFW <span class="ansi-red-intense-fg ansi-bold">start</span>KxEzUChDZGSPQNj4gsTS5k1JMBvWuY                      |_|  
-1bS5w1uaq65<span class="ansi-red-intense-fg ansi-bold">start</span>nVRWYkojLFMSkMjui8YYz1A5    
-g0 g8iyP <span class="ansi-red-intense-fg ansi-bold">start</span>Qqkz7F05ST C S73TpreeesnFm    
+<pre>cyiywNQhsTaFvrX3F0 <span class="ansi-red-intense-fg ansi-bold">start</span>6473DC    
+DRyKuiS dTekI3ctr<span class="ansi-red-intense-fg ansi-bold">start</span>v7VXoOCC     ______________________________
+S4xFQNhv0ipsyg75yCoxA3he<span class="ansi-red-intense-fg ansi-bold">start</span>J    / Congrats!                    \  
+t <span class="ansi-red-intense-fg ansi-bold">start</span> e6YBF5VeAJd1niRCAm54fv    |  You&#39;ve used grep correctly, |
+UQh<span class="ansi-red-intense-fg ansi-bold">start</span> S6CADhyFEGtamLmgUw5mN    \  and found a cow.            /
+na3xDyV <span class="ansi-red-intense-fg ansi-bold">start</span> nEn FcDkDoHlJ5U8     ------------------------------
+vB64co0qVmDSfMy <span class="ansi-red-intense-fg ansi-bold">start</span>HBRBNmMou            \   ^__^
+Ucm64KuL6ci0HB <span class="ansi-red-intense-fg ansi-bold">start</span>g3B91ubyVR             \  (oo)\_______
+dmATFfwkAnvmm  <span class="ansi-red-intense-fg ansi-bold">start</span>hJsUB7Zhpa                (__)\       )\/\ 
+x <span class="ansi-red-intense-fg ansi-bold">start</span>dyxGG 530mUC7MDaokCAKkP                    ||----w |
+TnuS 6WyvWQff<span class="ansi-red-intense-fg ansi-bold">start</span> bhC8FgngIfA                    ||     ||
+Lpjd8fy4HwOj3<span class="ansi-red-intense-fg ansi-bold">start</span> KFmLWhcpH1D    
+qrcD DUVmU67qIN<span class="ansi-red-intense-fg ansi-bold">start</span> eimdNwsk7    
+x <span class="ansi-red-intense-fg ansi-bold">start</span>YmyFAMljNGPoBZxWvdugLOE    
+Egmqh5pXm ee<span class="ansi-red-intense-fg ansi-bold">start</span> 5JkazumfP9      The command grep allows to search
+T0Zq6 <span class="ansi-red-intense-fg ansi-bold">start</span>fnvP8cIXnfqbB4q5la0    for a pattern in a text file.
+0apOeBLv7YvlPA <span class="ansi-red-intense-fg ansi-bold">start</span> gkQLhw5LJ    
+CxfzRe541y<span class="ansi-red-intense-fg ansi-bold">start</span>Jj68PrNKawesz08    It will print all the matching 
+bd7175m w <span class="ansi-red-intense-fg ansi-bold">start</span> 5YFVqNF1A8ZJS6    lines to the screen.
+Hj6BoO <span class="ansi-red-intense-fg ansi-bold">start</span>sRWuvPNGBg4ZSxdy5K    
+FrowUgP0Rww <span class="ansi-red-intense-fg ansi-bold">start</span>D56jcTvQQWEMt    =================
+f6exIg44GXvkBKEj5O0sPt <span class="ansi-red-intense-fg ansi-bold">start</span>uT    Next Exercise
+pUasyifskH<span class="ansi-red-intense-fg ansi-bold">start</span> AA4QhdNI5CYOqp    =================
+WpEr7I1I7ajn3Vb <span class="ansi-red-intense-fg ansi-bold">start</span>yV77kLktG    
+PULXHsnrjVtqGQJP0T <span class="ansi-red-intense-fg ansi-bold">start</span> x  mT    In the next exercise we will see 
+e94IRW6tna8G9gzXnMFeyeWiM<span class="ansi-red-intense-fg ansi-bold">start</span>    how to access grep&#39;s documentation.
+Yj7ItSnjwa xpIIJ6Pn<span class="ansi-red-intense-fg ansi-bold">start</span>y4c9pv    
+amG5UYNApOEml0 <span class="ansi-red-intense-fg ansi-bold">start</span>gehiEmraPN    Grep the following word to continue:
+c5zgU3wsG<span class="ansi-red-intense-fg ansi-bold">start</span>LXkuSEU5X6htL4vh      _            _        
+nYoEzZOnC18fdKoy <span class="ansi-red-intense-fg ansi-bold">start</span> SwGylYg     | |          | |       
+vEj5 <span class="ansi-red-intense-fg ansi-bold">start</span> qFNICtaBpVNgDRpfaJk     | |__    ___ | | _ __  
+ik7aYCKUtVVn4s3mQS8NEKx6 <span class="ansi-red-intense-fg ansi-bold">start</span>     | &#39;_ \  / _ \| || &#39;_ \ 
+LscAgVef<span class="ansi-red-intense-fg ansi-bold">start</span>XT3xEhEESN8qzhyU0     | | | ||  __/| || |_) |
+r4XFj<span class="ansi-red-intense-fg ansi-bold">start</span>ez4gqwdMPsmjysywXiW5     |_| |_| \___||_|| .__/ 
+KQS1yymt0dfm <span class="ansi-red-intense-fg ansi-bold">start</span> 6IRkDDywzwg                     | |    
+Y5XQOdrDQ1uU 8uexqOkpQy <span class="ansi-red-intense-fg ansi-bold">start</span>                      |_|  
+cUhpfXSO <span class="ansi-red-intense-fg ansi-bold">start</span>WCjg6ImRVLQoLcwx    
+1PKSKJRIAYZ65HBu<span class="ansi-red-intense-fg ansi-bold">start</span>6yeNy4ti6    
 </pre>
 </div>
 </div>
@@ -12010,10 +12010,10 @@ g0 g8iyP <span class="ansi-red-intense-fg ansi-bold">start</span>Qqkz7F05ST C S7
 </div></section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[9]:</div>
+<div class="prompt input_prompt">In&nbsp;[5]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">grep</span> <span class="n">help</span> <span class="mi">2</span><span class="n">_searching_patterns</span><span class="o">.</span><span class="n">txt</span>
+<div class=" highlight hl-bash"><pre><span></span>grep <span class="nb">help</span> 2_searching_patterns.txt
 </pre></div>
 
 </div>
@@ -12026,37 +12026,37 @@ g0 g8iyP <span class="ansi-red-intense-fg ansi-bold">start</span>Qqkz7F05ST C S7
 
 <div class="output_area"><div class="prompt"></div>
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>td4kwN6cV0kqU3qMkwYOHl9MqjTQ <span class="ansi-red-intense-fg ansi-bold">help</span> MP6MrF    
-GY <span class="ansi-red-intense-fg ansi-bold">help</span> yEvNL3RuVQYqiumisBftk8irLzXwt61y    The documentation for grep can 
-MTEwA<span class="ansi-red-intense-fg ansi-bold">help</span>hQapljO9yUtucAiNpvZrKdbwc3KUcsu    be accessed through man:
-NVD5n5HKKKz6GgDmyOGMlKSMTd <span class="ansi-red-intense-fg ansi-bold">help</span> Rii BCjC    
-ku1GNL6IpSHBvcGroqpHgbMUNCg3Yz3l<span class="ansi-red-intense-fg ansi-bold">help</span>nOBy        $: man grep
-XkHkwMI<span class="ansi-red-intense-fg ansi-bold">help</span> hidg7uJURR6loj5IAwv9oyeIUmqT    
-sGKar9AKY <span class="ansi-red-intense-fg ansi-bold">help</span> VhNi3MlGzT3WjAQdpWbvtuWeb    Scroll down to see all the 
-jHLbw4whFT1B<span class="ansi-red-intense-fg ansi-bold">help</span>DfqZqhjXRYPjF0y7pkM8g3z3    parameters for grep and their description.
-hZ1OQgKcsgZo <span class="ansi-red-intense-fg ansi-bold">help</span> m4s64C8nSR5zM gU4fYObu    
-9jlkynOW<span class="ansi-red-intense-fg ansi-bold">help</span>LTaeswR5UnouUc3Ipsd4OjVI5PFO    Use / to search for text.
-k4pjhosSNRgJlr7kt<span class="ansi-red-intense-fg ansi-bold">help</span>AvkWOHszFMoP yPEbgT    Press the q key to exit.
-DPdj3lg4P6 UtuibInP<span class="ansi-red-intense-fg ansi-bold">help</span> ErdkiRKtYHTKDAJ     
-5Ru8b5<span class="ansi-red-intense-fg ansi-bold">help</span> cCuwtAVpbxoqHtK70dT9vtw5NsZR8    
-O<span class="ansi-red-intense-fg ansi-bold">help</span> hL9xy8U77RDjkZsRX6WDZf8ywnBY83LiL5    
-8nhxNAlz3yHtfZFEBjwvnKPFB <span class="ansi-red-intense-fg ansi-bold">help</span> qUV YkeQX    ==============
-FU4nt<span class="ansi-red-intense-fg ansi-bold">help</span> RStwArEw6UGFM4O7kKlxItNqVfD8Jl    Next exercise
-IcOj <span class="ansi-red-intense-fg ansi-bold">help</span> P56z3xD7QRkE1admG5sNTulg7B38om    ==============
-FSnpSHWkiELodvyTu Tx<span class="ansi-red-intense-fg ansi-bold">help</span> uAWnw9UTW0ZPITU    
-iCu7cLxdU0vLMBo<span class="ansi-red-intense-fg ansi-bold">help</span>46htatY8jYJC6XXVNDHTF    For the next exercise, you will need to open 
-qLbjcY<span class="ansi-red-intense-fg ansi-bold">help</span> cp8USrp6u51ainbnXsp DForAbOq3    grep&#39;s documentation and identify two options:
-LPTakIcUOWmROON8GPJ4szSpKqZn3c <span class="ansi-red-intense-fg ansi-bold">help</span> k5jK    
-graSN0 cI4H6Zl <span class="ansi-red-intense-fg ansi-bold">help</span> hCxcK0ynPImVu0Mogdcw    - the option for case-insensitive searches
-MSewEHXyuatdRzy9GSokR DaLKp<span class="ansi-red-intense-fg ansi-bold">help</span>fDDJd7u p    - the option for counting 
-r7k6b1c9XDZcWnxH syn9peY uNq<span class="ansi-red-intense-fg ansi-bold">help</span>jKyOyg0T      the number of matching lines, 
-zi4Rycq58rmxjH zW1AhCWAO1s<span class="ansi-red-intense-fg ansi-bold">help</span>SyViqAbyAC      instead of printing them to the screen.
-CNx6GsFSs<span class="ansi-red-intense-fg ansi-bold">help</span> iRQE6pdA0jJiStNjknOaoQPSD     
-ial36NIIePB7P5 <span class="ansi-red-intense-fg ansi-bold">help</span> tpJ6bnVvVv7gESXp1Apc    Once you have identified these options, 
-A9HSI nKdCcuDp8WGEFkbWE8gJsUAZatatIO<span class="ansi-red-intense-fg ansi-bold">help</span>    do a case-insensitive search on this file for the word 
-erU3 7ppIkaPoqBFCFkFFYMo<span class="ansi-red-intense-fg ansi-bold">help</span> HxVST S9fFj    &#34;ignorecase&#34;, then count the number of lines.
-lwjWEVzMBJSZiRSXvJzQmePQPFKeL4OQdO<span class="ansi-red-intense-fg ansi-bold">help</span> R    
-8P5kONdSaqg0tolHUGq8nN9brT7k <span class="ansi-red-intense-fg ansi-bold">help</span> 6duGCw        
+<pre>3rC1S7O m<span class="ansi-red-intense-fg ansi-bold">help</span> uDa8dTWUinNSVSDX    
+aeda4XBrj7YzD <span class="ansi-red-intense-fg ansi-bold">help</span> xnpmxY3J1I0    The documentation for grep can 
+kFRgBPrGHX9GLsjfWYQ <span class="ansi-red-intense-fg ansi-bold">help</span> A3QIf    be accessed through man:
+GJD8rk1Aa<span class="ansi-red-intense-fg ansi-bold">help</span> rFvCwxsfVGy8 YJy    
+DJoDl10eVzXkHLo7<span class="ansi-red-intense-fg ansi-bold">help</span>DTfeA3GYvX        $: man grep
+I <span class="ansi-red-intense-fg ansi-bold">help</span> FGSlQgjeD7MN6Z13g1x0vNs    
+3RT8c1IHNBSaYmEGoN<span class="ansi-red-intense-fg ansi-bold">help</span> PCfxdsz    Scroll down to see all the 
+O Z DWnhzuyIoPw9BQKz<span class="ansi-red-intense-fg ansi-bold">help</span>aJKm6c    parameters for grep and their description.
+hRomqLnWx4geJlErVCz0X ZVv<span class="ansi-red-intense-fg ansi-bold">help</span>     
+aPP69R8T5oHzJa0C W <span class="ansi-red-intense-fg ansi-bold">help</span> WUMyv4    Use / to search for text.
+ot1fC vOE1 <span class="ansi-red-intense-fg ansi-bold">help</span> BbP6Fp1jjli63x    Press the q key to exit.
+haluPmj<span class="ansi-red-intense-fg ansi-bold">help</span> kO1Hqxi5OXE5g1Z6Vu    
+ZLpjYjWAZAj<span class="ansi-red-intense-fg ansi-bold">help</span> fAEFHYQ4rO7bFS    
+9qPAKjaYfUFosjNaEgIIjqcx<span class="ansi-red-intense-fg ansi-bold">help</span>UC    
+rXMAdAeVM1N6S1wIXM<span class="ansi-red-intense-fg ansi-bold">help</span> ri5Hzua    ==============
+Z1wBOjpWKjii3Vl9YNTX<span class="ansi-red-intense-fg ansi-bold">help</span> AZyGD    Next exercise
+BRdO1AiB9TGVw6bhTo<span class="ansi-red-intense-fg ansi-bold">help</span>Lvzl7ncH    ==============
+PVW6VrjQ <span class="ansi-red-intense-fg ansi-bold">help</span> pkWdQ6V8MUlBb4mm    
+M48fL93YM<span class="ansi-red-intense-fg ansi-bold">help</span>YdAsUIvJ49XZeu6Em    For the next exercise, you will need to open 
+Y5xGjZqOSOr0KgGv1dB<span class="ansi-red-intense-fg ansi-bold">help</span>qwLgkag    grep&#39;s documentation and identify two options:
+RUkLYcn67CO8vdJP <span class="ansi-red-intense-fg ansi-bold">help</span> dgdyAbkr    
+uk4qm4NtrDwxoifclE5zu<span class="ansi-red-intense-fg ansi-bold">help</span> QZBj    - the option for case-insensitive searches
+f9kFTlhQQAm<span class="ansi-red-intense-fg ansi-bold">help</span> qWaQWrvPWGz eL    - the option for counting 
+cfGAsfmlGnBaDu4YdoRM<span class="ansi-red-intense-fg ansi-bold">help</span>SY0oUv      the number of matching lines, 
+Ij3Fv<span class="ansi-red-intense-fg ansi-bold">help</span>hbMeRlx 7tydUBcaCznjF      instead of printing them to the screen.
+<span class="ansi-red-intense-fg ansi-bold">help</span>eoAiKHpCi9jT 4iNxf9UucLfG0    
+EJVr l<span class="ansi-red-intense-fg ansi-bold">help</span> jkJcVXqoiITMrAgC00c    Once you have identified these options, 
+hXissBPNstqPwJrL<span class="ansi-red-intense-fg ansi-bold">help</span> eb7g0BOHl    do a case-insensitive search on this file for the word 
+y3CwhA0YH3v <span class="ansi-red-intense-fg ansi-bold">help</span> 0huOOdCCSiWyb    &#34;ignorecase&#34;, then count the number of lines.
+pQun5zSme6 <span class="ansi-red-intense-fg ansi-bold">help</span> 80vwKy oy4Ti X    
+AA6<span class="ansi-red-intense-fg ansi-bold">help</span>ovE0Iw4f1CeWrTzC1nwpb4u        
 </pre>
 </div>
 </div>
@@ -12067,12 +12067,12 @@ lwjWEVzMBJSZiRSXvJzQmePQPFKeL4OQdO<span class="ansi-red-intense-fg ansi-bold">he
 </div></section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[10]:</div>
+<div class="prompt input_prompt">In&nbsp;[6]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># If we do a search for &quot;ignorecase&quot; without any option, we only get some of the lines.</span>
+<div class=" highlight hl-bash"><pre><span></span><span class="c1"># If we do a search for &quot;ignorecase&quot; without any option, we only get some of the lines.</span>
 <span class="c1"># You can notice that the cow is not properly displayed :-)</span>
-<span class="n">grep</span> <span class="n">ignorecase</span> <span class="mi">2</span><span class="n">_searching_patterns</span><span class="o">.</span><span class="n">txt</span>
+grep ignorecase 2_searching_patterns.txt
 </pre></div>
 
 </div>
@@ -12085,12 +12085,14 @@ lwjWEVzMBJSZiRSXvJzQmePQPFKeL4OQdO<span class="ansi-red-intense-fg ansi-bold">he
 
 <div class="output_area"><div class="prompt"></div>
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>p14PGGX<span class="ansi-red-intense-fg ansi-bold">ignorecase</span>DoCCJ9sYiegaozfL6LXxDmf    
-o6m1cg7C<span class="ansi-red-intense-fg ansi-bold">ignorecase</span>UJbpjD laYkpG6gdBHbJIM            
-aNqS0Tg4kVIeLlyDeYoBlalps0<span class="ansi-red-intense-fg ansi-bold">ignorecase</span>w5dd    Remember that, to continue with the exercise, 
-bRe7rR0sM8mcf8W1woMoReyj<span class="ansi-red-intense-fg ansi-bold">ignorecase</span>LtPrHA    you need to do a case-insensitive search for the word
-erU3 7ppIkaPoqBFCFkFFYMohelp HxVST S9fFj    &#34;<span class="ansi-red-intense-fg ansi-bold">ignorecase</span>&#34;, then count the number of lines.
-w<span class="ansi-red-intense-fg ansi-bold">ignorecase</span>Tt0lDGMb5KCFWEm4t8RmBNXtLvURX                    ||----w |
+<pre>J0WG<span class="ansi-red-intense-fg ansi-bold">ignorecase</span>qrq 9hak97vkCYL0    
+PWPsSOpcgCPM<span class="ansi-red-intense-fg ansi-bold">ignorecase</span>vzY7sDxG            
+GZVfLsGkT7vOAeofqO<span class="ansi-red-intense-fg ansi-bold">ignorecase</span>Ko    Remember that, to continue with the exercise, 
+Wc37PlL5LsjqvNrgo<span class="ansi-red-intense-fg ansi-bold">ignorecase</span>7jW    you need to do a case-insensitive search for the word
+y3CwhA0YH3v help 0huOOdCCSiWyb    &#34;<span class="ansi-red-intense-fg ansi-bold">ignorecase</span>&#34;, then count the number of lines.
+Ei4dDJ<span class="ansi-red-intense-fg ansi-bold">ignorecase</span>L64bJfMudEsq5M    
+ZO3JWg<span class="ansi-red-intense-fg ansi-bold">ignorecase</span>AgQb0mUonH3Snj    | itive       |
+rhUDhIJsyq4mYhcPFQo<span class="ansi-red-intense-fg ansi-bold">ignorecase</span>N    \ search      /
 </pre>
 </div>
 </div>
@@ -12101,12 +12103,12 @@ w<span class="ansi-red-intense-fg ansi-bold">ignorecase</span>Tt0lDGMb5KCFWEm4t8
 </div><div class="fragment">
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[12]:</div>
+<div class="prompt input_prompt">In&nbsp;[7]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># The -i option allows to do a case-insensitive search.</span>
+<div class=" highlight hl-bash"><pre><span></span><span class="c1"># The -i option allows to do a case-insensitive search.</span>
 <span class="c1"># As you can see, some lines contain upper case characters:</span>
-<span class="n">grep</span> <span class="o">-</span><span class="n">i</span> <span class="n">ignorecase</span> <span class="mi">2</span><span class="n">_searching_patterns</span><span class="o">.</span><span class="n">txt</span>
+grep -i ignorecase 2_searching_patterns.txt
 </pre></div>
 
 </div>
@@ -12119,27 +12121,27 @@ w<span class="ansi-red-intense-fg ansi-bold">ignorecase</span>Tt0lDGMb5KCFWEm4t8
 
 <div class="output_area"><div class="prompt"></div>
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>p14PGGX<span class="ansi-red-intense-fg ansi-bold">ignorecase</span>DoCCJ9sYiegaozfL6LXxDmf    
-o6m1cg7C<span class="ansi-red-intense-fg ansi-bold">ignorecase</span>UJbpjD laYkpG6gdBHbJIM            
-aNqS0Tg4kVIeLlyDeYoBlalps0<span class="ansi-red-intense-fg ansi-bold">ignorecase</span>w5dd    Remember that, to continue with the exercise, 
-bRe7rR0sM8mcf8W1woMoReyj<span class="ansi-red-intense-fg ansi-bold">ignorecase</span>LtPrHA    you need to do a case-insensitive search for the word
-erU3 7ppIkaPoqBFCFkFFYMohelp HxVST S9fFj    &#34;<span class="ansi-red-intense-fg ansi-bold">ignorecase</span>&#34;, then count the number of lines.
-1ofqHyPgr74Vx 0vUkETWFA<span class="ansi-red-intense-fg ansi-bold">IGNORECASE</span>u8SJQ5C    
-1 vfC7<span class="ansi-red-intense-fg ansi-bold">IGNORECASE</span>MUtRWYq3KGKJpR8koi7FhtzX     _____________
-OTMODZfX1gD9l38Tu9PEQZrshVzL<span class="ansi-red-intense-fg ansi-bold">IGNORECASE</span>bI    / Good Job!   \ 
-u7YtPPNnVLSzB8HCBvtOcIHey0X8Wt<span class="ansi-red-intense-fg ansi-bold">IgnorEcase</span>    | You did a   |
-QfX1XYVyUHpwU<span class="ansi-red-intense-fg ansi-bold">IgnorEcase</span>pT fi6GkHvOkG LDb    | case-insens |
-Vw4ePnDoZ4KxNs58pWlGMoFVc<span class="ansi-red-intense-fg ansi-bold">IgnorEcase</span>pQj 6    | itive       |
-fN4SOVBxl6<span class="ansi-red-intense-fg ansi-bold">IgnorEcase</span>eJ5Ldyb0y4PLVSL1ZCv7    \ search      /
-mmNqW04FRacds3eYb<span class="ansi-red-intense-fg ansi-bold">IgnorEcase</span>Rk5rFhFpKahDt     -------------
-ZgQZAYDnIE7Jk4PLhZ10gx<span class="ansi-red-intense-fg ansi-bold">IGNORECASE</span>pxQqxB4t            \   ^__^
-50FY1806<span class="ansi-red-intense-fg ansi-bold">ignOrecase</span>6DzXRGwihWPeO3J gjHsDG             \  (oo)\_______
-QxAIpmflI jFcJ<span class="ansi-red-intense-fg ansi-bold">ignOrecase</span>QM06LNCSX lftJUX                (__)\       )\/\ 
-w<span class="ansi-red-intense-fg ansi-bold">ignorecase</span>Tt0lDGMb5KCFWEm4t8RmBNXtLvURX                    ||----w |
-w1EeylvQJWMF<span class="ansi-red-intense-fg ansi-bold">IgnorEcase</span>Wavz4 ICR89dkvr6sf                    ||     ||
-wayAmo30uEjxkMyJvis<span class="ansi-red-intense-fg ansi-bold">IGNORECASE</span>kwshDQX DGB    
-45s7W ggf<span class="ansi-red-intense-fg ansi-bold">ignOrecase</span>UYiHjY0F6BWSqqDfZ6c F    
-zmqy<span class="ansi-red-intense-fg ansi-bold">IgnorEcase</span>qo5w9DIs0DGFlDayGlVaheoIlO        
+<pre>J0WG<span class="ansi-red-intense-fg ansi-bold">ignorecase</span>qrq 9hak97vkCYL0    
+PWPsSOpcgCPM<span class="ansi-red-intense-fg ansi-bold">ignorecase</span>vzY7sDxG            
+GZVfLsGkT7vOAeofqO<span class="ansi-red-intense-fg ansi-bold">ignorecase</span>Ko    Remember that, to continue with the exercise, 
+Wc37PlL5LsjqvNrgo<span class="ansi-red-intense-fg ansi-bold">ignorecase</span>7jW    you need to do a case-insensitive search for the word
+y3CwhA0YH3v help 0huOOdCCSiWyb    &#34;<span class="ansi-red-intense-fg ansi-bold">ignorecase</span>&#34;, then count the number of lines.
+Ei4dDJ<span class="ansi-red-intense-fg ansi-bold">ignorecase</span>L64bJfMudEsq5M    
+yX6cvAZs<span class="ansi-red-intense-fg ansi-bold">IGNORECASE</span>hu3lxg5OTkk9     _____________
+YBgY HtVe6lUjUbhYG<span class="ansi-red-intense-fg ansi-bold">IGNORECASE</span>Sd    / Good Job!   \ 
+fCkzDFRyUI<span class="ansi-red-intense-fg ansi-bold">ignOrecase</span>NjeVrQaL V    | You did a   |
+DjP4Qa <span class="ansi-red-intense-fg ansi-bold">ignOrecase</span>60rD76lrkJlOP    | case-insens |
+ZO3JWg<span class="ansi-red-intense-fg ansi-bold">ignorecase</span>AgQb0mUonH3Snj    | itive       |
+rhUDhIJsyq4mYhcPFQo<span class="ansi-red-intense-fg ansi-bold">ignorecase</span>N    \ search      /
+eIb0cb<span class="ansi-red-intense-fg ansi-bold">ignOrecase</span>rqT99cHXsbazNE     -------------
+dth3agTCwYH0ou<span class="ansi-red-intense-fg ansi-bold">ignOrecase</span>86d908            \   ^__^
+n <span class="ansi-red-intense-fg ansi-bold">ignOrecase</span>8JdVs9NCgrFTRXELXJ             \  (oo)\_______
+Il7nHbc<span class="ansi-red-intense-fg ansi-bold">IGNORECASE</span>EgUF5IeSoZfT1                (__)\       )\/\ 
+E0<span class="ansi-red-intense-fg ansi-bold">IGNORECASE</span>QrSNWGlfJITjVutE0q                    ||----w |
+0CSMFb4OUMoaeSjS<span class="ansi-red-intense-fg ansi-bold">IGNORECASE</span>BCxr                    ||     ||
+H3FDmXPjSt0<span class="ansi-red-intense-fg ansi-bold">IgnorEcase</span>CB7Lfrtoh    
+zjZwttL5RQ<span class="ansi-red-intense-fg ansi-bold">ignOrecase</span>ePhoKUN6lz    
+LvX4RShx95em<span class="ansi-red-intense-fg ansi-bold">IgnorEcase</span>QkJNFiqY        
 </pre>
 </div>
 </div>
@@ -12150,12 +12152,12 @@ zmqy<span class="ansi-red-intense-fg ansi-bold">IgnorEcase</span>qo5w9DIs0DGFlDa
 </div></div><div class="fragment">
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[13]:</div>
+<div class="prompt input_prompt">In&nbsp;[8]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># To solve the exercise, we also have to count the number of output lines.</span>
+<div class=" highlight hl-bash"><pre><span></span><span class="c1"># To solve the exercise, we also have to count the number of output lines.</span>
 <span class="c1"># This can be done with the &quot;-c&quot; option:</span>
-<span class="n">grep</span> <span class="o">-</span><span class="n">i</span> <span class="o">-</span><span class="n">c</span> <span class="n">ignorecase</span> <span class="mi">2</span><span class="n">_searching_patterns</span><span class="o">.</span><span class="n">txt</span>
+grep -i -c ignorecase 2_searching_patterns.txt
 </pre></div>
 
 </div>
@@ -12179,11 +12181,11 @@ zmqy<span class="ansi-red-intense-fg ansi-bold">IgnorEcase</span>qo5w9DIs0DGFlDa
 </div></div><div class="fragment">
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[14]:</div>
+<div class="prompt input_prompt">In&nbsp;[9]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># solution: how to find the instructions for the next exercise</span>
-<span class="n">grep</span> <span class="mi">21</span> <span class="mi">2</span><span class="n">_searching_patterns</span><span class="o">.</span><span class="n">txt</span>
+<div class=" highlight hl-bash"><pre><span></span><span class="c1"># solution: how to find the instructions for the next exercise</span>
+grep <span class="m">21</span> 2_searching_patterns.txt
 </pre></div>
 
 </div>
@@ -12196,36 +12198,37 @@ zmqy<span class="ansi-red-intense-fg ansi-bold">IgnorEcase</span>qo5w9DIs0DGFlDa
 
 <div class="output_area"><div class="prompt"></div>
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>tidjh<span class="ansi-red-intense-fg ansi-bold">21</span>yvuMNPDEma8t6PksdgTVkimf6F8LHegXf    
-OllivZL3QFq8OiobDOQjdrPT1KeqT<span class="ansi-red-intense-fg ansi-bold">21</span> bRG WMRc    
-eCmkBM<span class="ansi-red-intense-fg ansi-bold">21</span>OATsb57fD9ao6czsMB1f7gtWvJCFAW3z     ____________________
-YCOQlk1yUmr8EjN3NBxEB0SSToh<span class="ansi-red-intense-fg ansi-bold">21</span>Xfpm BiVHS7    / Congrats! Yes      \ 
-JCsq1gs3drLCHAerYroSp331AJMHr<span class="ansi-red-intense-fg ansi-bold">21</span>m9Atm4UMR    | the answer to the  |
-z3nfFTpzSKGHfdDwtIadMjgiYx<span class="ansi-red-intense-fg ansi-bold">21</span>iiat3S9VVT8R    | case-insensitive   |
-0qBEpfp1dcTibKVwObda341CTH9zoYJpBFe8<span class="ansi-red-intense-fg ansi-bold">21</span>yy    | and count question |
-KJIsvaofywLv6uz1<span class="ansi-red-intense-fg ansi-bold">21</span>6aZlUBQ3XBJd1jVC5bdHAE    | is <span class="ansi-red-intense-fg ansi-bold">21</span>.             /
-jy0FgakHM4Tq7ncjhUN<span class="ansi-red-intense-fg ansi-bold">21</span>ggkNyZhNhJC4eyz ESN     --------------------
-xwwOmWdp5pJ8IsvtNMx9EnWOnjmuUEdt4o8d<span class="ansi-red-intense-fg ansi-bold">21</span>zc            \   ^__^
-k azZdXgjRGFYTHuMIp0SFkwjp4vHRG1lnlmSj<span class="ansi-red-intense-fg ansi-bold">21</span>             \  (oo)\_______
-jYe19iH7NaYtPGDC7mXoy5G7<span class="ansi-red-intense-fg ansi-bold">21</span>s8EGrD8wFCZSlJ                (__)\       )\/\  
-CXUYNxwnP8jr3NR5T9SCl5TQAwJI5ZjNCm zw<span class="ansi-red-intense-fg ansi-bold">21</span>Y                    ||----w |
-l<span class="ansi-red-intense-fg ansi-bold">21</span>FpLp HaLHc1MaoMXflHI4wr981PUNefC0cKDC                    ||     ||
-fC1BsEyvpDm cCnceoQCj3<span class="ansi-red-intense-fg ansi-bold">21</span>v36bmPx5u9Ht6qxs    
-VAAh4PTzYzWSbMxmtDE8XtwYqSu8KFq50<span class="ansi-red-intense-fg ansi-bold">21</span>ycKLY    
-WmHhzfH8XzJ4Dd3PvgMoIXAnoJJG3G9HlGUtD<span class="ansi-red-intense-fg ansi-bold">21</span>d    =============
-yCrjC<span class="ansi-red-intense-fg ansi-bold">21</span>uBDHKBR1P0XVXQp9XE6T7Nqa6C p8ZQ4H    Next exercise
-zfa7If6rzhvuv O6HFHU<span class="ansi-red-intense-fg ansi-bold">21</span>cbLnpW0Yipf3xSKJSS    =============
-FPgwt6n3mfTJtartXVwrMAtmn3ISF<span class="ansi-red-intense-fg ansi-bold">21</span>yiK0U9NH4    
-PnV<span class="ansi-red-intense-fg ansi-bold">21</span>lkRoTqqVP 9Hs4v4RlJLFdOx6LkhICM WW1    Searching in multiple files
-uaRh<span class="ansi-red-intense-fg ansi-bold">21</span>9wTTl0wCVin63cfrywW06LwQOb vx1k5Uu    
-FTOHCTMDFlKj cNVu<span class="ansi-red-intense-fg ansi-bold">21</span>DgKqN1EZxhU1iPyGRrko1    Grep can search the same pattern
-EfzALglVAh8cPso5WmyYi8v1QG0c<span class="ansi-red-intense-fg ansi-bold">21</span>LUTKPqw66N    in more than one file at the same time.
-rGWMTbnXJnehtyAY3vxTJWUdaUXH MxFnyA<span class="ansi-red-intense-fg ansi-bold">21</span>fUN    
-l0UcWWd0LG0GeFwNKlGEyj07pbUOPTee1<span class="ansi-red-intense-fg ansi-bold">21</span>t0MsN    The folder data/multiplefiles/ contains hundreds of different files.
-Ow7gE6ZNvIGLP775npX6j5menzWz4<span class="ansi-red-intense-fg ansi-bold">21</span>Hg00qDP3w    
-uWhIZ4kk6cI7d9503RXAniriZjemCOZ<span class="ansi-red-intense-fg ansi-bold">21</span>J7BTCBt    Can you identify the file containing the word &#34;regex&#34;?
-Wxd46<span class="ansi-red-intense-fg ansi-bold">21</span>C JxW68aYMWbeCMY0eVMtTqF8iAfhqazV    
-iekhxfE5LpZ<span class="ansi-red-intense-fg ansi-bold">21</span>qUxwIjXpYtMchz489rzXtZ0 VOU        
+<pre>XvQkpnuGE76p6e9OIDJDWZocYQq<span class="ansi-red-intense-fg ansi-bold">21</span>z    
+ZzNpBzsof8oCSIXw013oC<span class="ansi-red-intense-fg ansi-bold">21</span>FgzjmoY    
+WBOYltyyUdP8<span class="ansi-red-intense-fg ansi-bold">21</span>rAGsMzaMqQhXWdlI     ____________________
+<span class="ansi-red-intense-fg ansi-bold">21</span>SEAWynnbhHdSgg7t4jb3bTehrDD8    / Congrats! Yes      \ 
+X8ETxBuWCJwnU5SF4eufjXGD0Ol<span class="ansi-red-intense-fg ansi-bold">21</span>3    | the answer to the  |
+snaAFxRROH<span class="ansi-red-intense-fg ansi-bold">21</span>yfMk4J9py5rHbOdkrp    | case-insensitive   |
+487lJUgZMGuA8xGYFPYMMKPVqp9<span class="ansi-red-intense-fg ansi-bold">21</span>8    | and count question |
+CJIWv<span class="ansi-red-intense-fg ansi-bold">21</span>yJkeMIAw6WgteBotAN1v8Sy    | is <span class="ansi-red-intense-fg ansi-bold">21</span>.             /
+LvPMXrbgI4QG95gZaFCLg<span class="ansi-red-intense-fg ansi-bold">21</span>JPMs9TK     --------------------
+NoLOe<span class="ansi-red-intense-fg ansi-bold">21</span>xUJXFNVcNnwA6MI3HyBrwng            \   ^__^
+AxsMe0L0RI5Pt<span class="ansi-red-intense-fg ansi-bold">21</span>QGXsExNM3ZUQfwn             \  (oo)\_______
+nsg RCxVtQZMzn keLaTzhm kVn<span class="ansi-red-intense-fg ansi-bold">21</span>X                (__)\       )\/\  
+qvTkY57v8rSIa5W<span class="ansi-red-intense-fg ansi-bold">21</span>a 0NqNZ jWgCv                    ||----w |
+LjkILyX3X<span class="ansi-red-intense-fg ansi-bold">21</span>A98SQrMbRBsKig8AGg9                    ||     ||
+sZWBKGyJ8IurleKipjixQ<span class="ansi-red-intense-fg ansi-bold">21</span>j5euj15    
+UlNkBb 9JIJ7gPFE8a7qcfwSx<span class="ansi-red-intense-fg ansi-bold">21</span>jlP    
+IwTSAEw8MLcsEofkQDRsi<span class="ansi-red-intense-fg ansi-bold">21</span>YIaA rM    =============
+Q<span class="ansi-red-intense-fg ansi-bold">21</span>AFnH5GzPHHCirwoIWJkZdfknt40    Next exercise
+VN6olNG8cw9rw5rcxJeaHckVuztB<span class="ansi-red-intense-fg ansi-bold">21</span>    =============
+nj8lvbvU8oDlZbnGUMsC7aw6zGw<span class="ansi-red-intense-fg ansi-bold">21</span>M    
+BdQhorRoOCggPSLI4bfMZ<span class="ansi-red-intense-fg ansi-bold">21</span>1DwDf4p    Searching in multiple files
+IKdlDTv6cpaLYISjZO<span class="ansi-red-intense-fg ansi-bold">21</span>m6oqckkl6i    
+N<span class="ansi-red-intense-fg ansi-bold">21</span>wFpJGlRg969qfL kbveWG0slXqe    Grep can search the same pattern
+7NgLAwqDPsMQQxM5TNFXpU30xJ<span class="ansi-red-intense-fg ansi-bold">21</span>O     in more than one file at the same time.
+ JB9<span class="ansi-red-intense-fg ansi-bold">21</span>UtTm9Hdx9OWgIyyDf9NVFA0Y    
+aEhY<span class="ansi-red-intense-fg ansi-bold">21</span>0ci75TGjYdmXtylKyDEy7Kfl    The folder data/multiplefiles/ contains hundreds of different files.
+9sW5VuKAnkBUS5tE7PL50Grq<span class="ansi-red-intense-fg ansi-bold">21</span>wL4B    
+7oHcn60lBwS QPfile3<span class="ansi-red-intense-fg ansi-bold">21</span>mtDvIWy5u    Next Exercise
+qE<span class="ansi-red-intense-fg ansi-bold">21</span>lJ1GcXfMkE9Ze8NIYsmV7BWBfL    Can you identify the file containing the word &#34;regex&#34;?
+mwvlebf<span class="ansi-red-intense-fg ansi-bold">21</span>6dNweaaVwOv6tpp5GXl4t    
+g35<span class="ansi-red-intense-fg ansi-bold">21</span>Rg3t3wHZxke5exFZaiByZJvvi        
 </pre>
 </div>
 </div>
@@ -12248,11 +12251,11 @@ iekhxfE5LpZ<span class="ansi-red-intense-fg ansi-bold">21</span>qUxwIjXpYtMchz48
 </div></section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[15]:</div>
+<div class="prompt input_prompt">In&nbsp;[11]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># solution: you can use the &quot;*&quot; character to specify multiple files:</span>
-<span class="n">grep</span> <span class="s1">&#39;regex&#39;</span> <span class="n">multiplefiles</span><span class="o">/*</span>
+<div class=" highlight hl-bash"><pre><span></span><span class="c1"># solution: you can use the &quot;*&quot; character to specify multiple files:</span>
+grep <span class="s1">&#39;regex&#39;</span> multiplefiles/*
 </pre></div>
 
 </div>
@@ -12309,10 +12312,10 @@ iekhxfE5LpZ<span class="ansi-red-intense-fg ansi-bold">21</span>qUxwIjXpYtMchz48
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[16]:</div>
+<div class="prompt input_prompt">In&nbsp;[12]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">head</span> <span class="n">genes</span><span class="o">/</span><span class="n">mgat_genes</span><span class="o">.</span><span class="n">gb</span>
+<div class=" highlight hl-bash"><pre><span></span>head genes/mgat_genes.gb
 </pre></div>
 
 </div>
@@ -12359,10 +12362,10 @@ SOURCE      Homo sapiens (human)
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[17]:</div>
+<div class="prompt input_prompt">In&nbsp;[13]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">grep</span> <span class="n">ORGANISM</span> <span class="n">genes</span><span class="o">/</span><span class="n">mgat_genes</span><span class="o">.</span><span class="n">gb</span> <span class="o">|</span> <span class="n">grep</span> <span class="s1">&#39;Homo sapiens&#39;</span>
+<div class=" highlight hl-bash"><pre><span></span>grep ORGANISM genes/mgat_genes.gb <span class="p">|</span> grep <span class="s1">&#39;Homo sapiens&#39;</span>
 </pre></div>
 
 </div>
@@ -12403,11 +12406,11 @@ SOURCE      Homo sapiens (human)
 </div><div class="fragment">
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[18]:</div>
+<div class="prompt input_prompt">In&nbsp;[19]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Solution: grep for &quot;bos taurus&quot;:</span>
-<span class="n">grep</span> <span class="n">ORGANISM</span> <span class="n">genes</span><span class="o">/</span><span class="n">mgat_genes</span><span class="o">.</span><span class="n">gb</span> <span class="o">|</span> <span class="n">grep</span> <span class="n">taurus</span>
+<div class=" highlight hl-bash"><pre><span></span><span class="c1"># Solution: grep for &quot;bos taurus&quot;:</span>
+grep ORGANISM genes/mgat_genes.gb <span class="p">|</span> grep taurus
 </pre></div>
 
 </div>
@@ -12424,7 +12427,7 @@ SOURCE      Homo sapiens (human)
   ORGANISM  Bos <span class="ansi-red-intense-fg ansi-bold">taurus</span>
   ORGANISM  Bos <span class="ansi-red-intense-fg ansi-bold">taurus</span>
   ORGANISM  Bos <span class="ansi-red-intense-fg ansi-bold">taurus</span>			   _______________
-  ORGANISM  Bos <span class="ansi-red-intense-fg ansi-bold">taurus</span>		          &lt; Well guessed! &gt;
+  ORGANISM  Bos <span class="ansi-red-intense-fg ansi-bold">taurus</span>		          &lt; Good Guess! &gt;
   ORGANISM  Bos <span class="ansi-red-intense-fg ansi-bold">taurus</span>			   ---------------
   ORGANISM  Bos <span class="ansi-red-intense-fg ansi-bold">taurus</span>					\   ^__^
   ORGANISM  Bos <span class="ansi-red-intense-fg ansi-bold">taurus</span>					 \  (oo)\_______
@@ -12457,7 +12460,63 @@ SOURCE      Homo sapiens (human)
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Regular-Expressions">Regular Expressions<a class="anchor-link" href="#Regular-Expressions">&#182;</a></h2><p>Regular expressions allow to search for more complex patterns.</p>
+<h1 id="The-Unix-Philosophy-and-Approach-to-programming">The Unix Philosophy and Approach to programming<a class="anchor-link" href="#The-Unix-Philosophy-and-Approach-to-programming">&#182;</a></h1><p>Earlier this morning we mentioned the Unix Philosophy:</p>
+<ul>
+<li>Make each program do one thing well.</li>
+<li>Expect the output of every program to become the input to another, as yet unknown, program.</li>
+<li>Work on file streams, reading one line at a time.</li>
+</ul>
+
+</div>
+</div>
+</div><div class="fragment">
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>All the commands we saw today follow the Unix philosophy:</p>
+<ul>
+<li><strong>ls</strong> is for listing files</li>
+<li><strong>grep</strong> is for searching patterns in files</li>
+<li><strong>less</strong>, <strong>head</strong>, and others are for seeing the contents of a file</li>
+</ul>
+
+</div>
+</div>
+</div></div></section><section>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Applying-the-Unix-Philosophy-to-your-programming">Applying the Unix Philosophy to your programming<a class="anchor-link" href="#Applying-the-Unix-Philosophy-to-your-programming">&#182;</a></h1><p>In the following days, when you will learn the basics of Python and R programming, you will be faced with the dilemma of how to organize your scripts.</p>
+<p>You can use the Unix Philosophy as a guideline to have more versatile files and scripts.</p>
+
+</div>
+</div>
+</div><div class="fragment">
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Example-of-Unix-Approach">Example of Unix Approach<a class="anchor-link" href="#Example-of-Unix-Approach">&#182;</a></h2><p>Let's immagine we want to plot the CG content of a genome:</p>
+<ul>
+<li><strong>Approach 1 (non-Unix)</strong>: write a single script that downloads the genome, calculates the GC content, and draws a plot</li>
+<li><strong>Approach 2 (Unix)</strong>: write three separate scripts or functions, then pipe them together using the Unix Pipe or with a wrapper script.</li>
+</ul>
+<p>The Unix Approach requires a bit of extra work, but it is more versatile in case you want to reuse the same scripts.</p>
+
+</div>
+</div>
+</div></div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Regular-Expressions">Regular Expressions<a class="anchor-link" href="#Regular-Expressions">&#182;</a></h1><p>Regular expressions allow to search for more complex patterns.</p>
 <p>Here are some simple regular expression examples:</p>
 <table>
 <thead><tr>
@@ -12496,10 +12555,10 @@ SOURCE      Homo sapiens (human)
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[19]:</div>
+<div class="prompt input_prompt">In&nbsp;[15]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">head</span> <span class="n">genes</span><span class="o">/</span><span class="n">sequences</span><span class="o">.</span><span class="n">fasta</span> 
+<div class=" highlight hl-bash"><pre><span></span>head genes/sequences.fasta
 </pre></div>
 
 </div>
@@ -12513,15 +12572,15 @@ SOURCE      Homo sapiens (human)
 <div class="output_area"><div class="prompt"></div>
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>&gt;seq000 sequence description
-NANTCNNNGNATNNCNTACNTGNTCGNCCG
+CGNTTTNTAATTATATANNTAGCGTGATCC
 &gt;seq001 sequence description
-TGTCAATTNTCNGCGTCNNACNNACTCGCN
+NNCGNANAGCTNGACCTAGTTGAAATTGTG
 &gt;seq002 sequence description
-TGGGCGNTCATGNANAATGTTACGCTCNGG
+CGGTATGCAGCCCNNGCGTNGCNTNAATNA
 &gt;seq003 sequence description
-GCCTTTNGGNNCTCACTANGCANGTTTGAN
-&gt;seq004 sequence description   
-CATNANNAAAccTTTAGGCACTCNACACNG
+CGCNTCNTNCTTCACCACGCCAGCTTTANC
+&gt;seq004 sequence description
+CGTNGCGNNCGNGAGCCATTANTAGNNCCT
 </pre>
 </div>
 </div>
@@ -12542,10 +12601,10 @@ CATNANNAAAccTTTAGGCACTCNACACNG
 </div></section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[20]:</div>
+<div class="prompt input_prompt">In&nbsp;[16]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">grep</span> <span class="s1">&#39;AAA..TTT&#39;</span> <span class="n">genes</span><span class="o">/</span><span class="n">sequences</span><span class="o">.</span><span class="n">fasta</span>
+<div class=" highlight hl-bash"><pre><span></span>grep <span class="s1">&#39;AAA..TTT&#39;</span> genes/sequences.fasta
 </pre></div>
 
 </div>
@@ -12558,19 +12617,18 @@ CATNANNAAAccTTTAGGCACTCNACACNG
 
 <div class="output_area"><div class="prompt"></div>
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>CATNANN<span class="ansi-red-intense-fg ansi-bold">AAAccTTT</span>AGGCACTCNACACNG
-AGGCCGCNGNGGTA<span class="ansi-red-intense-fg ansi-bold">AAActTTT</span>ACNAAGAC
-GTGTNNGTCAAGCNCGNCGTTN<span class="ansi-red-intense-fg ansi-bold">AAAGGTTT</span>
-ATNCGNAGNNCANTNGAC<span class="ansi-red-intense-fg ansi-bold">AAAccTTT</span>TTGT
-NTACNTA<span class="ansi-red-intense-fg ansi-bold">AAAgtTTT</span>CCACTNTTTANTCAA
-CNNGAGCG<span class="ansi-red-intense-fg ansi-bold">AAActTTT</span>NGCAAGTCTGNNCN
-CATGGGC<span class="ansi-red-intense-fg ansi-bold">AAAgtTTT</span>ATANATGTNAANCNT
-GGTGGGNNCCCAGNCGNC<span class="ansi-red-intense-fg ansi-bold">AAAgtTTT</span>NNCT
-GA<span class="ansi-red-intense-fg ansi-bold">AAAgtTTT</span>TCNAACTTTNNAATAANNCN
-GAACAAGCNGCCCTTGGCC<span class="ansi-red-intense-fg ansi-bold">AAAgtTTT</span>GNC
-NNTCGTNGNNNA<span class="ansi-red-intense-fg ansi-bold">AAAaaTTT</span>TAAGAGCACC
-NNNGNGTNG<span class="ansi-red-intense-fg ansi-bold">AAActTTT</span>TTGAACGANNAAT
-CC<span class="ansi-red-intense-fg ansi-bold">AAAaaTTT</span>NTAGNAGCCTGTAGAGCCGC
+<pre>TCGACCTGCNNANGGCTNTGT<span class="ansi-red-intense-fg ansi-bold">AAAccTTT</span>G
+TNCGTCCGGCCAAA<span class="ansi-red-intense-fg ansi-bold">AAAgtTTT</span>NGNGCTTG
+NAAGTTTAAG<span class="ansi-red-intense-fg ansi-bold">AAAaaTTT</span>CATGAGCNCGAG
+NCTGCGCNGCGAGCCACAACN<span class="ansi-red-intense-fg ansi-bold">AAAgtTTT</span>G
+TAGNGTACTCCTTNTN<span class="ansi-red-intense-fg ansi-bold">AAAaaTTT</span>TTCTCG
+ACTNGACGCTTCNCTN<span class="ansi-red-intense-fg ansi-bold">AAAccTTT</span>GCNTNT
+GGGN<span class="ansi-red-intense-fg ansi-bold">AAAaaTTT</span>CGGCTGNNTGCNCNNTNN
+TNGAACCCNGTNCGGTC<span class="ansi-red-intense-fg ansi-bold">AAAccTTT</span>TCNTA
+NGGTACAAAGCNCCCANNNTT<span class="ansi-red-intense-fg ansi-bold">AAAgtTTT</span>C
+<span class="ansi-red-intense-fg ansi-bold">AAAccTTT</span>NCNGCCNTNCTCANNCGTGNTT
+NTTCACTC<span class="ansi-red-intense-fg ansi-bold">AAActTTT</span>NGNGNATTNGGAAT
+GGATG<span class="ansi-red-intense-fg ansi-bold">AAAaaTTT</span>NCCAGCCAANNCTTGNA
 </pre>
 </div>
 </div>
@@ -12591,10 +12649,10 @@ CC<span class="ansi-red-intense-fg ansi-bold">AAAaaTTT</span>NTAGNAGCCTGTAGAGCCG
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[21]:</div>
+<div class="prompt input_prompt">In&nbsp;[17]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">grep</span> <span class="o">-</span><span class="n">B1</span> <span class="s1">&#39;AAA..TTT&#39;</span> <span class="n">genes</span><span class="o">/</span><span class="n">sequences</span><span class="o">.</span><span class="n">fasta</span> 
+<div class=" highlight hl-bash"><pre><span></span>grep -B1 <span class="s1">&#39;AAA..TTT&#39;</span> genes/sequences.fasta
 </pre></div>
 
 </div>
@@ -12607,39 +12665,38 @@ CC<span class="ansi-red-intense-fg ansi-bold">AAAaaTTT</span>NTAGNAGCCTGTAGAGCCG
 
 <div class="output_area"><div class="prompt"></div>
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>&gt;seq004 sequence description   
-CATNANN<span class="ansi-red-intense-fg ansi-bold">AAAccTTT</span>AGGCACTCNACACNG
+<pre>&gt;seq009 sequence description   
+TCGACCTGCNNANGGCTNTGT<span class="ansi-red-intense-fg ansi-bold">AAAccTTT</span>G
 <span class="ansi-cyan-fg">--</span>
 &gt;seq012 sequence description    ________________
-AGGCCGCNGNGGTA<span class="ansi-red-intense-fg ansi-bold">AAActTTT</span>ACNAAGAC
+TNCGTCCGGCCAAA<span class="ansi-red-intense-fg ansi-bold">AAAgtTTT</span>NGNGCTTG
 <span class="ansi-cyan-fg">--</span>
-&gt;seq015 sequence description
-GTGTNNGTCAAGCNCGNCGTTN<span class="ansi-red-intense-fg ansi-bold">AAAGGTTT</span>
+&gt;seq024 sequence description   / Congrats! This \ 
+NAAGTTTAAG<span class="ansi-red-intense-fg ansi-bold">AAAaaTTT</span>CATGAGCNCGAG
+&gt;seq025 sequence description   | was the last  |
+NCTGCGCNGCGAGCCACAACN<span class="ansi-red-intense-fg ansi-bold">AAAgtTTT</span>G
+&gt;seq026 sequence description   \ grep exercise / 
+TAGNGTACTCCTTNTN<span class="ansi-red-intense-fg ansi-bold">AAAaaTTT</span>TTCTCG
 <span class="ansi-cyan-fg">--</span>
-&gt;seq022 sequence description   / Congrats! This \ 
-ATNCGNAGNNCANTNGAC<span class="ansi-red-intense-fg ansi-bold">AAAccTTT</span>TTGT
-&gt;seq023 sequence description   | was the last  |
-NTACNTA<span class="ansi-red-intense-fg ansi-bold">AAAgtTTT</span>CCACTNTTTANTCAA
-<span class="ansi-cyan-fg">--</span>
-&gt;seq029 sequence description   \ grep exercise / 
-CNNGAGCG<span class="ansi-red-intense-fg ansi-bold">AAActTTT</span>NGCAAGTCTGNNCN
 &gt;seq030 sequence description    ----------------
-CATGGGC<span class="ansi-red-intense-fg ansi-bold">AAAgtTTT</span>ATANATGTNAANCNT
-&gt;seq031 sequence description       \  ^__^
-GGTGGGNNCCCAGNCGNC<span class="ansi-red-intense-fg ansi-bold">AAAgtTTT</span>NNCT
+ACTNGACGCTTCNCTN<span class="ansi-red-intense-fg ansi-bold">AAAccTTT</span>GCNTNT
 <span class="ansi-cyan-fg">--</span>
+&gt;seq032 sequence description       \  ^__^
+GGGN<span class="ansi-red-intense-fg ansi-bold">AAAaaTTT</span>CGGCTGNNTGCNCNNTNN
 &gt;seq033 sequence description        \ (oo)\_______
-GA<span class="ansi-red-intense-fg ansi-bold">AAAgtTTT</span>TCNAACTTTNNAATAANNCN
-&gt;seq034 sequence description          (__)\    )\/\ 
-GAACAAGCNGCCCTTGGCC<span class="ansi-red-intense-fg ansi-bold">AAAgtTTT</span>GNC
+TNGAACCCNGTNCGGTC<span class="ansi-red-intense-fg ansi-bold">AAAccTTT</span>TCNTA
 <span class="ansi-cyan-fg">--</span>
-&gt;seq038 sequence description           ||----w |
-NNTCGTNGNNNA<span class="ansi-red-intense-fg ansi-bold">AAAaaTTT</span>TAAGAGCACC
-&gt;seq039 sequence description           ||    ||
-NNNGNGTNG<span class="ansi-red-intense-fg ansi-bold">AAActTTT</span>TTGAACGANNAAT
+&gt;seq038 sequence description          (__)\    )\/\ 
+NGGTACAAAGCNCCCANNNTT<span class="ansi-red-intense-fg ansi-bold">AAAgtTTT</span>C
 <span class="ansi-cyan-fg">--</span>
-&gt;seq041 sequence description   
-CC<span class="ansi-red-intense-fg ansi-bold">AAAaaTTT</span>NTAGNAGCCTGTAGAGCCGC
+&gt;seq043 sequence description           ||----w |
+<span class="ansi-red-intense-fg ansi-bold">AAAccTTT</span>NCNGCCNTNCTCANNCGTGNTT
+<span class="ansi-cyan-fg">--</span>
+&gt;seq046 sequence description           ||    ||
+NTTCACTC<span class="ansi-red-intense-fg ansi-bold">AAActTTT</span>NGNGNATTNGGAAT
+<span class="ansi-cyan-fg">--</span>
+&gt;seq049 sequence description   
+GGATG<span class="ansi-red-intense-fg ansi-bold">AAAaaTTT</span>NCCAGCCAANNCTTGNA
 </pre>
 </div>
 </div>
@@ -12650,11 +12707,11 @@ CC<span class="ansi-red-intense-fg ansi-bold">AAAaaTTT</span>NTAGNAGCCTGTAGAGCCG
 </div><div class="fragment">
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[22]:</div>
+<div class="prompt input_prompt">In&nbsp;[18]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Bonus: pipe an additional grep &#39;&gt;&#39; to see a cow:</span>
-<span class="n">grep</span> <span class="o">-</span><span class="n">B1</span> <span class="s1">&#39;AAA..TTT&#39;</span> <span class="n">genes</span><span class="o">/</span><span class="n">sequences</span><span class="o">.</span><span class="n">fasta</span>  <span class="o">|</span> <span class="n">grep</span> <span class="s1">&#39;&gt;&#39;</span>
+<div class=" highlight hl-bash"><pre><span></span><span class="c1"># Bonus: pipe an additional grep &#39;&gt;&#39; to see a cow:</span>
+grep -B1 <span class="s1">&#39;AAA..TTT&#39;</span> genes/sequences.fasta  <span class="p">|</span> grep <span class="s1">&#39;&gt;&#39;</span>
 </pre></div>
 
 </div>
@@ -12667,19 +12724,18 @@ CC<span class="ansi-red-intense-fg ansi-bold">AAAaaTTT</span>NTAGNAGCCTGTAGAGCCG
 
 <div class="output_area"><div class="prompt"></div>
 <div class="output_subarea output_stream output_stdout output_text">
-<pre><span class="ansi-red-intense-fg ansi-bold">&gt;</span>seq004 sequence description   
+<pre><span class="ansi-red-intense-fg ansi-bold">&gt;</span>seq009 sequence description   
 <span class="ansi-red-intense-fg ansi-bold">&gt;</span>seq012 sequence description    ________________
-<span class="ansi-red-intense-fg ansi-bold">&gt;</span>seq015 sequence description
-<span class="ansi-red-intense-fg ansi-bold">&gt;</span>seq022 sequence description   / Congrats! This \ 
-<span class="ansi-red-intense-fg ansi-bold">&gt;</span>seq023 sequence description   | was the last  |
-<span class="ansi-red-intense-fg ansi-bold">&gt;</span>seq029 sequence description   \ grep exercise / 
+<span class="ansi-red-intense-fg ansi-bold">&gt;</span>seq024 sequence description   / Congrats! This \ 
+<span class="ansi-red-intense-fg ansi-bold">&gt;</span>seq025 sequence description   | was the last  |
+<span class="ansi-red-intense-fg ansi-bold">&gt;</span>seq026 sequence description   \ grep exercise / 
 <span class="ansi-red-intense-fg ansi-bold">&gt;</span>seq030 sequence description    ----------------
-<span class="ansi-red-intense-fg ansi-bold">&gt;</span>seq031 sequence description       \  ^__^
+<span class="ansi-red-intense-fg ansi-bold">&gt;</span>seq032 sequence description       \  ^__^
 <span class="ansi-red-intense-fg ansi-bold">&gt;</span>seq033 sequence description        \ (oo)\_______
-<span class="ansi-red-intense-fg ansi-bold">&gt;</span>seq034 sequence description          (__)\    )\/\ 
-<span class="ansi-red-intense-fg ansi-bold">&gt;</span>seq038 sequence description           ||----w |
-<span class="ansi-red-intense-fg ansi-bold">&gt;</span>seq039 sequence description           ||    ||
-<span class="ansi-red-intense-fg ansi-bold">&gt;</span>seq041 sequence description   
+<span class="ansi-red-intense-fg ansi-bold">&gt;</span>seq038 sequence description          (__)\    )\/\ 
+<span class="ansi-red-intense-fg ansi-bold">&gt;</span>seq043 sequence description           ||----w |
+<span class="ansi-red-intense-fg ansi-bold">&gt;</span>seq046 sequence description           ||    ||
+<span class="ansi-red-intense-fg ansi-bold">&gt;</span>seq049 sequence description   
 </pre>
 </div>
 </div>
@@ -12696,6 +12752,19 @@ CC<span class="ansi-red-intense-fg ansi-bold">AAAaaTTT</span>NTAGNAGCCTGTAGAGCCG
 <h1 id="Time-for-a-break!">Time for a break!<a class="anchor-link" href="#Time-for-a-break!">&#182;</a></h1>
 </div>
 </div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-bash"><pre><span></span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
 </div></section></section>
 </div>
 </div>

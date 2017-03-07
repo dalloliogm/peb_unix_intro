@@ -140,15 +140,16 @@ Regular Expressions allow to identify complex pattern.
 
 The folder genes/ contains a sequence file called sequences.fasta
 
-Can you use grep to identify 
-all the sequence lines containing 
-the nucleotides AAA, followed by any two characters, and then TTT?
-
 ==============
 Next Exercise
 ==============
 
-Open the grep manual, and identify all the rows one line above the sequences containing AAA, followed by any two characters, then TTT.
+- Use grep on the file genes/sequences.fasta
+- You will need to identify the grep option for 
+    printing one line above of the match 
+    (see man grep)
+- Search for AAA, followed by any two characters, 
+    then TTT.
     '''),
     TutorialMessage('secrets','''
  _____________
@@ -163,7 +164,39 @@ Open the grep manual, and identify all the rows one line above the sequences con
             (__)\       )\/\ 
                 ||----w |
                 ||     ||
+'''),
+    TutorialMessage('randomcow','''
+ _____________
+( This is     )
+( just a      )
+( random cow, )
+( to add      )
+( complexity  )
+( to the file )
+ -------------
+        o   ^__^
+         o  (oo)\_______
+            (__)\       )\/\ 
+                ||----w |
+                ||     ||
+'''),
+    TutorialMessage('bored','''
+ _________________
+( If you finished )
+( the exercises   )
+( early, you can  )
+( have a look at  )
+( the scripts     )
+( folder. Please  )
+( be quiet        )
+ -----------------
+        o   ^__^
+         o  (oo)\_______
+            (__)\       )\/\ 
+                ||----w |
+                ||     ||
 ''')
+
     ]
 
 multiplefiles_message = TutorialMessage('regex', '''
