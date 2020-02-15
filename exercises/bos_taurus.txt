@@ -1,0 +1,24 @@
+  ORGANISM  Bos taurus
+  ORGANISM  Bos taurus
+  ORGANISM  Bos taurus
+  ORGANISM  Bos taurus			   _______________
+  ORGANISM  Bos taurus		          < Well Guessed! >
+  ORGANISM  Bos taurus			   ---------------
+  ORGANISM  Bos taurus					\   ^__^
+  ORGANISM  Bos taurus					 \  (oo)\_______
+  ORGANISM  Bos taurus			  		    (__)\       )\/\
+  ORGANISM  Bos taurus						||----w |
+  ORGANISM  Bos taurus						||     ||
+  ORGANISM  Bos taurus
+  ORGANISM  Bos taurus
+  ORGANISM  Bos taurus
+  ORGANISM  Bos taurus
+  ORGANISM  Bos taurus
+  ORGANISM  Bos taurus				===============
+  ORGANISM  Bos taurus				Next Exercise
+  ORGANISM  Bos taurus				===============
+  ORGANISM  Bos taurus
+  ORGANISM  Bos taurus				Let's talk about 
+  ORGANISM  Bos taurus				the Unix Piping system (|, > and >>), 
+  ORGANISM  Bos taurus				before searching multiple files
+  ORGANISM  Bos taurus
