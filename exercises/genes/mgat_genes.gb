@@ -730,7 +730,7 @@ DBLINK      BioProject: PRJNA13366
             Assembly: GCF_000003205.7
 KEYWORDS    WGS; RefSeq.
 SOURCE      Bos taurus (cattle)
-  ORGANISM  Bos taurus		          < Good Guess! >
+  ORGANISM  Bos taurus		          < Well Guessed! >
             Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
             Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Ruminantia;
             Pecora; Bovidae; Bovinae; Bos.
@@ -7100,7 +7100,7 @@ ACCESSION   NM_001001154
 VERSION     NM_001001154.1  GI:47564053
 KEYWORDS    RefSeq.
 SOURCE      Bos taurus (cattle)
-  ORGANISM  Bos taurus				To continue, grep
+  ORGANISM  Bos taurus				Let's talk about 
             Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
             Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Ruminantia;
             Pecora; Bovidae; Bovinae; Bos.
@@ -8122,7 +8122,7 @@ VERSION     XM_010800481.2  GI:983011101
 DBLINK      BioProject: PRJNA13366
 KEYWORDS    RefSeq.
 SOURCE      Bos taurus (cattle)
-  ORGANISM  Bos taurus				"regex" in
+  ORGANISM  Bos taurus				the Unix Piping system (|, > and >>), 
             Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
             Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Ruminantia;
             Pecora; Bovidae; Bovinae; Bos.
@@ -8213,7 +8213,7 @@ VERSION     XM_015469405.1  GI:983007330
 DBLINK      BioProject: PRJNA13366
 KEYWORDS    RefSeq; includes ab initio.
 SOURCE      Bos taurus (cattle)
-  ORGANISM  Bos taurus				data/exercise1_grep.txt
+  ORGANISM  Bos taurus				before searching multiple files
             Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
             Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Ruminantia;
             Pecora; Bovidae; Bovinae; Bos.

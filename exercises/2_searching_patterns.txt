@@ -269,7 +269,7 @@ lpHol7wHYiXYEjvo4 pSubQViPt jv    gmjnYr9wj467aLfRzP0wZpXxxw7LvjjGzcN
 4yQdcMZY97LVuLc9Y4217zYEzC4ceK    
 NZdPx216fVVJ6tc3WMzeIR6f4cHDad    =============
 Dss6zYBBfdeViypM6quYT4pHcmBr3Y    BRyH0PJ6XnRZTexDzDqfnz7NUjb nsU4Oye
-Q07zhV21z1OTJazhH03k4aCpGydFEn    Next exercise
+Q07zhV21z1OTJazhH03k4aCpGydFEn    Next topic
 bnny dITk0ZE3MXkbxsEMhZmrps kA    ZxocHc0EFPF8x70RsxV MnkaxIccqTazYqO
 ctLAoukXdWPlw5start XQUe9nUuzY    for a pattern in a text file.
 laYXJuUNwqGADWBjWWYVCKAb78cAP1    4LZPaPIOewi7WPBXcHDbsngo5bLgXAOfZse
@@ -328,7 +328,7 @@ WBx1secretsJzRMSaz5dcZ5eHRZCuc     -------------
 nyka0abwMiHsAxp16PxSNRU5PK4xDe    u1FHtO5Q4OH4buhNjlTYfcxz3kLKWu831kO
 G19VrSq1ignOrecaseFl4RySa6iLJi     _____________
 ULPEmSzozULDrElSS0sUTIcmQMl8R8    6pc8MS1F6bm5v1gyLxguH9bR3BLEt3vD4IF
-3u1FTmdrtZUFB5TAcm9lxbKgdBM21m    Searching in multiple files
+3u1FTmdrtZUFB5TAcm9lxbKgdBM21m    We are going to make a break from
 startskOYYZ1WOCQcN1os5fg9itzj9    In the next exercise we will see 
 4L0yATUGNPYtRRvpKq7SgoAshaMJCL    VMnzwLeMyM3Ce79CPQJg l0GauGyzBFtsXi
 CmLQHaYyAfY5bQGCjF6SXTmMb8o7gO    3ga0EebPgza5Re1OZCheqqWA6xV9MdJy0mF
@@ -375,17 +375,17 @@ RrjWAhqiIKNycA8BBJxNlxgkMnxjvK    9XXMfioQFHlft4 AssOKwQ6zRb7ud3IuIQS
 uPTM6U5iRir1LrsMYVYakBfl0437BA    sjwyOXYbOBSlF0EcwPbtlzum3BTW5RIeFlz
 3Z8fwgrlYJRRRGn9OS1 BLl6eciAZQ    jDf O0LwdibpMDXfxFbnzUPnLsG5098fscr
 ybttVUMkTE1YsjhgBIK8mlSP5fXyCS    i5Ipsz0myK4RVBdvX4X8gTKiKhbJYXFsTFq
-JsBQ21j6EGfYMsvRwTfmD Kv8wDJuI    
+JsBQ21j6EGfYMsvRwTfmD Kv8wDJuI    the exercises to talk about the Unix
 cw99EgQugP9USD5M6Wqg8fVB ZdTlt    k xJVTahAWn7PhskckbFAJcOwNILDBbhwSN
 wFsCwCDUpzDQkcUcmT9LNXgPy5Uv8D    qTpSyA44v0NulNvrFEfO87nEbjVaJtyHKJr
 fbuyz0iT1JbXWrKlPQk7NXVeTjhoED    eYL1VY pMDDxzm6HIHy9oKFqTLetkSB7liB
 BVlSYdvrandomcowPC6fElckpALF0k     -------------
-8ay3N5uRdYncy0B8RHV4XcP21sNvak    Grep can search the same pattern
+8ay3N5uRdYncy0B8RHV4XcP21sNvak    piping system. 
 ir9HZ3MWtubgHAjkO us4zPqszLTkx    pM5ycfufnmHJh8rK674bfRRrDUNrqUpd3nZ
 uGtIKZQgEXOVRIJb0ft50WjivNzEcO    7ncBywE7IVxe1cWsEsJuk od43TeAwOZOZR
 ignOrecaseSWU8Gagvfy vt9SdNj8j    | case-insens |
 KCw0NWHeYU5aAweZCGevDFCyBFzGcC    lc3XuNqEOiu8cDT4vlCHjvG3G8pBXlAW8iZ
-s9UGvUvcQQxss1ETq21leshRaftsUQ    in more than one file at the same time.
+s9UGvUvcQQxss1ETq21leshRaftsUQ    This will also help you reading this
 pemObjDCyHvjfWdi4j7OcLsecretsN                (__)\       )\/\ 
 rtmFADBfNSbR KCe uwK5JNnrdwzCQ    8ifr7fwQKcg8Zdb7MH4pKqAa8rjNRMYb7uJ
 xvr8RQE7rN7mVRt6LZCRkP0cZI19O1    FyI HeHrY6Wx6l50WpprgrkQ0xmr0LKYhF5
@@ -393,7 +393,7 @@ UUWMdvDfD9zBNLVRNXhqa341pLgvzL    lP5WqDxKR9sNIUV5MApemPY9l47VQjkbe3D
 ignOrecaseyrPZmYffV1 M9djtfz9k    | itive       |
 oELvcdVZMVjKMZi6drYqxZ8bscBPsr    7mk91s1ZTITPczCnJ9q65sXJ6FFecgt8TCi
 Qwprw03zdyiR6pVOAvDhyXUbDiRNBc    44ich7hgbBFnupVVhZcH3sKDkGvpdYZ9x9H
-217SnZXPGgtIIwQPeyGQ6nYZgZq4wr    
+217SnZXPGgtIIwQPeyGQ6nYZgZq4wr    output more easily, by piping it into
 KrFvlhmlNwdYhVtYxynKMCkPk4frWd    FAHHnhyNHVk8GDfti9KngELqEgnSMXo0Xno
 R9zo4cal5OLvpheHlEWJdPeq4vG8K0    mMBVrqz7ZK4vbIrNBEUaqFXdmMaIE7mhWbC
 rhmTU00sDvwfile32jB1myh0C5zdoc        printing one line above of the match 
@@ -408,7 +408,7 @@ randomcowgIMwwEhI8b4VhwbHM0wg4             o  (oo)\_______
 RGvNR9LJLqOEaC9uMDsecretsmQ4en                    ||----w |
 0QJeWI4W9vaAPFlmcYnab5auQ xcYp    NSpUAtCBDqDViqr9NFYqdrCRwVHwBu 5IoN
 8V0HfqEOeNEqwLssS3r8TgptipsZxV    EDz6KRGUGw8r5D1 yOwkZGKxeob3WHFx 8A
-xtSyHNFsQZijEC21ckUdzDjaJDboxQ    The folder multiplefiles/ contains hundreds of different files.
+xtSyHNFsQZijEC21ckUdzDjaJDboxQ    another Unix command such as less or
 uewbNyJDuQNYTrxETQ3lslfyFmWMDb    CVs9JSeVB0jMqMIoCLGDk94itXau69NEcQA
 JPqxATDQ9zhiz4XzD1pD5BaLLpcVde    MFYpcBCVwnrp9f5XTM5LHNkZG7r8COX5Ymo
 rh63MVZESXaZsGRfile32CujPOBfLp        (see man grep)
@@ -433,7 +433,7 @@ wJMfhIf6UAUcnvqqOIRCb0ix5N8LOR    fG6INlpnPfH1pbh3ENt5svxw kxvobbmPfA
 XNtVCOD1ta0WffkLbktPy0zM5IDFsW    gw7INJ8JuPAIcavrAdy31H5xpgLWvZvEn8s
 nkCFRBC8CtW1qUlMeTryBgoGJcGzEs    Sbehq91uvd3sBYY0cqgASQUpsWL0x3htkYr
 tkiO5DoA of5t7tA7yAq3qvV6joi6J    9tK7JKC1cw5HfhT0HTd3tiJnLEzQrh0J0Jp
-21dPvDB6tpt7c5eKNz3voR7HbqvVEG    
+21dPvDB6tpt7c5eKNz3voR7HbqvVEG    head. 
 6PRDOz8boredHe3THUJzTIyObFvnXc                    ||----w |
 55lSGiUpE9NIEyjY4lyMeBzuoD3FyM    5yjm7AFDj60YkytHFKCCPKbFL7SBcSU6JjG
 GBW0M3PE P3hN1T6F144SJ8Ckf1mp7    XYr0zUO7sIPAo9Y0Dj5DI9b5amqWqjtdbaR
@@ -508,7 +508,7 @@ bPAI6nBFfile32JcRIxrFBgPwPJi9k
 B0ml3B5HxNLq94m9kKKathns7X6q8F    ndQ36amvuj NvU5O4R45Y4otzGtEhjVTq5T
 dEaUW VR0od start kKL4SZ3t7Jkj     |_| |_| \___||_|| .__/ 
 BofNiGaxAo4MfxFzp0SqNVtdc4ikiP    JlbETJ0BiBZSTmM3G4U sCOIrhj3W6QrSoj
-8CRaMViZ9m5hQXko21pwgHT6wurX39    Can you identify the file containing the word "regex"?
+8CRaMViZ9m5hQXko21pwgHT6wurX39    
 bbY6rAyx08u1V N4X1WSzXsgCk0BOE    tCQ0gsw4jaFawURHIph4LQLJXhvA3CwTWOM
 TIfg C98d3PDT5hs04J bbxYA Au3j    VWPL4m5 RacNOoiXfbEAn8eQBKTMrZVrYcn
 5Q start 41c3YSmRKwNvZ1mqqVw6L                     | |    
@@ -531,14 +531,14 @@ FMr1ZpQv7OCpZ iKZtryQZ7JZkpkip    AVjQgdALisUDJ9nAf6iNHwTo4SwHekF KTH
 re7j KxYEJ CvMtZ XC77SRnxBtPvb    XVcCde7hOl7GlyijqAme9Q5ySYOm3F4kROG
 secretsx6OzO6QUhrZ4SM7N5s0vSqd    
 W5TsAIU3VSLjOlzFINyflpV7hhB5Vm    Srn9Qtyll4IfWyufi3XOrthTCvgvZOH39jh
-QR21gbuUOy67xAVKYyUOeXasfj3L9O    
+QR21gbuUOy67xAVKYyUOeXasfj3L9O    For example, try 
 dMbVftSCSvyz1UrdLIYCEXrDxuytE     OvtB96JTIT4pdUmBHVusUajBBqhnPZ4D3q5
 RDtrRB0yvKxJqwYYUJoyIfopet5wre    3sZWLkMihGH5yZem4Qn7rm8nXq4uzjPX5hi
 HtdRU3U0slignOrecaseqNi0E0von5                    ||     ||
 XgxA0VFXrTdRajj440zPHFu1VJ5LRZ    RZ3eUhh9XmHi YLjGpt7IyTjXIGRQXvWgwM
 Z4PhBxpNJ4VITr0i8VVmJoopLoy9Md    9xuYRd9q8emJubtXGwxk83mjFo8KBJCajFl
 vZuUiioLTq0UCpskElCnGJyzfa XBL    WlRAegOsTmqN9 AMxFEapr3n78LDyhohgTE
-iLgB tGHDkYZ21 iLhgjbFj9GE thp        
+iLgB tGHDkYZ21 iLhgjbFj9GE thp    $: grep 21 2_searching_patterns.txt    
 EVi3FUR947pB5toO5dnFiawIdsdhiv    Cb5BEPDhKHUeQyDaYxlBrnoidhnWizwPXi0
 8AZvZvq7TDq7sCgASgyh6GLB0il VV    XjReFTALgUD lUXazZUtBr5unI69R88Cxxc
 OtSdAR1UQlQAW4zHopFl9WOT4MT9jW    fAf09E5sGMv7QW8yoDYs0UieSoIxk8re6k3
@@ -552,6 +552,7 @@ MJGQCENfRGxGa8W6IzRrXNrSvUG17z    priFIpJuUFwbFTCAPOtxp4P31oiNAO 8eSd
 1XnXYbtV1bpopxjJIz45K6kwCiTga     saiEDkSdiljIHEm9jCcJF0GJT8MVNwVoVUX
 f18PI6GBSIW1ypkb4O835qQdbjwBQm    S5PP0qXERENiU1DoPFAsgNU54Iu4ySvv51O
 6fpjYBjCJnguFCCCmNPbEeZ0DD7PhP    03aVSQiWoL9m5xfpImo RMzterutmHq4pWg
+sabcPdsaGZ21ccvLBDgjbFj9GE thp    to read this output easily.
 jJmh5LrWJKyIwi4t1KU0 O1yBWtJq0    rbYQ7m ADlwJDRz3bVd8kKdQ7UMRvwyg3OC
  BKOwvjInpTkO7qx9DG8vVBiXSPelG    XX68SIhdPyugCu5jgy9WhFfnEkLY  eCFyP
 yhCIDNy4H6DStVoYCEWqp75J17tAex    3wc4YuoCMiq94ZWvHCiEhbYVn5blWCcY45 

@@ -1,6 +1,8 @@
 # This is a Makefile, which will be explained later in the course.
 # Please don't look at it yet :-)
 
+explain: explain_text
+	@echo Try running "make explain" to read an explanation
 publish: slides_bash commit
 	echo "convert the slides to pdf, commit, and push to github"
 	git push
@@ -51,6 +53,21 @@ commit:
 
 slides_bash:
 	jupyter nbconvert --to slides  slides/*.ipynb
+
+explain_text:
+	@echo
+	@echo 'this Makefile contains all the rules and scripts used to '
+	@echo 'generate the exercises in this module.'
+	@echo
+	@echo 'For example, there is a "generate_grep" rule which'
+	@echo 'creates all the files for the grep exercises (biopython needs to be installed first)'
+	@echo
+	@echo 'There are also rules to test if the exercises work correctly,'
+	@echo 'e.g. help, ignorecase, and so on.'
+	@echo 
+	@echo 'Makefiles are a simple way to describe a pipeline, combining commands'
+	@echo 'and rules together '
+
 
 goodbye:
 	@cowsay -W 12 'I hope you have enjoyed the workshop :-)'

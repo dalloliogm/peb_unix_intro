@@ -33,6 +33,26 @@ for a pattern in a text file.
 
 It will print all the matching 
 lines to the screen.
+"""),
+        TutorialMessage(['stOLDart', ' stOLDart ', ' stOLDart', 'stOLDart '], """
+ ______________________________
+/ Congrats!                    \  
+|  You've used grep correctly, |
+\  and found a cow.            /
+ ------------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\ 
+                ||----w |
+                ||     ||
+
+
+
+The command grep allows to search
+for a pattern in a text file.
+
+It will print all the matching 
+lines to the screen.
 
 =================
 Next Exercise
@@ -119,19 +139,30 @@ you need to do a case-insensitive search for the word''', maxline=20),
                 ||----w |
                 ||     ||
 
-
 =============
-Next exercise
+Next topic
 =============
 
-Searching in multiple files
+We are going to make a break from
+the exercises to talk about the Unix
+piping system. 
 
-Grep can search the same pattern
-in more than one file at the same time.
+This will also help you reading this
+output more easily, by piping it into
+another Unix command such as less or
+head. 
 
-The folder multiplefiles/ contains hundreds of different files.
+For example, try 
+$: grep 21 2_searching_patterns.txt | less
 
-Can you identify the file containing the word "regex"?
+to read this output easily.
+
+The output of grep can be very long, and it may be
+difficult to read it all on the screen without
+redirecting it. 
+
+The same applies to other Unix commands - in general,
+redirecting the output to less makes it easier to read.
 
     '''), 
     TutorialMessage('file32', '''
