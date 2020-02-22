@@ -730,7 +730,7 @@ DBLINK      BioProject: PRJNA13366
             Assembly: GCF_000003205.7
 KEYWORDS    WGS; RefSeq.
 SOURCE      Bos taurus (cattle)
-  ORGANISM  Bos taurus		          < Well Guessed! >
+  ORGANISM  Bos taurus		          < Good Guess! >
             Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
             Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Ruminantia;
             Pecora; Bovidae; Bovinae; Bos.
