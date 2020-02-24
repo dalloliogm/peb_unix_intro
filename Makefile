@@ -24,6 +24,9 @@ generate_grep:
 generate_awk:
 	Rscript src/generate_awk_exercise.R
 
+make_exercise:
+	@echo "Run this rule to complete the first Make exercise"
+	@echo "Make allows to save pipelines of Unix commands, and quickly re-execute them"
 start:
 	grep start exercises/2_searching_patterns.txt
 
@@ -53,6 +56,9 @@ commit:
 
 slides_bash:
 	jupyter nbconvert --to slides  slides/*.ipynb
+
+slides_bash_pdf:
+	jupyter nbconvert --to pdf  slides/*.ipynb
 
 explain_text:
 	@echo

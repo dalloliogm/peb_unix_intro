@@ -13243,7 +13243,7 @@ a.anchor-link {
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><h1>Table of Contents<span class="tocSkip"></span></h1></p>
-<div class="toc"><ul class="toc-item"><li><span><a href="#Introduction-to-Unix,-Part-3---grep-and-regular-expressions" data-toc-modified-id="Introduction-to-Unix,-Part-3---grep-and-regular-expressions-1"><span class="toc-item-num">1&nbsp;&nbsp;</span>Introduction to Unix, Part 3 - grep and regular expressions</a></span><ul class="toc-item"><li><span><a href="#Summary-of-the-course-today" data-toc-modified-id="Summary-of-the-course-today-1.1"><span class="toc-item-num">1.1&nbsp;&nbsp;</span>Summary of the course today</a></span></li></ul></li><li><span><a href="#Searching-patterns-into-files:-grep" data-toc-modified-id="Searching-patterns-into-files:-grep-2"><span class="toc-item-num">2&nbsp;&nbsp;</span>Searching patterns into files: grep</a></span><ul class="toc-item"><li><span><a href="#Accessing-grep-documentation" data-toc-modified-id="Accessing-grep-documentation-2.1"><span class="toc-item-num">2.1&nbsp;&nbsp;</span>Accessing grep documentation</a></span><ul class="toc-item"><li><span><a href="#Exercise!" data-toc-modified-id="Exercise!-2.1.1"><span class="toc-item-num">2.1.1&nbsp;&nbsp;</span>Exercise!</a></span></li></ul></li><li><span><a href="#The-Unix-Philosophy-and-Approach-to-programming" data-toc-modified-id="The-Unix-Philosophy-and-Approach-to-programming-2.2"><span class="toc-item-num">2.2&nbsp;&nbsp;</span>The Unix Philosophy and Approach to programming</a></span></li><li><span><a href="#Combining-multiple-Unix-commands-with-the-pipe-symbol-(|)" data-toc-modified-id="Combining-multiple-Unix-commands-with-the-pipe-symbol-(|)-2.3"><span class="toc-item-num">2.3&nbsp;&nbsp;</span>Combining multiple Unix commands with the pipe symbol (|)</a></span><ul class="toc-item"><li><span><a href="#Exercise-on-Unix-pipe:-Searching-multiple-patterns-with-grep" data-toc-modified-id="Exercise-on-Unix-pipe:-Searching-multiple-patterns-with-grep-2.3.1"><span class="toc-item-num">2.3.1&nbsp;&nbsp;</span>Exercise on Unix pipe: Searching multiple patterns with grep</a></span></li><li><span><a href="#the-GENBANK-format" data-toc-modified-id="the-GENBANK-format-2.3.2"><span class="toc-item-num">2.3.2&nbsp;&nbsp;</span>the GENBANK format</a></span></li></ul></li><li><span><a href="#Redirecting-the-output-to-a-file,-using-the-redirection-symbol-(>)" data-toc-modified-id="Redirecting-the-output-to-a-file,-using-the-redirection-symbol-(>)-2.4"><span class="toc-item-num">2.4&nbsp;&nbsp;</span>Redirecting the output to a file, using the redirection symbol (&gt;)</a></span><ul class="toc-item"><li><span><a href="#Note-on-file-extensions" data-toc-modified-id="Note-on-file-extensions-2.4.1"><span class="toc-item-num">2.4.1&nbsp;&nbsp;</span>Note on file extensions</a></span></li><li><span><a href="#Warning-on-File-Redirection-and-overwriting-files" data-toc-modified-id="Warning-on-File-Redirection-and-overwriting-files-2.4.2"><span class="toc-item-num">2.4.2&nbsp;&nbsp;</span>Warning on File Redirection and overwriting files</a></span></li><li><span><a href="#Appending-contents-to-a-file,-using-the-double-redirection-symbol-(>>)" data-toc-modified-id="Appending-contents-to-a-file,-using-the-double-redirection-symbol-(>>)-2.4.3"><span class="toc-item-num">2.4.3&nbsp;&nbsp;</span>Appending contents to a file, using the double redirection symbol (&gt;&gt;)</a></span></li></ul></li><li><span><a href="#Searching-multiple-files" data-toc-modified-id="Searching-multiple-files-2.5"><span class="toc-item-num">2.5&nbsp;&nbsp;</span>Searching multiple files</a></span></li><li><span><a href="#Regular-Expressions" data-toc-modified-id="Regular-Expressions-2.6"><span class="toc-item-num">2.6&nbsp;&nbsp;</span>Regular Expressions</a></span><ul class="toc-item"><li><span><a href="#The-FASTA-format" data-toc-modified-id="The-FASTA-format-2.6.1"><span class="toc-item-num">2.6.1&nbsp;&nbsp;</span>The FASTA format</a></span></li><li><span><a href="#Exercise---search-for-patterns-in-FASTA-files" data-toc-modified-id="Exercise---search-for-patterns-in-FASTA-files-2.6.2"><span class="toc-item-num">2.6.2&nbsp;&nbsp;</span>Exercise - search for patterns in FASTA files</a></span></li></ul></li><li><span><a href="#Searching-for-special-characters,-such-as-&quot;>&quot;" data-toc-modified-id="Searching-for-special-characters,-such-as-&quot;>&quot;-2.7"><span class="toc-item-num">2.7&nbsp;&nbsp;</span>Searching for special characters, such as "&gt;"</a></span></li></ul></li><li><span><a href="#cut,-sort-and-uniq" data-toc-modified-id="cut,-sort-and-uniq-3"><span class="toc-item-num">3&nbsp;&nbsp;</span>cut, sort and uniq</a></span><ul class="toc-item"><li><ul class="toc-item"><li><span><a href="#Example-cut,-sort-and-uniq" data-toc-modified-id="Example-cut,-sort-and-uniq-3.0.1"><span class="toc-item-num">3.0.1&nbsp;&nbsp;</span>Example cut, sort and uniq</a></span></li></ul></li><li><span><a href="#the-SAM-and-BAM-formats" data-toc-modified-id="the-SAM-and-BAM-formats-3.1"><span class="toc-item-num">3.1&nbsp;&nbsp;</span>the SAM and BAM formats</a></span></li><li><span><a href="#Example-SAM-file" data-toc-modified-id="Example-SAM-file-3.2"><span class="toc-item-num">3.2&nbsp;&nbsp;</span>Example SAM file</a></span></li><li><span><a href="#Format-of-a-SAM-file" data-toc-modified-id="Format-of-a-SAM-file-3.3"><span class="toc-item-num">3.3&nbsp;&nbsp;</span>Format of a SAM file</a></span><ul class="toc-item"><li><span><a href="#SAM-Headers" data-toc-modified-id="SAM-Headers-3.3.1"><span class="toc-item-num">3.3.1&nbsp;&nbsp;</span>SAM Headers</a></span></li></ul></li><li><span><a href="#SAM---Alignment-section" data-toc-modified-id="SAM---Alignment-section-3.4"><span class="toc-item-num">3.4&nbsp;&nbsp;</span>SAM - Alignment section</a></span><ul class="toc-item"><li><span><a href="#Using-cut-to-print-the-first-columns-of-the-SAM-file" data-toc-modified-id="Using-cut-to-print-the-first-columns-of-the-SAM-file-3.4.1"><span class="toc-item-num">3.4.1&nbsp;&nbsp;</span>Using cut to print the first columns of the SAM file</a></span></li></ul></li><li><span><a href="#Using-cut-to-extract-columns-from-a-file" data-toc-modified-id="Using-cut-to-extract-columns-from-a-file-3.5"><span class="toc-item-num">3.5&nbsp;&nbsp;</span>Using <em>cut</em> to extract columns from a file</a></span><ul class="toc-item"><li><span><a href="#Exercise!-Fun-with-flags" data-toc-modified-id="Exercise!-Fun-with-flags-3.5.1"><span class="toc-item-num">3.5.1&nbsp;&nbsp;</span>Exercise! Fun with flags</a></span></li><li><span><a href="#Exercise!-Extract-chromosome-and-start-position-for-this-file" data-toc-modified-id="Exercise!-Extract-chromosome-and-start-position-for-this-file-3.5.2"><span class="toc-item-num">3.5.2&nbsp;&nbsp;</span>Exercise! Extract chromosome and start position for this file</a></span></li></ul></li></ul></li><li><span><a href="#Recap---grep,-Unix-piping,-and-cut" data-toc-modified-id="Recap---grep,-Unix-piping,-and-cut-4"><span class="toc-item-num">4&nbsp;&nbsp;</span>Recap - grep, Unix piping, and cut</a></span><ul class="toc-item"><li><span><a href="#Example-of-Unix-Approach" data-toc-modified-id="Example-of-Unix-Approach-4.1"><span class="toc-item-num">4.1&nbsp;&nbsp;</span>Example of Unix Approach</a></span></li></ul></li><li><span><a href="#Time-for-a-break!" data-toc-modified-id="Time-for-a-break!-5"><span class="toc-item-num">5&nbsp;&nbsp;</span>Time for a break!</a></span></li></ul></div>
+<div class="toc"><ul class="toc-item"><li><span><a href="#Introduction-to-Unix,-Part-3---grep-and-regular-expressions" data-toc-modified-id="Introduction-to-Unix,-Part-3---grep-and-regular-expressions-1"><span class="toc-item-num">1&nbsp;&nbsp;</span>Introduction to Unix, Part 3 - grep and regular expressions</a></span><ul class="toc-item"><li><span><a href="#Summary-of-the-course-today" data-toc-modified-id="Summary-of-the-course-today-1.1"><span class="toc-item-num">1.1&nbsp;&nbsp;</span>Summary of the course today</a></span></li></ul></li><li><span><a href="#Searching-patterns-into-files:-grep" data-toc-modified-id="Searching-patterns-into-files:-grep-2"><span class="toc-item-num">2&nbsp;&nbsp;</span>Searching patterns into files: grep</a></span><ul class="toc-item"><li><ul class="toc-item"><li><span><a href="#Exercise:-first-grep" data-toc-modified-id="Exercise:-first-grep-2.0.1"><span class="toc-item-num">2.0.1&nbsp;&nbsp;</span>Exercise: first grep</a></span></li></ul></li><li><span><a href="#Accessing-grep-documentation" data-toc-modified-id="Accessing-grep-documentation-2.1"><span class="toc-item-num">2.1&nbsp;&nbsp;</span>Accessing grep documentation</a></span><ul class="toc-item"><li><span><a href="#Exercise!" data-toc-modified-id="Exercise!-2.1.1"><span class="toc-item-num">2.1.1&nbsp;&nbsp;</span>Exercise!</a></span></li></ul></li><li><span><a href="#The-Unix-Philosophy-and-Approach-to-programming" data-toc-modified-id="The-Unix-Philosophy-and-Approach-to-programming-2.2"><span class="toc-item-num">2.2&nbsp;&nbsp;</span>The Unix Philosophy and Approach to programming</a></span></li><li><span><a href="#Combining-multiple-Unix-commands-with-the-pipe-symbol-(|)" data-toc-modified-id="Combining-multiple-Unix-commands-with-the-pipe-symbol-(|)-2.3"><span class="toc-item-num">2.3&nbsp;&nbsp;</span>Combining multiple Unix commands with the pipe symbol (|)</a></span><ul class="toc-item"><li><span><a href="#Exercise-on-Unix-pipe:-Searching-multiple-patterns-with-grep" data-toc-modified-id="Exercise-on-Unix-pipe:-Searching-multiple-patterns-with-grep-2.3.1"><span class="toc-item-num">2.3.1&nbsp;&nbsp;</span>Exercise on Unix pipe: Searching multiple patterns with grep</a></span></li><li><span><a href="#the-GENBANK-format" data-toc-modified-id="the-GENBANK-format-2.3.2"><span class="toc-item-num">2.3.2&nbsp;&nbsp;</span>the GENBANK format</a></span></li></ul></li><li><span><a href="#Redirecting-the-output-to-a-file,-using-the-redirection-symbol-(>)" data-toc-modified-id="Redirecting-the-output-to-a-file,-using-the-redirection-symbol-(>)-2.4"><span class="toc-item-num">2.4&nbsp;&nbsp;</span>Redirecting the output to a file, using the redirection symbol (&gt;)</a></span><ul class="toc-item"><li><span><a href="#Note-on-file-extensions" data-toc-modified-id="Note-on-file-extensions-2.4.1"><span class="toc-item-num">2.4.1&nbsp;&nbsp;</span>Note on file extensions</a></span></li><li><span><a href="#Warning-on-File-Redirection-and-overwriting-files" data-toc-modified-id="Warning-on-File-Redirection-and-overwriting-files-2.4.2"><span class="toc-item-num">2.4.2&nbsp;&nbsp;</span>Warning on File Redirection and overwriting files</a></span></li><li><span><a href="#Appending-contents-to-a-file,-using-the-double-redirection-symbol-(>>)" data-toc-modified-id="Appending-contents-to-a-file,-using-the-double-redirection-symbol-(>>)-2.4.3"><span class="toc-item-num">2.4.3&nbsp;&nbsp;</span>Appending contents to a file, using the double redirection symbol (&gt;&gt;)</a></span></li></ul></li><li><span><a href="#Searching-multiple-files" data-toc-modified-id="Searching-multiple-files-2.5"><span class="toc-item-num">2.5&nbsp;&nbsp;</span>Searching multiple files</a></span></li><li><span><a href="#Regular-Expressions" data-toc-modified-id="Regular-Expressions-2.6"><span class="toc-item-num">2.6&nbsp;&nbsp;</span>Regular Expressions</a></span><ul class="toc-item"><li><span><a href="#The-FASTA-format" data-toc-modified-id="The-FASTA-format-2.6.1"><span class="toc-item-num">2.6.1&nbsp;&nbsp;</span>The FASTA format</a></span></li><li><span><a href="#Exercise---search-for-patterns-in-FASTA-files" data-toc-modified-id="Exercise---search-for-patterns-in-FASTA-files-2.6.2"><span class="toc-item-num">2.6.2&nbsp;&nbsp;</span>Exercise - search for patterns in FASTA files</a></span></li></ul></li><li><span><a href="#Searching-for-special-characters,-such-as-&quot;>&quot;" data-toc-modified-id="Searching-for-special-characters,-such-as-&quot;>&quot;-2.7"><span class="toc-item-num">2.7&nbsp;&nbsp;</span>Searching for special characters, such as "&gt;"</a></span></li></ul></li><li><span><a href="#cut,-sort-and-uniq" data-toc-modified-id="cut,-sort-and-uniq-3"><span class="toc-item-num">3&nbsp;&nbsp;</span>cut, sort and uniq</a></span><ul class="toc-item"><li><ul class="toc-item"><li><span><a href="#Example-cut,-sort-and-uniq" data-toc-modified-id="Example-cut,-sort-and-uniq-3.0.1"><span class="toc-item-num">3.0.1&nbsp;&nbsp;</span>Example cut, sort and uniq</a></span></li></ul></li><li><span><a href="#the-SAM-and-BAM-formats" data-toc-modified-id="the-SAM-and-BAM-formats-3.1"><span class="toc-item-num">3.1&nbsp;&nbsp;</span>the SAM and BAM formats</a></span></li><li><span><a href="#Example-SAM-file" data-toc-modified-id="Example-SAM-file-3.2"><span class="toc-item-num">3.2&nbsp;&nbsp;</span>Example SAM file</a></span></li><li><span><a href="#Format-of-a-SAM-file" data-toc-modified-id="Format-of-a-SAM-file-3.3"><span class="toc-item-num">3.3&nbsp;&nbsp;</span>Format of a SAM file</a></span><ul class="toc-item"><li><span><a href="#SAM-Headers" data-toc-modified-id="SAM-Headers-3.3.1"><span class="toc-item-num">3.3.1&nbsp;&nbsp;</span>SAM Headers</a></span></li></ul></li><li><span><a href="#SAM---Alignment-section" data-toc-modified-id="SAM---Alignment-section-3.4"><span class="toc-item-num">3.4&nbsp;&nbsp;</span>SAM - Alignment section</a></span><ul class="toc-item"><li><span><a href="#Using-cut-to-print-the-first-columns-of-the-SAM-file" data-toc-modified-id="Using-cut-to-print-the-first-columns-of-the-SAM-file-3.4.1"><span class="toc-item-num">3.4.1&nbsp;&nbsp;</span>Using cut to print the first columns of the SAM file</a></span></li></ul></li><li><span><a href="#Using-cut-to-extract-columns-from-a-file" data-toc-modified-id="Using-cut-to-extract-columns-from-a-file-3.5"><span class="toc-item-num">3.5&nbsp;&nbsp;</span>Using <em>cut</em> to extract columns from a file</a></span><ul class="toc-item"><li><span><a href="#Exercise!-Fun-with-flags" data-toc-modified-id="Exercise!-Fun-with-flags-3.5.1"><span class="toc-item-num">3.5.1&nbsp;&nbsp;</span>Exercise! Fun with flags</a></span></li><li><span><a href="#Exercise!-Extract-chromosome-and-start-position-for-this-file" data-toc-modified-id="Exercise!-Extract-chromosome-and-start-position-for-this-file-3.5.2"><span class="toc-item-num">3.5.2&nbsp;&nbsp;</span>Exercise! Extract chromosome and start position for this file</a></span></li></ul></li></ul></li><li><span><a href="#Recap---grep,-Unix-piping,-and-cut" data-toc-modified-id="Recap---grep,-Unix-piping,-and-cut-4"><span class="toc-item-num">4&nbsp;&nbsp;</span>Recap - grep, Unix piping, and cut</a></span><ul class="toc-item"><li><span><a href="#Example-of-Unix-Approach" data-toc-modified-id="Example-of-Unix-Approach-4.1"><span class="toc-item-num">4.1&nbsp;&nbsp;</span>Example of Unix Approach</a></span></li></ul></li><li><span><a href="#Time-for-a-break!" data-toc-modified-id="Time-for-a-break!-5"><span class="toc-item-num">5&nbsp;&nbsp;</span>Time for a break!</a></span></li></ul></div>
 </div>
 </div>
 </div></section></section><section><section>
@@ -13254,7 +13254,6 @@ a.anchor-link {
 <p>Giovanni M. Dall'Olio. Data Strategy and Design, GSK. March 2020.</p>
 <p>Quick link to slides online: <a href="https://tinyurl.com/evop-unix">https://tinyurl.com/evop-unix</a></p>
 <p>All materials available here: <a href="https://github.com/dalloliogm/peb_unix_intro/archive/master.zip">https://github.com/dalloliogm/peb_unix_intro/archive/master.zip</a></p>
-<p>In this third part we will see the <strong>grep</strong> command to search the contents of files, and some basic regular expressions.</p>
 <p>Press space or down key to continue.</p>
 
 </div>
@@ -13264,10 +13263,10 @@ a.anchor-link {
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="Summary-of-the-course-today">Summary of the course today<a class="anchor-link" href="#Summary-of-the-course-today">&#182;</a></h2><ul>
-<li><strong>Morning first half</strong>: Basic Terminal commands, First Login to Linux</li>
-<li><strong>Morning second half</strong>: Login to a Remote Unix server, browsing file contents</li>
-<li><strong>Afternoon first half</strong>: Finding patterns in a file with grep; piping commands; cut, sort and uniq</li>
-<li><strong>Afternoon second half</strong>: awk and sed; makefiles</li>
+<li>Morning first half: Basic Terminal commands, First Login to Linux</li>
+<li>Morning second half: Login to a Remote Unix server, browsing file contents</li>
+<li><font color="blue">Afternoon first half</font>: Finding patterns in a file with grep; piping commands; cut, sort and uniq</li>
+<li>Afternoon second half: awk and sed; makefiles</li>
 </ul>
 
 </div>
@@ -13276,8 +13275,8 @@ a.anchor-link {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Searching-patterns-into-files:-grep">Searching patterns into files: grep<a class="anchor-link" href="#Searching-patterns-into-files:-grep">&#182;</a></h1><p>The exercises folder contains a file called "<font color='blue'> **2_searching_patterns.txt** </font>".</p>
-<p>To see its contents, use the less command (or head).</p>
+<h1 id="Searching-patterns-into-files:-grep">Searching patterns into files: grep<a class="anchor-link" href="#Searching-patterns-into-files:-grep">&#182;</a></h1><p>The exercises folder contains a file called <font color='blue'> `2_searching_patterns.txt` </font>.</p>
+<p>To see its contents, use the <code>less</code> command (or <code>head</code>).</p>
 <p>What is going on? The contents of this file are nonsense.</p>
 
 </div>
@@ -13285,7 +13284,7 @@ a.anchor-link {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[40]:</div>
+<div class="prompt input_prompt">In&nbsp;[3]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-bash"><pre><span></span>less 2_searching_patterns.txt
@@ -13322,25 +13321,15 @@ FtyTsL9gi7I93hkO8aEODXSngRUNkp    fzXUYW08 jdrc3pvBrRNi4gSSm4iNdwrJMU
 </div>
 </div>
 
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-bash"><pre><span></span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
+</div></section><section>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>This file contains some hidden messages, which can only be recovered using Unix commands!</p>
-<p>Press space or the down key to see how to continue.</p>
+<p>The file <code>2_searching_patterns.txt</code> contains some hidden messages.</p>
+<p>We can find them with the <code>grep</code> Unix command, which allows to search for specific words or patterns into a file.</p>
+<p>The basic syntax is:</p>
+
+<pre><code>grep PATTERN FILENAME</code></pre>
 
 </div>
 </div>
@@ -13348,25 +13337,16 @@ FtyTsL9gi7I93hkO8aEODXSngRUNkp    fzXUYW08 jdrc3pvBrRNi4gSSm4iNdwrJMU
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>The Unix command <strong>grep</strong> allows to search for specific words or patterns into a file.</p>
-<p>The basic syntax is:</p>
+<h3 id="Exercise:-first-grep">Exercise: first grep<a class="anchor-link" href="#Exercise:-first-grep">&#182;</a></h3><p>Type the following command, to print all the lines containing the word <code>start</code> in the <code>2_searching_patterns.txt</code> file</p>
 
-<pre><code>grep PATTERN FILENAME</code></pre>
+<pre><code>grep start 2_searching_patterns.txt</code></pre>
 
 </div>
 </div>
 </div><div class="fragment">
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>Let's search for the word "<em>start</em>" in the exercise file:</p>
-
-</div>
-</div>
-</div></div><div class="fragment">
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[41]:</div>
+<div class="prompt input_prompt">In&nbsp;[4]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-bash"><pre><span></span>grep start 2_searching_patterns.txt
@@ -13435,7 +13415,7 @@ zq0B<span class="ansi-red-intense-fg ansi-bold">start</span> lw40BCkw 70AwRVFZn6
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Accessing-grep-documentation">Accessing grep documentation<a class="anchor-link" href="#Accessing-grep-documentation">&#182;</a></h2><p>The <strong>man</strong> command allows to find documentation on a Unix command.</p>
+<h2 id="Accessing-grep-documentation">Accessing grep documentation<a class="anchor-link" href="#Accessing-grep-documentation">&#182;</a></h2><p>The <code>man</code> command allows to find documentation on a Unix command.</p>
 <p>To find the documentation of grep:</p>
 
 <pre><code>$: man grep</code></pre>
@@ -13448,9 +13428,9 @@ zq0B<span class="ansi-red-intense-fg ansi-bold">start</span> lw40BCkw 70AwRVFZn6
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="Exercise!">Exercise!<a class="anchor-link" href="#Exercise!">&#182;</a></h3><ul>
-<li>Open the grep documentation page</li>
+<li>Open the <code>grep</code> manual page</li>
 <li>Identify the parameter for doing case-insensitive search</li>
-<li>Do a case-insensitive search for the word "ignorecase" in the file 2_searching_patterns.txt</li>
+<li>Do a case-insensitive search for the word <code>ignorecase</code> in the file <code>2_searching_patterns.txt</code></li>
 <li>Count the number of matching lines (or use another grep option to count them)</li>
 </ul>
 
@@ -13459,7 +13439,7 @@ zq0B<span class="ansi-red-intense-fg ansi-bold">start</span> lw40BCkw 70AwRVFZn6
 </div></section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[42]:</div>
+<div class="prompt input_prompt">In&nbsp;[5]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-bash"><pre><span></span>grep <span class="nb">help</span> 2_searching_patterns.txt
@@ -13521,7 +13501,7 @@ s9UGvUvcQQxss1ETq21leshRaftsUQ    This will also <span class="ansi-red-intense-f
 </div></section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[43]:</div>
+<div class="prompt input_prompt">In&nbsp;[6]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-bash"><pre><span></span><span class="c1"># If we do a search for &quot;ignorecase&quot; without any option, we only get some of the lines.</span>
@@ -13558,10 +13538,10 @@ rSncrRqC3QweV<span class="ansi-red-intense-fg ansi-bold">ignorecase</span>CJLnZU
 </div>
 </div>
 
-</div><div class="fragment">
+</div></section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[44]:</div>
+<div class="prompt input_prompt">In&nbsp;[7]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-bash"><pre><span></span><span class="c1"># The -i option allows to do a case-insensitive search.</span>
@@ -13611,10 +13591,10 @@ rSncrRqC3QweV<span class="ansi-red-intense-fg ansi-bold">ignorecase</span>CJLnZU
 </div>
 </div>
 
-</div></div><div class="fragment">
+</div><div class="fragment">
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[45]:</div>
+<div class="prompt input_prompt">In&nbsp;[8]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-bash"><pre><span></span><span class="c1"># To solve the exercise, we also have to count the number of output lines.</span>
@@ -13644,10 +13624,10 @@ grep -i -c ignorecase 2_searching_patterns.txt
 </div>
 </div>
 
-</div></div><div class="fragment">
+</div></div></section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[46]:</div>
+<div class="prompt input_prompt">In&nbsp;[9]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-bash"><pre><span></span><span class="c1"># solution: how to find the instructions for the next exercise</span>
@@ -13706,7 +13686,7 @@ sabcPdsaGZ<span class="ansi-red-intense-fg ansi-bold">21</span>ccvLBDgjbFj9GE th
 </div>
 </div>
 
-</div></div></section></section><section><section>
+</div></section></section><section><section>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
@@ -13725,9 +13705,9 @@ sabcPdsaGZ<span class="ansi-red-intense-fg ansi-bold">21</span>ccvLBDgjbFj9GE th
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>All the commands we saw today follow the Unix philosophy:</p>
 <ul>
-<li><strong>ls</strong> is for listing files</li>
-<li><strong>grep</strong> is for searching patterns in files</li>
-<li><strong>less</strong>, <strong>head</strong>, and others are for seeing the contents of a file</li>
+<li><code>ls</code> is for listing files</li>
+<li><code>grep</code> is for searching patterns in files</li>
+<li><code>less</code>, <strong>head</strong>, and others are for seeing the contents of a file</li>
 </ul>
 <p>So, they all do one single thing, and they do it well.</p>
 
@@ -13737,7 +13717,7 @@ sabcPdsaGZ<span class="ansi-red-intense-fg ansi-bold">21</span>ccvLBDgjbFj9GE th
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Combining-multiple-Unix-commands-with-the-pipe-symbol-(|)">Combining multiple Unix commands with the pipe symbol (|)<a class="anchor-link" href="#Combining-multiple-Unix-commands-with-the-pipe-symbol-(|)">&#182;</a></h2><p>Unix commands can be combined together using the pipe symbol, |.</p>
+<h2 id="Combining-multiple-Unix-commands-with-the-pipe-symbol-(|)">Combining multiple Unix commands with the pipe symbol (|)<a class="anchor-link" href="#Combining-multiple-Unix-commands-with-the-pipe-symbol-(|)">&#182;</a></h2><p>Unix commands can be combined together using the pipe symbol, <code>|</code>.</p>
 <p>For example, we can combine the output of a grep search with head or less:</p>
 
 <pre><code>$: grep (first pattern) myfile.txt | head
@@ -13748,7 +13728,7 @@ $: grep (first pattern) myfile.txt | less</code></pre>
 </div><div class="fragment">
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[47]:</div>
+<div class="prompt input_prompt">In&nbsp;[10]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-bash"><pre><span></span><span class="c1"># </span>
@@ -13791,9 +13771,8 @@ efc219TYASVKMmFWPOpMXaYCYnN5Nu            \   ^__^
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Exercise-on-Unix-pipe:-Searching-multiple-patterns-with-grep">Exercise on Unix pipe: Searching multiple patterns with grep<a class="anchor-link" href="#Exercise-on-Unix-pipe:-Searching-multiple-patterns-with-grep">&#182;</a></h3><p>How can we search that contain two or more patterns?</p>
-<p>One solution is to use the Unix piping system, executing one grep command, and then another grep on the output.</p>
-<p>This can be done using the pipe "|" symbol, like the following:</p>
+<h3 id="Exercise-on-Unix-pipe:-Searching-multiple-patterns-with-grep">Exercise on Unix pipe: Searching multiple patterns with grep<a class="anchor-link" href="#Exercise-on-Unix-pipe:-Searching-multiple-patterns-with-grep">&#182;</a></h3><p>One way to  <code>grep</code> searches is to combine them with the Unix Piping system.</p>
+<p>This can be done using the pipe <code>|</code> symbol:</p>
 
 <pre><code>$: grep (first pattern) myfile.txt | grep (second pattern)</code></pre>
 <p>Press space or the down key for some examples.</p>
@@ -13810,10 +13789,10 @@ efc219TYASVKMmFWPOpMXaYCYnN5Nu            \   ^__^
 
 </div>
 </div>
-</div>
+</div></section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[48]:</div>
+<div class="prompt input_prompt">In&nbsp;[11]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-bash"><pre><span></span>head genes/mgat_genes.gb
@@ -13850,7 +13829,7 @@ SOURCE      Homo sapiens (human)
 </div>
 </div>
 
-</div><div class="fragment">
+</div></section><section>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
@@ -13865,7 +13844,7 @@ SOURCE      Homo sapiens (human)
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[49]:</div>
+<div class="prompt input_prompt">In&nbsp;[12]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-bash"><pre><span></span>grep ORGANISM genes/mgat_genes.gb <span class="p">|</span> grep <span class="s1">&#39;Homo sapiens&#39;</span>
@@ -13900,7 +13879,7 @@ SOURCE      Homo sapiens (human)
 </div>
 </div>
 
-</div></div></section><section>
+</div></section><section>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
@@ -13912,7 +13891,7 @@ SOURCE      Homo sapiens (human)
 </div><div class="fragment">
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[104]:</div>
+<div class="prompt input_prompt">In&nbsp;[13]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-bash"><pre><span></span><span class="c1"># Solution: grep for &quot;bos taurus&quot;:</span>
@@ -13968,7 +13947,7 @@ grep ORGANISM genes/mgat_genes.gb <span class="p">|</span> grep taurus
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Redirecting-the-output-to-a-file,-using-the-redirection-symbol-(&gt;)">Redirecting the output to a file, using the redirection symbol (&gt;)<a class="anchor-link" href="#Redirecting-the-output-to-a-file,-using-the-redirection-symbol-(&gt;)">&#182;</a></h2><p>Another component of the Unix piping system is the redirection symbol, "&gt;"</p>
+<h2 id="Redirecting-the-output-to-a-file,-using-the-redirection-symbol-(&gt;)">Redirecting the output to a file, using the redirection symbol (&gt;)<a class="anchor-link" href="#Redirecting-the-output-to-a-file,-using-the-redirection-symbol-(&gt;)">&#182;</a></h2><p>Another component of the Unix piping system is the redirection symbol, <code>&gt;</code></p>
 <p>This is used to save the output of a command to a file. For example:</p>
 
 </div>
@@ -13976,7 +13955,7 @@ grep ORGANISM genes/mgat_genes.gb <span class="p">|</span> grep taurus
 </div><div class="fragment">
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[51]:</div>
+<div class="prompt input_prompt">In&nbsp;[14]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-bash"><pre><span></span><span class="c1"># Note that no output is shown to the terminal. </span>
@@ -13991,14 +13970,14 @@ grep ORGANISM genes/mgat_genes.gb <span class="p">|</span> grep taurus &gt; bos_
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>This creates a new file called <strong>bos_taurus.txt</strong>. Type "ls" again to see it:</p>
+<p>This creates a new file called <code>bos_taurus.txt</code>. Type <code>ls</code> again to see it:</p>
 
 </div>
 </div>
 </div></div><div class="fragment">
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[52]:</div>
+<div class="prompt input_prompt">In&nbsp;[15]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-bash"><pre><span></span><span class="c1"># The -t option in ls sorts the output by modification date</span>
@@ -14019,19 +13998,18 @@ ls -l -t
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>total 9879684
--rw-r--r--  1 gmd78366         865 Feb 23 15:56 bos_taurus.txt
--rw-r--r--  1 gmd78366          74 Feb 23 15:54 redirect_me_here.txt
-drwxr-xr-x  8 gmd78366         256 Feb 22 23:04 ngs
--rw-r--r--  1 gmd78366 10106342987 Feb 21 19:39 &#39;Unconfirmed 563806.crdownload&#39;
-drwxr-xr-x  8 gmd78366         256 Feb 21 16:15 genes
--rw-r--r--  1 gmd78366        7555 Feb 15 11:51 exercise_sequences.fasta
--rw-r--r--  1 gmd78366          35 Feb 15 11:51 chr20
--rw-r--r--  1 gmd78366          36 Feb 15 11:51 chr8
--rw-r--r--  1 gmd78366       37758 Feb 15 11:51 2_searching_patterns.txt
--rw-r--r--  1 gmd78366        2642 Feb 15 11:51 1_browsing_textfiles.txt
-drwxr-xr-x 52 gmd78366        1664 Feb 15 11:51 multiplefiles
-drwxr-xr-x 10 gmd78366         320 Feb 15 11:51 old_files
+<pre>total 68
+-rw-r--r--  1 gmd78366   865 Feb 24 14:55 bos_taurus.txt
+-rw-r--r--  1 gmd78366    35 Feb 24 14:35 chr20
+-rw-r--r--  1 gmd78366    36 Feb 24 14:35 chr8
+drwxr-xr-x  8 gmd78366   256 Feb 24 13:46 genes
+-rw-r--r--  1 gmd78366    74 Feb 23 15:56 redirect_me_here.txt
+drwxr-xr-x  8 gmd78366   256 Feb 22 23:04 ngs
+-rw-r--r--  1 gmd78366  7555 Feb 15 11:51 exercise_sequences.fasta
+-rw-r--r--  1 gmd78366 37758 Feb 15 11:51 2_searching_patterns.txt
+-rw-r--r--  1 gmd78366  2642 Feb 15 11:51 1_browsing_textfiles.txt
+drwxr-xr-x 52 gmd78366  1664 Feb 15 11:51 multiplefiles
+drwxr-xr-x 10 gmd78366   320 Feb 15 11:51 old_files
 </pre>
 </div>
 </div>
@@ -14039,18 +14017,18 @@ drwxr-xr-x 10 gmd78366         320 Feb 15 11:51 old_files
 </div>
 </div>
 
-</div></div><div class="fragment">
+</div></div></section><section>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>we can even use less, head or cat to see its contents:</p>
+<p>Use <code>less</code>, <code>head</code> or <code>cat</code> to see the contents of this new file:</p>
 
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[53]:</div>
+<div class="prompt input_prompt">In&nbsp;[16]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-bash"><pre><span></span><span class="c1"># cat (concatenate) prints the whole contents to the screen:</span>
@@ -14102,13 +14080,13 @@ cat bos_taurus.txt
 </div>
 </div>
 
-</div></div></section><section>
+</div></section><section>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="Note-on-file-extensions">Note on file extensions<a class="anchor-link" href="#Note-on-file-extensions">&#182;</a></h3><p>Unix is agnostic to file extensions (e.g. .txt, .png, .exe).</p>
 <p>In the last exercises we added the .txt extension to the file, however we only did it for convention.</p>
-<p>You can run <strong>grep</strong> and any unix command on any file type, regardless of the extension; if the file is in binary format, the output will be made of random characters.</p>
+<p>You can run <code>grep</code> and any unix command on any file type, regardless of the extension; if the file is in binary format, the output will be made of random characters.</p>
 
 </div>
 </div>
@@ -14116,16 +14094,15 @@ cat bos_taurus.txt
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Warning-on-File-Redirection-and-overwriting-files">Warning on File Redirection and overwriting files<a class="anchor-link" href="#Warning-on-File-Redirection-and-overwriting-files">&#182;</a></h3><p>Important - the redirection symbol will overwrite any existing file content, without asking confirmation.</p>
-<p>There is no back-up and no Trash folder - once a file is overwritten, the previous contents are gone.</p>
-<p>The next command uses "echo" to print a simple message, which is then redirected to the bos_taurus.txt files created previously.</p>
+<h3 id="Warning-on-File-Redirection-and-overwriting-files">Warning on File Redirection and overwriting files<a class="anchor-link" href="#Warning-on-File-Redirection-and-overwriting-files">&#182;</a></h3><p>Important - the redirection symbol will overwrite any existing file content, without asking confirmation. There is no back-up and no Trash folder - once a file is overwritten, the previous contents are gone.</p>
+<p>The next command uses <code>echo</code> to print a simple message, which is then redirected to the <code>bos_taurus.txt</code> files created previously.</p>
 
 </div>
 </div>
 </div><div class="fragment">
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[54]:</div>
+<div class="prompt input_prompt">In&nbsp;[17]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-bash"><pre><span></span><span class="c1"># The echo command prints a message to the screen - or wherever you redirect it</span>
@@ -14157,7 +14134,7 @@ cat bos_taurus.txt
 </div></div><div class="fragment">
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[55]:</div>
+<div class="prompt input_prompt">In&nbsp;[18]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-bash"><pre><span></span><span class="nb">echo</span> <span class="s2">&quot;All previous contents have been deleted&quot;</span> &gt; bos_taurus.txt
@@ -14170,7 +14147,7 @@ cat bos_taurus.txt
 </div></div><div class="fragment">
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[56]:</div>
+<div class="prompt input_prompt">In&nbsp;[19]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-bash"><pre><span></span>head bos_taurus.txt
@@ -14210,7 +14187,7 @@ cat bos_taurus.txt
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Appending-contents-to-a-file,-using-the-double-redirection-symbol-(&gt;&gt;)">Appending contents to a file, using the double redirection symbol (&gt;&gt;)<a class="anchor-link" href="#Appending-contents-to-a-file,-using-the-double-redirection-symbol-(&gt;&gt;)">&#182;</a></h3><p>We can append content to a file, without deleting the previous contents. This is done with the double redirection symbol, <strong>&gt;&gt;</strong>.</p>
+<h3 id="Appending-contents-to-a-file,-using-the-double-redirection-symbol-(&gt;&gt;)">Appending contents to a file, using the double redirection symbol (&gt;&gt;)<a class="anchor-link" href="#Appending-contents-to-a-file,-using-the-double-redirection-symbol-(&gt;&gt;)">&#182;</a></h3><p>We can append content to a file, without deleting the previous contents. This is done with the double redirection symbol, <code>&gt;&gt;</code>.</p>
 <p>This will store the new output at the end of the file. Let's try it:</p>
 
 </div>
@@ -14218,7 +14195,7 @@ cat bos_taurus.txt
 </div><div class="fragment">
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[57]:</div>
+<div class="prompt input_prompt">In&nbsp;[20]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-bash"><pre><span></span><span class="nb">echo</span> <span class="s2">&quot;My first message&quot;</span> &gt; redirect_me_here.txt
@@ -14240,10 +14217,10 @@ cat redirect_me_here.txt <span class="c1"># cat is similar to head, but prints t
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>1_browsing_textfiles.txt	 chr20			   multiplefiles
-2_searching_patterns.txt	 chr8			   ngs
-&#39;Unconfirmed 563806.crdownload&#39;  exercise_sequences.fasta  old_files
-bos_taurus.txt			 genes			   redirect_me_here.txt
+<pre>1_browsing_textfiles.txt  chr8			    ngs
+2_searching_patterns.txt  exercise_sequences.fasta  old_files
+bos_taurus.txt		  genes			    redirect_me_here.txt
+chr20			  multiplefiles
 My first message
 </pre>
 </div>
@@ -14263,7 +14240,7 @@ My first message
 </div><div class="fragment">
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[58]:</div>
+<div class="prompt input_prompt">In&nbsp;[21]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-bash"><pre><span></span><span class="nb">echo</span> <span class="s2">&quot;My second message&quot;</span> &gt;&gt; redirect_me_here.txt
@@ -14278,7 +14255,7 @@ My first message
 </div></div><div class="fragment">
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[59]:</div>
+<div class="prompt input_prompt">In&nbsp;[22]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-bash"><pre><span></span>cat redirect_me_here.txt
@@ -14315,7 +14292,7 @@ My fourteenth message
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="Searching-multiple-files">Searching multiple files<a class="anchor-link" href="#Searching-multiple-files">&#182;</a></h2><p>Let's go back to our grep exercises.</p>
 <p>Grep can also search for patterns across multiple files, using in a single command.</p>
-<p>The folder data/multiplefiles/ contains 50 randomly generated files. You can see their contents with head data/multiplefiles/* or with less.</p>
+<p>The folder <code>data/multiplefiles/</code> contains 50 randomly generated files. You can see their contents with <code>head data/multiplefiles/*</code> or with less.</p>
 <p>One of these files contains the word "regex" in it. Are you able to find it?</p>
 
 </div>
@@ -14323,7 +14300,7 @@ My fourteenth message
 </div></section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[60]:</div>
+<div class="prompt input_prompt">In&nbsp;[23]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-bash"><pre><span></span><span class="c1"># solution: you can use the &quot;*&quot; character to specify multiple files:</span>
@@ -14396,7 +14373,7 @@ multiplefiles/file32.txt:cHoNv<span class="ansi-red-intense-fg ansi-bold">regex<
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="The-FASTA-format">The FASTA format<a class="anchor-link" href="#The-FASTA-format">&#182;</a></h3><p>Open the file data/genes/sequences.fasta</p>
+<h3 id="The-FASTA-format">The FASTA format<a class="anchor-link" href="#The-FASTA-format">&#182;</a></h3><p>Open the file <code>data/genes/sequences.fasta</code></p>
 <p>This is a FASTA file, a format used for DNA/RNA and protein sequences.</p>
 
 </div>
@@ -14404,7 +14381,7 @@ multiplefiles/file32.txt:cHoNv<span class="ansi-red-intense-fg ansi-bold">regex<
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[61]:</div>
+<div class="prompt input_prompt">In&nbsp;[24]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-bash"><pre><span></span>less genes/sequences.fasta
@@ -14446,14 +14423,19 @@ CGTNGCGNNCGNGAGCCATTANTAGNNCCT
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="Exercise---search-for-patterns-in-FASTA-files">Exercise - search for patterns in FASTA files<a class="anchor-link" href="#Exercise---search-for-patterns-in-FASTA-files">&#182;</a></h3><p>Use grep to identify all the sequences containing three As, followed by any two characters, followed by three Ts.</p>
-<p>e.g.: AAA<strong>AA</strong>TTT, AAA<strong>AG</strong>TTT, AAA<strong>AC</strong>TTT, etc..</p>
+<ul>
+<li>AAA<code>AA</code>TTT</li>
+<li>AAA<code>AG</code>TTT</li>
+<li>..</li>
+<li>AAA<code>ZZ</code>TTT</li>
+</ul>
 
 </div>
 </div>
 </div><div class="fragment">
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[62]:</div>
+<div class="prompt input_prompt">In&nbsp;[25]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-bash"><pre><span></span>grep <span class="s1">&#39;AAA..TTT&#39;</span> genes/sequences.fasta
@@ -14492,18 +14474,18 @@ GGATG<span class="ansi-red-intense-fg ansi-bold">AAAaaTTT</span>NCCAGCCAANNCTTGN
 </div>
 </div>
 
-</div></div><div class="fragment">
+</div></div></section><section>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Bonus: use the -B 1 grep option to retrieve the names of these sequences:</p>
+<p>Bonus: use the <code>-B 1</code> grep option to retrieve the names of these sequences:</p>
 
 </div>
 </div>
-</div></div><div class="fragment">
+</div><div class="fragment">
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[63]:</div>
+<div class="prompt input_prompt">In&nbsp;[26]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-bash"><pre><span></span>grep -B1 <span class="s1">&#39;AAA..TTT&#39;</span> genes/sequences.fasta
@@ -14569,16 +14551,16 @@ GGATG<span class="ansi-red-intense-fg ansi-bold">AAAaaTTT</span>NCCAGCCAANNCTTGN
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Searching-for-special-characters,-such-as-&quot;&gt;&quot;">Searching for special characters, such as "&gt;"<a class="anchor-link" href="#Searching-for-special-characters,-such-as-&quot;&gt;&quot;">&#182;</a></h2><p>From the previous output, it seems like we could see something more in the output, if we manage to print only the lines containing a "&gt;" at the beginning.</p>
-<p>However, &gt; is also the redirection symbol, and we are not careful with it, we may overwrite some file or do something even worst.</p>
-<p>The solution in this case is the quotation. Use '&gt;' to search for a literal &gt;:</p>
+<h2 id="Searching-for-special-characters,-such-as-&quot;&gt;&quot;">Searching for special characters, such as "&gt;"<a class="anchor-link" href="#Searching-for-special-characters,-such-as-&quot;&gt;&quot;">&#182;</a></h2><p>Look at the output of the previous exercise. Is there a way to print only the lines that contain the <code>&gt;</code> character?</p>
+<p>We need to be careful because <code>&gt;</code> is also the redirection symbol - we may accidentally overwrite some file.</p>
+<p>The solution in this case to use single or double quotes:<code>'&gt;'</code> to search for a literal <code>&gt;</code>:</p>
 
 </div>
 </div>
 </div><div class="fragment">
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[64]:</div>
+<div class="prompt input_prompt">In&nbsp;[27]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-bash"><pre><span></span><span class="c1"># To search for a literal &gt;, remember to quote it correctly:</span>
@@ -14622,11 +14604,11 @@ grep -B1 <span class="s1">&#39;AAA..TTT&#39;</span> genes/sequences.fasta  <span
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="cut,-sort-and-uniq">cut, sort and uniq<a class="anchor-link" href="#cut,-sort-and-uniq">&#182;</a></h1><p>Cut, sort and uniq are three Unix commands frequently used to work with tabular files.</p>
+<h1 id="cut,-sort-and-uniq">cut, sort and uniq<a class="anchor-link" href="#cut,-sort-and-uniq">&#182;</a></h1><p><code>cut</code>, <code>sort</code> and <code>uniq</code> are three Unix commands frequently used to work with tabular files.</p>
 <ul>
-<li><strong>cut</strong>: Extract columns from a TSV or CSV file</li>
-<li><strong>sort</strong>: Sort a file alphabetically or numerically</li>
-<li><strong>uniq</strong>: Remove duplicated lines in a sorted file</li>
+<li><code>cut</code>: Extract columns from a TSV or CSV file</li>
+<li><code>sort</code>: Sort a file alphabetically or numerically</li>
+<li><code>uniq</code>: Remove duplicated lines in a sorted file</li>
 </ul>
 
 </div>
@@ -14635,17 +14617,17 @@ grep -B1 <span class="s1">&#39;AAA..TTT&#39;</span> genes/sequences.fasta  <span
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Example-cut,-sort-and-uniq">Example cut, sort and uniq<a class="anchor-link" href="#Example-cut,-sort-and-uniq">&#182;</a></h3><p>The previous exercises printed the header lines of all the sequences in a FASTA file matching AAA..TTT:</p>
+<h3 id="Example-cut,-sort-and-uniq">Example cut, sort and uniq<a class="anchor-link" href="#Example-cut,-sort-and-uniq">&#182;</a></h3><p>The previous exercises printed the header lines of all the sequences in a FASTA file matching <code>AAA..TTT</code>:</p>
 
 <pre><code>grep -B1 'AAA..TTT' genes/sequences.fasta  | grep "&gt;"</code></pre>
-<p>We can append cut to extract one of these columns.</p>
+<p>Let's add a <code>cut</code> statement to extract the first column.</p>
 
 </div>
 </div>
 </div><div class="fragment">
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[73]:</div>
+<div class="prompt input_prompt">In&nbsp;[28]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-bash"><pre><span></span><span class="c1"># cut options: -f 1 (first column), -d &quot; &quot; (specify that the field delimiter is an empty space)</span>
@@ -14689,7 +14671,7 @@ grep -B1 <span class="s1">&#39;AAA..TTT&#39;</span> genes/sequences.fasta  <span
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="the-SAM-and-BAM-formats">the SAM and BAM formats<a class="anchor-link" href="#the-SAM-and-BAM-formats">&#182;</a></h2><p>The exercises on cut, sort and uniq are based on the SAM format, used for storing NGS data.</p>
+<h2 id="the-SAM-and-BAM-formats">the SAM and BAM formats<a class="anchor-link" href="#the-SAM-and-BAM-formats">&#182;</a></h2><p>The exercises on cut, sort and uniq are based on the <strong>SAM</strong> format, used for storing NGS data.</p>
 <p>SAM stands for Sequence Alignment/Map format (<a href="https://samtools.github.io/hts-specs/SAMv1.pdf">https://samtools.github.io/hts-specs/SAMv1.pdf</a>). SAM files contains the output of the alignment of sequences or short reads to a reference genome.</p>
 <p>The Introduction to NGS session of this course will explore the SAM format in details, and teach you how it is generated from sequencing data.</p>
 <p>Here we will have a quick preview to it, to help you familiarize with the Unix tools used to handle NGS data</p>
@@ -14700,14 +14682,14 @@ grep -B1 <span class="s1">&#39;AAA..TTT&#39;</span> genes/sequences.fasta  <span
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Example-SAM-file">Example SAM file<a class="anchor-link" href="#Example-SAM-file">&#182;</a></h2><p>The exercises/ngs folder contains a sample SAM file, 1000G_HG00154_sample.sam:</p>
+<h2 id="Example-SAM-file">Example SAM file<a class="anchor-link" href="#Example-SAM-file">&#182;</a></h2><p>The <code>exercises/ngs</code> folder contains a sample SAM file, <code>1000G_HG00154_sample.sam</code>:</p>
 
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[66]:</div>
+<div class="prompt input_prompt">In&nbsp;[29]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-bash"><pre><span></span>head ngs/1000G_HG00154_sample.sam
@@ -14749,15 +14731,15 @@ grep -B1 <span class="s1">&#39;AAA..TTT&#39;</span> genes/sequences.fasta  <span
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="Format-of-a-SAM-file">Format of a SAM file<a class="anchor-link" href="#Format-of-a-SAM-file">&#182;</a></h2><p>A SAM file is composed by a header section (beginning of the file, lines starting with "@") and an alignment section (rest of the file)</p>
-<h3 id="SAM-Headers">SAM Headers<a class="anchor-link" href="#SAM-Headers">&#182;</a></h3><p>To extract the headers from a SAM file, we can use grep with the "^@" regular expression.</p>
-<p>This expression "^@" matches all the lines that start with a "@" character. Note that simply searching for "@" would not be enough, because the alignment section also contains this character.</p>
+<h3 id="SAM-Headers">SAM Headers<a class="anchor-link" href="#SAM-Headers">&#182;</a></h3><p>To extract the headers from a SAM file, we can use grep with the <code>^@</code> regular expression.</p>
+<p>This expression <code>^@</code> matches all the lines that start with a <code>@</code> character. Note that simply searching for <code>@</code> would not be enough, because the alignment section also contains this character.</p>
 
 </div>
 </div>
-</div><div class="fragment">
+</div></section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[67]:</div>
+<div class="prompt input_prompt">In&nbsp;[30]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-bash"><pre><span></span>grep <span class="s2">&quot;@&quot;</span> ngs/1000G_HG00154_sample.sam <span class="p">|</span> less
@@ -14794,10 +14776,10 @@ grep -B1 <span class="s1">&#39;AAA..TTT&#39;</span> genes/sequences.fasta  <span
 </div>
 </div>
 
-</div></div><div class="fragment">
+</div></section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[68]:</div>
+<div class="prompt input_prompt">In&nbsp;[31]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-bash"><pre><span></span><span class="c1"># Grepping for &quot;@&quot; is not enough, because some of the Alignment lines contain the same character</span>
@@ -14835,19 +14817,19 @@ grep <span class="s2">&quot;^@&quot;</span> ngs/1000G_HG00154_sample.sam <span c
 </div>
 </div>
 
-</div></div></section><section>
+</div></section><section>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="SAM---Alignment-section">SAM - Alignment section<a class="anchor-link" href="#SAM---Alignment-section">&#182;</a></h2><p>The Intro to NGS session of this workshop will explain the headers section more in detail.</p>
-<p>Let's focus on the Alignment section of the SAM file. Which grep option can be used to print the lines that DO NOT start with a "@" character?</p>
+<p>Let's focus on the Alignment section of the SAM file. Which grep option can be used to print the lines that DO NOT start with a <code>@</code> character?</p>
 
 </div>
 </div>
 </div><div class="fragment">
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[69]:</div>
+<div class="prompt input_prompt">In&nbsp;[32]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-bash"><pre><span></span>grep -v <span class="s2">&quot;^@&quot;</span> ngs/1000G_HG00154_sample.sam <span class="p">|</span> less
@@ -14896,7 +14878,7 @@ ERR018419.25794159	147	21	33031877	60	41S35M	=	33031430	-481	CGGGCGCCCGGCCCCCCTT
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[102]:</div>
+<div class="prompt input_prompt">In&nbsp;[33]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-bash"><pre><span></span>grep -v <span class="s2">&quot;^@&quot;</span> ngs/1000G_HG00154_sample.sam <span class="p">|</span> cut -f <span class="m">1</span>,2,3,4,5,6,7 <span class="p">|</span> less
@@ -14946,7 +14928,7 @@ ERR018419.25794159	147	21	33031877	60	41S35M	=
 </div><div class="fragment">
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[75]:</div>
+<div class="prompt input_prompt">In&nbsp;[34]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-bash"><pre><span></span><span class="c1"># Printing the chromosome and position for each alignment</span>
@@ -14988,24 +14970,24 @@ grep -v <span class="s2">&quot;^@&quot;</span> ngs/1000G_HG00154_sample.sam <spa
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Exercise!-Fun-with-flags">Exercise! Fun with flags<a class="anchor-link" href="#Exercise!-Fun-with-flags">&#182;</a></h3><p>The FLAG column allows to identify properties of a short-read alignment. These are encoded as a number, which can be interpreted using <a href="https://broadinstitute.github.io/picard/explain-flags.html">https://broadinstitute.github.io/picard/explain-flags.html</a></p>
-<p>For this exercise, let's see how many distinct FLAG values are present in this file:</p>
+<h3 id="Exercise!-Fun-with-flags">Exercise! Fun with flags<a class="anchor-link" href="#Exercise!-Fun-with-flags">&#182;</a></h3><p>The FLAG column allows to identify properties of a short-read alignment.</p>
+<p>How many distinct FLAG values there are in this file?</p>
 <ul>
-<li>Use grep to print the alignment section of ngs/1000G_HG00154_sample.sam (remove the headers)</li>
-<li>Use cut to print the FLAG column (#2)</li>
-<li>Use uniq to eliminate duplicate lines</li>
-<li>If the output does not look correct, add a sort statement between cut and uniq</li>
+<li>Use <code>grep</code> to print the alignment section of ngs/1000G_HG00154_sample.sam (remove the headers)</li>
+<li>Use <code>cut</code> to print the FLAG column (#2)</li>
+<li>Use <code>uniq</code> to eliminate duplicate lines. Add the <code>-c</code> option to uniq to count the number of duplicate lines</li>
+<li>If the output does not look correct, add a <code>sort</code> statement between <code>cut</code> and <code>uniq</code></li>
 </ul>
 
 </div>
 </div>
-</div><div class="fragment">
+</div></section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[77]:</div>
+<div class="prompt input_prompt">In&nbsp;[35]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-bash"><pre><span></span>grep -v <span class="s2">&quot;^@&quot;</span> ngs/1000G_HG00154_sample.sam <span class="p">|</span> cut -f <span class="m">2</span>  <span class="p">|</span>uniq <span class="p">|</span> head
+<div class=" highlight hl-bash"><pre><span></span>grep -v <span class="s2">&quot;^@&quot;</span> ngs/1000G_HG00154_sample.sam <span class="p">|</span> cut -f <span class="m">2</span>  <span class="p">|</span>uniq -c <span class="p">|</span> head
 </pre></div>
 
     </div>
@@ -15022,16 +15004,16 @@ grep -v <span class="s2">&quot;^@&quot;</span> ngs/1000G_HG00154_sample.sam <spa
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>147
-83
-99
-83
-147
-99
-83
-147
-83
-147
+<pre>      1 147
+      1 83
+      1 99
+      1 83
+      2 147
+      2 99
+      1 83
+      3 147
+      1 83
+      3 147
 </pre>
 </div>
 </div>
@@ -15039,13 +15021,13 @@ grep -v <span class="s2">&quot;^@&quot;</span> ngs/1000G_HG00154_sample.sam <spa
 </div>
 </div>
 
-</div></div><div class="fragment">
+</div><div class="fragment">
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[99]:</div>
+<div class="prompt input_prompt">In&nbsp;[39]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-bash"><pre><span></span>grep -v <span class="s2">&quot;^@&quot;</span> ngs/1000G_HG00154_sample.sam <span class="p">|</span> cut -f <span class="m">2</span>  <span class="p">|</span> sort -n <span class="p">|</span> uniq
+<div class=" highlight hl-bash"><pre><span></span>grep -v <span class="s2">&quot;^@&quot;</span> ngs/1000G_HG00154_sample.sam <span class="p">|</span> cut -f <span class="m">2</span>  <span class="p">|</span> sort -n <span class="p">|</span> uniq -c <span class="p">|</span> head
 </pre></div>
 
     </div>
@@ -15062,28 +15044,16 @@ grep -v <span class="s2">&quot;^@&quot;</span> ngs/1000G_HG00154_sample.sam <spa
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>0
-16
-73
-81
-83
-97
-99
-113
-117
-121
-129
-133
-145
-147
-161
-163
-181
-185
-1107
-1123
-1171
-1187
+<pre>     16 0
+     12 16
+      5 73
+      3 81
+    296 83
+      6 97
+    314 99
+      3 113
+      1 117
+      3 121
 </pre>
 </div>
 </div>
@@ -15108,7 +15078,7 @@ grep -v <span class="s2">&quot;^@&quot;</span> ngs/1000G_HG00154_sample.sam <spa
 </div><div class="fragment">
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[98]:</div>
+<div class="prompt input_prompt">In&nbsp;[37]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-bash"><pre><span></span>grep -v <span class="s2">&quot;^@&quot;</span> ngs/1000G_HG00154_sample.sam <span class="p">|</span> cut -f <span class="m">3</span>,4 <span class="p">|</span> sort -n -k <span class="m">2</span> <span class="p">|</span> uniq -w <span class="m">3</span>
@@ -15140,7 +15110,7 @@ grep -v <span class="s2">&quot;^@&quot;</span> ngs/1000G_HG00154_sample.sam <spa
 </div></div><div class="fragment">
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[97]:</div>
+<div class="prompt input_prompt">In&nbsp;[38]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-bash"><pre><span></span>grep -v <span class="s2">&quot;^@&quot;</span> ngs/1000G_HG00154_sample.sam <span class="p">|</span> cut -f <span class="m">3</span>,4 <span class="p">|</span> sort -n -r -k <span class="m">2</span> <span class="p">|</span> uniq -w <span class="m">3</span>
@@ -15190,6 +15160,7 @@ grep -v <span class="s2">&quot;^@&quot;</span> ngs/1000G_HG00154_sample.sam <spa
 <ul>
 <li><strong>grep</strong> extracts lines in a file that match a specific pattern or expression</li>
 <li><strong>the Unix Piping system</strong> allows to concatenate commands together with |, &gt; and &gt;&gt;</li>
+<li><strong>Genbank</strong>, <strong>FASTA</strong> and <strong>SAM</strong> file formats</li>
 <li><strong>cut, sort and uniq</strong> allow to extract columns and calculate unique values.</li>
 </ul>
 

@@ -13243,34 +13243,17 @@ a.anchor-link {
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><h1>Table of Contents<span class="tocSkip"></span></h1></p>
-<div class="toc"><ul class="toc-item"><li><span><a href="#Introduction-to-Unix---awk-and-Makefiles" data-toc-modified-id="Introduction-to-Unix---awk-and-Makefiles-1"><span class="toc-item-num">1&nbsp;&nbsp;</span>Introduction to Unix - awk and Makefiles</a></span><ul class="toc-item"><li><span><a href="#Summary-of-the-course-today" data-toc-modified-id="Summary-of-the-course-today-1.1"><span class="toc-item-num">1.1&nbsp;&nbsp;</span>Summary of the course today</a></span></li></ul></li><li><span><a href="#Working-with-tabular-files:-Awk" data-toc-modified-id="Working-with-tabular-files:-Awk-2"><span class="toc-item-num">2&nbsp;&nbsp;</span>Working with tabular files: Awk</a></span><ul class="toc-item"><li><span><a href="#Example-of-tabular-file:-the-GFF3-format" data-toc-modified-id="Example-of-tabular-file:-the-GFF3-format-2.1"><span class="toc-item-num">2.1&nbsp;&nbsp;</span>Example of tabular file: the GFF3 format</a></span></li><li><span><a href="#Basic-AWK-syntax:-filters" data-toc-modified-id="Basic-AWK-syntax:-filters-2.2"><span class="toc-item-num">2.2&nbsp;&nbsp;</span>Basic AWK syntax: filters</a></span><ul class="toc-item"><li><span><a href="#Exercise" data-toc-modified-id="Exercise-2.2.1"><span class="toc-item-num">2.2.1&nbsp;&nbsp;</span>Exercise</a></span></li></ul></li><li><span><a href="#How-many-genes-there-are?-(wc-command)" data-toc-modified-id="How-many-genes-there-are?-(wc-command)-2.3"><span class="toc-item-num">2.3&nbsp;&nbsp;</span>How many genes there are? (wc command)</a></span></li><li><span><a href="#Awk:-printing-columns-and-doing-operations" data-toc-modified-id="Awk:-printing-columns-and-doing-operations-2.4"><span class="toc-item-num">2.4&nbsp;&nbsp;</span>Awk: printing columns and doing operations</a></span><ul class="toc-item"><li><span><a href="#Doing-operations-on-awk-columns-(adding-gene-length)" data-toc-modified-id="Doing-operations-on-awk-columns-(adding-gene-length)-2.4.1"><span class="toc-item-num">2.4.1&nbsp;&nbsp;</span>Doing operations on awk columns (adding gene length)</a></span></li></ul></li><li><span><a href="#AWK:-searching-by-regular-expressions" data-toc-modified-id="AWK:-searching-by-regular-expressions-2.5"><span class="toc-item-num">2.5&nbsp;&nbsp;</span>AWK: searching by regular expressions</a></span><ul class="toc-item"><li><span><a href="#Exercise!" data-toc-modified-id="Exercise!-2.5.1"><span class="toc-item-num">2.5.1&nbsp;&nbsp;</span>Exercise!</a></span></li></ul></li><li><span><a href="#Splitting-a-file-in-multiple-files,-according-to-value-of-a-column" data-toc-modified-id="Splitting-a-file-in-multiple-files,-according-to-value-of-a-column-2.6"><span class="toc-item-num">2.6&nbsp;&nbsp;</span>Splitting a file in multiple files, according to value of a column</a></span><ul class="toc-item"><li><span><a href="#Extracting-gene-symbols-from-a-string-in-awk" data-toc-modified-id="Extracting-gene-symbols-from-a-string-in-awk-2.6.1"><span class="toc-item-num">2.6.1&nbsp;&nbsp;</span>Extracting gene symbols from a string in awk</a></span></li><li><span><a href="#How-to-print-both-gene-coordinates-and-gene-symbols?" data-toc-modified-id="How-to-print-both-gene-coordinates-and-gene-symbols?-2.6.2"><span class="toc-item-num">2.6.2&nbsp;&nbsp;</span>How to print both gene coordinates and gene symbols?</a></span></li></ul></li></ul></li><li><span><a href="#Makefiles" data-toc-modified-id="Makefiles-3"><span class="toc-item-num">3&nbsp;&nbsp;</span>Makefiles</a></span><ul class="toc-item"><li><span><a href="#Defining-pipelines-with-Makefiles" data-toc-modified-id="Defining-pipelines-with-Makefiles-3.1"><span class="toc-item-num">3.1&nbsp;&nbsp;</span>Defining pipelines with Makefiles</a></span></li><li><span><a href="#How-to-run-Makefile-rules" data-toc-modified-id="How-to-run-Makefile-rules-3.2"><span class="toc-item-num">3.2&nbsp;&nbsp;</span>How to run Makefile rules</a></span></li></ul></li><li><span><a href="#What-have-you-learned-today?" data-toc-modified-id="What-have-you-learned-today?-4"><span class="toc-item-num">4&nbsp;&nbsp;</span>What have you learned today?</a></span><ul class="toc-item"><li><span><a href="#Dinner-time!!" data-toc-modified-id="Dinner-time!!-4.1"><span class="toc-item-num">4.1&nbsp;&nbsp;</span>Dinner time!!</a></span></li></ul></li></ul></div>
+<div class="toc"><ul class="toc-item"><li><span><a href="#Introduction-to-Unix---awk,-sed-and-Makefiles" data-toc-modified-id="Introduction-to-Unix---awk,-sed-and-Makefiles-1"><span class="toc-item-num">1&nbsp;&nbsp;</span>Introduction to Unix - awk, sed and Makefiles</a></span><ul class="toc-item"><li><span><a href="#Summary-of-the-course-today" data-toc-modified-id="Summary-of-the-course-today-1.1"><span class="toc-item-num">1.1&nbsp;&nbsp;</span>Summary of the course today</a></span></li></ul></li><li><span><a href="#Working-with-tabular-files:-Awk" data-toc-modified-id="Working-with-tabular-files:-Awk-2"><span class="toc-item-num">2&nbsp;&nbsp;</span>Working with tabular files: Awk</a></span><ul class="toc-item"><li><span><a href="#Pros-of-awk-vs-Excel:" data-toc-modified-id="Pros-of-awk-vs-Excel:-2.1"><span class="toc-item-num">2.1&nbsp;&nbsp;</span>Pros of awk vs Excel:</a></span></li><li><span><a href="#Cons-of-awk:" data-toc-modified-id="Cons-of-awk:-2.2"><span class="toc-item-num">2.2&nbsp;&nbsp;</span>Cons of awk:</a></span></li><li><span><a href="#the-GFF3-format-for-Genomic-Annotations" data-toc-modified-id="the-GFF3-format-for-Genomic-Annotations-2.3"><span class="toc-item-num">2.3&nbsp;&nbsp;</span>the GFF3 format for Genomic Annotations</a></span></li><li><span><a href="#Basic-AWK-syntax" data-toc-modified-id="Basic-AWK-syntax-2.4"><span class="toc-item-num">2.4&nbsp;&nbsp;</span>Basic AWK syntax</a></span></li><li><span><a href="#Awk---the-ACTION-component" data-toc-modified-id="Awk---the-ACTION-component-2.5"><span class="toc-item-num">2.5&nbsp;&nbsp;</span>Awk - the ACTION component</a></span><ul class="toc-item"><li><span><a href="#Exercise---compare-awk-with-cut" data-toc-modified-id="Exercise---compare-awk-with-cut-2.5.1"><span class="toc-item-num">2.5.1&nbsp;&nbsp;</span>Exercise - compare awk with cut</a></span></li><li><span><a href="#Operations-between-columns" data-toc-modified-id="Operations-between-columns-2.5.2"><span class="toc-item-num">2.5.2&nbsp;&nbsp;</span>Operations between columns</a></span></li><li><span><a href="#Exercise:-calculating-gene-center" data-toc-modified-id="Exercise:-calculating-gene-center-2.5.3"><span class="toc-item-num">2.5.3&nbsp;&nbsp;</span>Exercise: calculating gene center</a></span></li></ul></li><li><span><a href="#Awk---the-PATTERN-component" data-toc-modified-id="Awk---the-PATTERN-component-2.6"><span class="toc-item-num">2.6&nbsp;&nbsp;</span>Awk - the PATTERN component</a></span><ul class="toc-item"><li><span><a href="#Filtering-by-a-string" data-toc-modified-id="Filtering-by-a-string-2.6.1"><span class="toc-item-num">2.6.1&nbsp;&nbsp;</span>Filtering by a string</a></span></li><li><span><a href="#Exercise:-How-many-chromosomes-there-are-in-the-file?" data-toc-modified-id="Exercise:-How-many-chromosomes-there-are-in-the-file?-2.6.2"><span class="toc-item-num">2.6.2&nbsp;&nbsp;</span>Exercise: How many chromosomes there are in the file?</a></span></li><li><span><a href="#Filtering-by-numerical-conditions" data-toc-modified-id="Filtering-by-numerical-conditions-2.6.3"><span class="toc-item-num">2.6.3&nbsp;&nbsp;</span>Filtering by numerical conditions</a></span></li><li><span><a href="#Exercise---Find-chr8-sub-region" data-toc-modified-id="Exercise---Find-chr8-sub-region-2.6.4"><span class="toc-item-num">2.6.4&nbsp;&nbsp;</span>Exercise - Find chr8 sub-region</a></span></li><li><span><a href="#Exercise---final-awk-test" data-toc-modified-id="Exercise---final-awk-test-2.6.5"><span class="toc-item-num">2.6.5&nbsp;&nbsp;</span>Exercise - final awk test</a></span></li></ul></li><li><span><a href="#Splitting-a-file-in-multiple-files,-according-to-value-of-a-column" data-toc-modified-id="Splitting-a-file-in-multiple-files,-according-to-value-of-a-column-2.7"><span class="toc-item-num">2.7&nbsp;&nbsp;</span>Splitting a file in multiple files, according to value of a column</a></span></li><li><span><a href="#Extracting-gene-symbols-from-a-string-in-awk" data-toc-modified-id="Extracting-gene-symbols-from-a-string-in-awk-2.8"><span class="toc-item-num">2.8&nbsp;&nbsp;</span>Extracting gene symbols from a string in awk</a></span></li></ul></li><li><span><a href="#Editing-Text:-sed" data-toc-modified-id="Editing-Text:-sed-3"><span class="toc-item-num">3&nbsp;&nbsp;</span>Editing Text: sed</a></span><ul class="toc-item"><li><span><a href="#Pros-of-sed-vs-Word" data-toc-modified-id="Pros-of-sed-vs-Word-3.1"><span class="toc-item-num">3.1&nbsp;&nbsp;</span>Pros of sed vs Word</a></span></li><li><span><a href="#Cons-of-sed" data-toc-modified-id="Cons-of-sed-3.2"><span class="toc-item-num">3.2&nbsp;&nbsp;</span>Cons of sed</a></span></li><li><span><a href="#Basic-sed-syntax" data-toc-modified-id="Basic-sed-syntax-3.3"><span class="toc-item-num">3.3&nbsp;&nbsp;</span>Basic sed syntax</a></span><ul class="toc-item"><li><span><a href="#Find-&amp;-Replace-with-sed" data-toc-modified-id="Find-&amp;-Replace-with-sed-3.3.1"><span class="toc-item-num">3.3.1&nbsp;&nbsp;</span>Find &amp; Replace with sed</a></span></li><li><span><a href="#Exercise---Find&amp;Replace-with-sed" data-toc-modified-id="Exercise---Find&amp;Replace-with-sed-3.3.2"><span class="toc-item-num">3.3.2&nbsp;&nbsp;</span>Exercise - Find&amp;Replace with sed</a></span></li></ul></li></ul></li><li><span><a href="#Makefiles" data-toc-modified-id="Makefiles-4"><span class="toc-item-num">4&nbsp;&nbsp;</span>Makefiles</a></span><ul class="toc-item"><li><span><a href="#Defining-pipelines-with-Makefiles" data-toc-modified-id="Defining-pipelines-with-Makefiles-4.1"><span class="toc-item-num">4.1&nbsp;&nbsp;</span>Defining pipelines with Makefiles</a></span></li><li><span><a href="#How-to-run-Makefile-rules" data-toc-modified-id="How-to-run-Makefile-rules-4.2"><span class="toc-item-num">4.2&nbsp;&nbsp;</span>How to run Makefile rules</a></span><ul class="toc-item"><li><span><a href="#Exercise---run-your-make-rule" data-toc-modified-id="Exercise---run-your-make-rule-4.2.1"><span class="toc-item-num">4.2.1&nbsp;&nbsp;</span>Exercise - run your make rule</a></span></li><li><span><a href="#Exercise---write-your-own-Make-rule" data-toc-modified-id="Exercise---write-your-own-Make-rule-4.2.2"><span class="toc-item-num">4.2.2&nbsp;&nbsp;</span>Exercise - write your own Make rule</a></span></li></ul></li></ul></li><li><span><a href="#What-have-you-learned-today?" data-toc-modified-id="What-have-you-learned-today?-5"><span class="toc-item-num">5&nbsp;&nbsp;</span>What have you learned today?</a></span><ul class="toc-item"><li><span><a href="#Dinner-time!!" data-toc-modified-id="Dinner-time!!-5.1"><span class="toc-item-num">5.1&nbsp;&nbsp;</span>Dinner time!!</a></span></li></ul></li></ul></div>
 </div>
 </div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[4]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-bash"><pre><span></span><span class="c1"># Configuration - please ignore - this should not appear in the slideshow</span>
-<span class="nb">alias</span> <span class="nv">grep</span><span class="o">=</span><span class="s1">&#39;grep --color&#39;</span>
-<span class="nb">cd</span>
-<span class="nb">cd</span> workspace/peb_unix_intro/exercises/
-</pre></div>
-
-    </div>
-</div>
-</div>
-
 </div></section></section><section><section>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Introduction-to-Unix---awk-and-Makefiles">Introduction to Unix - awk and Makefiles<a class="anchor-link" href="#Introduction-to-Unix---awk-and-Makefiles">&#182;</a></h1><p><strong><font color='darkgreen'> Welcome to the Programming for Evolutionary Biology workshop!! </font></strong></p>
+<h1 id="Introduction-to-Unix---awk,-sed-and-Makefiles">Introduction to Unix - awk, sed and Makefiles<a class="anchor-link" href="#Introduction-to-Unix---awk,-sed-and-Makefiles">&#182;</a></h1><p><strong><font color='darkgreen'> Welcome to the Programming for Evolutionary Biology workshop!! </font></strong></p>
 <p>Giovanni M. Dall'Olio. Data Strategy and Design, GSK. March 2020.</p>
 <p>Quick link to slides online: <a href="https://tinyurl.com/evop-unix">https://tinyurl.com/evop-unix</a></p>
 <p>All materials available here: <a href="https://github.com/dalloliogm/peb_unix_intro/archive/master.zip">https://github.com/dalloliogm/peb_unix_intro/archive/master.zip</a></p>
-<p>In this fourth part we will use the <strong>awk</strong> command to excplore the contents of files, and some basic regular expressions.</p>
 <p>Press space or down key to continue.</p>
 
 </div>
@@ -13280,10 +13263,10 @@ a.anchor-link {
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="Summary-of-the-course-today">Summary of the course today<a class="anchor-link" href="#Summary-of-the-course-today">&#182;</a></h2><ul>
-<li><strong>Morning first half</strong>: Basic Terminal commands, First Login to Linux</li>
-<li><strong>Morning second half</strong>: Login to a Remote Unix server, browsing file contents</li>
-<li><strong>Afternoon first half</strong>: Finding patterns in a file with grep; piping commands; cut, sort and uniq</li>
-<li><strong>Afternoon second half</strong>: awk and sed; makefiles</li>
+<li>Morning first half: Basic Terminal commands, First Login to Linux</li>
+<li>Morning second half: Login to a Remote Unix server, browsing file contents</li>
+<li>Afternoon first half: Finding patterns in a file with grep; piping commands; cut, sort and uniq</li>
+<li><font color="blue">Afternoon second half</font>: awk and sed; makefiles</li>
 </ul>
 
 </div>
@@ -13292,9 +13275,24 @@ a.anchor-link {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Working-with-tabular-files:-Awk">Working with tabular files: Awk<a class="anchor-link" href="#Working-with-tabular-files:-Awk">&#182;</a></h1><p>The <strong>awk</strong> command allows to search and manipulate tabular files from the command line.</p>
-<p>Imagine it as the equivalent of Excel/Calc for the command line. It allows to do search on specific columns of a file, to do numerical operations, or to change the order of the columns.</p>
-<p>The advantage of a command-line tool over graphical software is that the memory footprint is much lower. So you can access and modify large files in a fraction of the time that it would take with Excel.</p>
+<h1 id="Working-with-tabular-files:-Awk">Working with tabular files: Awk<a class="anchor-link" href="#Working-with-tabular-files:-Awk">&#182;</a></h1><p>The <code>awk</code> command is the equivalent of Excel/Calc for the command line.</p>
+<p>It allows to filter files by specific columns, execute numerical operations, or change to the order of the columns.</p>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Pros-of-awk-vs-Excel:">Pros of awk vs Excel:<a class="anchor-link" href="#Pros-of-awk-vs-Excel:">&#182;</a></h2><ul>
+<li>Very low memory requirements</li>
+<li>Only one line at a time is processed, so <code>awk</code> can parse very large files without using resources</li>
+</ul>
+<h2 id="Cons-of-awk:">Cons of awk:<a class="anchor-link" href="#Cons-of-awk:">&#182;</a></h2><ul>
+<li>Need to define operations before opening the file</li>
+<li>large I/O usage</li>
+<li>only works on Text files</li>
+</ul>
 
 </div>
 </div>
@@ -13302,17 +13300,18 @@ a.anchor-link {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Example-of-tabular-file:-the-GFF3-format">Example of tabular file: the GFF3 format<a class="anchor-link" href="#Example-of-tabular-file:-the-GFF3-format">&#182;</a></h2><p>The file genes/chr8.gff contains an example of file in the GFF3 format:</p>
+<h2 id="the-GFF3-format-for-Genomic-Annotations">the GFF3 format for Genomic Annotations<a class="anchor-link" href="#the-GFF3-format-for-Genomic-Annotations">&#182;</a></h2><p>These <code>awk</code> exercises are based on GFF3, which is another format to store gene annotations. It's similar to BED, but the column order is different.</p>
+<p>The file <code>genes/human_genome_subset.gff</code> contains an example:</p>
 
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[5]:</div>
+<div class="prompt input_prompt">In&nbsp;[182]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-bash"><pre><span></span>head genes/chr8.gff
+<div class=" highlight hl-bash"><pre><span></span>less genes/human_genome_subset.gff
 </pre></div>
 
     </div>
@@ -13330,15 +13329,15 @@ a.anchor-link {
 
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>##gff-version 3
-##source-version rtracklayer 1.34.1
-##date 2017-02-27
+##source-version rtracklayer 1.42.1
+##date 2020-02-24
 ##genome-build .	hg19
-chr8	rtracklayer	sequence_feature	18248755	18258723	.	+	.	gene_id=10;symbol=NAT2;exerc1=FALSE;ID=10
-chr8	rtracklayer	sequence_feature	100549014	100549089	.	-	.	gene_id=100126309;symbol=MIR875;exerc1=FALSE;ID=100126309
-chr8	rtracklayer	sequence_feature	144895127	144895212	.	-	.	gene_id=100126338;symbol=MIR937;exerc1=FALSE;ID=100126338
-chr8	rtracklayer	sequence_feature	145619364	145619445	.	-	.	gene_id=100126351;symbol=MIR939;exerc1=FALSE;ID=100126351
-chr8	rtracklayer	sequence_feature	91970706	91997485	.	-	.	gene_id=100127983;symbol=C8orf88;exerc1=FALSE;ID=100127983
-chr8	rtracklayer	sequence_feature	74332309	74353753	.	+	.	gene_id=100128126;symbol=STAU2-AS1;exerc1=FALSE;ID=100128126
+chr22	rtracklayer	sequence_feature	24309026	24314748	.	+	.	gene_id=100037417;symbol=DDTL;ID=100037417
+chr22	rtracklayer	sequence_feature	22007270	22007347	.	+	.	gene_id=100126318;symbol=MIR301B;ID=100126318
+chr22	rtracklayer	sequence_feature	25498384	25508659	.	-	.	gene_id=100128531;symbol=LOC100128531;ID=100128531
+chr22	rtracklayer	sequence_feature	49262582	49294198	.	+	.	gene_id=100128946;symbol=LINC01310;ID=100128946
+chr21	rtracklayer	sequence_feature	47247755	47256333	.	-	.	gene_id=100129027;symbol=LOC100129027;ID=100129027
+chr22	rtracklayer	sequence_feature	17517460	17539682	.	+	.	gene_id=100130418;symbol=CECR7;ID=100130418
 </pre>
 </div>
 </div>
@@ -13350,13 +13349,13 @@ chr8	rtracklayer	sequence_feature	74332309	74353753	.	+	.	gene_id=100128126;symb
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>As you can see it is a tab-separated file, which we could easily read in Excel or Calc.</p>
-<p>The <strong>GFF</strong> (General Feature Format) format specifications are defined <a href="https://genome.ucsc.edu/FAQ/FAQformat.html#format3">here</a>, but in short:</p>
+<p>As you can see it is a tab-separated file.</p>
+<p>The <strong>GFF3</strong> (General Feature Format) format specifications are defined <a href="https://genome.ucsc.edu/FAQ/FAQformat.html#format3">here</a>, but in short:</p>
 <ul>
-<li>the <strong>col1</strong>, <strong>col4</strong> and <strong>col5</strong> contain the chromosome name and genomic coordinates (start and end),</li>
-<li>the <strong>col2</strong> describes the tool or resource that generated the annotation,</li>
-<li>the <strong>col3</strong> describe the type of feature (e.g. gene, transcript, exon, TF binding site, Histone Acetylation mark, etc...</li>
-<li>the <strong>col9</strong> column contains several fields, separated by a semicolon</li>
+<li><code>col1</code>, <code>col4</code> and <code>col5</code> contain the chromosome name and genomic coordinates (start and end),</li>
+<li><code>col2</code> describes the tool or resource that generated the annotation,</li>
+<li><code>col3</code> describe the type of feature (e.g. gene, transcript, exon, TF binding site, Histone Acetylation mark, etc...</li>
+<li><code>col9</code> column contains several fields, separated by a semicolon</li>
 </ul>
 
 </div>
@@ -13365,35 +13364,36 @@ chr8	rtracklayer	sequence_feature	74332309	74353753	.	+	.	gene_id=100128126;symb
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Basic-AWK-syntax:-filters">Basic AWK syntax: filters<a class="anchor-link" href="#Basic-AWK-syntax:-filters">&#182;</a></h2><p>The basic AWK syntax is the following:</p>
+<h2 id="Basic-AWK-syntax">Basic AWK syntax<a class="anchor-link" href="#Basic-AWK-syntax">&#182;</a></h2><p>The basic AWK syntax is the following:</p>
 
 <pre><code>awk 'PATTERN {ACTION}' filename
 
-</code></pre>
-<p>Awk is quite smart at recognizing the field separator, and by default assumes they are separated by tabs.</p>
-
-<pre><code>- PATTERN: select which rows to print
-    e.g. print only the rows that contain a specific pattern
-
-- ACTION: what to do on each line (e.g. print a specific column, sum them, etc..)
-    Columns are identified by $column_number, e.g. $2 refers to the second column, and so on. 
-    $0 refers to all columns
 
 </code></pre>
-<p>The following code filters all the lines belonging to chromosome 8, between the coordinates 100000 and 200000:</p>
+<ul>
+<li><p><strong>PATTERN</strong>: select which rows to print</p>
+
+<pre><code>  e.g. print only rows containing a specific word or pattern</code></pre>
+</li>
+<li><p><strong>ACTION</strong>: what to do on each line (e.g. print a specific column, sum them, etc..)</p>
+
+<pre><code>  e.g. print only column #1 and #2</code></pre>
+</li>
+</ul>
+<p>Here is an example awk command:</p>
 
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[6]:</div>
+<div class="prompt input_prompt">In&nbsp;[183]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-bash"><pre><span></span><span class="c1"># This prints all the lines on chromosome 8 and with chromosomal position between 10000 and 20000</span>
-<span class="c1"># Don&#39;t be scared by this long statement, we will explain it step by step</span>
+<div class=" highlight hl-bash"><pre><span></span><span class="c1"># This prints all the lines on chromosome 21 and with chromosomal position between 10000 and 20000</span>
+<span class="c1"># Don&#39;t need to type it yet - We&#39;ll go through this code in a minute</span>
 <span class="c1"># </span>
-awk <span class="s1">&#39;$1==&quot;chr8&quot; &amp;&amp; $4&gt;100000 &amp;&amp; $5&lt;200000 {print $0}&#39;</span> genes/chr8.gff
+awk <span class="s1">&#39;$1 ~ /chr21/ &amp;&amp; $4&gt;11223344 &amp;&amp; $5&lt;44332211 {print $1, $4, $5, $6}&#39;</span> genes/human_genome_subset.gff <span class="p">|</span> less
 </pre></div>
 
     </div>
@@ -13410,9 +13410,74 @@ awk <span class="s1">&#39;$1==&quot;chr8&quot; &amp;&amp; $4&gt;100000 &amp;&amp
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>chr8	rtracklayer	sequence_feature	182200	197339	.	+	.	gene_id=169270;symbol=ZNF596;exerc1=FALSE;ID=169270
-chr8	rtracklayer	sequence_feature	116086	117024	.	-	.	gene_id=441308;symbol=OR4F21;exerc1=FALSE;ID=441308
-chr8	rtracklayer	sequence_feature	158345	182318	.	-	.	gene_id=644128;symbol=RPL23AP53;exerc1=FALSE;ID=644128
+<pre>chr21 31661463 31661832 .
+chr21 37441940 37498938 .
+chr21 31992946 31993169 .
+chr21 31962424 31962716 .
+chr21 32090843 32091095 .
+chr21 34637937 34638565 .
+chr21 30968360 31003067 .
+chr21 31747612 31747696 .
+chr21 14778705 14778781 .
+chr21 42539484 42539556 .
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Awk---the-ACTION-component">Awk - the ACTION component<a class="anchor-link" href="#Awk---the-ACTION-component">&#182;</a></h2>
+<pre><code>awk 'PATTERN {ACTION}' filename
+
+</code></pre>
+<p>The <strong>ACTION</strong> component of an awk command describes what to do with each line.</p>
+<ul>
+<li>Actions must be included in curly brackets { }</li>
+<li>The first column is <code>$1</code>; the second <code>$2</code>; and so on. <code>$0</code> to print everything</li>
+<li>The whole <code>awk</code> statement must be included in quotes (pref single quotes)</li>
+</ul>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[184]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-bash"><pre><span></span><span class="c1"># Basic awk command - similar to using cut -f 1,4,5,9</span>
+awk <span class="s1">&#39;{print $1, $4, $5, $9}&#39;</span> genes/human_genome_subset.gff <span class="p">|</span> head
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>##gff-version   
+##source-version   
+##date   
+##genome-build   
+chr22 24309026 24314748 gene_id=100037417;symbol=DDTL;ID=100037417
+chr22 22007270 22007347 gene_id=100126318;symbol=MIR301B;ID=100126318
+chr22 25498384 25508659 gene_id=100128531;symbol=LOC100128531;ID=100128531
+chr22 49262582 49294198 gene_id=100128946;symbol=LINC01310;ID=100128946
+chr21 47247755 47256333 gene_id=100129027;symbol=LOC100129027;ID=100129027
+chr22 17517460 17539682 gene_id=100130418;symbol=CECR7;ID=100130418
 </pre>
 </div>
 </div>
@@ -13424,11 +13489,241 @@ chr8	rtracklayer	sequence_feature	158345	182318	.	-	.	gene_id=644128;symbol=RPL2
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Exercise">Exercise<a class="anchor-link" href="#Exercise">&#182;</a></h3><p>Print all the lines between chromosomal positions 5,000,000 and 10,000,000 (columns 4 and 5)</p>
+<h3 id="Exercise---compare-awk-with-cut">Exercise - compare awk with cut<a class="anchor-link" href="#Exercise---compare-awk-with-cut">&#182;</a></h3><p>Use <code>cut</code> to print columns 1,4,5,9 of the <code>genes/human_genome_subset.gff</code> file, and compare it with the <code>awk</code> statement</p>
+
+</div>
+</div>
+</div><div class="fragment">
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[185]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-bash"><pre><span></span><span class="nb">echo</span> <span class="s2">&quot;Printing columns 1,4,5,9 with awk&quot;</span>
+awk <span class="s1">&#39;{print $1, $4, $5, $9}&#39;</span> genes/human_genome_subset.gff <span class="p">|</span> head
+<span class="nb">echo</span> <span class="s2">&quot;&quot;</span> <span class="c1"># empty line</span>
+<span class="nb">echo</span> <span class="s2">&quot;Printing columns 1,4,5,9 with cut&quot;</span>
+cut -f <span class="m">1</span>,4,5,9  genes/chr8.gff  <span class="p">|</span> head
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Printing columns 1,4,5,9 with awk
+##gff-version   
+##source-version   
+##date   
+##genome-build   
+chr22 24309026 24314748 gene_id=100037417;symbol=DDTL;ID=100037417
+chr22 22007270 22007347 gene_id=100126318;symbol=MIR301B;ID=100126318
+chr22 25498384 25508659 gene_id=100128531;symbol=LOC100128531;ID=100128531
+chr22 49262582 49294198 gene_id=100128946;symbol=LINC01310;ID=100128946
+chr21 47247755 47256333 gene_id=100129027;symbol=LOC100129027;ID=100129027
+chr22 17517460 17539682 gene_id=100130418;symbol=CECR7;ID=100130418
+
+Printing columns 1,4,5,9 with cut
+##gff-version 3
+##source-version rtracklayer 1.34.1
+##date 2017-02-27
+##genome-build .
+chr8	18248755	18258723	gene_id=10;symbol=NAT2;exerc1=FALSE;ID=10
+chr8	100549014	100549089	gene_id=100126309;symbol=MIR875;exerc1=FALSE;ID=100126309
+chr8	144895127	144895212	gene_id=100126338;symbol=MIR937;exerc1=FALSE;ID=100126338
+chr8	145619364	145619445	gene_id=100126351;symbol=MIR939;exerc1=FALSE;ID=100126351
+chr8	91970706	91997485	gene_id=100127983;symbol=C8orf88;exerc1=FALSE;ID=100127983
+chr8	74332309	74353753	gene_id=100128126;symbol=STAU2-AS1;exerc1=FALSE;ID=100128126
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div></div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Operations-between-columns">Operations between columns<a class="anchor-link" href="#Operations-between-columns">&#182;</a></h3><p><code>awk</code> allows to do mathematical operations between columns.</p>
+<p>For example we can calculate the gene length, from gene start/end.</p>
+<p>Coordinates in GFF files are <strong>1-based</strong>, so we need to add 1 to the formula.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[187]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-bash"><pre><span></span><span class="c1"># Calculating gene length</span>
+awk <span class="s1">&#39;{print $1, $4, $5, $5-$4+1, $9}&#39;</span> genes/human_genome_subset.gff  <span class="p">|</span>  head
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>##gff-version   1 
+##source-version   1 
+##date   1 
+##genome-build   1 
+chr22 24309026 24314748 5723 gene_id=100037417;symbol=DDTL;ID=100037417
+chr22 22007270 22007347 78 gene_id=100126318;symbol=MIR301B;ID=100126318
+chr22 25498384 25508659 10276 gene_id=100128531;symbol=LOC100128531;ID=100128531
+chr22 49262582 49294198 31617 gene_id=100128946;symbol=LINC01310;ID=100128946
+chr21 47247755 47256333 8579 gene_id=100129027;symbol=LOC100129027;ID=100129027
+chr22 17517460 17539682 22223 gene_id=100130418;symbol=CECR7;ID=100130418
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Exercise:-calculating-gene-center">Exercise: calculating gene center<a class="anchor-link" href="#Exercise:-calculating-gene-center">&#182;</a></h3><p>Use <code>awk</code> to calculate the gene center for every row.|</p>
+
+</div>
+</div>
+</div><div class="fragment">
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[188]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-bash"><pre><span></span>awk <span class="s1">&#39;{print $1, $4, $5, &quot;center:&quot;($5+$4)/2, &quot;length:&quot; $5-$4+1}&#39;</span> genes/human_genome_subset.gff  <span class="p">|</span>  head
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>##gff-version   center:0 length:1
+##source-version   center:0 length:1
+##date   center:0 length:1
+##genome-build   center:0 length:1
+chr22 24309026 24314748 center:24311887 length:5723
+chr22 22007270 22007347 center:2.20073e+07 length:78
+chr22 25498384 25508659 center:2.55035e+07 length:10276
+chr22 49262582 49294198 center:49278390 length:31617
+chr21 47247755 47256333 center:47252044 length:8579
+chr22 17517460 17539682 center:17528571 length:22223
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div></div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Awk---the-PATTERN-component">Awk - the PATTERN component<a class="anchor-link" href="#Awk---the-PATTERN-component">&#182;</a></h2>
+<pre><code>awk 'PATTERN {ACTION}' filename
+
+</code></pre>
+<p>The PATTERN component of an awk command specifies filtering conditions.</p>
 <ul>
-<li>Use the syntax <code>awk 'PATTERN' filename</code></li>
-<li>PATTERN is a condition to filter column \$4 &gt; 5000000 and column \\$5 &lt; 10000000</li>
-<li>filename is genes/chr8.gff</li>
+<li>Filter rows where a specific column matches a string, or values are higher than a cut-off</li>
+<li>Columns can be referred as <code>$1</code>, <code>$2</code>, etc</li>
+<li>The whole awk statement must be included in quotes</li>
+</ul>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Filtering-by-a-string">Filtering by a string<a class="anchor-link" href="#Filtering-by-a-string">&#182;</a></h3><p>The <code>awk</code> statement below will filter all the lines where the first column is <code>chr22</code>.</p>
+<p>Note the syntax to match a specific string: <code>$COLUMN_NUMBER ~ /PATTERN/</code></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[189]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-bash"><pre><span></span>awk <span class="s1">&#39;$1 ~ /chr22/ &#39;</span> genes/human_genome_subset.gff <span class="p">|</span> head
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>chr22	rtracklayer	sequence_feature	24309026	24314748	.	+	.	gene_id=100037417;symbol=DDTL;ID=100037417
+chr22	rtracklayer	sequence_feature	22007270	22007347	.	+	.	gene_id=100126318;symbol=MIR301B;ID=100126318
+chr22	rtracklayer	sequence_feature	25498384	25508659	.	-	.	gene_id=100128531;symbol=LOC100128531;ID=100128531
+chr22	rtracklayer	sequence_feature	49262582	49294198	.	+	.	gene_id=100128946;symbol=LINC01310;ID=100128946
+chr22	rtracklayer	sequence_feature	17517460	17539682	.	+	.	gene_id=100130418;symbol=CECR7;ID=100130418
+chr22	rtracklayer	sequence_feature	17640279	17646335	.	+	.	gene_id=100130717;symbol=HDHD5-AS1;ID=100130717
+chr22	rtracklayer	sequence_feature	40428336	40432581	.	+	.	gene_id=100130899;symbol=LOC100130899;ID=100130899
+chr22	rtracklayer	sequence_feature	42486937	42532702	.	+	.	gene_id=100132273;symbol=NDUFA6-DT;ID=100132273
+chr22	rtracklayer	sequence_feature	51021455	51022355	.	+	.	gene_id=100144603;symbol=CHKB-DT;ID=100144603
+chr22	rtracklayer	sequence_feature	18512151	18520734	.	+	.	gene_id=100192420;symbol=LINC01634;ID=100192420
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Exercise:-How-many-chromosomes-there-are-in-the-file?">Exercise: How many chromosomes there are in the file?<a class="anchor-link" href="#Exercise:-How-many-chromosomes-there-are-in-the-file?">&#182;</a></h3><ul>
+<li>Use <code>awk</code> to print all the lines that match the string <code>chr</code></li>
+<li>Use <code>wc</code> to count how many lines there are (see <code>man wc</code>)</li>
+<li>Bonus: Use <code>sort</code> and <code>uniq</code> to find how many unique chromosomes are present (don't need <code>cut</code> this time)</li>
+<li>Bonus: Use the <code>-c</code> flag in <code>uniq</code> to count # of rows per chromosome</li>
 </ul>
 
 </div>
@@ -13436,10 +13731,137 @@ chr8	rtracklayer	sequence_feature	158345	182318	.	-	.	gene_id=644128;symbol=RPL2
 </div><div class="fragment">
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[7]:</div>
+<div class="prompt input_prompt">In&nbsp;[190]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-bash"><pre><span></span>awk <span class="s1">&#39;$4 &gt; 5000000 &amp;&amp; $5 &lt; 10000000 &#39;</span> genes/chr8.gff <span class="p">|</span> head
+<div class=" highlight hl-bash"><pre><span></span>awk <span class="s1">&#39;$1 ~ /chr/ &#39;</span> genes/human_genome_subset.gff <span class="p">|</span> wc
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>   1649   14866  169483
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[191]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-bash"><pre><span></span>awk <span class="s1">&#39;$1 ~ /chr/ {print $1}&#39;</span> genes/human_genome_subset.gff <span class="p">|</span> sort <span class="p">|</span> uniq -c
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>    296 chr21
+    535 chr22
+    818 chr8
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div></div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Filtering-by-numerical-conditions">Filtering by numerical conditions<a class="anchor-link" href="#Filtering-by-numerical-conditions">&#182;</a></h3><p><code>awk</code> can also filter by numerical conditions.</p>
+<p>We can also specify multiple conditions, using <code>&amp;&amp;</code> (AND) and <code>||</code> (OR).</p>
+<p>The following will filter genes on <code>chr21</code>, from <code>11,223,344</code> to <code>44,332,211</code>:</p>
+
+</div>
+</div>
+</div><div class="fragment">
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[192]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-bash"><pre><span></span>awk <span class="s1">&#39;$1 ~ /chr21/ &amp;&amp; $4&gt;11223344 &amp;&amp; $5&lt;44332211&#39;</span> genes/human_genome_subset.gff <span class="p">|</span> less
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>chr21	rtracklayer	sequence_feature	31661463	31661832	.	-	.	gene_id=100131902;symbol=KRTAP25-1;ID=100131902
+chr21	rtracklayer	sequence_feature	37441940	37498938	.	-	.	gene_id=100133286;symbol=LOC100133286;ID=100133286
+chr21	rtracklayer	sequence_feature	31992946	31993169	.	+	.	gene_id=100151643;symbol=KRTAP20-4;ID=100151643
+chr21	rtracklayer	sequence_feature	31962424	31962716	.	-	.	gene_id=100288287;symbol=KRTAP22-2;ID=100288287
+chr21	rtracklayer	sequence_feature	32090843	32091095	.	-	.	gene_id=100288323;symbol=KRTAP21-3;ID=100288323
+chr21	rtracklayer	sequence_feature	34637937	34638565	.	-	.	gene_id=100288432;symbol=IL10RB-DT;ID=100288432
+chr21	rtracklayer	sequence_feature	30968360	31003067	.	+	.	gene_id=100379661;symbol=GRIK1-AS2;ID=100379661
+chr21	rtracklayer	sequence_feature	31747612	31747696	.	-	.	gene_id=100422891;symbol=MIR4327;ID=100422891
+chr21	rtracklayer	sequence_feature	14778705	14778781	.	-	.	gene_id=100423018;symbol=MIR3156-3;ID=100423018
+chr21	rtracklayer	sequence_feature	42539484	42539556	.	+	.	gene_id=100423023;symbol=MIR3197;ID=100423023
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div></div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Exercise---Find-chr8-sub-region">Exercise - Find chr8 sub-region<a class="anchor-link" href="#Exercise---Find-chr8-sub-region">&#182;</a></h3><p>Print all the lines between for chromosome 8, between positions 5,000,000 and 10,000,000 (columns 4 and 5)</p>
+<ul>
+<li>Use the syntax <code>awk 'PATTERN' filename</code></li>
+<li>PATTERN is a condition to filter column <code>$1 ~ /chr8/</code>, <code>$4 &gt; 5000000</code> and column <code>$5 &lt; 10000000</code></li>
+<li>filename is <code>genes/human_genome_subset.gff</code></li>
+</ul>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[193]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-bash"><pre><span></span>awk <span class="s1">&#39;$1 ~ /chr8/ &amp;&amp; $4 &gt; 5000000 &amp;&amp; $5 &lt; 10000000 &#39;</span> genes/human_genome_subset.gff  <span class="p">|</span> head
 </pre></div>
 
     </div>
@@ -13473,281 +13895,16 @@ chr8	rtracklayer	sequence_feature	6602689	6602761	.	-	     (__)\\       )\\/\
 </div>
 </div>
 
-</div></div></section><section>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="How-many-genes-there-are?-(wc-command)">How many genes there are? (wc command)<a class="anchor-link" href="#How-many-genes-there-are?-(wc-command)">&#182;</a></h2><p>In the previous exercises we've found all the genes on chr8 and between position 5000,000 and 10,000,000.</p>
-<p>How many genes are these?</p>
-
-</div>
-</div>
-</div><div class="fragment">
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>With grep, we've used the -c option to count the output lines. However, awk doesn't have a -c option.</p>
-<p>How to count the output lines, then?</p>
-
-</div>
-</div>
-</div></div><div class="fragment">
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>A solution is to use the <strong>wc</strong> unix command, which stands for "word-count":</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[71]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-bash"><pre><span></span>awk <span class="s1">&#39;$4 &gt; 5000000 &amp;&amp; $5 &lt; 10000000 &#39;</span> genes/chr8.gff <span class="p">|</span> wc
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>      47     425    4709
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>The first number is the number of rows; the other numbers are the number of words, and the number of characters in total.</p>
-
-</div>
-</div>
-</div></div></section></section><section><section>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Awk:-printing-columns-and-doing-operations">Awk: printing columns and doing operations<a class="anchor-link" href="#Awk:-printing-columns-and-doing-operations">&#182;</a></h2><p>Awk also allows to print only specific columns, and do algebraic operations on them.</p>
-<p>Remember that each column can be referred as \$1, \\$2, \$3, etc...</p>
-<p>For example the following code prints the chromosome, start and end position for each gene (columns 1, 4 and 5), as well as column 9 which contains the gene symbol and ids. We can pipe the output to head or less, to make it easier to visualize:</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[62]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-bash"><pre><span></span>awk <span class="s1">&#39;{print $1, $4, $5, $9}&#39;</span> genes/chr8.gff <span class="p">|</span> head
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>##gff-version   
-##source-version   
-##date   
-##genome-build   
-chr8 18248755 18258723 gene_id=10;symbol=NAT2;exerc1=FALSE;ID=10
-chr8 100549014 100549089 gene_id=100126309;symbol=MIR875;exerc1=FALSE;ID=100126309
-chr8 144895127 144895212 gene_id=100126338;symbol=MIR937;exerc1=FALSE;ID=100126338
-chr8 145619364 145619445 gene_id=100126351;symbol=MIR939;exerc1=FALSE;ID=100126351
-chr8 91970706 91997485 gene_id=100127983;symbol=C8orf88;exerc1=FALSE;ID=100127983
-chr8 74332309 74353753 gene_id=100128126;symbol=STAU2-AS1;exerc1=FALSE;ID=100128126
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div><div class="fragment">
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>Notice how this also prints the headers of the file. We can exclude these by adding a grep condition:</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[64]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-bash"><pre><span></span><span class="c1"># Let&#39;s use grep and the -v option to exclude all the lines containing #</span>
-grep -v <span class="s1">&#39;#&#39;</span> genes/chr8.gff <span class="p">|</span>  awk <span class="s1">&#39;{print $1, $4, $5, $9}&#39;</span>  <span class="p">|</span>  head
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>chr8 18248755 18258723 gene_id=10;symbol=NAT2;exerc1=FALSE;ID=10
-chr8 100549014 100549089 gene_id=100126309;symbol=MIR875;exerc1=FALSE;ID=100126309
-chr8 144895127 144895212 gene_id=100126338;symbol=MIR937;exerc1=FALSE;ID=100126338
-chr8 145619364 145619445 gene_id=100126351;symbol=MIR939;exerc1=FALSE;ID=100126351
-chr8 91970706 91997485 gene_id=100127983;symbol=C8orf88;exerc1=FALSE;ID=100127983
-chr8 74332309 74353753 gene_id=100128126;symbol=STAU2-AS1;exerc1=FALSE;ID=100128126
-chr8 144816310 144828507 gene_id=100128338;symbol=FAM83H-AS1;exerc1=FALSE;ID=100128338
-chr8 144077245 144079080 gene_id=100128627;symbol=CDC42P3;exerc1=FALSE;ID=100128627
-chr8 30239635 30242917 gene_id=100128750;symbol=RBPMS-AS1;exerc1=FALSE;ID=100128750
-chr8 7143733 7212876 gene_id=100128890;symbol=FAM66B;exerc1=TRUE;ID=100128890
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div></div></section><section>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Doing-operations-on-awk-columns-(adding-gene-length)">Doing operations on awk columns (adding gene length)<a class="anchor-link" href="#Doing-operations-on-awk-columns-(adding-gene-length)">&#182;</a></h3><p>We can also do operations on the columns printed by awk.</p>
-<p>For example, we can calculate the gene length by subtracting the gene start position from the gene end</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[65]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-bash"><pre><span></span><span class="c1"># Calculating gene length</span>
-grep -v <span class="s1">&#39;#&#39;</span> genes/chr8.gff <span class="p">|</span>  awk <span class="s1">&#39;{print $1, $4, $5, $5-$4, $9}&#39;</span>  <span class="p">|</span>  head
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>chr8 18248755 18258723 9968 gene_id=10;symbol=NAT2;exerc1=FALSE;ID=10
-chr8 100549014 100549089 75 gene_id=100126309;symbol=MIR875;exerc1=FALSE;ID=100126309
-chr8 144895127 144895212 85 gene_id=100126338;symbol=MIR937;exerc1=FALSE;ID=100126338
-chr8 145619364 145619445 81 gene_id=100126351;symbol=MIR939;exerc1=FALSE;ID=100126351
-chr8 91970706 91997485 26779 gene_id=100127983;symbol=C8orf88;exerc1=FALSE;ID=100127983
-chr8 74332309 74353753 21444 gene_id=100128126;symbol=STAU2-AS1;exerc1=FALSE;ID=100128126
-chr8 144816310 144828507 12197 gene_id=100128338;symbol=FAM83H-AS1;exerc1=FALSE;ID=100128338
-chr8 144077245 144079080 1835 gene_id=100128627;symbol=CDC42P3;exerc1=FALSE;ID=100128627
-chr8 30239635 30242917 3282 gene_id=100128750;symbol=RBPMS-AS1;exerc1=FALSE;ID=100128750
-chr8 7143733 7212876 69143 gene_id=100128890;symbol=FAM66B;exerc1=TRUE;ID=100128890
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div></section></section><section><section>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="AWK:-searching-by-regular-expressions">AWK: searching by regular expressions<a class="anchor-link" href="#AWK:-searching-by-regular-expressions">&#182;</a></h2><p>Awk can also be used to search by regular expression.</p>
-<p>For example, the following code will print all the lines in which coumn \$9 contains "MIR":</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[73]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-bash"><pre><span></span>awk <span class="s1">&#39;$9 ~ /MIR/ {print $0}&#39;</span> genes/chr8.gff  <span class="p">|</span> head
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>chr8	rtracklayer	sequence_feature	100549014	100549089	.	-	.	gene_id=100126309;symbol=MIR875;exerc1=FALSE;ID=100126309
-chr8	rtracklayer	sequence_feature	144895127	144895212	.	-	.	gene_id=100126338;symbol=MIR937;exerc1=FALSE;ID=100126338
-chr8	rtracklayer	sequence_feature	145619364	145619445	.	-	.	gene_id=100126351;symbol=MIR939;exerc1=FALSE;ID=100126351
-chr8	rtracklayer	sequence_feature	65285775	65295842	.	+	.	gene_id=100130155;symbol=MIR124-2HG;exerc1=FALSE;ID=100130155
-chr8	rtracklayer	sequence_feature	128972879	128972941	.	+	.	gene_id=100302161;symbol=MIR1205;exerc1=FALSE;ID=100302161
-chr8	rtracklayer	sequence_feature	10682883	10682953	.	-	.	gene_id=100302166;symbol=MIR1322;exerc1=FALSE;ID=100302166
-chr8	rtracklayer	sequence_feature	129021144	129021202	.	+	.	gene_id=100302170;symbol=MIR1206;exerc1=FALSE;ID=100302170
-chr8	rtracklayer	sequence_feature	129061398	129061484	.	+	.	gene_id=100302175;symbol=MIR1207;exerc1=FALSE;ID=100302175
-chr8	rtracklayer	sequence_feature	128808208	128808274	.	+	.	gene_id=100302185;symbol=MIR1204;exerc1=FALSE;ID=100302185
-chr8	rtracklayer	sequence_feature	145625476	145625559	.	-	.	gene_id=100302196;symbol=MIR1234;exerc1=FALSE;ID=100302196
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
 </div></section><section>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Exercise!">Exercise!<a class="anchor-link" href="#Exercise!">&#182;</a></h3><p>Calculate the lenght of the gene POU5F1B.</p>
-<p>Find the Gene whose gene_id is equal to that number.</p>
-<ul>
-<li><p>Find all the lines of genes/chr8.gff where column \$9 ~ \/POU5F1B\/</p>
+<h3 id="Exercise---final-awk-test">Exercise - final awk test<a class="anchor-link" href="#Exercise---final-awk-test">&#182;</a></h3><ul>
+<li><p>Find the line in <code>genes/human_genome_subset.gff</code> for the <code>POU5F1B</code> gene</p>
 </li>
-<li><p>Print the length of the gene, by subtracting column \$4 from column \$5. This will give you a number.</p>
+<li><p>Calculate the length of the gene, using columns <code>$4</code> and <code>$5</code>. This will give you a number.</p>
 </li>
-<li><p>Find the line of genes/chr8.gff where column $9 contains such number</p>
+<li><p>Do another <code>awk</code> search to find the line of genes/chr8.gff where column <code>$9</code> contains such number</p>
 </li>
 </ul>
 
@@ -13756,10 +13913,10 @@ chr8	rtracklayer	sequence_feature	145625476	145625559	.	-	.	gene_id=100302196;sy
 </div><div class="fragment">
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[1]:</div>
+<div class="prompt input_prompt">In&nbsp;[194]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-bash"><pre><span></span>awk <span class="s1">&#39;$9 ~ /gene_id=1584/ {print $0}&#39;</span> genes/chr8.gff
+<div class=" highlight hl-bash"><pre><span></span>awk <span class="s1">&#39;$9 ~ /POU5F1B/ {print &quot;gene length of POU5F1B is &quot; $5-$4+1}&#39;</span> genes/human_genome_subset.gff
 </pre></div>
 
     </div>
@@ -13776,19 +13933,8 @@ chr8	rtracklayer	sequence_feature	145625476	145625559	.	-	.	gene_id=100302196;sy
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>awk: can&#39;t open file genes/chr8.gff
- source line number 1
+<pre>gene length of POU5F1B is 1585
 </pre>
-</div>
-</div>
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_text output_error">
-<pre></pre>
 </div>
 </div>
 
@@ -13798,10 +13944,10 @@ chr8	rtracklayer	sequence_feature	145625476	145625559	.	-	.	gene_id=100302196;sy
 </div></div><div class="fragment">
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[12]:</div>
+<div class="prompt input_prompt">In&nbsp;[195]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-bash"><pre><span></span>awk <span class="s1">&#39;$9 ~ /POU5F1B/ {print $5-$4}&#39;</span> genes/chr8.gff
+<div class=" highlight hl-bash"><pre><span></span>awk <span class="s1">&#39;$9 ~ /gene_id=1585/ {print $0}&#39;</span> genes/human_genome_subset.gff
 </pre></div>
 
     </div>
@@ -13818,7 +13964,7 @@ chr8	rtracklayer	sequence_feature	145625476	145625559	.	-	.	gene_id=100302196;sy
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>1584
+<pre>chr8	Correct	This_is_the_correct_answer	143991975	143999259	.	-	.	gene_id=1585; Correct, this is the right answer
 </pre>
 </div>
 </div>
@@ -13826,93 +13972,29 @@ chr8	rtracklayer	sequence_feature	145625476	145625559	.	-	.	gene_id=100302196;sy
 </div>
 </div>
 
-</div></div></section></section><section><section>
+</div></div></section><section>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Splitting-a-file-in-multiple-files,-according-to-value-of-a-column">Splitting a file in multiple files, according to value of a column<a class="anchor-link" href="#Splitting-a-file-in-multiple-files,-according-to-value-of-a-column">&#182;</a></h2><p>The example.bed file contains lines belonging to different chromosomes (column 1).</p>
-<p>We can split these in separate files, using the following syntax:</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[75]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-bash"><pre><span></span><span class="c1">#awk &#39;{print&gt;$1&quot;.txt&quot;}&#39; example.bed # doesn&#39;t work on MacBooc</span>
-awk <span class="s1">&#39;{print&gt;$1}&#39;</span> genes/example.bed
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[76]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-bash"><pre><span></span>ls
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>1_browsing_textfiles.txt	chr8
-2_searching_patterns.txt	genes
-bos_taurus.txt			multiplefiles
-chr20				old_files
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div></section><section>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Extracting-gene-symbols-from-a-string-in-awk">Extracting gene symbols from a string in awk<a class="anchor-link" href="#Extracting-gene-symbols-from-a-string-in-awk">&#182;</a></h3><p>Notice how in in this file the gene symbols are embedded in a long string containing other information:</p>
+<h2 id="Extracting-gene-symbols-from-a-string-in-awk">Extracting gene symbols from a string in awk<a class="anchor-link" href="#Extracting-gene-symbols-from-a-string-in-awk">&#182;</a></h2><p>How to extract the gene IDs and Symbols from the GFF file?</p>
 
 <pre><code>gene_id=10;symbol=NAT2;exerc1=FALSE;ID=10
 
 
 </code></pre>
-<p>Is there a way to extract just the gene ID and Symbols from this text, while also keeping the gene coordinates?</p>
-
-</div>
-</div>
-</div><div class="fragment">
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>Extracting the gene symbols in this case is not trivial, but this example applies to several formats in bioinformatics, so it is useful to see how to do it.</p>
-<p>The first step is to use the -F operator in awk to specify a different fields separator - in this case, the semicolon:</p>
+<p>We need to concatenate two awk commands, using a different Field Separator for each (<code>-F</code> flag).</p>
 
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[54]:</div>
+<div class="prompt input_prompt">In&nbsp;[216]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-bash"><pre><span></span>grep -v <span class="s1">&#39;^#&#39;</span> genes/chr8.gff <span class="p">|</span> awk -F<span class="s1">&#39;;&#39;</span> <span class="s1">&#39;{print $2}&#39;</span> <span class="p">|</span> head
+<div class=" highlight hl-bash"><pre><span></span>awk <span class="s1">&#39;$1 ~ /chr/ {print $1, $4, $5, $9}&#39;</span> genes/human_genome_subset.gff <span class="p">|</span> 
+  awk -F<span class="s1">&#39;;&#39;</span> <span class="s1">&#39;{print $1, $2}&#39;</span> <span class="p">|</span> 
+  head
 </pre></div>
 
     </div>
@@ -13929,68 +14011,16 @@ chr20				old_files
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>symbol=NAT2
-symbol=MIR875
-symbol=MIR937
-symbol=MIR939
-symbol=C8orf88
-symbol=STAU2-AS1
-symbol=FAM83H-AS1
-symbol=CDC42P3
-symbol=RBPMS-AS1
-symbol=FAM66B
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div></div></section><section>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="How-to-print-both-gene-coordinates-and-gene-symbols?">How to print both gene coordinates and gene symbols?<a class="anchor-link" href="#How-to-print-both-gene-coordinates-and-gene-symbols?">&#182;</a></h3><p>We have to use two consecutive awk searches.</p>
-<ul>
-<li>in the first awk statement, we will extract the chromosome, start, end columns, as well as the string containing the symbol string (column 1, 4,5, and 9);</li>
-<li>in the second statement, we will split the symbol string to extract the symbol id  </li>
-</ul>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[58]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-bash"><pre><span></span>grep -v <span class="s1">&#39;^#&#39;</span> genes/chr8.gff <span class="p">|</span> awk <span class="s1">&#39;{print $1, $4, $5, $9}&#39;</span> <span class="p">|</span> grep -v <span class="s1">&#39;^#&#39;</span> <span class="p">|</span> awk -F<span class="s1">&#39;;&#39;</span> <span class="s1">&#39;{print $1, $2}&#39;</span> <span class="p">|</span> head
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>chr8 18248755 18258723 gene_id=10 symbol=NAT2
-chr8 100549014 100549089 gene_id=100126309 symbol=MIR875
-chr8 144895127 144895212 gene_id=100126338 symbol=MIR937
-chr8 145619364 145619445 gene_id=100126351 symbol=MIR939
-chr8 91970706 91997485 gene_id=100127983 symbol=C8orf88
-chr8 74332309 74353753 gene_id=100128126 symbol=STAU2-AS1
-chr8 144816310 144828507 gene_id=100128338 symbol=FAM83H-AS1
-chr8 144077245 144079080 gene_id=100128627 symbol=CDC42P3
-chr8 30239635 30242917 gene_id=100128750 symbol=RBPMS-AS1
-chr8 7143733 7212876 gene_id=100128890 symbol=FAM66B
+<pre>chr22 24309026 24314748 gene_id=100037417 symbol=DDTL
+chr22 22007270 22007347 gene_id=100126318 symbol=MIR301B
+chr22 25498384 25508659 gene_id=100128531 symbol=LOC100128531
+chr22 49262582 49294198 gene_id=100128946 symbol=LINC01310
+chr21 47247755 47256333 gene_id=100129027 symbol=LOC100129027
+chr22 17517460 17539682 gene_id=100130418 symbol=CECR7
+chr22 17640279 17646335 gene_id=100130717 symbol=HDHD5-AS1
+chr22 40428336 40432581 gene_id=100130899 symbol=LOC100130899
+chr21 31661463 31661832 gene_id=100131902 symbol=KRTAP25-1
+chr22 42486937 42532702 gene_id=100132273 symbol=NDUFA6-DT
 </pre>
 </div>
 </div>
@@ -14002,18 +14032,159 @@ chr8 7143733 7212876 gene_id=100128890 symbol=FAM66B
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Makefiles">Makefiles<a class="anchor-link" href="#Makefiles">&#182;</a></h1><p>You may have noticed that the unix_intro folder contains a file called Makefile.</p>
-<p>What is a Makefile? Let's have a look at its contents first:</p>
+<h1 id="Editing-Text:-sed">Editing Text: sed<a class="anchor-link" href="#Editing-Text:-sed">&#182;</a></h1><p>The Unix command <code>sed</code> is a streaming Text Editor for the command line.</p>
+<p>It allows to modify text in a file and remove/add rows on text files</p>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Pros-of-sed-vs-Word">Pros of sed vs Word<a class="anchor-link" href="#Pros-of-sed-vs-Word">&#182;</a></h2><ul>
+<li><code>sed</code> can modify large files without using much memory</li>
+<li>Don't need to keep the full file contents in memory</li>
+</ul>
+<h2 id="Cons-of-sed">Cons of sed<a class="anchor-link" href="#Cons-of-sed">&#182;</a></h2><ul>
+<li>You need to define the operations before opening the contents</li>
+<li>Imagine editing a file without looking at it!</li>
+</ul>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Basic-sed-syntax">Basic sed syntax<a class="anchor-link" href="#Basic-sed-syntax">&#182;</a></h2><p>The <code>sed</code> syntax is:</p>
+
+<pre><code>    sed "OPERATION" FILENAME</code></pre>
+<p>Today we are going to see only the basic usage of <code>sed</code>, which is Find&amp;Replace</p>
+<p>The syntax is:</p>
+
+<pre><code>     sed "s/FIND/REPLACE/" FILENAME</code></pre>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Find-&amp;-Replace-with-sed">Find &amp; Replace with sed<a class="anchor-link" href="#Find-&amp;-Replace-with-sed">&#182;</a></h3><p>This will replace all the lower case instances of <code>chr</code> with upper case <code>CHR</code>:</p>
 
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[14]:</div>
+<div class="prompt input_prompt">In&nbsp;[207]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-bash"><pre><span></span><span class="nb">cd</span> ..
+<div class=" highlight hl-bash"><pre><span></span>sed <span class="s2">&quot;s/chr/CHR/&quot;</span> genes/human_genome_subset.gff <span class="p">|</span> head
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>##gff-version 3
+##source-version rtracklayer 1.42.1
+##date 2020-02-24
+##genome-build .	hg19
+CHR22	rtracklayer	sequence_feature	24309026	24314748	.	+	.	gene_id=100037417;symbol=DDTL;ID=100037417
+CHR22	rtracklayer	sequence_feature	22007270	22007347	.	+	.	gene_id=100126318;symbol=MIR301B;ID=100126318
+CHR22	rtracklayer	sequence_feature	25498384	25508659	.	-	.	gene_id=100128531;symbol=LOC100128531;ID=100128531
+CHR22	rtracklayer	sequence_feature	49262582	49294198	.	+	.	gene_id=100128946;symbol=LINC01310;ID=100128946
+CHR21	rtracklayer	sequence_feature	47247755	47256333	.	-	.	gene_id=100129027;symbol=LOC100129027;ID=100129027
+CHR22	rtracklayer	sequence_feature	17517460	17539682	.	+	.	gene_id=100130418;symbol=CECR7;ID=100130418
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Exercise---Find&amp;Replace-with-sed">Exercise - Find&amp;Replace with sed<a class="anchor-link" href="#Exercise---Find&amp;Replace-with-sed">&#182;</a></h3><p>Starting from the query from the last awk exercise:</p>
+<p><code>awk '$1 ~ /chr/ {print $1, $4, $5, $9}' genes/human_genome_subset.gff |
+awk -F';' '{print $1, $2}'</code></p>
+<p>Add a <code>sed</code> statement to replace <code>gene_id=</code> and <code>symbol=</code> with empty strings</p>
+
+</div>
+</div>
+</div><div class="fragment">
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[215]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-bash"><pre><span></span>awk <span class="s1">&#39;$1 ~ /chr/ {print $1, $4, $5, $9}&#39;</span> genes/human_genome_subset.gff <span class="p">|</span> 
+  awk -F<span class="s1">&#39;;&#39;</span> <span class="s1">&#39;{print $1, $2}&#39;</span> <span class="p">|</span> 
+  sed <span class="s2">&quot;s/gene_id=//&quot;</span> <span class="p">|</span> 
+  sed <span class="s2">&quot;s/symbol=//&quot;</span> <span class="p">|</span> head
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>chr22 24309026 24314748 100037417 DDTL
+chr22 22007270 22007347 100126318 MIR301B
+chr22 25498384 25508659 100128531 LOC100128531
+chr22 49262582 49294198 100128946 LINC01310
+chr21 47247755 47256333 100129027 LOC100129027
+chr22 17517460 17539682 100130418 CECR7
+chr22 17640279 17646335 100130717 HDHD5-AS1
+chr22 40428336 40432581 100130899 LOC100130899
+chr21 31661463 31661832 100131902 KRTAP25-1
+chr22 42486937 42532702 100132273 NDUFA6-DT
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div></div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Makefiles">Makefiles<a class="anchor-link" href="#Makefiles">&#182;</a></h1><p>The main <code>peb_unix_intro</code> contains a file called <code>Makefile</code>.</p>
+<p>Let's have a look at its contents:</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[218]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-bash"><pre><span></span><span class="nb">cd</span>
+<span class="nb">cd</span> workspace/peb_unix_intro  <span class="c1"># Adjust this path to your system</span>
 head Makefile
 </pre></div>
 
@@ -14034,13 +14205,13 @@ head Makefile
 <pre># This is a Makefile, which will be explained later in the course.
 # Please don&#39;t look at it yet :-)
 
+explain: explain_text
+	@echo Try running &#34;make explain&#34; to read an explanation
 publish: slides_bash commit
 	echo &#34;convert the slides to pdf, commit, and push to github&#34;
 	git push
 
 
-test_exercises: start help ignorecase multiplefiles
-generate_exercises: generate_grep generate_awk
 </pre>
 </div>
 </div>
@@ -14048,20 +14219,13 @@ generate_exercises: generate_grep generate_awk
 </div>
 </div>
 
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>Press space or the down key to continue</p>
-
-</div>
-</div>
 </div></section><section>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Defining-pipelines-with-Makefiles">Defining pipelines with Makefiles<a class="anchor-link" href="#Defining-pipelines-with-Makefiles">&#182;</a></h2><p>Makefiles are a basic way to define pipelines of shell commands.</p>
-<p>Nowadays there are more sophisticated tools available, but most of these are based on Makefiles.</p>
+<h2 id="Defining-pipelines-with-Makefiles">Defining pipelines with Makefiles<a class="anchor-link" href="#Defining-pipelines-with-Makefiles">&#182;</a></h2><p><code>Makefiles</code> are files describing pipelines of shell commands.</p>
+<p>Today you have typed many Unix commands, with different options and target. Would you remember what you typed and which options you have used?</p>
+<p>Writing them into a <code>Makefile</code> would make it easier to reproduce them.</p>
 
 </div>
 </div>
@@ -14093,7 +14257,7 @@ generate_exercises: generate_grep generate_awk
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[25]:</div>
+<div class="prompt input_prompt">In&nbsp;[199]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-bash"><pre><span></span>make testrule
@@ -14132,19 +14296,61 @@ You can associate it to as many commands you want
 
 </div>
 </div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>Rules can also be nested together. For example the two rules "test_exercises" and "generate_exercises" at the beginning of the file are a way to call several other rules together.</p>
-
-</div>
-</div>
 </div></div></section><section>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Exercise!">Exercise!<a class="anchor-link" href="#Exercise!">&#182;</a></h3><p>Explore the Makefile</p>
+<h3 id="Exercise---run-your-make-rule">Exercise - run your make rule<a class="anchor-link" href="#Exercise---run-your-make-rule">&#182;</a></h3><ul>
+<li>Look at the contents of the Makefile</li>
+<li>Find the rule needed to complete this first Make exercise</li>
+<li>run it with <code>make RULENAME</code></li>
+</ul>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[219]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-bash"><pre><span></span>make make_exercise
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Run this rule to complete the first Make exercise
+Make allows to save pipelines of Unix commands, and quickly re-execute them
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Exercise---write-your-own-Make-rule">Exercise - write your own Make rule<a class="anchor-link" href="#Exercise---write-your-own-Make-rule">&#182;</a></h3><ul>
+<li>Edit the Makefile, using nano or other editors</li>
+<li>create a new rule called <code>new_rule</code></li>
+<li>Associate a <code>echo</code> statement to it, copying the other rules</li>
+<li>Note: you need a TAB in the second line of the rule</li>
+<li>run the rule using <code>make</code></li>
+</ul>
 
 </div>
 </div>
@@ -14167,6 +14373,19 @@ You can associate it to as many commands you want
 <h2 id="Dinner-time!!">Dinner time!!<a class="anchor-link" href="#Dinner-time!!">&#182;</a></h2>
 </div>
 </div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[205]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-bash"><pre><span></span><span class="nb">cd</span> ~/workspace/peb_unix_intro/exercises
+</pre></div>
+
+    </div>
+</div>
+</div>
+
 </div></section></section>
 </div>
 </div>
