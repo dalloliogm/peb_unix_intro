@@ -13243,7 +13243,7 @@ a.anchor-link {
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><h1>Table of Contents<span class="tocSkip"></span></h1></p>
-<div class="toc"><ul class="toc-item"><li><span><a href="#Introduction-to-Unix,-Part-3---grep-and-regular-expressions" data-toc-modified-id="Introduction-to-Unix,-Part-3---grep-and-regular-expressions-1"><span class="toc-item-num">1&nbsp;&nbsp;</span>Introduction to Unix, Part 3 - grep and regular expressions</a></span></li><li><span><a href="#Searching-patterns-into-file:-grep" data-toc-modified-id="Searching-patterns-into-file:-grep-2"><span class="toc-item-num">2&nbsp;&nbsp;</span>Searching patterns into file: grep</a></span><ul class="toc-item"><li><span><a href="#Accessing-grep-documentation" data-toc-modified-id="Accessing-grep-documentation-2.1"><span class="toc-item-num">2.1&nbsp;&nbsp;</span>Accessing grep documentation</a></span></li><li><span><a href="#Searching-multiple-files" data-toc-modified-id="Searching-multiple-files-2.2"><span class="toc-item-num">2.2&nbsp;&nbsp;</span>Searching multiple files</a></span></li><li><span><a href="#Searching-multiple-patterns-and-the-Unix-piping-system" data-toc-modified-id="Searching-multiple-patterns-and-the-Unix-piping-system-2.3"><span class="toc-item-num">2.3&nbsp;&nbsp;</span>Searching multiple patterns and the Unix piping system</a></span></li></ul></li><li><span><a href="#The-Unix-Philosophy-and-Approach-to-programming" data-toc-modified-id="The-Unix-Philosophy-and-Approach-to-programming-3"><span class="toc-item-num">3&nbsp;&nbsp;</span>The Unix Philosophy and Approach to programming</a></span></li><li><span><a href="#Applying-the-Unix-Philosophy-to-your-programming" data-toc-modified-id="Applying-the-Unix-Philosophy-to-your-programming-4"><span class="toc-item-num">4&nbsp;&nbsp;</span>Applying the Unix Philosophy to your programming</a></span><ul class="toc-item"><li><span><a href="#Example-of-Unix-Approach" data-toc-modified-id="Example-of-Unix-Approach-4.1"><span class="toc-item-num">4.1&nbsp;&nbsp;</span>Example of Unix Approach</a></span></li></ul></li><li><span><a href="#Regular-Expressions" data-toc-modified-id="Regular-Expressions-5"><span class="toc-item-num">5&nbsp;&nbsp;</span>Regular Expressions</a></span><ul class="toc-item"><li><span><a href="#Regular-Expression-exercise" data-toc-modified-id="Regular-Expression-exercise-5.1"><span class="toc-item-num">5.1&nbsp;&nbsp;</span>Regular Expression exercise</a></span></li></ul></li><li><span><a href="#Time-for-a-break!" data-toc-modified-id="Time-for-a-break!-6"><span class="toc-item-num">6&nbsp;&nbsp;</span>Time for a break!</a></span></li></ul></div>
+<div class="toc"><ul class="toc-item"><li><span><a href="#Introduction-to-Unix,-Part-3---grep-and-regular-expressions" data-toc-modified-id="Introduction-to-Unix,-Part-3---grep-and-regular-expressions-1"><span class="toc-item-num">1&nbsp;&nbsp;</span>Introduction to Unix, Part 3 - grep and regular expressions</a></span><ul class="toc-item"><li><span><a href="#Summary-of-the-course-today" data-toc-modified-id="Summary-of-the-course-today-1.1"><span class="toc-item-num">1.1&nbsp;&nbsp;</span>Summary of the course today</a></span></li></ul></li><li><span><a href="#Searching-patterns-into-files:-grep" data-toc-modified-id="Searching-patterns-into-files:-grep-2"><span class="toc-item-num">2&nbsp;&nbsp;</span>Searching patterns into files: grep</a></span><ul class="toc-item"><li><span><a href="#Accessing-grep-documentation" data-toc-modified-id="Accessing-grep-documentation-2.1"><span class="toc-item-num">2.1&nbsp;&nbsp;</span>Accessing grep documentation</a></span><ul class="toc-item"><li><span><a href="#Exercise!" data-toc-modified-id="Exercise!-2.1.1"><span class="toc-item-num">2.1.1&nbsp;&nbsp;</span>Exercise!</a></span></li></ul></li><li><span><a href="#The-Unix-Philosophy-and-Approach-to-programming" data-toc-modified-id="The-Unix-Philosophy-and-Approach-to-programming-2.2"><span class="toc-item-num">2.2&nbsp;&nbsp;</span>The Unix Philosophy and Approach to programming</a></span></li><li><span><a href="#Combining-multiple-Unix-commands-with-the-pipe-symbol-(|)" data-toc-modified-id="Combining-multiple-Unix-commands-with-the-pipe-symbol-(|)-2.3"><span class="toc-item-num">2.3&nbsp;&nbsp;</span>Combining multiple Unix commands with the pipe symbol (|)</a></span><ul class="toc-item"><li><span><a href="#Exercise-on-Unix-pipe:-Searching-multiple-patterns-with-grep" data-toc-modified-id="Exercise-on-Unix-pipe:-Searching-multiple-patterns-with-grep-2.3.1"><span class="toc-item-num">2.3.1&nbsp;&nbsp;</span>Exercise on Unix pipe: Searching multiple patterns with grep</a></span></li><li><span><a href="#the-GENBANK-format" data-toc-modified-id="the-GENBANK-format-2.3.2"><span class="toc-item-num">2.3.2&nbsp;&nbsp;</span>the GENBANK format</a></span></li></ul></li><li><span><a href="#Redirecting-the-output-to-a-file,-using-the-redirection-symbol-(>)" data-toc-modified-id="Redirecting-the-output-to-a-file,-using-the-redirection-symbol-(>)-2.4"><span class="toc-item-num">2.4&nbsp;&nbsp;</span>Redirecting the output to a file, using the redirection symbol (&gt;)</a></span><ul class="toc-item"><li><span><a href="#Note-on-file-extensions" data-toc-modified-id="Note-on-file-extensions-2.4.1"><span class="toc-item-num">2.4.1&nbsp;&nbsp;</span>Note on file extensions</a></span></li><li><span><a href="#Warning-on-File-Redirection-and-overwriting-files" data-toc-modified-id="Warning-on-File-Redirection-and-overwriting-files-2.4.2"><span class="toc-item-num">2.4.2&nbsp;&nbsp;</span>Warning on File Redirection and overwriting files</a></span></li><li><span><a href="#Appending-contents-to-a-file,-using-the-double-redirection-symbol-(>>)" data-toc-modified-id="Appending-contents-to-a-file,-using-the-double-redirection-symbol-(>>)-2.4.3"><span class="toc-item-num">2.4.3&nbsp;&nbsp;</span>Appending contents to a file, using the double redirection symbol (&gt;&gt;)</a></span></li></ul></li><li><span><a href="#Searching-multiple-files" data-toc-modified-id="Searching-multiple-files-2.5"><span class="toc-item-num">2.5&nbsp;&nbsp;</span>Searching multiple files</a></span></li><li><span><a href="#Regular-Expressions" data-toc-modified-id="Regular-Expressions-2.6"><span class="toc-item-num">2.6&nbsp;&nbsp;</span>Regular Expressions</a></span><ul class="toc-item"><li><span><a href="#The-FASTA-format" data-toc-modified-id="The-FASTA-format-2.6.1"><span class="toc-item-num">2.6.1&nbsp;&nbsp;</span>The FASTA format</a></span></li><li><span><a href="#Exercise---search-for-patterns-in-FASTA-files" data-toc-modified-id="Exercise---search-for-patterns-in-FASTA-files-2.6.2"><span class="toc-item-num">2.6.2&nbsp;&nbsp;</span>Exercise - search for patterns in FASTA files</a></span></li></ul></li><li><span><a href="#Searching-for-special-characters,-such-as-&quot;>&quot;" data-toc-modified-id="Searching-for-special-characters,-such-as-&quot;>&quot;-2.7"><span class="toc-item-num">2.7&nbsp;&nbsp;</span>Searching for special characters, such as "&gt;"</a></span></li></ul></li><li><span><a href="#cut,-sort-and-uniq" data-toc-modified-id="cut,-sort-and-uniq-3"><span class="toc-item-num">3&nbsp;&nbsp;</span>cut, sort and uniq</a></span><ul class="toc-item"><li><ul class="toc-item"><li><span><a href="#Example-cut,-sort-and-uniq" data-toc-modified-id="Example-cut,-sort-and-uniq-3.0.1"><span class="toc-item-num">3.0.1&nbsp;&nbsp;</span>Example cut, sort and uniq</a></span></li></ul></li><li><span><a href="#the-SAM-and-BAM-formats" data-toc-modified-id="the-SAM-and-BAM-formats-3.1"><span class="toc-item-num">3.1&nbsp;&nbsp;</span>the SAM and BAM formats</a></span></li><li><span><a href="#Example-SAM-file" data-toc-modified-id="Example-SAM-file-3.2"><span class="toc-item-num">3.2&nbsp;&nbsp;</span>Example SAM file</a></span></li><li><span><a href="#Format-of-a-SAM-file" data-toc-modified-id="Format-of-a-SAM-file-3.3"><span class="toc-item-num">3.3&nbsp;&nbsp;</span>Format of a SAM file</a></span><ul class="toc-item"><li><span><a href="#SAM-Headers" data-toc-modified-id="SAM-Headers-3.3.1"><span class="toc-item-num">3.3.1&nbsp;&nbsp;</span>SAM Headers</a></span></li></ul></li><li><span><a href="#SAM---Alignment-section" data-toc-modified-id="SAM---Alignment-section-3.4"><span class="toc-item-num">3.4&nbsp;&nbsp;</span>SAM - Alignment section</a></span><ul class="toc-item"><li><span><a href="#Using-cut-to-print-the-first-columns-of-the-SAM-file" data-toc-modified-id="Using-cut-to-print-the-first-columns-of-the-SAM-file-3.4.1"><span class="toc-item-num">3.4.1&nbsp;&nbsp;</span>Using cut to print the first columns of the SAM file</a></span></li></ul></li><li><span><a href="#Using-cut-to-extract-columns-from-a-file" data-toc-modified-id="Using-cut-to-extract-columns-from-a-file-3.5"><span class="toc-item-num">3.5&nbsp;&nbsp;</span>Using <em>cut</em> to extract columns from a file</a></span><ul class="toc-item"><li><span><a href="#Exercise!-Fun-with-flags" data-toc-modified-id="Exercise!-Fun-with-flags-3.5.1"><span class="toc-item-num">3.5.1&nbsp;&nbsp;</span>Exercise! Fun with flags</a></span></li><li><span><a href="#Exercise!-Extract-chromosome-and-start-position-for-this-file" data-toc-modified-id="Exercise!-Extract-chromosome-and-start-position-for-this-file-3.5.2"><span class="toc-item-num">3.5.2&nbsp;&nbsp;</span>Exercise! Extract chromosome and start position for this file</a></span></li></ul></li></ul></li><li><span><a href="#Recap---grep,-Unix-piping,-and-cut" data-toc-modified-id="Recap---grep,-Unix-piping,-and-cut-4"><span class="toc-item-num">4&nbsp;&nbsp;</span>Recap - grep, Unix piping, and cut</a></span><ul class="toc-item"><li><span><a href="#Example-of-Unix-Approach" data-toc-modified-id="Example-of-Unix-Approach-4.1"><span class="toc-item-num">4.1&nbsp;&nbsp;</span>Example of Unix Approach</a></span></li></ul></li><li><span><a href="#Time-for-a-break!" data-toc-modified-id="Time-for-a-break!-5"><span class="toc-item-num">5&nbsp;&nbsp;</span>Time for a break!</a></span></li></ul></div>
 </div>
 </div>
 </div></section></section><section><section>
@@ -13251,7 +13251,9 @@ a.anchor-link {
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="Introduction-to-Unix,-Part-3---grep-and-regular-expressions">Introduction to Unix, Part 3 - grep and regular expressions<a class="anchor-link" href="#Introduction-to-Unix,-Part-3---grep-and-regular-expressions">&#182;</a></h1><p><strong><font color='darkgreen'> Welcome to the Programming for Evolutionary Biology workshop!! </font></strong></p>
-<p>Alvaro Perdomo-Sabogal, 05/03/2018. (material updated from <font color='blue'> Giovanni M. Dall'Olio version, EVOP 2017</font>). All materials available here: <a href="https://github.com/dalloliogm/evop2019/archive/master.zip">https://github.com/dalloliogm/evop2019/archive/master.zip</a></p>
+<p>Giovanni M. Dall'Olio. Data Strategy and Design, GSK. March 2020.</p>
+<p>Quick link to slides online: <a href="https://tinyurl.com/evop-unix">https://tinyurl.com/evop-unix</a></p>
+<p>All materials available here: <a href="https://github.com/dalloliogm/peb_unix_intro/archive/master.zip">https://github.com/dalloliogm/peb_unix_intro/archive/master.zip</a></p>
 <p>In this third part we will see the <strong>grep</strong> command to search the contents of files, and some basic regular expressions.</p>
 <p>Press space or down key to continue.</p>
 
@@ -13261,18 +13263,32 @@ a.anchor-link {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Searching-patterns-into-file:-grep">Searching patterns into file: grep<a class="anchor-link" href="#Searching-patterns-into-file:-grep">&#182;</a></h1><p>The instructions for the next exercises are stored in the <font color='blue'> **2_searching_patterns.txt** </font> file.</p>
-<p>However, if you look at this file with head or less, you will see that its contents have no meaning!</p>
+<h2 id="Summary-of-the-course-today">Summary of the course today<a class="anchor-link" href="#Summary-of-the-course-today">&#182;</a></h2><ul>
+<li><strong>Morning first half</strong>: Basic Terminal commands, First Login to Linux</li>
+<li><strong>Morning second half</strong>: Login to a Remote Unix server, browsing file contents</li>
+<li><strong>Afternoon first half</strong>: Finding patterns in a file with grep; piping commands; cut, sort and uniq</li>
+<li><strong>Afternoon second half</strong>: awk and sed; makefiles</li>
+</ul>
+
+</div>
+</div>
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Searching-patterns-into-files:-grep">Searching patterns into files: grep<a class="anchor-link" href="#Searching-patterns-into-files:-grep">&#182;</a></h1><p>The exercises folder contains a file called "<font color='blue'> **2_searching_patterns.txt** </font>".</p>
+<p>To see its contents, use the less command (or head).</p>
+<p>What is going on? The contents of this file are nonsense.</p>
 
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[3]:</div>
+<div class="prompt input_prompt">In&nbsp;[40]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">head</span> <span class="mi">2</span><span class="n">_searching_patterns</span><span class="o">.</span><span class="n">txt</span>
+<div class=" highlight hl-bash"><pre><span></span>less 2_searching_patterns.txt
 </pre></div>
 
     </div>
@@ -13289,16 +13305,16 @@ a.anchor-link {
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>N6jorDR84qO1Wm9oQSwq NFP5fuIUt    dicCiojstp  RVFEDyvlCiQgJludpQz3Dmh
-mfsFAdF6K87GCcFxIuPJU3KV bOqbM    nl1Kliq0kejysuyzQjjHD4uLwCiz9uDfGJ8
-k8KXugdUgQWis6TJj5Bs3r0O zhucJ    Jdrh5eLocvbvx3c1nOECQLPX3Zxoed RdWF
-a55O3BZvOWND7NgRpTGYNvagOPftki    QwYSIr6uFambWWjUyHWSc3ayRD6dovvuBAr
-0LJ4YFDvRbpOz DBcKgo45oRKFFN83    T6fRFSpMzZUbXz lwpT6LC98uiNSdFXRrdV
-YpGM8k5BhVkL FSAlpKaF1aOjKOX9K    Z5ov kGnjbKosQQeRmHt0KlrobawghapA8f
-51WCoVFad 5NUN8cd9MKOkSmqHkEAy    bTKIT3Xl9zZkwXpflOG0Ka0CiS77Q3Nq9Bn
-wIZTwypDgNcFN3JxFrJuOHJxsdIKPD    hnTBOWnngoVfOrNeR6af7mZKCFLHLov7pPF
- lVzzIoSD03ll3peasKZyaLEsRW1er    GAI9wh7LzYicG647nz1KA9Rv3TuHujuJaDZ
-ocuB5qUMrxMbopSc6IymtjPCVmhhFd    Mdh8d7kTkAqMP0Fqutt6B33Etn93XAcXDnV
+<pre>P8mW50b1cJWpWZgKFJFwM0s7qC4Zyy    lfNoCAcqioPMpafokl1qbLeviYz8PHay3RG
+DtfEl1liowE hxskxdy95cmWsVPlFT    PvZ0A0olHEKKofWXaLFRjRMKGwceCEHg144
+k8g99AzeTeKmOtxbg8Zqd9sPReQ4IV    OgJdwlpzORBuRr9VyMy0Dsqu9 ab743qVIZ
+cDfibnWrkZtLbJtUgQ6VBtu47Efutj    OPsz9joHgjVsMxXT4wKkrDKJ0K8R09UsegE
+dLWKo0BZITViH835P88sVxcfDUBkEH    BD8J80icxMHHXxfIgWuHkv5Gw1JajrE8blt
+tD x0OwbI3BceM6OsnB5z30N7PhzjJ    3Jp8vADVNptAfc3T5DBGUUg1V7BJi4A3NPF
+AgUGZnR1NvC5kBKQF4fXakZKUJSn1e    EBil5kDuu3DfN6Aiod0Ye3JVKlNyTQY3XE7
+T89m9 4lo5lrih3sleSItTGRrOqGvH    lZ0G0New O3foaoTzDktlusrewqo6BauYxX
+FtyTsL9gi7I93hkO8aEODXSngRUNkp    fzXUYW08 jdrc3pvBrRNi4gSSm4iNdwrJMU
+9hphNi41uXoyi4gXcgC6GhQGDTAbIR    qNGuxDKJ0n9EExyxgFuRxNUW5bDXLxUxCkc
 </pre>
 </div>
 </div>
@@ -13307,10 +13323,23 @@ ocuB5qUMrxMbopSc6IymtjPCVmhhFd    Mdh8d7kTkAqMP0Fqutt6B33Etn93XAcXDnV
 </div>
 
 </div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-bash"><pre><span></span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>This is because the instructions are hidden in the file, just to make things more interesting!</p>
+<p>This file contains some hidden messages, which can only be recovered using Unix commands!</p>
 <p>Press space or the down key to see how to continue.</p>
 
 </div>
@@ -13319,20 +13348,28 @@ ocuB5qUMrxMbopSc6IymtjPCVmhhFd    Mdh8d7kTkAqMP0Fqutt6B33Etn93XAcXDnV
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>The first instruction for the first exercise is in the lines containing the word "start" somewhere.</p>
-<p>To find them, type:</p>
+<p>The Unix command <strong>grep</strong> allows to search for specific words or patterns into a file.</p>
+<p>The basic syntax is:</p>
 
-<pre><code>$: grep start 2_searching_patterns.txt</code></pre>
+<pre><code>grep PATTERN FILENAME</code></pre>
 
 </div>
 </div>
 </div><div class="fragment">
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Let's search for the word "<em>start</em>" in the exercise file:</p>
+
+</div>
+</div>
+</div></div><div class="fragment">
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[4]:</div>
+<div class="prompt input_prompt">In&nbsp;[41]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">grep</span> <span class="n">start</span> <span class="mi">2</span><span class="n">_searching_patterns</span><span class="o">.</span><span class="n">txt</span>
+<div class=" highlight hl-bash"><pre><span></span>grep start 2_searching_patterns.txt
 </pre></div>
 
     </div>
@@ -13349,44 +13386,44 @@ ocuB5qUMrxMbopSc6IymtjPCVmhhFd    Mdh8d7kTkAqMP0Fqutt6B33Etn93XAcXDnV
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>cyiywNQhsTaFvrX3F0 <span class="ansi-red-intense-fg ansi-bold">start</span>6473DC    
-DRyKuiS dTekI3ctr<span class="ansi-red-intense-fg ansi-bold">start</span>v7VXoOCC     ______________________________
-S4xFQNhv0ipsyg75yCoxA3he<span class="ansi-red-intense-fg ansi-bold">start</span>J    / Congrats!                    \  
-t <span class="ansi-red-intense-fg ansi-bold">start</span> e6YBF5VeAJd1niRCAm54fv    |  You&#39;ve used grep correctly, |
-UQh<span class="ansi-red-intense-fg ansi-bold">start</span> S6CADhyFEGtamLmgUw5mN    \  and found a cow.            /
-na3xDyV <span class="ansi-red-intense-fg ansi-bold">start</span> nEn FcDkDoHlJ5U8     ------------------------------
-vB64co0qVmDSfMy <span class="ansi-red-intense-fg ansi-bold">start</span>HBRBNmMou            \   ^__^
-Ucm64KuL6ci0HB <span class="ansi-red-intense-fg ansi-bold">start</span>g3B91ubyVR             \  (oo)\_______
-dmATFfwkAnvmm  <span class="ansi-red-intense-fg ansi-bold">start</span>hJsUB7Zhpa                (__)\       )\/\ 
-x <span class="ansi-red-intense-fg ansi-bold">start</span>dyxGG 530mUC7MDaokCAKkP                    ||----w |
-TnuS 6WyvWQff<span class="ansi-red-intense-fg ansi-bold">start</span> bhC8FgngIfA                    ||     ||
-Lpjd8fy4HwOj3<span class="ansi-red-intense-fg ansi-bold">start</span> KFmLWhcpH1D    
-qrcD DUVmU67qIN<span class="ansi-red-intense-fg ansi-bold">start</span> eimdNwsk7    
-x <span class="ansi-red-intense-fg ansi-bold">start</span>YmyFAMljNGPoBZxWvdugLOE    
-Egmqh5pXm ee<span class="ansi-red-intense-fg ansi-bold">start</span> 5JkazumfP9      The command grep allows to search
-T0Zq6 <span class="ansi-red-intense-fg ansi-bold">start</span>fnvP8cIXnfqbB4q5la0    for a pattern in a text file.
-0apOeBLv7YvlPA <span class="ansi-red-intense-fg ansi-bold">start</span> gkQLhw5LJ    
-CxfzRe541y<span class="ansi-red-intense-fg ansi-bold">start</span>Jj68PrNKawesz08    It will print all the matching 
-bd7175m w <span class="ansi-red-intense-fg ansi-bold">start</span> 5YFVqNF1A8ZJS6    lines to the screen.
-Hj6BoO <span class="ansi-red-intense-fg ansi-bold">start</span>sRWuvPNGBg4ZSxdy5K    
-FrowUgP0Rww <span class="ansi-red-intense-fg ansi-bold">start</span>D56jcTvQQWEMt    =================
-f6exIg44GXvkBKEj5O0sPt <span class="ansi-red-intense-fg ansi-bold">start</span>uT    Next Exercise
-pUasyifskH<span class="ansi-red-intense-fg ansi-bold">start</span> AA4QhdNI5CYOqp    =================
-WpEr7I1I7ajn3Vb <span class="ansi-red-intense-fg ansi-bold">start</span>yV77kLktG    
-PULXHsnrjVtqGQJP0T <span class="ansi-red-intense-fg ansi-bold">start</span> x  mT    In the next exercise we will see 
-e94IRW6tna8G9gzXnMFeyeWiM<span class="ansi-red-intense-fg ansi-bold">start</span>    how to access grep&#39;s documentation.
-Yj7ItSnjwa xpIIJ6Pn<span class="ansi-red-intense-fg ansi-bold">start</span>y4c9pv    
-amG5UYNApOEml0 <span class="ansi-red-intense-fg ansi-bold">start</span>gehiEmraPN    Grep the following word to continue:
-c5zgU3wsG<span class="ansi-red-intense-fg ansi-bold">start</span>LXkuSEU5X6htL4vh      _            _        
-nYoEzZOnC18fdKoy <span class="ansi-red-intense-fg ansi-bold">start</span> SwGylYg     | |          | |       
-vEj5 <span class="ansi-red-intense-fg ansi-bold">start</span> qFNICtaBpVNgDRpfaJk     | |__    ___ | | _ __  
-ik7aYCKUtVVn4s3mQS8NEKx6 <span class="ansi-red-intense-fg ansi-bold">start</span>     | &#39;_ \  / _ \| || &#39;_ \ 
-LscAgVef<span class="ansi-red-intense-fg ansi-bold">start</span>XT3xEhEESN8qzhyU0     | | | ||  __/| || |_) |
-r4XFj<span class="ansi-red-intense-fg ansi-bold">start</span>ez4gqwdMPsmjysywXiW5     |_| |_| \___||_|| .__/ 
-KQS1yymt0dfm <span class="ansi-red-intense-fg ansi-bold">start</span> 6IRkDDywzwg                     | |    
-Y5XQOdrDQ1uU 8uexqOkpQy <span class="ansi-red-intense-fg ansi-bold">start</span>                      |_|  
-cUhpfXSO <span class="ansi-red-intense-fg ansi-bold">start</span>WCjg6ImRVLQoLcwx    
-1PKSKJRIAYZ65HBu<span class="ansi-red-intense-fg ansi-bold">start</span>6yeNy4ti6    
+<pre>7fJCrbDr7DLtfJWveW<span class="ansi-red-intense-fg ansi-bold">start</span>hL74o1h    
+qhgW <span class="ansi-red-intense-fg ansi-bold">start</span> hTRnNmxXg6 kGBzkblr     ______________________________
+8cd <span class="ansi-red-intense-fg ansi-bold">start</span> ZTcMbuwb6uLSp5ne1xlN    / Congrats!                    \  
+eeGNJy0Bpis07pPWFPVz4o <span class="ansi-red-intense-fg ansi-bold">start</span> c    |  You&#39;ve used grep correctly, |
+BOqAUjUyE<span class="ansi-red-intense-fg ansi-bold">start</span>NxNmNMFffaCZBxz8    \  and found a cow.            /
+AmHTrLmexhknVNTOY4a <span class="ansi-red-intense-fg ansi-bold">start</span> 5twO     ------------------------------
+SJVFTaWdslT0 <span class="ansi-red-intense-fg ansi-bold">start</span> NKyluwBCkW7            \   ^__^
+hUUkV <span class="ansi-red-intense-fg ansi-bold">start</span>LnJEPKVhgpcZBE03IyA             \  (oo)\_______
+MktM1nrJN070b<span class="ansi-red-intense-fg ansi-bold">start</span> 3gblKgoXGtT                (__)\       )\/\ 
+m <span class="ansi-red-intense-fg ansi-bold">start</span>QUb5dmMP7g8Qgj4Ddujwm6q                    ||----w |
+9<span class="ansi-red-intense-fg ansi-bold">start</span>Uxjf1wcSvST44uLa5uj3EqK7                    ||     ||
+luD9dPnmva <span class="ansi-red-intense-fg ansi-bold">start</span> wYKeYCxJPkW7e    
+AGldtqmouPUUkIQkDn8MS <span class="ansi-red-intense-fg ansi-bold">start</span> AG    
+SF0gAZaOT0BF NRmYocCe4Al<span class="ansi-red-intense-fg ansi-bold">start</span>t    
+jP8wri  <span class="ansi-red-intense-fg ansi-bold">start</span> nGtfuBd4Llqg6ffY    The command grep allows to search
+ctLAoukXdWPlw5<span class="ansi-red-intense-fg ansi-bold">start</span> XQUe9nUuzY    for a pattern in a text file.
+VhR PxIHQtCH0q <span class="ansi-red-intense-fg ansi-bold">start</span>KpfN MFVXw    
+YE ompcM7r07X <span class="ansi-red-intense-fg ansi-bold">start</span> bHUQSQqRbf    It will print all the matching 
+PQZzoD7ut1uD9STr3T4 <span class="ansi-red-intense-fg ansi-bold">start</span> APwT    lines to the screen.
+LlOtzZfGLOeRkFvCVrIbBJ <span class="ansi-red-intense-fg ansi-bold">start</span>HA    
+6qSv NOG9<span class="ansi-red-intense-fg ansi-bold">start</span>v6YoVLHJ7snR69tx    =================
+PLx5n7xFc3Hh5iwdfarA<span class="ansi-red-intense-fg ansi-bold">start</span>YNL4A    Next Exercise
+Qd<span class="ansi-red-intense-fg ansi-bold">start</span> ZIEshPHzz1usx3ALvEDkeZ    =================
+SMfbBaI0F<span class="ansi-red-intense-fg ansi-bold">start</span> EHiw3ISlKRyE Sg    
+<span class="ansi-red-intense-fg ansi-bold">start</span>skOYYZ1WOCQcN1os5fg9itzj9    In the next exercise we will see 
+x<span class="ansi-red-intense-fg ansi-bold">start</span>CyNu6cHxBW0N6pYd9SLPDVuP    how to access grep&#39;s documentation.
+SRw9OvAPFurRTtnfrTPtMik <span class="ansi-red-intense-fg ansi-bold">start</span>l    
+kbmeUmSwdCcR3e81HJl<span class="ansi-red-intense-fg ansi-bold">start</span>z4bFgs    Grep the following word to continue:
+IPW6cn0R4iMTeqUp5lNFT<span class="ansi-red-intense-fg ansi-bold">start</span> kaZ      _            _        
+ SWyblovzEHStB<span class="ansi-red-intense-fg ansi-bold">start</span>0Lr5 OzObgD     | |          | |       
+lhxeRXeOaEFFItdP9MxYvGnp<span class="ansi-red-intense-fg ansi-bold">start</span>      | |__    ___ | | _ __  
+4yN0AdOSIB8DG3 <span class="ansi-red-intense-fg ansi-bold">start</span>GYAs3E5smu     | &#39;_ \  / _ \| || &#39;_ \ 
+h1m68FwK <span class="ansi-red-intense-fg ansi-bold">start</span>3El5ZEp0qRgW9Raw     | | | ||  __/| || |_) |
+dEaUW VR0od <span class="ansi-red-intense-fg ansi-bold">start</span> kKL4SZ3t7Jkj     |_| |_| \___||_|| .__/ 
+5Q <span class="ansi-red-intense-fg ansi-bold">start</span> 41c3YSmRKwNvZ1mqqVw6L                     | |    
+g yGpLHWZWuL <span class="ansi-red-intense-fg ansi-bold">start</span> BdjB3Z34m7U                     |_|  
+DUIAnQiz AmLTtwb3sDtZK5 <span class="ansi-red-intense-fg ansi-bold">start</span>     
+zq0B<span class="ansi-red-intense-fg ansi-bold">start</span> lw40BCkw 70AwRVFZn6O    
 </pre>
 </div>
 </div>
@@ -13398,22 +13435,34 @@ cUhpfXSO <span class="ansi-red-intense-fg ansi-bold">start</span>WCjg6ImRVLQoLcw
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Accessing-grep-documentation">Accessing grep documentation<a class="anchor-link" href="#Accessing-grep-documentation">&#182;</a></h2><p>To access the documentation of a command, we can use the <strong>man</strong> command.</p>
-<p>Let's type the following:</p>
+<h2 id="Accessing-grep-documentation">Accessing grep documentation<a class="anchor-link" href="#Accessing-grep-documentation">&#182;</a></h2><p>The <strong>man</strong> command allows to find documentation on a Unix command.</p>
+<p>To find the documentation of grep:</p>
 
 <pre><code>$: man grep</code></pre>
-<p>This will allow to navigate the documentation for grep, in the same modality as with the <strong>less</strong> command. Use the arrows to scroll, and q to exit.</p>
-<p>For the next exercise, you will have to identify two options in the man page, and use them to do a case-insensitive search for "ignorecase", and count the number of lines.</p>
+<p>Use the arrows keys to scroll up and down, and q to exit (as for the <strong>less</strong> command)</p>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Exercise!">Exercise!<a class="anchor-link" href="#Exercise!">&#182;</a></h3><ul>
+<li>Open the grep documentation page</li>
+<li>Identify the parameter for doing case-insensitive search</li>
+<li>Do a case-insensitive search for the word "ignorecase" in the file 2_searching_patterns.txt</li>
+<li>Count the number of matching lines (or use another grep option to count them)</li>
+</ul>
 
 </div>
 </div>
 </div></section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[5]:</div>
+<div class="prompt input_prompt">In&nbsp;[42]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">grep</span> <span class="n">help</span> <span class="mi">2</span><span class="n">_searching_patterns</span><span class="o">.</span><span class="n">txt</span>
+<div class=" highlight hl-bash"><pre><span></span>grep <span class="nb">help</span> 2_searching_patterns.txt
 </pre></div>
 
     </div>
@@ -13430,37 +13479,38 @@ cUhpfXSO <span class="ansi-red-intense-fg ansi-bold">start</span>WCjg6ImRVLQoLcw
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>3rC1S7O m<span class="ansi-red-intense-fg ansi-bold">help</span> uDa8dTWUinNSVSDX    
-aeda4XBrj7YzD <span class="ansi-red-intense-fg ansi-bold">help</span> xnpmxY3J1I0    The documentation for grep can 
-kFRgBPrGHX9GLsjfWYQ <span class="ansi-red-intense-fg ansi-bold">help</span> A3QIf    be accessed through man:
-GJD8rk1Aa<span class="ansi-red-intense-fg ansi-bold">help</span> rFvCwxsfVGy8 YJy    
-DJoDl10eVzXkHLo7<span class="ansi-red-intense-fg ansi-bold">help</span>DTfeA3GYvX        $: man grep
-I <span class="ansi-red-intense-fg ansi-bold">help</span> FGSlQgjeD7MN6Z13g1x0vNs    
-3RT8c1IHNBSaYmEGoN<span class="ansi-red-intense-fg ansi-bold">help</span> PCfxdsz    Scroll down to see all the 
-O Z DWnhzuyIoPw9BQKz<span class="ansi-red-intense-fg ansi-bold">help</span>aJKm6c    parameters for grep and their description.
-hRomqLnWx4geJlErVCz0X ZVv<span class="ansi-red-intense-fg ansi-bold">help</span>     
-aPP69R8T5oHzJa0C W <span class="ansi-red-intense-fg ansi-bold">help</span> WUMyv4    Use / to search for text.
-ot1fC vOE1 <span class="ansi-red-intense-fg ansi-bold">help</span> BbP6Fp1jjli63x    Press the q key to exit.
-haluPmj<span class="ansi-red-intense-fg ansi-bold">help</span> kO1Hqxi5OXE5g1Z6Vu    
-ZLpjYjWAZAj<span class="ansi-red-intense-fg ansi-bold">help</span> fAEFHYQ4rO7bFS    
-9qPAKjaYfUFosjNaEgIIjqcx<span class="ansi-red-intense-fg ansi-bold">help</span>UC    
-rXMAdAeVM1N6S1wIXM<span class="ansi-red-intense-fg ansi-bold">help</span> ri5Hzua    ==============
-Z1wBOjpWKjii3Vl9YNTX<span class="ansi-red-intense-fg ansi-bold">help</span> AZyGD    Next exercise
-BRdO1AiB9TGVw6bhTo<span class="ansi-red-intense-fg ansi-bold">help</span>Lvzl7ncH    ==============
-PVW6VrjQ <span class="ansi-red-intense-fg ansi-bold">help</span> pkWdQ6V8MUlBb4mm    
-M48fL93YM<span class="ansi-red-intense-fg ansi-bold">help</span>YdAsUIvJ49XZeu6Em    For the next exercise, you will need to open 
-Y5xGjZqOSOr0KgGv1dB<span class="ansi-red-intense-fg ansi-bold">help</span>qwLgkag    grep&#39;s documentation and identify two options:
-RUkLYcn67CO8vdJP <span class="ansi-red-intense-fg ansi-bold">help</span> dgdyAbkr    
-uk4qm4NtrDwxoifclE5zu<span class="ansi-red-intense-fg ansi-bold">help</span> QZBj    - the option for case-insensitive searches
-f9kFTlhQQAm<span class="ansi-red-intense-fg ansi-bold">help</span> qWaQWrvPWGz eL    - the option for counting 
-cfGAsfmlGnBaDu4YdoRM<span class="ansi-red-intense-fg ansi-bold">help</span>SY0oUv      the number of matching lines, 
-Ij3Fv<span class="ansi-red-intense-fg ansi-bold">help</span>hbMeRlx 7tydUBcaCznjF      instead of printing them to the screen.
-<span class="ansi-red-intense-fg ansi-bold">help</span>eoAiKHpCi9jT 4iNxf9UucLfG0    
-EJVr l<span class="ansi-red-intense-fg ansi-bold">help</span> jkJcVXqoiITMrAgC00c    Once you have identified these options, 
-hXissBPNstqPwJrL<span class="ansi-red-intense-fg ansi-bold">help</span> eb7g0BOHl    do a case-insensitive search on this file for the word 
-y3CwhA0YH3v <span class="ansi-red-intense-fg ansi-bold">help</span> 0huOOdCCSiWyb    &#34;ignorecase&#34;, then count the number of lines.
-pQun5zSme6 <span class="ansi-red-intense-fg ansi-bold">help</span> 80vwKy oy4Ti X    
-AA6<span class="ansi-red-intense-fg ansi-bold">help</span>ovE0Iw4f1CeWrTzC1nwpb4u        
+<pre>B9cFVKf9uA3DkI1PnJC<span class="ansi-red-intense-fg ansi-bold">help</span>kTNm1dd    
+3Z0anUCaVbirdioBij<span class="ansi-red-intense-fg ansi-bold">help</span>7kAVJFxY    The documentation for grep can 
+8KKQR <span class="ansi-red-intense-fg ansi-bold">help</span> VQsY47 sL9toQT8EY5D    be accessed through man:
+iyG<span class="ansi-red-intense-fg ansi-bold">help</span>6dhyXuyWHSaYNtEvoDex Cc    
+mcKWtNHTui1guXDA EK<span class="ansi-red-intense-fg ansi-bold">help</span>PWuOIxH        $: man grep
+UBBMDm0C8l<span class="ansi-red-intense-fg ansi-bold">help</span>zkZEOBgSXfjXNgrf    
+ <span class="ansi-red-intense-fg ansi-bold">help</span> 4M TGfdzHR8Yk9i9PwhNn 39    Scroll down to see all the 
+W1cSpeejraQCD1pu <span class="ansi-red-intense-fg ansi-bold">help</span> WEXDH8 I    parameters for grep and their description.
+neCvTNSySVYpt0E8SGnXGIc<span class="ansi-red-intense-fg ansi-bold">help</span>9na    
+rfwiuKsJtjeHrHoBX9 <span class="ansi-red-intense-fg ansi-bold">help</span> 0hicjc    Use / to search for text.
+aMUp4FGgcAHAMoj pzlNQ7Oz9<span class="ansi-red-intense-fg ansi-bold">help</span>o    Press the q key to exit.
+7j <span class="ansi-red-intense-fg ansi-bold">help</span> rXptYF5IRAXjdK7lukHJWd    
+YwauUPotI0 <span class="ansi-red-intense-fg ansi-bold">help</span> ivkaPxkiNvbJrt    
+FZE <span class="ansi-red-intense-fg ansi-bold">help</span> lvPb0Yp11UT63FWV586j0    
+ecQayY<span class="ansi-red-intense-fg ansi-bold">help</span> FWjb4HhwoHh7eek3yEX    ==============
+WGj1R9df3ibXDa1exNL<span class="ansi-red-intense-fg ansi-bold">help</span>Y7K9U00    Next exercise
+OdrqEGoZakN<span class="ansi-red-intense-fg ansi-bold">help</span> uEm4w7UkGYEkIG    ==============
+JSKk13GFy <span class="ansi-red-intense-fg ansi-bold">help</span> hBbPLplm7s5kQSg    
+g9zHZpIMSthWbx4pU <span class="ansi-red-intense-fg ansi-bold">help</span> HuIH8GJ    For the next exercise, you will need to open 
+JBDAk9BEjrgSBtOmDgjpwzt9ip<span class="ansi-red-intense-fg ansi-bold">help</span>    grep&#39;s documentation and identify two options:
+LrYA<span class="ansi-red-intense-fg ansi-bold">help</span> Uqy7pyCubW73LxjQcGof8    
+k16pOXOgBlOWKEhOp8iKO <span class="ansi-red-intense-fg ansi-bold">help</span> 06Y    - the option for case-insensitive searches
+cMmgFjclS3tGXfAdOwaYu7xgf<span class="ansi-red-intense-fg ansi-bold">help</span>S    - the option for counting 
+<span class="ansi-red-intense-fg ansi-bold">help</span> fmv KM614XJ TpZ7QvlfdByjP      the number of matching lines, 
+kF <span class="ansi-red-intense-fg ansi-bold">help</span> Iz1oBVA3hydzZ8cpW9TMRJ      instead of printing them to the screen.
+iB5yneSru 5oAis nfaW <span class="ansi-red-intense-fg ansi-bold">help</span>ZtknE    
+cIZkYsvp5rQN <span class="ansi-red-intense-fg ansi-bold">help</span> rzRI9iwDL4a5    Once you have identified these options, 
+kX16x7a9PpjXQtoto9zV<span class="ansi-red-intense-fg ansi-bold">help</span> 9HZij    do a case-insensitive search on this file for the word 
+Ryi5<span class="ansi-red-intense-fg ansi-bold">help</span>EZziizUlktMJnAEA4IMsnn    &#34;ignorecase&#34;, then count the number of lines.
+Up8sg ldoZcxZ3IaxA <span class="ansi-red-intense-fg ansi-bold">help</span> IepzrB    
+4FdfFqlAqY93holNMkcmHd7Ni<span class="ansi-red-intense-fg ansi-bold">help</span>         
+s9UGvUvcQQxss1ETq21leshRaftsUQ    This will also <span class="ansi-red-intense-fg ansi-bold">help</span> you reading this
 </pre>
 </div>
 </div>
@@ -13471,12 +13521,12 @@ AA6<span class="ansi-red-intense-fg ansi-bold">help</span>ovE0Iw4f1CeWrTzC1nwpb4
 </div></section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[6]:</div>
+<div class="prompt input_prompt">In&nbsp;[43]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># If we do a search for &quot;ignorecase&quot; without any option, we only get some of the lines.</span>
+<div class=" highlight hl-bash"><pre><span></span><span class="c1"># If we do a search for &quot;ignorecase&quot; without any option, we only get some of the lines.</span>
 <span class="c1"># You can notice that the cow is not properly displayed :-)</span>
-<span class="n">grep</span> <span class="n">ignorecase</span> <span class="mi">2</span><span class="n">_searching_patterns</span><span class="o">.</span><span class="n">txt</span>
+grep ignorecase 2_searching_patterns.txt
 </pre></div>
 
     </div>
@@ -13493,14 +13543,14 @@ AA6<span class="ansi-red-intense-fg ansi-bold">help</span>ovE0Iw4f1CeWrTzC1nwpb4
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>J0WG<span class="ansi-red-intense-fg ansi-bold">ignorecase</span>qrq 9hak97vkCYL0    
-PWPsSOpcgCPM<span class="ansi-red-intense-fg ansi-bold">ignorecase</span>vzY7sDxG            
-GZVfLsGkT7vOAeofqO<span class="ansi-red-intense-fg ansi-bold">ignorecase</span>Ko    Remember that, to continue with the exercise, 
-Wc37PlL5LsjqvNrgo<span class="ansi-red-intense-fg ansi-bold">ignorecase</span>7jW    you need to do a case-insensitive search for the word
-y3CwhA0YH3v help 0huOOdCCSiWyb    &#34;<span class="ansi-red-intense-fg ansi-bold">ignorecase</span>&#34;, then count the number of lines.
-Ei4dDJ<span class="ansi-red-intense-fg ansi-bold">ignorecase</span>L64bJfMudEsq5M    
-ZO3JWg<span class="ansi-red-intense-fg ansi-bold">ignorecase</span>AgQb0mUonH3Snj    | itive       |
-rhUDhIJsyq4mYhcPFQo<span class="ansi-red-intense-fg ansi-bold">ignorecase</span>N    \ search      /
+<pre>bp6vV3Fz6zWALIMHr<span class="ansi-red-intense-fg ansi-bold">ignorecase</span>XsK    
+kJodjykBTRy5UsvkN<span class="ansi-red-intense-fg ansi-bold">ignorecase</span>lCJ            
+IQNr<span class="ansi-red-intense-fg ansi-bold">ignorecase</span>t3sSkwItlBqtJ97X    Remember that, to continue with the exercise, 
+<span class="ansi-red-intense-fg ansi-bold">ignorecase</span>TiN1A5LE8JprmmIFPtlY    you need to do a case-insensitive search for the word
+Ryi5helpEZziizUlktMJnAEA4IMsnn    &#34;<span class="ansi-red-intense-fg ansi-bold">ignorecase</span>&#34;, then count the number of lines.
+gBHJnHXdOKPCuNtl<span class="ansi-red-intense-fg ansi-bold">ignorecase</span>0Lhg             \  (oo)\_______
+JpSx4YnQPBZYH<span class="ansi-red-intense-fg ansi-bold">ignorecase</span>yAhXUnf    
+rSncrRqC3QweV<span class="ansi-red-intense-fg ansi-bold">ignorecase</span>CJLnZUZ    
 </pre>
 </div>
 </div>
@@ -13511,12 +13561,12 @@ rhUDhIJsyq4mYhcPFQo<span class="ansi-red-intense-fg ansi-bold">ignorecase</span>
 </div><div class="fragment">
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[7]:</div>
+<div class="prompt input_prompt">In&nbsp;[44]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># The -i option allows to do a case-insensitive search.</span>
+<div class=" highlight hl-bash"><pre><span></span><span class="c1"># The -i option allows to do a case-insensitive search.</span>
 <span class="c1"># As you can see, some lines contain upper case characters:</span>
-<span class="n">grep</span> <span class="o">-</span><span class="n">i</span> <span class="n">ignorecase</span> <span class="mi">2</span><span class="n">_searching_patterns</span><span class="o">.</span><span class="n">txt</span>
+grep -i ignorecase 2_searching_patterns.txt
 </pre></div>
 
     </div>
@@ -13533,27 +13583,27 @@ rhUDhIJsyq4mYhcPFQo<span class="ansi-red-intense-fg ansi-bold">ignorecase</span>
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>J0WG<span class="ansi-red-intense-fg ansi-bold">ignorecase</span>qrq 9hak97vkCYL0    
-PWPsSOpcgCPM<span class="ansi-red-intense-fg ansi-bold">ignorecase</span>vzY7sDxG            
-GZVfLsGkT7vOAeofqO<span class="ansi-red-intense-fg ansi-bold">ignorecase</span>Ko    Remember that, to continue with the exercise, 
-Wc37PlL5LsjqvNrgo<span class="ansi-red-intense-fg ansi-bold">ignorecase</span>7jW    you need to do a case-insensitive search for the word
-y3CwhA0YH3v help 0huOOdCCSiWyb    &#34;<span class="ansi-red-intense-fg ansi-bold">ignorecase</span>&#34;, then count the number of lines.
-Ei4dDJ<span class="ansi-red-intense-fg ansi-bold">ignorecase</span>L64bJfMudEsq5M    
-yX6cvAZs<span class="ansi-red-intense-fg ansi-bold">IGNORECASE</span>hu3lxg5OTkk9     _____________
-YBgY HtVe6lUjUbhYG<span class="ansi-red-intense-fg ansi-bold">IGNORECASE</span>Sd    / Good Job!   \ 
-fCkzDFRyUI<span class="ansi-red-intense-fg ansi-bold">ignOrecase</span>NjeVrQaL V    | You did a   |
-DjP4Qa <span class="ansi-red-intense-fg ansi-bold">ignOrecase</span>60rD76lrkJlOP    | case-insens |
-ZO3JWg<span class="ansi-red-intense-fg ansi-bold">ignorecase</span>AgQb0mUonH3Snj    | itive       |
-rhUDhIJsyq4mYhcPFQo<span class="ansi-red-intense-fg ansi-bold">ignorecase</span>N    \ search      /
-eIb0cb<span class="ansi-red-intense-fg ansi-bold">ignOrecase</span>rqT99cHXsbazNE     -------------
-dth3agTCwYH0ou<span class="ansi-red-intense-fg ansi-bold">ignOrecase</span>86d908            \   ^__^
-n <span class="ansi-red-intense-fg ansi-bold">ignOrecase</span>8JdVs9NCgrFTRXELXJ             \  (oo)\_______
-Il7nHbc<span class="ansi-red-intense-fg ansi-bold">IGNORECASE</span>EgUF5IeSoZfT1                (__)\       )\/\ 
-E0<span class="ansi-red-intense-fg ansi-bold">IGNORECASE</span>QrSNWGlfJITjVutE0q                    ||----w |
-0CSMFb4OUMoaeSjS<span class="ansi-red-intense-fg ansi-bold">IGNORECASE</span>BCxr                    ||     ||
-H3FDmXPjSt0<span class="ansi-red-intense-fg ansi-bold">IgnorEcase</span>CB7Lfrtoh    
-zjZwttL5RQ<span class="ansi-red-intense-fg ansi-bold">ignOrecase</span>ePhoKUN6lz    
-LvX4RShx95em<span class="ansi-red-intense-fg ansi-bold">IgnorEcase</span>QkJNFiqY        
+<pre>bp6vV3Fz6zWALIMHr<span class="ansi-red-intense-fg ansi-bold">ignorecase</span>XsK    
+kJodjykBTRy5UsvkN<span class="ansi-red-intense-fg ansi-bold">ignorecase</span>lCJ            
+IQNr<span class="ansi-red-intense-fg ansi-bold">ignorecase</span>t3sSkwItlBqtJ97X    Remember that, to continue with the exercise, 
+<span class="ansi-red-intense-fg ansi-bold">ignorecase</span>TiN1A5LE8JprmmIFPtlY    you need to do a case-insensitive search for the word
+Ryi5helpEZziizUlktMJnAEA4IMsnn    &#34;<span class="ansi-red-intense-fg ansi-bold">ignorecase</span>&#34;, then count the number of lines.
+uRpe<span class="ansi-red-intense-fg ansi-bold">IGNORECASE</span>wt6VeQSyNEyd7cgV    
+G19VrSq1<span class="ansi-red-intense-fg ansi-bold">ignOrecase</span>Fl4RySa6iLJi     _____________
+h1WDPz4C7<span class="ansi-red-intense-fg ansi-bold">IgnorEcase</span>vfD0uiSnmxw    / Good Job!   \ 
+BxTunYQn1giOZdBUuhG<span class="ansi-red-intense-fg ansi-bold">IgnorEcase</span>4    | You did a   |
+<span class="ansi-red-intense-fg ansi-bold">ignOrecase</span>SWU8Gagvfy vt9SdNj8j    | case-insens |
+<span class="ansi-red-intense-fg ansi-bold">ignOrecase</span>yrPZmYffV1 M9djtfz9k    | itive       |
+3O54VIX8fd3rW<span class="ansi-red-intense-fg ansi-bold">IGNORECASE</span>uqpGiSR    \ search      /
+ACo8r0nvOfg5iee 7<span class="ansi-red-intense-fg ansi-bold">IGNORECASE</span> cF     -------------
+GajDz7WpdCXaxYC<span class="ansi-red-intense-fg ansi-bold">IgnorEcase</span>nHiHl            \   ^__^
+gBHJnHXdOKPCuNtl<span class="ansi-red-intense-fg ansi-bold">ignorecase</span>0Lhg             \  (oo)\_______
+PHqOtUJp<span class="ansi-red-intense-fg ansi-bold">IgnorEcase</span>biNPUz9HQCdp                (__)\       )\/\ 
+t7w<span class="ansi-red-intense-fg ansi-bold">IgnorEcase</span>pUUcgUe1fQSD KGDC                    ||----w |
+HtdRU3U0sl<span class="ansi-red-intense-fg ansi-bold">ignOrecase</span>qNi0E0von5                    ||     ||
+JpSx4YnQPBZYH<span class="ansi-red-intense-fg ansi-bold">ignorecase</span>yAhXUnf    
+rSncrRqC3QweV<span class="ansi-red-intense-fg ansi-bold">ignorecase</span>CJLnZUZ    
+94<span class="ansi-red-intense-fg ansi-bold">ignOrecase</span>aWpKKR1ND0i5h7bejh        
 </pre>
 </div>
 </div>
@@ -13564,12 +13614,12 @@ LvX4RShx95em<span class="ansi-red-intense-fg ansi-bold">IgnorEcase</span>QkJNFiq
 </div></div><div class="fragment">
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[8]:</div>
+<div class="prompt input_prompt">In&nbsp;[45]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># To solve the exercise, we also have to count the number of output lines.</span>
+<div class=" highlight hl-bash"><pre><span></span><span class="c1"># To solve the exercise, we also have to count the number of output lines.</span>
 <span class="c1"># This can be done with the &quot;-c&quot; option:</span>
-<span class="n">grep</span> <span class="o">-</span><span class="n">i</span> <span class="o">-</span><span class="n">c</span> <span class="n">ignorecase</span> <span class="mi">2</span><span class="n">_searching_patterns</span><span class="o">.</span><span class="n">txt</span>
+grep -i -c ignorecase 2_searching_patterns.txt
 </pre></div>
 
     </div>
@@ -13597,11 +13647,11 @@ LvX4RShx95em<span class="ansi-red-intense-fg ansi-bold">IgnorEcase</span>QkJNFiq
 </div></div><div class="fragment">
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[9]:</div>
+<div class="prompt input_prompt">In&nbsp;[46]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># solution: how to find the instructions for the next exercise</span>
-<span class="n">grep</span> <span class="mi">21</span> <span class="mi">2</span><span class="n">_searching_patterns</span><span class="o">.</span><span class="n">txt</span>
+<div class=" highlight hl-bash"><pre><span></span><span class="c1"># solution: how to find the instructions for the next exercise</span>
+grep <span class="m">21</span> 2_searching_patterns.txt
 </pre></div>
 
     </div>
@@ -13618,37 +13668,37 @@ LvX4RShx95em<span class="ansi-red-intense-fg ansi-bold">IgnorEcase</span>QkJNFiq
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>XvQkpnuGE76p6e9OIDJDWZocYQq<span class="ansi-red-intense-fg ansi-bold">21</span>z    
-ZzNpBzsof8oCSIXw013oC<span class="ansi-red-intense-fg ansi-bold">21</span>FgzjmoY    
-WBOYltyyUdP8<span class="ansi-red-intense-fg ansi-bold">21</span>rAGsMzaMqQhXWdlI     ____________________
-<span class="ansi-red-intense-fg ansi-bold">21</span>SEAWynnbhHdSgg7t4jb3bTehrDD8    / Congrats! Yes      \ 
-X8ETxBuWCJwnU5SF4eufjXGD0Ol<span class="ansi-red-intense-fg ansi-bold">21</span>3    | the answer to the  |
-snaAFxRROH<span class="ansi-red-intense-fg ansi-bold">21</span>yfMk4J9py5rHbOdkrp    | case-insensitive   |
-487lJUgZMGuA8xGYFPYMMKPVqp9<span class="ansi-red-intense-fg ansi-bold">21</span>8    | and count question |
-CJIWv<span class="ansi-red-intense-fg ansi-bold">21</span>yJkeMIAw6WgteBotAN1v8Sy    | is <span class="ansi-red-intense-fg ansi-bold">21</span>.             /
-LvPMXrbgI4QG95gZaFCLg<span class="ansi-red-intense-fg ansi-bold">21</span>JPMs9TK     --------------------
-NoLOe<span class="ansi-red-intense-fg ansi-bold">21</span>xUJXFNVcNnwA6MI3HyBrwng            \   ^__^
-AxsMe0L0RI5Pt<span class="ansi-red-intense-fg ansi-bold">21</span>QGXsExNM3ZUQfwn             \  (oo)\_______
-nsg RCxVtQZMzn keLaTzhm kVn<span class="ansi-red-intense-fg ansi-bold">21</span>X                (__)\       )\/\  
-qvTkY57v8rSIa5W<span class="ansi-red-intense-fg ansi-bold">21</span>a 0NqNZ jWgCv                    ||----w |
-LjkILyX3X<span class="ansi-red-intense-fg ansi-bold">21</span>A98SQrMbRBsKig8AGg9                    ||     ||
-sZWBKGyJ8IurleKipjixQ<span class="ansi-red-intense-fg ansi-bold">21</span>j5euj15    
-UlNkBb 9JIJ7gPFE8a7qcfwSx<span class="ansi-red-intense-fg ansi-bold">21</span>jlP    
-IwTSAEw8MLcsEofkQDRsi<span class="ansi-red-intense-fg ansi-bold">21</span>YIaA rM    =============
-Q<span class="ansi-red-intense-fg ansi-bold">21</span>AFnH5GzPHHCirwoIWJkZdfknt40    Next exercise
-VN6olNG8cw9rw5rcxJeaHckVuztB<span class="ansi-red-intense-fg ansi-bold">21</span>    =============
-nj8lvbvU8oDlZbnGUMsC7aw6zGw<span class="ansi-red-intense-fg ansi-bold">21</span>M    
-BdQhorRoOCggPSLI4bfMZ<span class="ansi-red-intense-fg ansi-bold">21</span>1DwDf4p    Searching in multiple files
-IKdlDTv6cpaLYISjZO<span class="ansi-red-intense-fg ansi-bold">21</span>m6oqckkl6i    
-N<span class="ansi-red-intense-fg ansi-bold">21</span>wFpJGlRg969qfL kbveWG0slXqe    Grep can search the same pattern
-7NgLAwqDPsMQQxM5TNFXpU30xJ<span class="ansi-red-intense-fg ansi-bold">21</span>O     in more than one file at the same time.
- JB9<span class="ansi-red-intense-fg ansi-bold">21</span>UtTm9Hdx9OWgIyyDf9NVFA0Y    
-aEhY<span class="ansi-red-intense-fg ansi-bold">21</span>0ci75TGjYdmXtylKyDEy7Kfl    The folder data/multiplefiles/ contains hundreds of different files.
-9sW5VuKAnkBUS5tE7PL50Grq<span class="ansi-red-intense-fg ansi-bold">21</span>wL4B    
-7oHcn60lBwS QPfile3<span class="ansi-red-intense-fg ansi-bold">21</span>mtDvIWy5u    Next Exercise
-qE<span class="ansi-red-intense-fg ansi-bold">21</span>lJ1GcXfMkE9Ze8NIYsmV7BWBfL    Can you identify the file containing the word &#34;regex&#34;?
-mwvlebf<span class="ansi-red-intense-fg ansi-bold">21</span>6dNweaaVwOv6tpp5GXl4t    
-g35<span class="ansi-red-intense-fg ansi-bold">21</span>Rg3t3wHZxke5exFZaiByZJvvi        
+<pre>CtDB RLr3x3do9<span class="ansi-red-intense-fg ansi-bold">21</span>Squ8iOvohs7vk4    
+4kUkCECIiM<span class="ansi-red-intense-fg ansi-bold">21</span>OY8EcY4TIsPkKLBOmj    
+Qjk<span class="ansi-red-intense-fg ansi-bold">21</span>MQpAeF4VyA8cAlEXfl8wWJzDY     ____________________
+B363B5byCj1<span class="ansi-red-intense-fg ansi-bold">21</span>rzXGoQIiRahUq9zqz    / Congrats! Yes      \ 
+La8Ku9mjSIpSfVrAgi <span class="ansi-red-intense-fg ansi-bold">21</span>Db5puhK65    | the answer to the  |
+Gc9kKOst<span class="ansi-red-intense-fg ansi-bold">21</span>ABdPUU5Y6yxvMFbmBEr5    | case-insensitive   |
+X9ihXj3yFmi<span class="ansi-red-intense-fg ansi-bold">21</span>YQ1tRg6pnqhTLWclL    | and count question |
+Zax<span class="ansi-red-intense-fg ansi-bold">21</span>3Y1OJbXitxdyPlXFu0hnNoi6i    | is <span class="ansi-red-intense-fg ansi-bold">21</span>.             /
+tAWUDnEbN1stlEw<span class="ansi-red-intense-fg ansi-bold">21</span>Jmzgr1mwcr9Ok     --------------------
+efc<span class="ansi-red-intense-fg ansi-bold">21</span>9TYASVKMmFWPOpMXaYCYnN5Nu            \   ^__^
+kkzt8YaRyVAtaXiQC7Q9LlFLzFj<span class="ansi-red-intense-fg ansi-bold">21</span>a             \  (oo)\_______
+eELR<span class="ansi-red-intense-fg ansi-bold">21</span>QbUm1wLGgQQGN8F A 6HJTq3                (__)\       )\/\  
+BEN sRlcDIOQPyADwCy3<span class="ansi-red-intense-fg ansi-bold">21</span>7naBh8TU                    ||----w |
+saR SuoPzf5eV<span class="ansi-red-intense-fg ansi-bold">21</span>w5v6sccKkqTJy9U                    ||     ||
+iYVLEcMjQF<span class="ansi-red-intense-fg ansi-bold">21</span>MF1n lvFrFqXfQu1kG    
+4yQdcMZY97LVuLc9Y4<span class="ansi-red-intense-fg ansi-bold">21</span>7zYEzC4ceK    
+NZdPx<span class="ansi-red-intense-fg ansi-bold">21</span>6fVVJ6tc3WMzeIR6f4cHDad    =============
+Q07zhV<span class="ansi-red-intense-fg ansi-bold">21</span>z1OTJazhH03k4aCpGydFEn    Next topic
+<span class="ansi-red-intense-fg ansi-bold">21</span>PaFNZKqvVZq6bwr6FGI4TA9cy5Zr    =============
+xGKrwF3tpNVzq8ipAPxPD<span class="ansi-red-intense-fg ansi-bold">21</span>pkSJ3XU    
+3u1FTmdrtZUFB5TAcm9lxbKgdBM<span class="ansi-red-intense-fg ansi-bold">21</span>m    We are going to make a break from
+JsBQ<span class="ansi-red-intense-fg ansi-bold">21</span>j6EGfYMsvRwTfmD Kv8wDJuI    the exercises to talk about the Unix
+8ay3N5uRdYncy0B8RHV4XcP<span class="ansi-red-intense-fg ansi-bold">21</span>sNvak    piping system. 
+s9UGvUvcQQxss1ETq<span class="ansi-red-intense-fg ansi-bold">21</span>leshRaftsUQ    This will also help you reading this
+<span class="ansi-red-intense-fg ansi-bold">21</span>7SnZXPGgtIIwQPeyGQ6nYZgZq4wr    output more easily, by piping it into
+xtSyHNFsQZijEC<span class="ansi-red-intense-fg ansi-bold">21</span>ckUdzDjaJDboxQ    another Unix command such as less or
+<span class="ansi-red-intense-fg ansi-bold">21</span>dPvDB6tpt7c5eKNz3voR7HbqvVEG    head. 
+8CRaMViZ9m5hQXko<span class="ansi-red-intense-fg ansi-bold">21</span>pwgHT6wurX39    
+QR<span class="ansi-red-intense-fg ansi-bold">21</span>gbuUOy67xAVKYyUOeXasfj3L9O    For example, try 
+iLgB tGHDkYZ<span class="ansi-red-intense-fg ansi-bold">21</span> iLhgjbFj9GE thp    $: grep <span class="ansi-red-intense-fg ansi-bold">21</span> 2_searching_patterns.txt    
+sabcPdsaGZ<span class="ansi-red-intense-fg ansi-bold">21</span>ccvLBDgjbFj9GE thp    to read this output easily.
 </pre>
 </div>
 </div>
@@ -13660,20 +13710,50 @@ g35<span class="ansi-red-intense-fg ansi-bold">21</span>Rg3t3wHZxke5exFZaiByZJvv
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Searching-multiple-files">Searching multiple files<a class="anchor-link" href="#Searching-multiple-files">&#182;</a></h2><p>Grep is useful to search over multiple files in a single command.</p>
-<p>The folder data/multiplefiles/ contains 50 randomly generated files. You can see their contents with head data/multiplefiles/* or with less.</p>
-<p>One of these files contains the word "regex" in it. Are you able to find it?</p>
+<h2 id="The-Unix-Philosophy-and-Approach-to-programming">The Unix Philosophy and Approach to programming<a class="anchor-link" href="#The-Unix-Philosophy-and-Approach-to-programming">&#182;</a></h2><p>Earlier this morning we mentioned the Unix Philosophy:</p>
+<ul>
+<li>Make each program do one thing well.</li>
+<li>Expect the output of every program to become the input to another, as yet unknown, program.</li>
+<li>Work on file streams, reading one line at a time.</li>
+</ul>
 
 </div>
 </div>
-</div></section><section>
+</div><div class="fragment">
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>All the commands we saw today follow the Unix philosophy:</p>
+<ul>
+<li><strong>ls</strong> is for listing files</li>
+<li><strong>grep</strong> is for searching patterns in files</li>
+<li><strong>less</strong>, <strong>head</strong>, and others are for seeing the contents of a file</li>
+</ul>
+<p>So, they all do one single thing, and they do it well.</p>
+
+</div>
+</div>
+</div></div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Combining-multiple-Unix-commands-with-the-pipe-symbol-(|)">Combining multiple Unix commands with the pipe symbol (|)<a class="anchor-link" href="#Combining-multiple-Unix-commands-with-the-pipe-symbol-(|)">&#182;</a></h2><p>Unix commands can be combined together using the pipe symbol, |.</p>
+<p>For example, we can combine the output of a grep search with head or less:</p>
+
+<pre><code>$: grep (first pattern) myfile.txt | head
+$: grep (first pattern) myfile.txt | less</code></pre>
+
+</div>
+</div>
+</div><div class="fragment">
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[11]:</div>
+<div class="prompt input_prompt">In&nbsp;[47]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># solution: you can use the &quot;*&quot; character to specify multiple files:</span>
-<span class="n">grep</span> <span class="s1">&#39;regex&#39;</span> <span class="n">multiplefiles</span><span class="o">/*</span>
+<div class=" highlight hl-bash"><pre><span></span><span class="c1"># </span>
+grep <span class="m">21</span> 2_searching_patterns.txt <span class="p">|</span>less
+<span class="c1">#grep 21 2_searching_patterns.txt | less</span>
 </pre></div>
 
     </div>
@@ -13690,15 +13770,16 @@ g35<span class="ansi-red-intense-fg ansi-bold">21</span>Rg3t3wHZxke5exFZaiByZJvv
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre><span class="ansi-magenta-fg">multiplefiles/file32.txt</span><span class="ansi-cyan-fg">:</span>5gsumFTKbKEJv9dD8W94FhoEQU8qf8RMUc<span class="ansi-red-intense-fg ansi-bold">regex</span>R    
-<span class="ansi-magenta-fg">multiplefiles/file32.txt</span><span class="ansi-cyan-fg">:</span>YgDiqkA C1o<span class="ansi-red-intense-fg ansi-bold">regex</span>9giqI66c3sOwfLirOsgPpSuq    
-<span class="ansi-magenta-fg">multiplefiles/file32.txt</span><span class="ansi-cyan-fg">:</span>IsXSnp 8U8pKR0LsVuK<span class="ansi-red-intense-fg ansi-bold">regex</span>O5GFegOtV4GW4fNQ    Good! You&#39;ve found the 
-<span class="ansi-magenta-fg">multiplefiles/file32.txt</span><span class="ansi-cyan-fg">:</span>l 4px8KhPRmfEJgi5uTuVO1XahG3H1sY<span class="ansi-red-intense-fg ansi-bold">regex</span>4wt    file containing the word &#34;<span class="ansi-red-intense-fg ansi-bold">regex</span>&#34;
-<span class="ansi-magenta-fg">multiplefiles/file32.txt</span><span class="ansi-cyan-fg">:</span>yz8P5 HC6N5D XRHPncZjTAeM<span class="ansi-red-intense-fg ansi-bold">regex</span>T9bQUoZdsh    
-<span class="ansi-magenta-fg">multiplefiles/file32.txt</span><span class="ansi-cyan-fg">:</span>eWUd18s0MVx5YYrEK KCKeF5hvO<span class="ansi-red-intense-fg ansi-bold">regex</span>IiZbIGUX    To continue, 
-<span class="ansi-magenta-fg">multiplefiles/file32.txt</span><span class="ansi-cyan-fg">:</span>MLXiKZJ8KyHMou9lYsz4ZjFYJSfB 14t<span class="ansi-red-intense-fg ansi-bold">regex</span>tpJ    grep file32.txt exercises/2_searching_patterns.txt
-<span class="ansi-magenta-fg">multiplefiles/file32.txt</span><span class="ansi-cyan-fg">:</span>veFQU<span class="ansi-red-intense-fg ansi-bold">regex</span>fnQxwQw6POJRNvvAeYwToX6ptvN39m    
-<span class="ansi-magenta-fg">multiplefiles/file32.txt</span><span class="ansi-cyan-fg">:</span>cHoNv<span class="ansi-red-intense-fg ansi-bold">regex</span>iGjHkmptPVTjOzvWVGbrGoHoywV4Vy    
+<pre>CtDB RLr3x3do921Squ8iOvohs7vk4    
+4kUkCECIiM21OY8EcY4TIsPkKLBOmj    
+Qjk21MQpAeF4VyA8cAlEXfl8wWJzDY     ____________________
+B363B5byCj121rzXGoQIiRahUq9zqz    / Congrats! Yes      \ 
+La8Ku9mjSIpSfVrAgi 21Db5puhK65    | the answer to the  |
+Gc9kKOst21ABdPUU5Y6yxvMFbmBEr5    | case-insensitive   |
+X9ihXj3yFmi21YQ1tRg6pnqhTLWclL    | and count question |
+Zax213Y1OJbXitxdyPlXFu0hnNoi6i    | is 21.             /
+tAWUDnEbN1stlEw21Jmzgr1mwcr9Ok     --------------------
+efc219TYASVKMmFWPOpMXaYCYnN5Nu            \   ^__^
 </pre>
 </div>
 </div>
@@ -13706,11 +13787,11 @@ g35<span class="ansi-red-intense-fg ansi-bold">21</span>Rg3t3wHZxke5exFZaiByZJvv
 </div>
 </div>
 
-</div></section></section><section><section>
+</div></div></section></section><section><section>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Searching-multiple-patterns-and-the-Unix-piping-system">Searching multiple patterns and the Unix piping system<a class="anchor-link" href="#Searching-multiple-patterns-and-the-Unix-piping-system">&#182;</a></h2><p>How can we search that contain two or more patterns?</p>
+<h3 id="Exercise-on-Unix-pipe:-Searching-multiple-patterns-with-grep">Exercise on Unix pipe: Searching multiple patterns with grep<a class="anchor-link" href="#Exercise-on-Unix-pipe:-Searching-multiple-patterns-with-grep">&#182;</a></h3><p>How can we search that contain two or more patterns?</p>
 <p>One solution is to use the Unix piping system, executing one grep command, and then another grep on the output.</p>
 <p>This can be done using the pipe "|" symbol, like the following:</p>
 
@@ -13723,17 +13804,19 @@ g35<span class="ansi-red-intense-fg ansi-bold">21</span>Rg3t3wHZxke5exFZaiByZJvv
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>The file data/genes/mgat_genes.gb is a genbank file. Notice how this format is well suited for grep searches:</p>
+<h3 id="the-GENBANK-format">the GENBANK format<a class="anchor-link" href="#the-GENBANK-format">&#182;</a></h3><p>The following exercises are based on the GENBANK format, used to store gene annotations.</p>
+<p>There is an example GENBANK file at data/genes/mgat_genes.gb.</p>
+<p>The left-most part of a GENBANK file contain keywords, such as LOCUS, DEFINITION, etc. This is ideal for grep searching.</p>
 
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[12]:</div>
+<div class="prompt input_prompt">In&nbsp;[48]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">head</span> <span class="n">genes</span><span class="o">/</span><span class="n">mgat_genes</span><span class="o">.</span><span class="n">gb</span>
+<div class=" highlight hl-bash"><pre><span></span>head genes/mgat_genes.gb
 </pre></div>
 
     </div>
@@ -13771,8 +13854,8 @@ SOURCE      Homo sapiens (human)
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Let's say we want to search all the lines where "ORGANISM" is "Homo sapiens".</p>
-<p>We can do it with two grep commands:</p>
+<p>Let's search all the lines where "ORGANISM" is "Homo sapiens".</p>
+<p>We need two grep commands:</p>
 
 <pre><code>grep ORGANISM genes/mgat_genes.gb | grep 'Homo sapiens'</code></pre>
 <p>Notice that searching for "Homo sapiens" alone would not be enough, as there are other lines where the word "Homo sapiens" is present.</p>
@@ -13782,10 +13865,10 @@ SOURCE      Homo sapiens (human)
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[13]:</div>
+<div class="prompt input_prompt">In&nbsp;[49]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">grep</span> <span class="n">ORGANISM</span> <span class="n">genes</span><span class="o">/</span><span class="n">mgat_genes</span><span class="o">.</span><span class="n">gb</span> <span class="o">|</span> <span class="n">grep</span> <span class="s1">&#39;Homo sapiens&#39;</span>
+<div class=" highlight hl-bash"><pre><span></span>grep ORGANISM genes/mgat_genes.gb <span class="p">|</span> grep <span class="s1">&#39;Homo sapiens&#39;</span>
 </pre></div>
 
     </div>
@@ -13821,18 +13904,19 @@ SOURCE      Homo sapiens (human)
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>The file contains sequences from two other organisms apart from Homo sapiens. Can you guess which one to search for the next exercise?</p>
+<p>The file contains sequences from two other organisms apart from Homo sapiens, Mus musculus and Bos taurus.</p>
+<p>One of these is the keyword to access the next exercise - can you guess which one it is?</p>
 
 </div>
 </div>
 </div><div class="fragment">
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[19]:</div>
+<div class="prompt input_prompt">In&nbsp;[104]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Solution: grep for &quot;bos taurus&quot;:</span>
-<span class="n">grep</span> <span class="n">ORGANISM</span> <span class="n">genes</span><span class="o">/</span><span class="n">mgat_genes</span><span class="o">.</span><span class="n">gb</span> <span class="o">|</span> <span class="n">grep</span> <span class="n">taurus</span>
+<div class=" highlight hl-bash"><pre><span></span><span class="c1"># Solution: grep for &quot;bos taurus&quot;:</span>
+grep ORGANISM genes/mgat_genes.gb <span class="p">|</span> grep taurus
 </pre></div>
 
     </div>
@@ -13869,9 +13953,9 @@ SOURCE      Homo sapiens (human)
   ORGANISM  Bos <span class="ansi-red-intense-fg ansi-bold">taurus</span>				Next Exercise
   ORGANISM  Bos <span class="ansi-red-intense-fg ansi-bold">taurus</span>				===============
   ORGANISM  Bos <span class="ansi-red-intense-fg ansi-bold">taurus</span>
-  ORGANISM  Bos <span class="ansi-red-intense-fg ansi-bold">taurus</span>				To continue, grep
-  ORGANISM  Bos <span class="ansi-red-intense-fg ansi-bold">taurus</span>				&#34;regex&#34; in
-  ORGANISM  Bos <span class="ansi-red-intense-fg ansi-bold">taurus</span>				data/exercise1_grep.txt
+  ORGANISM  Bos <span class="ansi-red-intense-fg ansi-bold">taurus</span>				Let&#39;s talk about 
+  ORGANISM  Bos <span class="ansi-red-intense-fg ansi-bold">taurus</span>				the Unix Piping system (|, &gt; and &gt;&gt;), 
+  ORGANISM  Bos <span class="ansi-red-intense-fg ansi-bold">taurus</span>				before searching multiple files
   ORGANISM  Bos <span class="ansi-red-intense-fg ansi-bold">taurus</span>
 </pre>
 </div>
@@ -13884,47 +13968,241 @@ SOURCE      Homo sapiens (human)
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="The-Unix-Philosophy-and-Approach-to-programming">The Unix Philosophy and Approach to programming<a class="anchor-link" href="#The-Unix-Philosophy-and-Approach-to-programming">&#182;</a></h1><p>Earlier this morning we mentioned the Unix Philosophy:</p>
-<ul>
-<li>Make each program do one thing well.</li>
-<li>Expect the output of every program to become the input to another, as yet unknown, program.</li>
-<li>Work on file streams, reading one line at a time.</li>
-</ul>
+<h2 id="Redirecting-the-output-to-a-file,-using-the-redirection-symbol-(&gt;)">Redirecting the output to a file, using the redirection symbol (&gt;)<a class="anchor-link" href="#Redirecting-the-output-to-a-file,-using-the-redirection-symbol-(&gt;)">&#182;</a></h2><p>Another component of the Unix piping system is the redirection symbol, "&gt;"</p>
+<p>This is used to save the output of a command to a file. For example:</p>
 
 </div>
 </div>
 </div><div class="fragment">
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[51]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-bash"><pre><span></span><span class="c1"># Note that no output is shown to the terminal. </span>
+grep ORGANISM genes/mgat_genes.gb <span class="p">|</span> grep taurus &gt; bos_taurus.txt
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div></div><div class="fragment">
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>All the commands we saw today follow the Unix philosophy:</p>
-<ul>
-<li><strong>ls</strong> is for listing files</li>
-<li><strong>grep</strong> is for searching patterns in files</li>
-<li><strong>less</strong>, <strong>head</strong>, and others are for seeing the contents of a file</li>
-</ul>
+<p>This creates a new file called <strong>bos_taurus.txt</strong>. Type "ls" again to see it:</p>
 
 </div>
 </div>
+</div></div><div class="fragment">
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[52]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-bash"><pre><span></span><span class="c1"># The -t option in ls sorts the output by modification date</span>
+ls -l -t
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>total 9879684
+-rw-r--r--  1 gmd78366         865 Feb 23 15:56 bos_taurus.txt
+-rw-r--r--  1 gmd78366          74 Feb 23 15:54 redirect_me_here.txt
+drwxr-xr-x  8 gmd78366         256 Feb 22 23:04 ngs
+-rw-r--r--  1 gmd78366 10106342987 Feb 21 19:39 &#39;Unconfirmed 563806.crdownload&#39;
+drwxr-xr-x  8 gmd78366         256 Feb 21 16:15 genes
+-rw-r--r--  1 gmd78366        7555 Feb 15 11:51 exercise_sequences.fasta
+-rw-r--r--  1 gmd78366          35 Feb 15 11:51 chr20
+-rw-r--r--  1 gmd78366          36 Feb 15 11:51 chr8
+-rw-r--r--  1 gmd78366       37758 Feb 15 11:51 2_searching_patterns.txt
+-rw-r--r--  1 gmd78366        2642 Feb 15 11:51 1_browsing_textfiles.txt
+drwxr-xr-x 52 gmd78366        1664 Feb 15 11:51 multiplefiles
+drwxr-xr-x 10 gmd78366         320 Feb 15 11:51 old_files
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div></div><div class="fragment">
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>we can even use less, head or cat to see its contents:</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[53]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-bash"><pre><span></span><span class="c1"># cat (concatenate) prints the whole contents to the screen:</span>
+cat bos_taurus.txt
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>  ORGANISM  Bos taurus
+  ORGANISM  Bos taurus
+  ORGANISM  Bos taurus
+  ORGANISM  Bos taurus			   _______________
+  ORGANISM  Bos taurus		          &lt; Good Guess! &gt;
+  ORGANISM  Bos taurus			   ---------------
+  ORGANISM  Bos taurus					\   ^__^
+  ORGANISM  Bos taurus					 \  (oo)\_______
+  ORGANISM  Bos taurus			  		    (__)\       )\/\
+  ORGANISM  Bos taurus						||----w |
+  ORGANISM  Bos taurus						||     ||
+  ORGANISM  Bos taurus
+  ORGANISM  Bos taurus
+  ORGANISM  Bos taurus
+  ORGANISM  Bos taurus
+  ORGANISM  Bos taurus
+  ORGANISM  Bos taurus				===============
+  ORGANISM  Bos taurus				Next Exercise
+  ORGANISM  Bos taurus				===============
+  ORGANISM  Bos taurus
+  ORGANISM  Bos taurus				Let&#39;s talk about 
+  ORGANISM  Bos taurus				the Unix Piping system (|, &gt; and &gt;&gt;), 
+  ORGANISM  Bos taurus				before searching multiple files
+  ORGANISM  Bos taurus
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
 </div></div></section><section>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Applying-the-Unix-Philosophy-to-your-programming">Applying the Unix Philosophy to your programming<a class="anchor-link" href="#Applying-the-Unix-Philosophy-to-your-programming">&#182;</a></h1><p>In the following days, when you will learn the basics of Python and R programming, you will be faced with the dilemma of how to organize your scripts.</p>
-<p>You can use the Unix Philosophy as a guideline to have more versatile files and scripts.</p>
+<h3 id="Note-on-file-extensions">Note on file extensions<a class="anchor-link" href="#Note-on-file-extensions">&#182;</a></h3><p>Unix is agnostic to file extensions (e.g. .txt, .png, .exe).</p>
+<p>In the last exercises we added the .txt extension to the file, however we only did it for convention.</p>
+<p>You can run <strong>grep</strong> and any unix command on any file type, regardless of the extension; if the file is in binary format, the output will be made of random characters.</p>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Warning-on-File-Redirection-and-overwriting-files">Warning on File Redirection and overwriting files<a class="anchor-link" href="#Warning-on-File-Redirection-and-overwriting-files">&#182;</a></h3><p>Important - the redirection symbol will overwrite any existing file content, without asking confirmation.</p>
+<p>There is no back-up and no Trash folder - once a file is overwritten, the previous contents are gone.</p>
+<p>The next command uses "echo" to print a simple message, which is then redirected to the bos_taurus.txt files created previously.</p>
 
 </div>
 </div>
 </div><div class="fragment">
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[54]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-bash"><pre><span></span><span class="c1"># The echo command prints a message to the screen - or wherever you redirect it</span>
+<span class="nb">echo</span> <span class="s2">&quot;Simple Text message&quot;</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Simple Text message
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div></div><div class="fragment">
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[55]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-bash"><pre><span></span><span class="nb">echo</span> <span class="s2">&quot;All previous contents have been deleted&quot;</span> &gt; bos_taurus.txt
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div></div><div class="fragment">
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[56]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-bash"><pre><span></span>head bos_taurus.txt
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>All previous contents have been deleted
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div></div><div class="fragment">
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Example-of-Unix-Approach">Example of Unix Approach<a class="anchor-link" href="#Example-of-Unix-Approach">&#182;</a></h2><p>Let's immagine we want to plot the CG content of a genome:</p>
-<ul>
-<li><strong>Approach 1 (non-Unix)</strong>: write a single script that downloads the genome, calculates the GC content, and draws a plot</li>
-<li><strong>Approach 2 (Unix)</strong>: write three separate scripts or functions, then pipe them together using the Unix Pipe or with a wrapper script.</li>
-</ul>
-<p>The Unix Approach requires a bit of extra work, but it is more versatile in case you want to reuse the same scripts.</p>
+<p>There is now way to retrieve the previous contents of the file, except if you used a version control system (e.g. git) to store them.</p>
 
 </div>
 </div>
@@ -13932,7 +14210,163 @@ SOURCE      Homo sapiens (human)
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Regular-Expressions">Regular Expressions<a class="anchor-link" href="#Regular-Expressions">&#182;</a></h1><p>Regular expressions allow to search for more complex patterns.</p>
+<h3 id="Appending-contents-to-a-file,-using-the-double-redirection-symbol-(&gt;&gt;)">Appending contents to a file, using the double redirection symbol (&gt;&gt;)<a class="anchor-link" href="#Appending-contents-to-a-file,-using-the-double-redirection-symbol-(&gt;&gt;)">&#182;</a></h3><p>We can append content to a file, without deleting the previous contents. This is done with the double redirection symbol, <strong>&gt;&gt;</strong>.</p>
+<p>This will store the new output at the end of the file. Let's try it:</p>
+
+</div>
+</div>
+</div><div class="fragment">
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[57]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-bash"><pre><span></span><span class="nb">echo</span> <span class="s2">&quot;My first message&quot;</span> &gt; redirect_me_here.txt
+ls
+cat redirect_me_here.txt <span class="c1"># cat is similar to head, but prints the whole contents</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>1_browsing_textfiles.txt	 chr20			   multiplefiles
+2_searching_patterns.txt	 chr8			   ngs
+&#39;Unconfirmed 563806.crdownload&#39;  exercise_sequences.fasta  old_files
+bos_taurus.txt			 genes			   redirect_me_here.txt
+My first message
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div></div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Let's keep adding messages:</p>
+
+</div>
+</div>
+</div><div class="fragment">
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[58]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-bash"><pre><span></span><span class="nb">echo</span> <span class="s2">&quot;My second message&quot;</span> &gt;&gt; redirect_me_here.txt
+<span class="nb">echo</span> <span class="s2">&quot;My third message&quot;</span> &gt;&gt; redirect_me_here.txt
+<span class="nb">echo</span> <span class="s2">&quot;My fourteenth message&quot;</span> &gt;&gt; redirect_me_here.txt
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div></div><div class="fragment">
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[59]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-bash"><pre><span></span>cat redirect_me_here.txt
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>My first message
+My second message
+My third message
+My fourteenth message
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div></div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Searching-multiple-files">Searching multiple files<a class="anchor-link" href="#Searching-multiple-files">&#182;</a></h2><p>Let's go back to our grep exercises.</p>
+<p>Grep can also search for patterns across multiple files, using in a single command.</p>
+<p>The folder data/multiplefiles/ contains 50 randomly generated files. You can see their contents with head data/multiplefiles/* or with less.</p>
+<p>One of these files contains the word "regex" in it. Are you able to find it?</p>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[60]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-bash"><pre><span></span><span class="c1"># solution: you can use the &quot;*&quot; character to specify multiple files:</span>
+grep <span class="s1">&#39;regex&#39;</span> multiplefiles/*
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>multiplefiles/file32.txt:5gsumFTKbKEJv9dD8W94FhoEQU8qf8RMUc<span class="ansi-red-intense-fg ansi-bold">regex</span>R    
+multiplefiles/file32.txt:YgDiqkA C1o<span class="ansi-red-intense-fg ansi-bold">regex</span>9giqI66c3sOwfLirOsgPpSuq    
+multiplefiles/file32.txt:IsXSnp 8U8pKR0LsVuK<span class="ansi-red-intense-fg ansi-bold">regex</span>O5GFegOtV4GW4fNQ    Good! You&#39;ve found the 
+multiplefiles/file32.txt:l 4px8KhPRmfEJgi5uTuVO1XahG3H1sY<span class="ansi-red-intense-fg ansi-bold">regex</span>4wt    file containing the word &#34;<span class="ansi-red-intense-fg ansi-bold">regex</span>&#34;
+multiplefiles/file32.txt:yz8P5 HC6N5D XRHPncZjTAeM<span class="ansi-red-intense-fg ansi-bold">regex</span>T9bQUoZdsh    
+multiplefiles/file32.txt:lKj<span class="ansi-red-intense-fg ansi-bold">regex</span>MHQbp zJEV xF4EvzMhyCrdYJlUHd4ol    The next lesson will focus on using 
+multiplefiles/file32.txt:zd6C 9<span class="ansi-red-intense-fg ansi-bold">regex</span> sviPg977VRvG  cSC3TPv6E0PDl8    Unix piping system.
+multiplefiles/file32.txt:eWUd18s0MVx5YYrEK KCKeF5hvO<span class="ansi-red-intense-fg ansi-bold">regex</span>IiZbIGUX    To continue, 
+multiplefiles/file32.txt:MLXiKZJ8KyHMou9lYsz4ZjFYJSfB 14t<span class="ansi-red-intense-fg ansi-bold">regex</span>tpJ    grep file32 2_searching_patterns.txt
+multiplefiles/file32.txt:veFQU<span class="ansi-red-intense-fg ansi-bold">regex</span>fnQxwQw6POJRNvvAeYwToX6ptvN39m    
+multiplefiles/file32.txt:cHoNv<span class="ansi-red-intense-fg ansi-bold">regex</span>iGjHkmptPVTjOzvWVGbrGoHoywV4Vy    
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Regular-Expressions">Regular Expressions<a class="anchor-link" href="#Regular-Expressions">&#182;</a></h2><p>Regular expressions allow to search for more complex patterns.</p>
 <p>Here are some simple regular expression examples:</p>
 <table>
 <thead><tr>
@@ -13962,17 +14396,18 @@ SOURCE      Homo sapiens (human)
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Regular-Expression-exercise">Regular Expression exercise<a class="anchor-link" href="#Regular-Expression-exercise">&#182;</a></h2><p>Let's have a look at the file data/genes/sequences.fasta:</p>
+<h3 id="The-FASTA-format">The FASTA format<a class="anchor-link" href="#The-FASTA-format">&#182;</a></h3><p>Open the file data/genes/sequences.fasta</p>
+<p>This is a FASTA file, a format used for DNA/RNA and protein sequences.</p>
 
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[15]:</div>
+<div class="prompt input_prompt">In&nbsp;[61]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">head</span> <span class="n">genes</span><span class="o">/</span><span class="n">sequences</span><span class="o">.</span><span class="n">fasta</span> 
+<div class=" highlight hl-bash"><pre><span></span>less genes/sequences.fasta
 </pre></div>
 
     </div>
@@ -13990,7 +14425,7 @@ SOURCE      Homo sapiens (human)
 
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>&gt;seq000 sequence description
-CGNTTTNTAATTATATANNTAGCGTGATCC
+das$myvarCGNTTTNTAATTATATANNTAGCGTGATCC
 &gt;seq001 sequence description
 NNCGNANAGCTNGACCTAGTTGAAATTGTG
 &gt;seq002 sequence description
@@ -14006,21 +14441,22 @@ CGTNGCGNNCGNGAGCCATTANTAGNNCCT
 </div>
 </div>
 
-</div>
+</div></section><section>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Can you use grep to identify all the sequences containing three As, followed by any two characters, followed by three Ts?</p>
+<h3 id="Exercise---search-for-patterns-in-FASTA-files">Exercise - search for patterns in FASTA files<a class="anchor-link" href="#Exercise---search-for-patterns-in-FASTA-files">&#182;</a></h3><p>Use grep to identify all the sequences containing three As, followed by any two characters, followed by three Ts.</p>
+<p>e.g.: AAA<strong>AA</strong>TTT, AAA<strong>AG</strong>TTT, AAA<strong>AC</strong>TTT, etc..</p>
 
 </div>
 </div>
-</div></section><section>
+</div><div class="fragment">
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[16]:</div>
+<div class="prompt input_prompt">In&nbsp;[62]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">grep</span> <span class="s1">&#39;AAA..TTT&#39;</span> <span class="n">genes</span><span class="o">/</span><span class="n">sequences</span><span class="o">.</span><span class="n">fasta</span>
+<div class=" highlight hl-bash"><pre><span></span>grep <span class="s1">&#39;AAA..TTT&#39;</span> genes/sequences.fasta
 </pre></div>
 
     </div>
@@ -14056,21 +14492,21 @@ GGATG<span class="ansi-red-intense-fg ansi-bold">AAAaaTTT</span>NCCAGCCAANNCTTGN
 </div>
 </div>
 
-</div>
+</div></div><div class="fragment">
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Bonus: if we use the -B 1 grep option, we can retrieve the names of these sequences:</p>
+<p>Bonus: use the -B 1 grep option to retrieve the names of these sequences:</p>
 
 </div>
 </div>
-</div>
+</div></div><div class="fragment">
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[17]:</div>
+<div class="prompt input_prompt">In&nbsp;[63]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">grep</span> <span class="o">-</span><span class="n">B1</span> <span class="s1">&#39;AAA..TTT&#39;</span> <span class="n">genes</span><span class="o">/</span><span class="n">sequences</span><span class="o">.</span><span class="n">fasta</span> 
+<div class=" highlight hl-bash"><pre><span></span>grep -B1 <span class="s1">&#39;AAA..TTT&#39;</span> genes/sequences.fasta
 </pre></div>
 
     </div>
@@ -14089,34 +14525,37 @@ GGATG<span class="ansi-red-intense-fg ansi-bold">AAAaaTTT</span>NCCAGCCAANNCTTGN
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>&gt;seq009 sequence description   
 TCGACCTGCNNANGGCTNTGT<span class="ansi-red-intense-fg ansi-bold">AAAccTTT</span>G
-<span class="ansi-cyan-fg">--</span>
+--
 &gt;seq012 sequence description    ________________
 TNCGTCCGGCCAAA<span class="ansi-red-intense-fg ansi-bold">AAAgtTTT</span>NGNGCTTG
-<span class="ansi-cyan-fg">--</span>
+--
 &gt;seq024 sequence description   / Congrats! This \ 
 NAAGTTTAAG<span class="ansi-red-intense-fg ansi-bold">AAAaaTTT</span>CATGAGCNCGAG
+--
 &gt;seq025 sequence description   | was the last  |
 NCTGCGCNGCGAGCCACAACN<span class="ansi-red-intense-fg ansi-bold">AAAgtTTT</span>G
+--
 &gt;seq026 sequence description   \ grep exercise / 
 TAGNGTACTCCTTNTN<span class="ansi-red-intense-fg ansi-bold">AAAaaTTT</span>TTCTCG
-<span class="ansi-cyan-fg">--</span>
+--
 &gt;seq030 sequence description    ----------------
 ACTNGACGCTTCNCTN<span class="ansi-red-intense-fg ansi-bold">AAAccTTT</span>GCNTNT
-<span class="ansi-cyan-fg">--</span>
+--
 &gt;seq032 sequence description       \  ^__^
 GGGN<span class="ansi-red-intense-fg ansi-bold">AAAaaTTT</span>CGGCTGNNTGCNCNNTNN
+--
 &gt;seq033 sequence description        \ (oo)\_______
 TNGAACCCNGTNCGGTC<span class="ansi-red-intense-fg ansi-bold">AAAccTTT</span>TCNTA
-<span class="ansi-cyan-fg">--</span>
+--
 &gt;seq038 sequence description          (__)\    )\/\ 
 NGGTACAAAGCNCCCANNNTT<span class="ansi-red-intense-fg ansi-bold">AAAgtTTT</span>C
-<span class="ansi-cyan-fg">--</span>
+--
 &gt;seq043 sequence description           ||----w |
 <span class="ansi-red-intense-fg ansi-bold">AAAccTTT</span>NCNGCCNTNCTCANNCGTGNTT
-<span class="ansi-cyan-fg">--</span>
+--
 &gt;seq046 sequence description           ||    ||
 NTTCACTC<span class="ansi-red-intense-fg ansi-bold">AAActTTT</span>NGNGNATTNGGAAT
-<span class="ansi-cyan-fg">--</span>
+--
 &gt;seq049 sequence description   
 GGATG<span class="ansi-red-intense-fg ansi-bold">AAAaaTTT</span>NCCAGCCAANNCTTGNA
 </pre>
@@ -14126,14 +14565,24 @@ GGATG<span class="ansi-red-intense-fg ansi-bold">AAAaaTTT</span>NCCAGCCAANNCTTGN
 </div>
 </div>
 
+</div></div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Searching-for-special-characters,-such-as-&quot;&gt;&quot;">Searching for special characters, such as "&gt;"<a class="anchor-link" href="#Searching-for-special-characters,-such-as-&quot;&gt;&quot;">&#182;</a></h2><p>From the previous output, it seems like we could see something more in the output, if we manage to print only the lines containing a "&gt;" at the beginning.</p>
+<p>However, &gt; is also the redirection symbol, and we are not careful with it, we may overwrite some file or do something even worst.</p>
+<p>The solution in this case is the quotation. Use '&gt;' to search for a literal &gt;:</p>
+
+</div>
+</div>
 </div><div class="fragment">
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[18]:</div>
+<div class="prompt input_prompt">In&nbsp;[64]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Bonus: pipe an additional grep &#39;&gt;&#39; to see a cow:</span>
-<span class="n">grep</span> <span class="o">-</span><span class="n">B1</span> <span class="s1">&#39;AAA..TTT&#39;</span> <span class="n">genes</span><span class="o">/</span><span class="n">sequences</span><span class="o">.</span><span class="n">fasta</span>  <span class="o">|</span> <span class="n">grep</span> <span class="s1">&#39;&gt;&#39;</span>
+<div class=" highlight hl-bash"><pre><span></span><span class="c1"># To search for a literal &gt;, remember to quote it correctly:</span>
+grep -B1 <span class="s1">&#39;AAA..TTT&#39;</span> genes/sequences.fasta  <span class="p">|</span> grep <span class="s2">&quot;&gt;&quot;</span>
 </pre></div>
 
     </div>
@@ -14173,6 +14622,598 @@ GGATG<span class="ansi-red-intense-fg ansi-bold">AAAaaTTT</span>NCCAGCCAANNCTTGN
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="cut,-sort-and-uniq">cut, sort and uniq<a class="anchor-link" href="#cut,-sort-and-uniq">&#182;</a></h1><p>Cut, sort and uniq are three Unix commands frequently used to work with tabular files.</p>
+<ul>
+<li><strong>cut</strong>: Extract columns from a TSV or CSV file</li>
+<li><strong>sort</strong>: Sort a file alphabetically or numerically</li>
+<li><strong>uniq</strong>: Remove duplicated lines in a sorted file</li>
+</ul>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Example-cut,-sort-and-uniq">Example cut, sort and uniq<a class="anchor-link" href="#Example-cut,-sort-and-uniq">&#182;</a></h3><p>The previous exercises printed the header lines of all the sequences in a FASTA file matching AAA..TTT:</p>
+
+<pre><code>grep -B1 'AAA..TTT' genes/sequences.fasta  | grep "&gt;"</code></pre>
+<p>We can append cut to extract one of these columns.</p>
+
+</div>
+</div>
+</div><div class="fragment">
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[73]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-bash"><pre><span></span><span class="c1"># cut options: -f 1 (first column), -d &quot; &quot; (specify that the field delimiter is an empty space)</span>
+grep -B1 <span class="s1">&#39;AAA..TTT&#39;</span> genes/sequences.fasta  <span class="p">|</span> grep <span class="s2">&quot;&gt;&quot;</span> <span class="p">|</span> cut -f <span class="m">1</span> -d<span class="s2">&quot; &quot;</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>&gt;seq009
+&gt;seq012
+&gt;seq024
+&gt;seq025
+&gt;seq026
+&gt;seq030
+&gt;seq032
+&gt;seq033
+&gt;seq038
+&gt;seq043
+&gt;seq046
+&gt;seq049
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div></div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="the-SAM-and-BAM-formats">the SAM and BAM formats<a class="anchor-link" href="#the-SAM-and-BAM-formats">&#182;</a></h2><p>The exercises on cut, sort and uniq are based on the SAM format, used for storing NGS data.</p>
+<p>SAM stands for Sequence Alignment/Map format (<a href="https://samtools.github.io/hts-specs/SAMv1.pdf">https://samtools.github.io/hts-specs/SAMv1.pdf</a>). SAM files contains the output of the alignment of sequences or short reads to a reference genome.</p>
+<p>The Introduction to NGS session of this course will explore the SAM format in details, and teach you how it is generated from sequencing data.</p>
+<p>Here we will have a quick preview to it, to help you familiarize with the Unix tools used to handle NGS data</p>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Example-SAM-file">Example SAM file<a class="anchor-link" href="#Example-SAM-file">&#182;</a></h2><p>The exercises/ngs folder contains a sample SAM file, 1000G_HG00154_sample.sam:</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[66]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-bash"><pre><span></span>head ngs/1000G_HG00154_sample.sam
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>@HD	VN:1.0	GO:none	SO:coordinate
+@SQ	SN:1	LN:249250621	AS:NCBI37	UR:ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/reference/human_g1k_v37.fasta.gz	M5:1b22b98cdeb4a9304cb5d48026a85128	SP:Human
+@SQ	SN:2	LN:243199373	AS:NCBI37	UR:ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/reference/human_g1k_v37.fasta.gz	M5:a0d9851da00400dec1098a9255ac712e	SP:Human
+@SQ	SN:3	LN:198022430	AS:NCBI37	UR:ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/reference/human_g1k_v37.fasta.gz	M5:fdfd811849cc2fadebc929bb925902e5	SP:Human
+@SQ	SN:4	LN:191154276	AS:NCBI37	UR:ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/reference/human_g1k_v37.fasta.gz	M5:23dccd106897542ad87d2765d28a19a1	SP:Human
+@SQ	SN:5	LN:180915260	AS:NCBI37	UR:ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/reference/human_g1k_v37.fasta.gz	M5:0740173db9ffd264d728f32784845cd7	SP:Human
+@SQ	SN:6	LN:171115067	AS:NCBI37	UR:ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/reference/human_g1k_v37.fasta.gz	M5:1d3a93a248d92a729ee764823acbbc6b	SP:Human
+@SQ	SN:7	LN:159138663	AS:NCBI37	UR:ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/reference/human_g1k_v37.fasta.gz	M5:618366e953d6aaad97dbe4777c29375e	SP:Human
+@SQ	SN:8	LN:146364022	AS:NCBI37	UR:ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/reference/human_g1k_v37.fasta.gz	M5:96f514a9929e410c6651697bded59aec	SP:Human
+@SQ	SN:9	LN:141213431	AS:NCBI37	UR:ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/reference/human_g1k_v37.fasta.gz	M5:3e273117f15e0a400f01055d9f393768	SP:Human
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Format-of-a-SAM-file">Format of a SAM file<a class="anchor-link" href="#Format-of-a-SAM-file">&#182;</a></h2><p>A SAM file is composed by a header section (beginning of the file, lines starting with "@") and an alignment section (rest of the file)</p>
+<h3 id="SAM-Headers">SAM Headers<a class="anchor-link" href="#SAM-Headers">&#182;</a></h3><p>To extract the headers from a SAM file, we can use grep with the "^@" regular expression.</p>
+<p>This expression "^@" matches all the lines that start with a "@" character. Note that simply searching for "@" would not be enough, because the alignment section also contains this character.</p>
+
+</div>
+</div>
+</div><div class="fragment">
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[67]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-bash"><pre><span></span>grep <span class="s2">&quot;@&quot;</span> ngs/1000G_HG00154_sample.sam <span class="p">|</span> less
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>@HD	VN:1.0	GO:none	SO:coordinate
+@SQ	SN:1	LN:249250621	AS:NCBI37	UR:ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/reference/human_g1k_v37.fasta.gz	M5:1b22b98cdeb4a9304cb5d48026a85128	SP:Human
+@SQ	SN:2	LN:243199373	AS:NCBI37	UR:ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/reference/human_g1k_v37.fasta.gz	M5:a0d9851da00400dec1098a9255ac712e	SP:Human
+@SQ	SN:3	LN:198022430	AS:NCBI37	UR:ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/reference/human_g1k_v37.fasta.gz	M5:fdfd811849cc2fadebc929bb925902e5	SP:Human
+@SQ	SN:4	LN:191154276	AS:NCBI37	UR:ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/reference/human_g1k_v37.fasta.gz	M5:23dccd106897542ad87d2765d28a19a1	SP:Human
+@SQ	SN:5	LN:180915260	AS:NCBI37	UR:ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/reference/human_g1k_v37.fasta.gz	M5:0740173db9ffd264d728f32784845cd7	SP:Human
+@SQ	SN:6	LN:171115067	AS:NCBI37	UR:ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/reference/human_g1k_v37.fasta.gz	M5:1d3a93a248d92a729ee764823acbbc6b	SP:Human
+@SQ	SN:7	LN:159138663	AS:NCBI37	UR:ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/reference/human_g1k_v37.fasta.gz	M5:618366e953d6aaad97dbe4777c29375e	SP:Human
+@SQ	SN:8	LN:146364022	AS:NCBI37	UR:ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/reference/human_g1k_v37.fasta.gz	M5:96f514a9929e410c6651697bded59aec	SP:Human
+@SQ	SN:9	LN:141213431	AS:NCBI37	UR:ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/reference/human_g1k_v37.fasta.gz	M5:3e273117f15e0a400f01055d9f393768	SP:Human
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div></div><div class="fragment">
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[68]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-bash"><pre><span></span><span class="c1"># Grepping for &quot;@&quot; is not enough, because some of the Alignment lines contain the same character</span>
+grep <span class="s2">&quot;^@&quot;</span> ngs/1000G_HG00154_sample.sam <span class="p">|</span> less
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>@HD	VN:1.0	GO:none	SO:coordinate
+@SQ	SN:1	LN:249250621	AS:NCBI37	UR:ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/reference/human_g1k_v37.fasta.gz	M5:1b22b98cdeb4a9304cb5d48026a85128	SP:Human
+@SQ	SN:2	LN:243199373	AS:NCBI37	UR:ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/reference/human_g1k_v37.fasta.gz	M5:a0d9851da00400dec1098a9255ac712e	SP:Human
+@SQ	SN:3	LN:198022430	AS:NCBI37	UR:ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/reference/human_g1k_v37.fasta.gz	M5:fdfd811849cc2fadebc929bb925902e5	SP:Human
+@SQ	SN:4	LN:191154276	AS:NCBI37	UR:ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/reference/human_g1k_v37.fasta.gz	M5:23dccd106897542ad87d2765d28a19a1	SP:Human
+@SQ	SN:5	LN:180915260	AS:NCBI37	UR:ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/reference/human_g1k_v37.fasta.gz	M5:0740173db9ffd264d728f32784845cd7	SP:Human
+@SQ	SN:6	LN:171115067	AS:NCBI37	UR:ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/reference/human_g1k_v37.fasta.gz	M5:1d3a93a248d92a729ee764823acbbc6b	SP:Human
+@SQ	SN:7	LN:159138663	AS:NCBI37	UR:ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/reference/human_g1k_v37.fasta.gz	M5:618366e953d6aaad97dbe4777c29375e	SP:Human
+@SQ	SN:8	LN:146364022	AS:NCBI37	UR:ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/reference/human_g1k_v37.fasta.gz	M5:96f514a9929e410c6651697bded59aec	SP:Human
+@SQ	SN:9	LN:141213431	AS:NCBI37	UR:ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/reference/human_g1k_v37.fasta.gz	M5:3e273117f15e0a400f01055d9f393768	SP:Human
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div></div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="SAM---Alignment-section">SAM - Alignment section<a class="anchor-link" href="#SAM---Alignment-section">&#182;</a></h2><p>The Intro to NGS session of this workshop will explain the headers section more in detail.</p>
+<p>Let's focus on the Alignment section of the SAM file. Which grep option can be used to print the lines that DO NOT start with a "@" character?</p>
+
+</div>
+</div>
+</div><div class="fragment">
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[69]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-bash"><pre><span></span>grep -v <span class="s2">&quot;^@&quot;</span> ngs/1000G_HG00154_sample.sam <span class="p">|</span> less
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>ERR018419.14029113	147	21	33031576	60	6S70M	=	33031178	-467	CAAGACAAAAAAATGAAAACTACAAAAGCATCCATCTTGGGGCGTCCCAATTGCTGAGTAACAAATGAGACGCTGT	#######CACCC:34ACCA7470BBBB?&lt;@7@@@&gt;=BA@@@@8=A@@?BABA@&gt;A@B?@B@?BBAB@A?@7?@?&gt;&lt;	X0:i:1	X1:i:0	XC:i:70	MD:Z:70	RG:Z:ERR018419	AM:i:37	NM:i:0	SM:i:37	MQ:i:60	XT:A:U	BQ:Z:@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+ERR018419.19261557	83	21	33031576	60	76M	=	33031160	-491	AAAAAAATGAAAACTACAAAAGCATCCTTCTTGGGGCGTCCCAATTGCTGAGTAACGAATGAGACGCTGTGGCCAA	?CCCCCBB@CBCA@A@@BBCB46639/%53)@@@@?8?B@@@BA@B??B@@4&lt;;?5#&lt;=:0A@A8@:B?BA?&lt;?B&gt;	X0:i:1	X1:i:0	MD:Z:27A28A19	RG:Z:ERR018419	AM:i:37	NM:i:2	SM:i:37	MQ:i:60	XT:A:U	BQ:Z:BEEDBA@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@DC
+ERR018418.15483761	99	21	33031580	60	71M5S	=	33032025	486	AAATGAAAACTACAAAAGCATCCATCTTGGGGCGTCCCAATTGCTGAGTAACAAATGAGACGCTGTGGCCCAACTC	;AAA@BBAB?BA?BBCB@@AA@@AA@BB@@8=&lt;5@?@@:B9B@:B@=@@AB?ABBA;&gt;:==2&lt;B:6733?######	X0:i:1	X1:i:0	XC:i:71	MD:Z:70A0	RG:Z:ERR018418	AM:i:37	NM:i:1	SM:i:37	MQ:i:60	XT:A:U	BQ:Z:@FC@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+ERR018420.32040701	83	21	33031606	60	76M	=	33031211	-470	TTGGGGCGTCCCAATTGCTGAGTAACAAATGAGACGCTGTGGCCAAACTCAGTCATAACTAATGACATTTCTAGAC	@A@A@A8&lt;AA@?B@AA@@A@A??B@@BBAA?A?@8?@A&gt;A??@@BB@@B@A&gt;B@AAB@@ABAA@@@ABBBABB?@@	X0:i:1	X1:i:0	MD:Z:76	RG:Z:ERR018420	AM:i:37	NM:i:0	SM:i:37	MQ:i:60	XT:A:U	BQ:Z:@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+ERR018420.24362571	147	21	33031608	60	14S62M	=	33031194	-475	AACGCATCCGTCTTGGGGCGTCCCAATTGCTGAGTAACAAATGAGACGCTGTGGCCAAACTCAGTCATAACTAATG	###############&lt;&gt;;7;;@??A@@8&gt;@@?A;?B???A@=&#39;A;66?&gt;9&gt;A????=B?@A&gt;A&gt;B@@AB@@AB@A&lt;	X0:i:1	X1:i:0	XC:i:62	MD:Z:62	RG:Z:ERR018420	AM:i:37	NM:i:0	SM:i:37	MQ:i:60	XT:A:U	BQ:Z:@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+ERR018418.8551258	147	21	33031642	60	76M	=	33031240	-477	CTGTGGCCAAACTCAGTCATAACTAATGACATTTCTAGACAAAGTGACTTCAGATTTTCAAAGCGTACCCTGTTTA	BB9B@=@?BBAAA@B&gt;B@AAB@@A@AA?@@ABBB@AB@@@BBA=B?@@BB@B@A@BAB@BBA@8?A?AA@A&gt;BAA&lt;	X0:i:1	X1:i:0	MD:Z:76	RG:Z:ERR018418	AM:i:37	NM:i:0	SM:i:37	MQ:i:60	XT:A:U	BQ:Z:@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+ERR018418.12789017	99	21	33031654	60	76M	=	33032063	484	TCAGTCATAACTAATGACATTTCTAGACAAAGTGACTTCAGATTTTCAAAGCGTACCCTGTTTACATCATTTTGCC	??A@A@B@AB?BABA@B?AABB@BA@B&gt;ABB@@@B&gt;BB?A@BABBB@ABBA@8@@?@@B@AABB?BB@BBCCCA&lt;B	X0:i:1	X1:i:0	MD:Z:76	RG:Z:ERR018418	AM:i:37	NM:i:0	SM:i:37	MQ:i:60	XT:A:U	BQ:Z:@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+ERR018418.9132383	99	21	33031729	60	36M40S	=	33032168	503	CAATTTCGCGTACTGCAACCGGCGGGCCACGCCCCCGTGGAAAGAAGGGTGTTTTCTCCCCCTTTCGGGGGTTCGG	?AAACB@7@9AA?B@@AB?@8@@8AA&lt;@+855&lt;&lt;&lt;#########################################	X0:i:1	X1:i:0	XC:i:36	MD:Z:36	RG:Z:ERR018418	AM:i:37	NM:i:0	SM:i:37	MQ:i:60	XT:A:U	BQ:Z:@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+ERR018419.8913816	83	21	33031868	60	41S35M	=	33031428	-474	GGGGAGCCCCCGGCGCCCGCGCCCCCTTGGCCCCGCCCCCGGTCTTTCCCGGCCACTCGCGACCCGAGGCTGCCGC	##############################################################;=4;=&lt;;8@&lt;:198	X0:i:1	X1:i:0	XC:i:35	MD:Z:3A31	RG:Z:ERR018419	AM:i:37	NM:i:1	SM:i:37	MQ:i:60	XT:A:U	BQ:Z:@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+ERR018419.25794159	147	21	33031877	60	41S35M	=	33031430	-481	CGGGCGCCCGGCCCCCCTTGCNCCAGCCCGAGGCCATTCCCGGCCACTCGCGGCCCGCGGCTGCCGCAGGGGGCGG	#####################!################################73-)2.05;&lt;/;=41:;;&gt;+:;	X0:i:1	X1:i:0	XC:i:35	MD:Z:11A4A18	RG:Z:ERR018419	AM:i:25	NM:i:2	SM:i:25	MQ:i:60	XT:A:U	BQ:Z:@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div></div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Using-cut-to-print-the-first-columns-of-the-SAM-file">Using cut to print the first columns of the SAM file<a class="anchor-link" href="#Using-cut-to-print-the-first-columns-of-the-SAM-file">&#182;</a></h3><p>The SAM file is very long - it doesn't fit into the screen.</p>
+<p>We can use cut to print only a subset of columns:</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[102]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-bash"><pre><span></span>grep -v <span class="s2">&quot;^@&quot;</span> ngs/1000G_HG00154_sample.sam <span class="p">|</span> cut -f <span class="m">1</span>,2,3,4,5,6,7 <span class="p">|</span> less
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>ERR018419.14029113	147	21	33031576	60	6S70M	=
+ERR018419.19261557	83	21	33031576	60	76M	=
+ERR018418.15483761	99	21	33031580	60	71M5S	=
+ERR018420.32040701	83	21	33031606	60	76M	=
+ERR018420.24362571	147	21	33031608	60	14S62M	=
+ERR018418.8551258	147	21	33031642	60	76M	=
+ERR018418.12789017	99	21	33031654	60	76M	=
+ERR018418.9132383	99	21	33031729	60	36M40S	=
+ERR018419.8913816	83	21	33031868	60	41S35M	=
+ERR018419.25794159	147	21	33031877	60	41S35M	=
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Using-cut-to-extract-columns-from-a-file">Using <em>cut</em> to extract columns from a file<a class="anchor-link" href="#Using-cut-to-extract-columns-from-a-file">&#182;</a></h2><p>The alignment section of a SAM file contains information on the mapping of short sequencing reads to a reference genome. Here is a description of each column, taken from <a href="https://seqan.readthedocs.io/en/seqan-v1.4.2/Tutorial/BasicSamBamIO.html">https://seqan.readthedocs.io/en/seqan-v1.4.2/Tutorial/BasicSamBamIO.html</a></p>
+<p><img src="https://raw.githubusercontent.com/dalloliogm/peb_unix_intro/master/slides/images/SAM_refs.png" width="600"></p>
+<p>SAM FLAGS are explained in this page: <a href="https://broadinstitute.github.io/picard/explain-flags.html">https://broadinstitute.github.io/picard/explain-flags.html</a></p>
+
+</div>
+</div>
+</div><div class="fragment">
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[75]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-bash"><pre><span></span><span class="c1"># Printing the chromosome and position for each alignment</span>
+grep -v <span class="s2">&quot;^@&quot;</span> ngs/1000G_HG00154_sample.sam <span class="p">|</span> cut -f <span class="m">3</span>,4  <span class="p">|</span> less
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>21	33031576
+21	33031576
+21	33031580
+21	33031606
+21	33031608
+21	33031642
+21	33031654
+21	33031729
+21	33031868
+21	33031877
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div></div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Exercise!-Fun-with-flags">Exercise! Fun with flags<a class="anchor-link" href="#Exercise!-Fun-with-flags">&#182;</a></h3><p>The FLAG column allows to identify properties of a short-read alignment. These are encoded as a number, which can be interpreted using <a href="https://broadinstitute.github.io/picard/explain-flags.html">https://broadinstitute.github.io/picard/explain-flags.html</a></p>
+<p>For this exercise, let's see how many distinct FLAG values are present in this file:</p>
+<ul>
+<li>Use grep to print the alignment section of ngs/1000G_HG00154_sample.sam (remove the headers)</li>
+<li>Use cut to print the FLAG column (#2)</li>
+<li>Use uniq to eliminate duplicate lines</li>
+<li>If the output does not look correct, add a sort statement between cut and uniq</li>
+</ul>
+
+</div>
+</div>
+</div><div class="fragment">
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[77]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-bash"><pre><span></span>grep -v <span class="s2">&quot;^@&quot;</span> ngs/1000G_HG00154_sample.sam <span class="p">|</span> cut -f <span class="m">2</span>  <span class="p">|</span>uniq <span class="p">|</span> head
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>147
+83
+99
+83
+147
+99
+83
+147
+83
+147
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div></div><div class="fragment">
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[99]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-bash"><pre><span></span>grep -v <span class="s2">&quot;^@&quot;</span> ngs/1000G_HG00154_sample.sam <span class="p">|</span> cut -f <span class="m">2</span>  <span class="p">|</span> sort -n <span class="p">|</span> uniq
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>0
+16
+73
+81
+83
+97
+99
+113
+117
+121
+129
+133
+145
+147
+161
+163
+181
+185
+1107
+1123
+1171
+1187
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div></div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Exercise!-Extract-chromosome-and-start-position-for-this-file">Exercise! Extract chromosome and start position for this file<a class="anchor-link" href="#Exercise!-Extract-chromosome-and-start-position-for-this-file">&#182;</a></h3><p>This file contains data from multiple chromosomes. How to extract which chromosomes are included, and the starting position?</p>
+<ul>
+<li>Use grep to print the alignment section of ngs/1000G_HG00154_sample.sam (remove the headers)</li>
+<li>Use cut to print the chromosome and position</li>
+<li>Sort the output by the second column. Use the -n option to specify that this is a numeric sort.</li>
+<li>Use uniq on the output. Check man uniq, and find the option to compare no more than 3 characters per row</li>
+</ul>
+
+</div>
+</div>
+</div><div class="fragment">
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[98]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-bash"><pre><span></span>grep -v <span class="s2">&quot;^@&quot;</span> ngs/1000G_HG00154_sample.sam <span class="p">|</span> cut -f <span class="m">3</span>,4 <span class="p">|</span> sort -n -k <span class="m">2</span> <span class="p">|</span> uniq -w <span class="m">3</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>17	7512372
+21	33031576
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div></div><div class="fragment">
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[97]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-bash"><pre><span></span>grep -v <span class="s2">&quot;^@&quot;</span> ngs/1000G_HG00154_sample.sam <span class="p">|</span> cut -f <span class="m">3</span>,4 <span class="p">|</span> sort -n -r -k <span class="m">2</span> <span class="p">|</span> uniq -w <span class="m">3</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>21	33050212
+17	7513450
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-bash"><pre><span></span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div></div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Recap---grep,-Unix-piping,-and-cut">Recap - grep, Unix piping, and cut<a class="anchor-link" href="#Recap---grep,-Unix-piping,-and-cut">&#182;</a></h1><p>This afternoon we learned:</p>
+<ul>
+<li><strong>grep</strong> extracts lines in a file that match a specific pattern or expression</li>
+<li><strong>the Unix Piping system</strong> allows to concatenate commands together with |, &gt; and &gt;&gt;</li>
+<li><strong>cut, sort and uniq</strong> allow to extract columns and calculate unique values.</li>
+</ul>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Example-of-Unix-Approach">Example of Unix Approach<a class="anchor-link" href="#Example-of-Unix-Approach">&#182;</a></h2><p>In the following days, when you will learn the basics of Python and R programming, you will be faced with the dilemma of how to organize your scripts.</p>
+<p>You can use the Unix Philosophy as a guideline to have more versatile files and scripts.</p>
+<p>Let's immagine we want to plot the CG content of a genome:</p>
+<ul>
+<li><strong>Approach 1 (non-Unix)</strong>: write a single script that downloads the genome, calculates the GC content, and draws a plot</li>
+<li><strong>Approach 2 (Unix)</strong>: write three separate scripts or functions, then pipe them together using the Unix Pipe or with a wrapper script.</li>
+</ul>
+<p>The Unix Approach requires a bit of extra work, but it is more versatile in case you want to reuse the same scripts.</p>
+
+</div>
+</div>
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="Time-for-a-break!">Time for a break!<a class="anchor-link" href="#Time-for-a-break!">&#182;</a></h1>
 </div>
 </div>
@@ -14182,7 +15223,7 @@ GGATG<span class="ansi-red-intense-fg ansi-bold">AAAaaTTT</span>NCCAGCCAANNCTTGN
 <div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span> 
+<div class=" highlight hl-bash"><pre><span></span>
 </pre></div>
 
     </div>
